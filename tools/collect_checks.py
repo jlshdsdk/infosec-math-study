@@ -17,6 +17,13 @@ for c in catalog['chapters']:
     out.append(f'|第{c["number"]}章 {c["title"]}|{len(lessons)}|{sum(l["pages"] for l in lessons)}|')
 out.append('\n逐条索引由OCR辅助生成，不能将其自动识别视为每一道例题的人工校正。辅助导读与原始课件分开展示，公式以原页为依据。')
 out.append('\n数学工具验证包含：Bézout回代、一次同余式逐类枚举、CRT非互素条件、模幂与直接乘法交叉核对、素数判定、Jacobi与欧拉判别交叉核对、课件平方根算例。')
+audit_path=ROOT/'public/data/coverage-audit.json'
+if audit_path.exists():
+    audit=json.loads(audit_path.read_text(encoding='utf-8'))
+    stats=audit['stats']
+    out.append(f'\n原题与讲解对应清单：{stats["originalItems"]}处原页索引，{stats["labelGroups"]}组来源标签，拆分为{stats["records"]}条记录。')
+    out.append('已程序核对每处原页索引均有同知识点、同类型、同标签及包含完整页区间的对应记录；讲解目标小节真实存在。')
+    out.append('上述对应核查不等于全部未编号板书和每个动画帧均已人工重建，也不等于每一道题都另做独立验算。')
 (ROOT/'验收记录.md').write_text('\n'.join(out),encoding='utf-8')
 print('\n'.join(out))
 

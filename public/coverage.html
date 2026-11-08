@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f6f0">
+  <title>课件与讲解对照 · 信息安全数学基础</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="coverage.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+  <script defer src="coverage.js"></script>
+</head>
+<body class="coverage-page">
+  <a class="skip-link" href="#audit-results">跳到对应清单</a>
+  <header class="audit-header"><a href="index.html#/">← 返回自学手册</a><span>课件 / 讲解 / 来源</span></header>
+  <main class="audit-main">
+    <div class="eyebrow">逐项对照，回到依据</div>
+    <h1>每一条，在哪里学。</h1>
+    <p class="audit-intro">从课件中标出的定义、定理、例题和练习，找到对应的讲解。重复动画与复习页归在同一条中；不同题面分别列出。可以直接打开讲解小节，也可以回到原页核对。</p>
+    <div id="audit-summary" class="audit-summary" role="status">正在准备对应清单…</div>
+    <section class="audit-controls" aria-label="筛选对应清单">
+      <label class="audit-search">搜索条目<input type="search" id="audit-search" placeholder="知识点、例题编号或题目关键词…" autocomplete="off"></label>
+      <label>章节<select id="audit-chapter"><option value="">全部章节</option></select></label>
+      <label>类型<select id="audit-type"><option value="">全部类型</option><option>定义</option><option>定理</option><option>例题</option><option>练习</option><option>原页</option></select></label>
+      <label>核对结果<select id="audit-status"><option value="">全部结果</option><option value="explained">已对应讲解</option><option value="duplicate">重复条目</option><option value="ocr-artifact">识别误差</option><option value="source-missing">原资料缺失</option><option value="needs-detail">待补讲解</option></select></label>
+    </section>
+    <p id="audit-count" class="muted" aria-live="polite"></p>
+    <div id="audit-results" class="audit-results" tabindex="-1"></div>
+    <nav id="audit-pagination" class="pagination" aria-label="对应清单分页"></nav>
+    <aside class="audit-boundary"><h2>怎样理解这份清单</h2><p>清单核对的是原页中可识别、已标出的条目与讲解的对应关系。OCR 可能误读编号；这类情况保留原标签并说明。讲解中的题面以原图为依据，已确认的课件错误另列更正。</p><p>原课件中的未编号板书、动画细节与重复帧仍可逐页阅读。完整保留原页、条目已有对应、每道题都独立验算，是三项不同的核查；这里展示前两项的证据。第 5、6、7 章以及完整环、域课件未收集到。</p><a href="index.html#/library">查看完整原页库 →</a></aside>
+  </main>
+  <footer class="audit-footer">信息安全数学基础 · 课件与讲解对照</footer>
+  <noscript><p>请启用 JavaScript 以检索对应清单。</p></noscript>
+</body>
+</html>

@@ -1,0 +1,14 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+.gitattributes text eol=lf

@@ -187,7 +187,12 @@
   function renderGuide() {
     $('#lesson-panel').innerHTML=`<div class="reading-layout"><div class="reading-content"><p class="editorial-note">这份导读帮助你补齐前置知识、理解推理步骤。课件原页是概念、定理和例题的依据；点击上方「原页逐条索引」可随时核对。</p><article class="prose" id="guide-content">${markdownHTML(currentLesson.guide)}</article></div><nav class="reading-outline" aria-label="本页导读"><span>这一页的学习线索</span><div id="guide-outline"></div></nav></div>`;
     const headings=$$('h2,h3',$('#guide-content'));
-    $('#guide-outline').innerHTML=headings.map((heading,index)=>{heading.id=`guide-heading-${index}`;return `<a href="#${heading.id}" data-action="heading" data-heading="${heading.id}">${esc(heading.textContent)}</a>`;}).join('')||'<span class="muted">顺着正文开始阅读</span>';
+    $('#guide-outline').innerHTML=headings.map((heading,index)=>{
+      heading.id=`guide-heading-${index}`;
+      const label=heading.cloneNode(true);
+      $$('.katex',label).forEach(math=>math.replaceWith($('.katex-html',math)?.textContent||$('annotation',math)?.textContent||''));
+      return `<a href="#${heading.id}" data-action="heading" data-heading="${heading.id}">${esc(label.textContent)}</a>`;
+    }).join('')||'<span class="muted">顺着正文开始阅读</span>';
   }
   function renderItems() {
     const types=['全部',...new Set((currentLesson.items||[]).map(item=>item.type||'原页'))];
@@ -351,7 +356,11 @@
     else if(parts[0]==='notebook'){renderNotebook();document.title='我的笔记与收藏 · 信息安全数学基础';}
     else if(parts[0]==='practice'){renderPractice(params);document.title='计算练习 · 信息安全数学基础';}
     else renderHome();
-    if(token===routeToken){window.scrollTo({top:0,behavior:'instant'});$('#main').focus({preventScroll:true});}
+    if(token===routeToken){
+      window.scrollTo({top:0,behavior:'instant'});$('#main').focus({preventScroll:true});
+      const heading=params.get('heading');
+      if(parts[0]==='lesson'&&activeTab==='guide'&&heading!==null&&/^\d{1,3}$/.test(heading))$('#guide-heading-'+Number(heading))?.scrollIntoView({block:'start',behavior:'instant'});
+    }
   }
   async function openSearch() {
     openDialog('#search-dialog');$('#search-input').focus();
@@ -390,15 +399,30 @@
     const pattern=safeTerms.map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|');
     try{return result.replace(new RegExp(pattern,'gi'),match=>`<mark>${match}</mark>`);}catch{return result;}
   }
+  function searchPreview(row,terms) {
+    const text=String(row.text||'').replace(/^#{1,6}\s+/gm,'').replace(/\s+/g,' ');
+    const hit=terms.map(term=>text.toLowerCase().indexOf(term)).filter(i=>i>=0).sort((a,b)=>a-b)[0]||0;
+    let start=Math.max(0,hit-45),end=Math.min(text.length,start+150);
+    const math=row.type==='知识点'?[...text.matchAll(/\$\$([\s\S]*?)\$\$|\$([^\n$]+)\$/g)]:[];
+    for(const m of math){const stop=m.index+m[0].length;if(m.index<start&&start<stop)start=m.index;if(m.index<end&&end<stop)end=stop;}
+    let html=start?'…':'',cursor=start;
+    for(const m of math){
+      if(m.index<start||m.index>=end)continue;
+      html+=highlight(text.slice(cursor,m.index),terms);
+      try{html+=window.katex.renderToString(m[1]??m[2],{displayMode:false,throwOnError:true,trust:false,strict:'ignore'});}
+      catch{html+=highlight(m[0],terms);}
+      cursor=m.index+m[0].length;
+    }
+    return html+highlight(text.slice(cursor,end),terms)+(end<text.length?'…':'');
+  }
   function renderSearchResults(total,terms) {
     const mount=$('#search-results');mount.dataset.total=String(total);mount.dataset.terms=JSON.stringify(terms);
     const pageSize=20,pageCount=Math.ceil(searchMatches.length/pageSize);
     const guideCount=searchMatches.filter(row=>row.type==='知识点').length,shownOriginals=searchMatches.length-guideCount;
     const countDescription=`共找到 ${num(total)} 条匹配：${guideCount} 篇知识点导读、${num(total-guideCount)} 页课件帧。按导读标题、导读正文、原页的顺序展示。${total>searchMatches.length?`当前包含全部 ${guideCount} 篇匹配导读及前 ${shownOriginals} 页原页；更多原页请增加关键词缩小范围，或进入完整原页库逐帧浏览。`:''}`;
     mount.innerHTML=`<p class="search-count">${esc(countDescription)}</p>${searchMatches.slice(searchPage*pageSize,(searchPage+1)*pageSize).map(row=>{
-      const text=String(row.text||'').replace(/\s+/g,' ');const hit=terms.map(term=>text.toLowerCase().indexOf(term)).filter(i=>i>=0).sort((a,b)=>a-b)[0]||0;const start=Math.max(0,hit-45);const snippet=(start?'…':'')+text.slice(start,start+150)+(text.length>start+150?'…':'');
       const url=row.source&&row.page?(validID(row.lesson)?pageURL(row.lesson,row.source,row.page):`#/library?source=${encodeURIComponent(row.source)}&page=${row.page}`):lessonURL(row.lesson);
-      return `<a class="search-result" href="${url}" data-action="search-result"><h3>${highlight(row.title||lessonMap.get(row.lesson)?.title||'课件原页',terms)}</h3><p>${highlight(snippet,terms)}</p><small>${esc(row.matchKind||row.type||'课件原页')}${row.page?` · 实际第 ${row.page} 页`:''} · ${esc(lessonMap.get(row.lesson)?.title||'查看来源课件')} ↗</small></a>`;
+      return `<a class="search-result" href="${url}" data-action="search-result"><h3>${highlight(row.title||lessonMap.get(row.lesson)?.title||'课件原页',terms)}</h3><p>${searchPreview(row,terms)}</p><small>${esc(row.matchKind||row.type||'课件原页')}${row.page?` · 实际第 ${row.page} 页`:''} · ${esc(lessonMap.get(row.lesson)?.title||'查看来源课件')} ↗</small></a>`;
     }).join('')||'<div class="empty-state compact"><p>没有找到匹配内容。<br>试试更短的词，或用「欧拉」「剩余」「群」等概念名称检索。</p></div>'}${pageCount>1?`<div class="pagination"><button class="button secondary small" data-search-page="${searchPage-1}" ${searchPage===0?'disabled':''}>上一页</button><span>${searchPage+1} / ${pageCount}</span><button class="button secondary small" data-search-page="${searchPage+1}" ${searchPage>=pageCount-1?'disabled':''}>下一页</button></div>`:''}`;
   }
   function exportProgress() {

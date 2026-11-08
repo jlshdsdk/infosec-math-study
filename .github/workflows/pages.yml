@@ -27,6 +27,7 @@ jobs:
       - name: Check corpus and mathematics
         run: |
           npm ci --ignore-scripts --no-audit --no-fund
+          python3 tools/build_coverage.py --check
           npm test
       - name: Upload complete website
         uses: actions/upload-pages-artifact@v3

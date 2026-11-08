@@ -1,0 +1,5602 @@
+[
+  {
+    "topic": "3-intro",
+    "type": "原页",
+    "label": "本章导航与原页说明",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "source": "section2",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "source": "section3",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "章节导航与解数约定，无独立数学题。",
+    "guideTopic": "3-intro"
+  },
+  {
+    "topic": "4-intro",
+    "type": "原页",
+    "label": "本章导航与原页说明",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "章节导航说明判定、求一根、求全根三项目标，无独立题。",
+    "guideTopic": "4-intro"
+  },
+  {
+    "topic": "crt-general",
+    "type": "定理",
+    "label": "定理 2.2.5",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 545,
+        "end": 545
+      },
+      {
+        "source": "section2",
+        "start": 106,
+        "end": 106
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "explained",
+    "note": "回顾2.2.5的多个模剩余系遍历，指南用CRT一一对应和组合数证明。讲解位于主题“crt-traverse”。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-general",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 545,
+        "end": 583
+      },
+      {
+        "source": "section2",
+        "start": 106,
+        "end": 144
+      }
+    ],
+    "guideHeading": "一步步应用",
+    "status": "explained",
+    "note": "思考实际为一般CRT的构造推导，已写总模、部分积、逆元及逐条件验算。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "定理",
+    "label": "定理 31",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 584,
+        "end": 584
+      },
+      {
+        "source": "section2",
+        "start": 145,
+        "end": 145
+      }
+    ],
+    "guideHeading": "一步步应用",
+    "status": "explained",
+    "note": "实际为定理3.2.1(i)，OCR漏小数点；给出一般CRT公式，存在性见构造，唯一性见crt-two。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "定理",
+    "label": "定理 3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 587,
+        "end": 587
+      },
+      {
+        "source": "section2",
+        "start": 148,
+        "end": 148
+      }
+    ],
+    "guideHeading": "一步步应用",
+    "status": "duplicate",
+    "note": "OCR截断为“定理3”，实际是同一定理计算步骤页，非新增定理。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 588,
+        "end": 590
+      },
+      {
+        "source": "section2",
+        "start": 149,
+        "end": 151
+      }
+    ],
+    "guideHeading": "先造只影响一条条件的零件",
+    "status": "explained",
+    "note": "模3、5、7分别余2、3、2，构造70、21、15并得23模105。讲解位于主题“crt-story”。",
+    "guideTopic": "crt-story"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 594,
+        "end": 594
+      },
+      {
+        "source": "section2",
+        "start": 155,
+        "end": 155
+      }
+    ],
+    "guideHeading": "每一轮做什么",
+    "status": "duplicate",
+    "note": "同一物不知数例的迭代回顾，先得8模15，再得23模105。讲解位于主题“crt-iterate”。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 595,
+        "end": 597
+      },
+      {
+        "source": "section2",
+        "start": 156,
+        "end": 158
+      }
+    ],
+    "guideHeading": "韩信点兵与四模例题",
+    "status": "explained",
+    "note": "韩信战后人数：类104模105，再用1000至1100范围选1049。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 598,
+        "end": 599
+      },
+      {
+        "source": "section2",
+        "start": 159,
+        "end": 160
+      }
+    ],
+    "guideHeading": "韩信点兵与四模例题",
+    "status": "explained",
+    "note": "模5、6、7、11任意余数的CRT系数1386、385、330、210及总模2310。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 600,
+        "end": 600
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 618,
+        "end": 631
+      },
+      {
+        "source": "section2",
+        "start": 161,
+        "end": 161
+      },
+      {
+        "source": "section2",
+        "start": 179,
+        "end": 192
+      }
+    ],
+    "guideHeading": "韩信点兵与四模例题",
+    "status": "explained",
+    "note": "第二点兵题余数1、5、4、10，代入构造式得2111模2310；618段是同题迭代解。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 601,
+        "end": 601
+      },
+      {
+        "source": "section2",
+        "start": 162,
+        "end": 162
+      }
+    ],
+    "guideHeading": "韩信点兵与四模例题",
+    "status": "explained",
+    "note": "最小四位数题依次合并模11、13、17，最后得2421。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-general",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 602,
+        "end": 617
+      },
+      {
+        "source": "section2",
+        "start": 163,
+        "end": 178
+      }
+    ],
+    "guideHeading": "非互素例与带系数例",
+    "status": "explained",
+    "note": "同页跨节的模4余1、模6余3，检查相容并得9模12。讲解位于主题“crt-iterate”。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "定理",
+    "label": "定理 3.2.1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 656,
+        "end": 656
+      },
+      {
+        "source": "section2",
+        "start": 217,
+        "end": 217
+      }
+    ],
+    "guideHeading": "每一轮做什么",
+    "status": "explained",
+    "note": "一般CRT迭代关系：设已有x=r+Mt，解新线性条件并更新余数和周期。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 657,
+        "end": 663
+      },
+      {
+        "source": "section2",
+        "start": 218,
+        "end": 224
+      }
+    ],
+    "guideHeading": "非互素例与带系数例",
+    "status": "explained",
+    "note": "带系数三模组先各解为1模7、3模5、5模9，再合为113模315。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 662,
+        "end": 666
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 680,
+        "end": 680
+      },
+      {
+        "source": "section2",
+        "start": 223,
+        "end": 227
+      },
+      {
+        "source": "section2",
+        "start": 241,
+        "end": 241
+      }
+    ],
+    "guideHeading": "非互素例与带系数例",
+    "status": "explained",
+    "note": "练习组第一题2x≡1模5、3x≡4模7，先求逆元再合为13模35；同标签另题另列。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 664,
+        "end": 666
+      },
+      {
+        "source": "section2",
+        "start": 225,
+        "end": 227
+      }
+    ],
+    "guideHeading": "多未知数同模方程组",
+    "status": "explained",
+    "note": "两未知数模7组相减消元得y=5、x=5；同页三未知数练习另列。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 667,
+        "end": 676
+      },
+      {
+        "source": "section2",
+        "start": 228,
+        "end": 237
+      }
+    ],
+    "guideHeading": "练习与逆元例题的 CRT 过程",
+    "status": "explained",
+    "note": "7x≡1模66，分2、3、11并合得19，回代133余1。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "定理",
+    "label": "定理 3.3.1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 679,
+        "end": 680
+      },
+      {
+        "source": "section2",
+        "start": 240,
+        "end": 241
+      }
+    ],
+    "guideHeading": "为什么解数相乘",
+    "status": "explained",
+    "note": "回顾定理3.3.1：互素分模等价及根数乘积；同页23x练习另列。讲解位于主题“root-count”。",
+    "guideTopic": "root-count"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 681,
+        "end": 687
+      },
+      {
+        "source": "section2",
+        "start": 242,
+        "end": 248
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "explained",
+    "note": "2的30次幂模77，分别模7、11余1，CRT得1。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 687,
+        "end": 687
+      },
+      {
+        "source": "section2",
+        "start": 248,
+        "end": 248
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "duplicate",
+    "note": "同题思考指出Euler只能直接保证60次幂余1，不能直接消去指数30。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 688,
+        "end": 695
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 708,
+        "end": 718
+      },
+      {
+        "source": "section2",
+        "start": 249,
+        "end": 256
+      },
+      {
+        "source": "section2",
+        "start": 269,
+        "end": 279
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "explained",
+    "note": "练习3的62次幂模77由Euler降为平方得9；同标签其他题拆列。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 696,
+        "end": 706
+      },
+      {
+        "source": "section2",
+        "start": 257,
+        "end": 267
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "explained",
+    "note": "312的1245次幂模667降指数为13，模23余8、模29余4，合得468。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 707,
+        "end": 709
+      },
+      {
+        "source": "section2",
+        "start": 268,
+        "end": 270
+      }
+    ],
+    "guideHeading": "原页大系数三次式如何对应前面的试根题",
+    "status": "explained",
+    "note": "已逐图确认81x³，系数取模后因式分解，根1、2、5；同页练习拆列。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-story",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 466,
+        "end": 469
+      },
+      {
+        "source": "section2",
+        "start": 27,
+        "end": 30
+      }
+    ],
+    "guideHeading": "先造只影响一条条件的零件",
+    "status": "explained",
+    "note": "物不知数原例：构造和233余23，总模105。",
+    "guideTopic": "crt-story"
+  },
+  {
+    "topic": "crt-story",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 472,
+        "end": 473
+      },
+      {
+        "source": "section2",
+        "start": 33,
+        "end": 34
+      }
+    ],
+    "guideHeading": "练习与逆元例题的 CRT 过程",
+    "status": "explained",
+    "note": "模2、3余1及模7余6，合并得到13模42。讲解位于主题“crt-iterate”。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "定理 31",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 719,
+        "end": 719
+      },
+      {
+        "source": "section2",
+        "start": 280,
+        "end": 280
+      }
+    ],
+    "guideHeading": "一步步应用",
+    "status": "duplicate",
+    "note": "回顾一般CRT原定理，不是遍历部分的新命题。讲解位于主题“crt-general”。",
+    "guideTopic": "crt-general"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "定理 2.2.5",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 721,
+        "end": 735
+      },
+      {
+        "source": "section2",
+        "start": 282,
+        "end": 296
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "duplicate",
+    "note": "多个模完全剩余系的独立参数遍历，构造值数量为模的乘积且不重。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "定理 3.2.4",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 736,
+        "end": 736
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 744,
+        "end": 745
+      },
+      {
+        "source": "section2",
+        "start": 297,
+        "end": 297
+      },
+      {
+        "source": "section2",
+        "start": 305,
+        "end": 306
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "explained",
+    "note": "定理3.2.4的CRT完全剩余系遍历，含后续同定理动画回顾。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "推论 1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 744,
+        "end": 745
+      },
+      {
+        "source": "section2",
+        "start": 305,
+        "end": 306
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "explained",
+    "note": "推论1是整体类与各模参数唯一对应，由CRT的存在唯一性解释。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 749,
+        "end": 752
+      },
+      {
+        "source": "section2",
+        "start": 310,
+        "end": 313
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "explained",
+    "note": "简化剩余系遍历定理：各局部互素等价整体互素，再用一一对应。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "推论 2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 749,
+        "end": 752
+      },
+      {
+        "source": "section2",
+        "start": 310,
+        "end": 313
+      }
+    ],
+    "guideHeading": "别把一组参数当成一个参数",
+    "status": "explained",
+    "note": "推论2：x与总模互素当且仅当各余数与对应子模互素。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-traverse",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 752,
+        "end": 752
+      },
+      {
+        "source": "section2",
+        "start": 313,
+        "end": 313
+      }
+    ],
+    "guideHeading": "不带逆元的剩余系遍历形式",
+    "status": "explained",
+    "note": "末页去掉逆元系数的简化剩余系遍历形式：乘可逆系数只重排参数。",
+    "guideTopic": "crt-traverse"
+  },
+  {
+    "topic": "crt-two",
+    "type": "定理",
+    "label": "定理 32",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 526,
+        "end": 539
+      },
+      {
+        "source": "section2",
+        "start": 87,
+        "end": 100
+      }
+    ],
+    "guideHeading": "用代入法理解同一件事",
+    "status": "explained",
+    "note": "实际为两个模CRT定理3.2，代入解k；唯一性由互素整除乘积证明。",
+    "guideTopic": "crt-two"
+  },
+  {
+    "topic": "crt-two",
+    "type": "定理",
+    "label": "定理 33",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "section2",
+        "start": 101,
+        "end": 101
+      }
+    ],
+    "guideHeading": "用 Bézout 直接拼接",
+    "status": "explained",
+    "note": "实际为定理3.3的Bézout版拼接公式，两个投影系数分别作用于一个子模。",
+    "guideTopic": "crt-two"
+  },
+  {
+    "topic": "crt-two",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 541,
+        "end": 544
+      },
+      {
+        "source": "section2",
+        "start": 102,
+        "end": 105
+      }
+    ],
+    "guideHeading": "课件例题：模 $14$ 余 $2$，模 $25$ 余 $3$",
+    "status": "explained",
+    "note": "例2动画末帧为模14余2、模25余3，求逆并得128模350；首帧不同题另列。",
+    "guideTopic": "crt-two"
+  },
+  {
+    "topic": "equation",
+    "type": "定义",
+    "label": "定义 3.1.1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 287,
+        "end": 287
+      }
+    ],
+    "guideHeading": "次数、系数与解数",
+    "status": "explained",
+    "note": "同余式、模意义下次数、整数解与剩余类解的定义均在equation正文与该节说明。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 288,
+        "end": 288
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "四道次数判断依次为二次、一次、二次、三次，先约去模意义下零系数。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 289,
+        "end": 294
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 300,
+        "end": 304
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "x²+2x+4模7逐类值4、0、5、5、0、4、3，根1、4。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 301,
+        "end": 304
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 309,
+        "end": 312
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "思考1+7k是否仍为根，由多项式代入相容性解释；再试七类得根1、4；三次式思考另列。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "定理",
+    "label": "定理 2.1.5",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 294,
+        "end": 294
+      }
+    ],
+    "guideHeading": "次数、系数与解数",
+    "status": "explained",
+    "note": "回顾多项式代入同余相容性，是根可用一个剩余类表示的理由。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 305,
+        "end": 312
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "4x³+3x²+5x+2模7分为4(x−1)(x−2)(x−5)，全根1、2、5。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "六个根数小题分别按实际题面拆列；本条为2x≡3模2无解，因为左侧恒偶右侧奇。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "gauss",
+    "type": "定理",
+    "label": "定理 4.3.4",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 238,
+        "end": 242
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 205,
+        "end": 209
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "explained",
+    "note": "定理4.3.4的2补充公式，按模8四类给符号，计数证明见后节。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "定理",
+    "label": "定理 44",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 239,
+        "end": 239
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 206,
+        "end": 206
+      }
+    ],
+    "guideHeading": "引理为什么成立",
+    "status": "explained",
+    "note": "OCR“定理44”实际Gauss引理4.3.4，绝对余数重排、消去阶乘证明；整数部分形式见后节。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 240,
+        "end": 240
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 207,
+        "end": 207
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "explained",
+    "note": "8/131去平方因子为2/131，131余3模8，符号−1。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 241,
+        "end": 241
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 208,
+        "end": 208
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "explained",
+    "note": "x²≡2模3599，分59和61；模59为非剩余故无解。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 242,
+        "end": 242
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 209,
+        "end": 209
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "duplicate",
+    "note": "同一2补充公式的模8分类推论，非新题。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 243,
+        "end": 252
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 210,
+        "end": 219
+      }
+    ],
+    "guideHeading": "例五与回顾例六",
+    "status": "explained",
+    "note": "p=8k+5时2为非剩余，直接应用模8补充公式。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 244,
+        "end": 252
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 211,
+        "end": 219
+      }
+    ],
+    "guideHeading": "例五与回顾例六",
+    "status": "explained",
+    "note": "2的(37·73−1)次幂模37·73，指数2700，分别模37、73余1，CRT得1。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "gauss",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 252,
+        "end": 252
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 219,
+        "end": 219
+      }
+    ],
+    "guideHeading": "例五与回顾例六",
+    "status": "duplicate",
+    "note": "“例11”是同页回顾原2.4节例11标签，对应例6同一道大幂题。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "hensel",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 41,
+        "end": 134
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 175,
+        "end": 176
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 193,
+        "end": 196
+      },
+      {
+        "source": "section3",
+        "start": 41,
+        "end": 126
+      },
+      {
+        "source": "section3",
+        "start": 167,
+        "end": 168
+      },
+      {
+        "source": "section3",
+        "start": 185,
+        "end": 188
+      }
+    ],
+    "guideHeading": "把课件的连续提升完整算完",
+    "status": "explained",
+    "note": "思考包含x⁴+7x+4的连续提升，根1模3、4模9、22模27及81；其余问题另列。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "定义",
+    "label": "定义",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 161,
+        "end": 161
+      },
+      {
+        "source": "section3",
+        "start": 153,
+        "end": 153
+      }
+    ],
+    "guideHeading": "导式定义与定理页附题",
+    "status": "explained",
+    "note": "形式导式逐项乘指数降幂，并解释来自二项式增量的一次项，无需微积分。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "定理",
+    "label": "定理 3.3.2",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 184,
+        "end": 186
+      },
+      {
+        "source": "section3",
+        "start": 176,
+        "end": 178
+      }
+    ],
+    "guideHeading": "简单根与其他分支",
+    "status": "explained",
+    "note": "提升定理3.3.2的非零导数条件和唯一提升公式，附题另列。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 197,
+        "end": 197
+      },
+      {
+        "source": "section3",
+        "start": 189,
+        "end": 189
+      }
+    ],
+    "guideHeading": "作业：$x^4+5x+3\\equiv0\\pmod{27}$ 的简单根与重根分支",
+    "status": "explained",
+    "note": "模3两根、模9四根、模27只剩21，分别处理导数为零的分支。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "section3",
+        "start": 177,
+        "end": 177
+      }
+    ],
+    "guideHeading": "简单根与其他分支",
+    "status": "duplicate",
+    "note": "无编号“定理”是同一定理3.3.2的前提条件强调帧。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定义",
+    "label": "定义",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 4,
+        "end": 9
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 14,
+        "end": 14
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 20,
+        "end": 25
+      }
+    ],
+    "guideHeading": "与 Legendre 的关键区别",
+    "status": "explained",
+    "note": "Jacobi定义页：按奇素因子重数相乘，0、1、−1判断限制见该节。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定义",
+    "label": "定义 4.5.1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 4,
+        "end": 9
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 14,
+        "end": 14
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 20,
+        "end": 25
+      }
+    ],
+    "guideHeading": "与 Legendre 的关键区别",
+    "status": "duplicate",
+    "note": "编号定义4.5.1与同页“定义”标签重复，正文给出完整乘积定义。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 6,
+        "end": 19
+      }
+    ],
+    "guideHeading": "例一中的模 $85$ 题",
+    "status": "explained",
+    "note": "例1第一题x²≡2模85，模5已非剩余所以无解；其余两题拆列。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定理",
+    "label": "定理 4.5.1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 56,
+        "end": 56
+      }
+    ],
+    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "status": "explained",
+    "note": "逐图确认4.5.1三性质：分子取模、乘法性、互素平方符号为1，均给定义推导。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定理",
+    "label": "引理 4.5.1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 80,
+        "end": 92
+      }
+    ],
+    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "status": "explained",
+    "note": "奇数乘积的两个奇偶恒等式，展开uv−1及u²v²−1后模2计算。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定理",
+    "label": "定理 4.5.2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 94,
+        "end": 94
+      }
+    ],
+    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "status": "explained",
+    "note": "逐图确认4.5.2：分子1、−1、2的三个补充公式，由引理与局部符号相乘证明。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "定理",
+    "label": "定理 4.5.3",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 95,
+        "end": 103
+      }
+    ],
+    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "status": "explained",
+    "note": "Jacobi互反律，将所有Legendre互反律相乘；明确非互素时两边为0。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 106,
+        "end": 121
+      }
+    ],
+    "guideHeading": "模 $135$ 的四根如何拼回",
+    "status": "explained",
+    "note": "练习31/135=1，模27根2、25及模5根1、4经CRT成四根；47题另列。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 119,
+        "end": 120
+      }
+    ],
+    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "status": "explained",
+    "note": "286/563按2·11·13计算为−1，直接排除同余式有解。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "legendre",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 160,
+        "end": 164
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 237,
+        "end": 237
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 127,
+        "end": 131
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 204,
+        "end": 204
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "思考有解判定由Legendre符号表示；引例21模43的具体求根已在sqrt-special；8/131另列。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定义",
+    "label": "定义 4.3.1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 166,
+        "end": 175
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 133,
+        "end": 142
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "定义4.3.1的0、正负1三种值和Euler判别写法在本主题正文，零类单独解释。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 176,
+        "end": 192
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 143,
+        "end": 159
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "例1计算2/7=1、(−1)/7=−1，结合Euler判别；原页并非新算法。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "定理 4.3.1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 192,
+        "end": 192
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 159,
+        "end": 159
+      }
+    ],
+    "guideHeading": "为什么只有正负 1",
+    "status": "duplicate",
+    "note": "4.3.1是Euler判别的符号写法；正负1两方向证明在qr-euler。讲解位于主题“qr-euler”。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "定理 4.3.2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 198,
+        "end": 206
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 165,
+        "end": 173
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "4.3.2中1的符号为1、−1的符号按p模4分两类，条件为奇素数。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 206,
+        "end": 206
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 173,
+        "end": 173
+      }
+    ],
+    "guideHeading": "正负数的平方剩余性",
+    "status": "duplicate",
+    "note": "−1补充公式的模4分类推论，p余1时为剩余、余3时为非剩余。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 207,
+        "end": 209
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 174,
+        "end": 176
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "负1模93，分3、31且模3已无根，故整体无根。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 210,
+        "end": 212
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 177,
+        "end": 179
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "负1模85，模5根2、3和模17根4、13，CRT全根13、38、47、72。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "定理 4.3.3",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 225,
+        "end": 236
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 192,
+        "end": 203
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "explained",
+    "note": "4.3.3包含模p化简、乘法性、非零平方因子不变性，正文列公式与前提。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "推论 1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 226,
+        "end": 236
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 193,
+        "end": 203
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "duplicate",
+    "note": "分子同余不改变Legendre符号，是逐余数判定的同一性质。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "legendre",
+    "type": "定理",
+    "label": "推论 2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 232,
+        "end": 236
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 199,
+        "end": 203
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "duplicate",
+    "note": "乘入与p互素的平方不改符号；零平方因子不能无条件约去。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 327,
+        "end": 336
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "例3三题4x模5、169x模121、15x模21，分别得4、58、无解。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 329,
+        "end": 329
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 392,
+        "end": 392
+      }
+    ],
+    "guideHeading": "课件的对比例子",
+    "status": "explained",
+    "note": "4x≡9模6因最大公因数2不整除9而无解；10x练习另列。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "定理",
+    "label": "定理 3.1.1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 342,
+        "end": 351
+      }
+    ],
+    "guideHeading": "逆元练习与逆元性质",
+    "status": "explained",
+    "note": "ax≡1有解当且仅当互素；Bézout证存在，约消证逆元唯一。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "定义",
+    "label": "定义 3.1.2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 352,
+        "end": 376
+      }
+    ],
+    "guideHeading": "逆元练习与逆元性质",
+    "status": "explained",
+    "note": "可逆元定义、逆元的逆元、正整数幂的逆元性质均写原公式和理由。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 353,
+        "end": 365
+      }
+    ],
+    "guideHeading": "逆元练习与逆元性质",
+    "status": "explained",
+    "note": "5模7逆元3、19模41逆元13，给Bézout等式检验。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "定理",
+    "label": "定理 3.1.2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 377,
+        "end": 384
+      }
+    ],
+    "guideHeading": "逆元练习与逆元性质",
+    "status": "explained",
+    "note": "简化剩余等价可逆元：两方向均由ax+my=1及互素推出。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 380,
+        "end": 397
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 414,
+        "end": 414
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "169x≡9得38模121；338x≡18得38、159模242；15x≡2模21无解。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "定理",
+    "label": "定理 3.1.3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 411,
+        "end": 411
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 422,
+        "end": 425
+      }
+    ],
+    "guideHeading": "从判定到全部解",
+    "status": "explained",
+    "note": "一般线性同余充要条件d整除b，约分后唯一类再扩成原模d个不同类。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 426,
+        "end": 433
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "57x≡531模123，同除3、求逆13，得原模三根5、46、87。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 435,
+        "end": 438
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "1296x≡1125模1935，同除9用Bézout求80模215，再列九根。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 435,
+        "end": 438
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "37x≡3819模10，化为7x≡9，乘逆元3得7。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "linear",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 435,
+        "end": 438
+      }
+    ],
+    "guideHeading": "课件线性算例的关键步骤",
+    "status": "explained",
+    "note": "已知a的100次幂余2、101次幂余69，得2a≡69模73，a余71。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "定理 3.4.4",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 428,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 512,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 530,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 232,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 316,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 334,
+        "end": 344
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "explained",
+    "note": "素数模非零多项式根界，因子提取后仅可约去非零差；同组反例与推论另列。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 430,
+        "end": 433
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 234,
+        "end": 237
+      }
+    ],
+    "guideHeading": "例五的三个三次式逐题求根",
+    "status": "explained",
+    "note": "例5第一题x³−2x²+x−2模7，分为(x−2)(x²+1)，仅根2。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 436,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 499,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 240,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 303,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 344,
+        "end": 344
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "explained",
+    "note": "思考根界两个前提：素数模与最高非零系数；同标签其他命题拆列。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 468,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 508,
+        "end": 511
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 272,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 312,
+        "end": 315
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "explained",
+    "note": "次数小于p而全部p个类为根则系数全为0；单位根推论另列。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 67",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 470,
+        "end": 470
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 274,
+        "end": 274
+      }
+    ],
+    "guideHeading": "编号黏连的例六与三道思考",
+    "status": "explained",
+    "note": "OCR“例67”实为“例6 7x³−21模7”，全部系数消失，七类全为根。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "定理 3.4.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 471,
+        "end": 474
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 275,
+        "end": 278
+      }
+    ],
+    "guideHeading": "特别注意零解",
+    "status": "duplicate",
+    "note": "回顾3.4.1降次，x^p−x对所有整数为0，降次时保留零类。讲解位于主题“poly-reduce”。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "定理 3.4.5",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 494,
+        "end": 507
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 538,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 298,
+        "end": 311
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 342,
+        "end": 344
+      }
+    ],
+    "guideHeading": "何时达到次数",
+    "status": "explained",
+    "note": "首一n次式恰有n个不同根，当且仅当整除x^p−x，两方向均有证明。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 496,
+        "end": 498
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 300,
+        "end": 302
+      }
+    ],
+    "guideHeading": "两个容易漏掉的降次小题",
+    "status": "explained",
+    "note": "2x³+5x²+6x+1模7乘逆元4并分为(x−1)(x−2)(x−5)，确有三根。讲解位于主题“poly-reduce”。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 509,
+        "end": 511
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 313,
+        "end": 315
+      }
+    ],
+    "guideHeading": "何时达到次数",
+    "status": "explained",
+    "note": "p=7的二次单位根1、6，三次单位根1、2、4，由d整除p−1得恰好d根。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 513,
+        "end": 521
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 317,
+        "end": 325
+      }
+    ],
+    "guideHeading": "模 $7$ 高次例题的答案校正",
+    "status": "explained",
+    "note": "20x^18+2x^15−x^10+4x−3模7，完整七类表均非0，纠正原页错误候选根。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 523,
+        "end": 524
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 327,
+        "end": 328
+      }
+    ],
+    "guideHeading": "课件大指数式的逐项化简",
+    "status": "duplicate",
+    "note": "与前面模5高次式同题，逐项降次、化首一并得0、1、2。讲解位于主题“poly-reduce”。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "课后练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 526,
+        "end": 526
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 330,
+        "end": 330
+      }
+    ],
+    "guideHeading": "模 $35$ 课后练习的题面与印刷答案校正",
+    "status": "explained",
+    "note": "两素数模求根后CRT得六根0、1、14、15、21、29，原印九根已纠正。讲解位于主题“poly-reduce”。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 541,
+        "end": 541
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 345,
+        "end": 345
+      }
+    ],
+    "guideHeading": "末页作业换成模 $7$ 后须重算",
+    "status": "explained",
+    "note": "原图末页改成模7，降到x⁶+2x⁵+2x³+x²+5x，再枚举得0、6。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-div",
+    "type": "定理",
+    "label": "引理 3.4.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 203,
+        "end": 204
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 235,
+        "end": 240
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 37,
+        "end": 42
+      }
+    ],
+    "guideHeading": "课件先证明的是“首一除式”的整数版本",
+    "status": "explained",
+    "note": "引理3.4.1要求首一整数除式，说明消去最高项为何仍整数；唯一性见长除法例一。",
+    "guideTopic": "poly-div"
+  },
+  {
+    "topic": "poly-div",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 235,
+        "end": 237
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 37,
+        "end": 39
+      }
+    ],
+    "guideHeading": "课件例一：非零余式的长除法",
+    "status": "explained",
+    "note": "2x⁵+6x³+3x²+9除以x³+4，商2x²+6、余式−5x²−15，两次消项。",
+    "guideTopic": "poly-div"
+  },
+  {
+    "topic": "poly-div",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 239,
+        "end": 240
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 41,
+        "end": 42
+      }
+    ],
+    "guideHeading": "课件先证明的是“首一除式”的整数版本",
+    "status": "explained",
+    "note": "同被除式除以x²+3，两次消项余0，商2x³+3。",
+    "guideTopic": "poly-div"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 331,
+        "end": 331
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 135,
+        "end": 135
+      }
+    ],
+    "guideHeading": "三道乘积为零的根数填空",
+    "status": "explained",
+    "note": "(x−1)(x−3)模7、4、8根数依次2、2、4，全部余数与零因子解释。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "引理 3.4.2",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 332,
+        "end": 354
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 136,
+        "end": 158
+      }
+    ],
+    "guideHeading": "从根变成一次因子",
+    "status": "explained",
+    "note": "因子定理：除以x−a的余数f(a)，根对应一次因子；后面的例4另有独立行。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 351,
+        "end": 354
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 155,
+        "end": 158
+      }
+    ],
+    "guideHeading": "课件因式分解与试根练习",
+    "status": "explained",
+    "note": "2x³+7x²+3x模5分为2x(x−2)²，两个不同根0、2。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "定理 3.4.2",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 355,
+        "end": 384
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 406,
+        "end": 408
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 159,
+        "end": 188
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 210,
+        "end": 212
+      }
+    ],
+    "guideHeading": "从根变成一次因子",
+    "status": "explained",
+    "note": "已知k个不同根逐个提一次因子，后续x^p−x及x^(p−1)−1的分解见同主题末段。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 369,
+        "end": 370
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 173,
+        "end": 174
+      }
+    ],
+    "guideHeading": "课件因式分解与试根练习",
+    "status": "explained",
+    "note": "四道试根题题面不同，分别拆列；本条x⁴−2x²+x+1模7仅根5，商三次式无根。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "定理 3.4.4",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 375,
+        "end": 384
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 406,
+        "end": 411
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 179,
+        "end": 188
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 210,
+        "end": 215
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "duplicate",
+    "note": "回顾3.4.4根界，与poly-count同一定理，非新命题。讲解位于主题“poly-count”。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "定理 3.4.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 385,
+        "end": 386
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 189,
+        "end": 190
+      }
+    ],
+    "guideHeading": "特别注意零解",
+    "status": "duplicate",
+    "note": "回顾3.4.1的Fermat降次，与poly-reduce同一命题。讲解位于主题“poly-reduce”。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 385,
+        "end": 386
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 427,
+        "end": 427
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 189,
+        "end": 190
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 231,
+        "end": 231
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "explained",
+    "note": "推论之一：p个根等价函数恒零等价降次余式系数全为0；Wilson逆命题另列。讲解位于主题“poly-count”。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "定理 3.4.3",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 409,
+        "end": 427
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 213,
+        "end": 231
+      }
+    ],
+    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "status": "explained",
+    "note": "3.4.3的一次因子恒等式及取常数项得Wilson，逆命题亦有证明。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 415,
+        "end": 426
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 219,
+        "end": 230
+      }
+    ],
+    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "status": "duplicate",
+    "note": "Wilson逆命题取真素因子，阶乘被整除却同余−1产生矛盾。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "定理",
+    "label": "定理 2.4.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 245,
+        "end": 245
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 47,
+        "end": 47
+      }
+    ],
+    "guideHeading": "特别注意零解",
+    "status": "explained",
+    "note": "回顾Euler转Fermat，非零类用p−1周期，零类另查；此处不是新Euler定理。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 245,
+        "end": 245
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 268,
+        "end": 273
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 47,
+        "end": 47
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 70,
+        "end": 75
+      }
+    ],
+    "guideHeading": "特别注意零解",
+    "status": "explained",
+    "note": "思考x^p−x全部p根与x^(p−1)−1仅非零p−1根，已有完整类与条件解释。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "定理",
+    "label": "定理 3.4.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 296,
+        "end": 297
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 305,
+        "end": 318
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 326,
+        "end": 329
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 98,
+        "end": 99
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 107,
+        "end": 122
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 130,
+        "end": 133
+      }
+    ],
+    "guideHeading": "课件大指数式的逐项化简",
+    "status": "explained",
+    "note": "3.4.1降次定理和5x^11+6x^9+x^7例降为5x⁵+6x³+x；同帧首一要求另有练习行。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 298,
+        "end": 304
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 100,
+        "end": 106
+      }
+    ],
+    "guideHeading": "课件大指数式的逐项化简",
+    "status": "explained",
+    "note": "模5高次例按正指数周期4逐项降次到3x³+x²+x，首一后分解并求全根。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 303,
+        "end": 304
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 328,
+        "end": 329
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 105,
+        "end": 106
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 132,
+        "end": 133
+      }
+    ],
+    "guideHeading": "两个容易漏掉的降次小题",
+    "status": "explained",
+    "note": "练习2x^10+4x^7+2x+8模7降为2x⁴+6x+1；首一练习另列。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 306,
+        "end": 306
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 108,
+        "end": 110
+      }
+    ],
+    "guideHeading": "五道根数填空逐项解释",
+    "status": "explained",
+    "note": "五道函数恒零及Fermat根数填空逐项解释，后续四题版本是删去一题的重复。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 315,
+        "end": 318
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 119,
+        "end": 122
+      }
+    ],
+    "guideHeading": "根界证明中最容易漏的一步",
+    "status": "duplicate",
+    "note": "p根、函数恒零、余式恒零、余式系数被p整除等价，限制次数小于p。讲解位于主题“poly-count”。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 324,
+        "end": 324
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 128,
+        "end": 128
+      }
+    ],
+    "guideHeading": "两个容易漏掉的降次小题",
+    "status": "explained",
+    "note": "首项系数2模7逆元4，乘后首一x³−x²+3x−3；继续分解得到三根。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "qr-def",
+    "type": "定义",
+    "label": "定义 4.1.1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 48,
+        "end": 63
+      }
+    ],
+    "guideHeading": "模 7 的完整例子",
+    "status": "explained",
+    "note": "平方剩余定义含互素条件；逐类平方给模7剩余1、2、4及非剩余3、5、6。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 53,
+        "end": 54
+      }
+    ],
+    "guideHeading": "模 $4$ 的定义例题",
+    "status": "explained",
+    "note": "模4的1为剩余、−1为非剩余；简化剩余1、3平方均为1。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 55,
+        "end": 63
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 71,
+        "end": 71
+      }
+    ],
+    "guideHeading": "模 7 的完整例子",
+    "status": "explained",
+    "note": "例4为完整模7平方表；同页曲线引用此表，不是另一个例4。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 64,
+        "end": 68
+      }
+    ],
+    "guideHeading": "模 7 的完整例子",
+    "status": "explained",
+    "note": "29²≡11模83，所以11为剩余，根29和54；恰两根由根界及两根已找出确定。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 68,
+        "end": 68
+      }
+    ],
+    "guideHeading": "模 7 的完整例子",
+    "status": "explained",
+    "note": "同题问是否有第三根：二次非零多项式最多两根，因此没有。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 69,
+        "end": 72
+      }
+    ],
+    "guideHeading": "曲线点的例题",
+    "status": "explained",
+    "note": "y²=x³+x+1模7右侧全表并列四个仿射点，说明零根与正负根计数。",
+    "guideTopic": "qr-def"
+  },
+  {
+    "topic": "qr-def",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "guideHeading": "例一中的模 $85$ 题",
+    "status": "duplicate",
+    "note": "此例1是下一节引例的前置重复：2模85在模5非剩余，故无解。讲解位于主题“jacobi”。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 78,
+        "end": 101
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 109,
+        "end": 113
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 121,
+        "end": 126
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "guideHeading": "为什么只有正负 1",
+    "status": "explained",
+    "note": "Euler判别推导中的平方为1、正负1分支、根数与有解方向；小模表另列。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "定理",
+    "label": "定理 4.2.1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 114,
+        "end": 115
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 120,
+        "end": 120
+      }
+    ],
+    "guideHeading": "为什么只有正负 1",
+    "status": "explained",
+    "note": "Euler判别完整两方向，非剩余值只能−1，根数为0或2且有互素前提。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 115,
+        "end": 116
+      }
+    ],
+    "guideHeading": "乘法规律",
+    "status": "explained",
+    "note": "四个判定：2模7、3模11为剩余，3模41非剩余，8模41剩余，均算判别幂。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 117,
+        "end": 119
+      }
+    ],
+    "guideHeading": "乘法规律",
+    "status": "explained",
+    "note": "两个剩余积、两个非剩余积、混合积分别为剩余、剩余、非剩余，由符号相乘证明。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 120,
+        "end": 120
+      }
+    ],
+    "guideHeading": "乘法规律",
+    "status": "duplicate",
+    "note": "与例2同一三条乘法规律的定理化表述。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "定理",
+    "label": "定理 4.2.2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 146,
+        "end": 148
+      }
+    ],
+    "guideHeading": "为什么只有正负 1",
+    "status": "explained",
+    "note": "模p剩余与非剩余各(p−1)/2个，正负配对并证明前半平方互异。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 149,
+        "end": 154
+      }
+    ],
+    "guideHeading": "乘法规律",
+    "status": "explained",
+    "note": "模19剩余列表1、4、5、6、7、9、11、16、17，由1至9平方得到。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "练习",
+    "label": "课后练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 150,
+        "end": 150
+      }
+    ],
+    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "status": "explained",
+    "note": "模23和31的全部平方剩余，列半个简化剩余系平方序列再排序。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 151,
+        "end": 154
+      }
+    ],
+    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "status": "explained",
+    "note": "−1为剩余推出p余1模4，非剩余推出余3，Euler判别给证明。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "quadratic",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 41,
+        "end": 41
+      }
+    ],
+    "guideHeading": "开章例题：模 $180$ 的一般二次式",
+    "status": "explained",
+    "note": "7x²+3x+5模180分模，模2已无解；并算原页模9配方及局部根7、8。",
+    "guideTopic": "quadratic"
+  },
+  {
+    "topic": "quadratic",
+    "type": "练习",
+    "label": "课后思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 11,
+        "end": 24
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 47,
+        "end": 47
+      }
+    ],
+    "guideHeading": "三个课件例题算到底",
+    "status": "explained",
+    "note": "首项系数不可逆的三题按实际题面拆列；本条6x²+15x+9模81先约3，回原模列六根。",
+    "guideTopic": "quadratic"
+  },
+  {
+    "topic": "quadratic",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 42,
+        "end": 43
+      }
+    ],
+    "guideHeading": "配方例题：$4x^2-11x-3\\equiv0\\pmod{13}$",
+    "status": "explained",
+    "note": "判别式169为0模13，配方解线性式得唯一根3，解释重根。",
+    "guideTopic": "quadratic"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 303,
+        "end": 313
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 371,
+        "end": 373
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 270,
+        "end": 280
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 338,
+        "end": 340
+      }
+    ],
+    "guideHeading": "两个一般二次式练习",
+    "status": "explained",
+    "note": "同标签第二题5x²−7x+11模23，判别式13的两平方根±6，线性反解得22、7。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 314,
+        "end": 322
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 281,
+        "end": 289
+      }
+    ],
+    "guideHeading": "两个“无穷多”证明补全",
+    "status": "explained",
+    "note": "构造(2P)²+1，新素因子有−1平方根所以余1模4且不在原表。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "定理",
+    "label": "定理 43.2",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 321,
+        "end": 321
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 288,
+        "end": 288
+      }
+    ],
+    "guideHeading": "运算性质",
+    "status": "duplicate",
+    "note": "OCR“43.2”即4.3.2，是无穷多证明中回顾−1补充公式。讲解位于主题“legendre”。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 321,
+        "end": 321
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 288,
+        "end": 288
+      }
+    ],
+    "guideHeading": "正负数的平方剩余性",
+    "status": "duplicate",
+    "note": "同一−1补充公式的推论回顾，不另增加数学题。讲解位于主题“legendre”。",
+    "guideTopic": "legendre"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "课后练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 323,
+        "end": 325
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 290,
+        "end": 292
+      }
+    ],
+    "guideHeading": "两个“无穷多”证明补全",
+    "status": "explained",
+    "note": "8k−1形素数无穷多，构造8P²−1，利用2的符号及模8积筛出新余7素因子。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 326,
+        "end": 341
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 293,
+        "end": 308
+      }
+    ],
+    "guideHeading": "以正数 $3$ 为二次剩余的全部奇素数",
+    "status": "explained",
+    "note": "正3的符号按p模12四类算出，答案1、11；区分−3。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 344,
+        "end": 364
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 311,
+        "end": 331
+      }
+    ],
+    "guideHeading": "非剩余怎样排除整数平方差表示",
+    "status": "explained",
+    "note": "若(d/p)=−1，p不能为x²−dy²，先证y可逆再化为d的平方根矛盾。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 374,
+        "end": 374
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 341,
+        "end": 341
+      }
+    ],
+    "guideHeading": "标准计算顺序",
+    "status": "explained",
+    "note": "3766/5987按2、7、269三个因子算为−1，详细因子换位在该节末尾。讲解位于主题“reciprocity”。",
+    "guideTopic": "reciprocity"
+  },
+  {
+    "topic": "reciprocity",
+    "type": "定理",
+    "label": "定理 4.4.1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 293,
+        "end": 296
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 260,
+        "end": 263
+      }
+    ],
+    "guideHeading": "原页互反律证明中的整数部分计数",
+    "status": "explained",
+    "note": "二次互反律公式与格点计数证明，互异奇素数及换位变号条件明确。",
+    "guideTopic": "reciprocity"
+  },
+  {
+    "topic": "reciprocity",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 299,
+        "end": 300
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 266,
+        "end": 267
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "explained",
+    "note": "6/17拆成2/17与3/17，用补充公式及互反律得−1。讲解位于主题“gauss”。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "reciprocity",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 301,
+        "end": 302
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 268,
+        "end": 269
+      }
+    ],
+    "guideHeading": "标准计算顺序",
+    "status": "explained",
+    "note": "77/103拆成7、11，互反换位分别为1与−1，总−1，无解。",
+    "guideTopic": "reciprocity"
+  },
+  {
+    "topic": "reciprocity",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 222,
+        "end": 225
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 264,
+        "end": 265
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "duplicate",
+    "note": "思考8/131按平方因子化为2/131，结果−1，与gauss中同题重复。讲解位于主题“gauss”。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "root-count",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "source": "section3",
+        "start": 5,
+        "end": 8
+      }
+    ],
+    "guideHeading": "课件四次式模 $35$ 的六个根",
+    "status": "explained",
+    "note": "x⁴+2x³+8x+9模35，模5两根、模7三根，CRT列六组合及全根。",
+    "guideTopic": "root-count"
+  },
+  {
+    "topic": "root-count",
+    "type": "定理",
+    "label": "定理 3.3.1",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 11,
+        "end": 29
+      },
+      {
+        "source": "section3",
+        "start": 11,
+        "end": 29
+      }
+    ],
+    "guideHeading": "为什么解数相乘",
+    "status": "explained",
+    "note": "互素分模各选一根与总体根一一对应，故总根数乘积，任一无根则整体无根。",
+    "guideTopic": "root-count"
+  },
+  {
+    "topic": "root-count",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 30,
+        "end": 37
+      },
+      {
+        "source": "section3",
+        "start": 30,
+        "end": 37
+      }
+    ],
+    "guideHeading": "合并模 $18$、$108$ 的课件练习",
+    "status": "explained",
+    "note": "x⁴+7x+4模18，模2根0、1与模9根4，合并得4、13。讲解位于主题“hensel”。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "root-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 38,
+        "end": 40
+      },
+      {
+        "source": "section3",
+        "start": 38,
+        "end": 40
+      }
+    ],
+    "guideHeading": "合并模 $18$、$108$ 的课件练习",
+    "status": "explained",
+    "note": "同多项式模108，模4根0、1、模27根22，合并得49、76。讲解位于主题“hensel”。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "sqrt-composite",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 748,
+        "end": 762
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 406,
+        "end": 420
+      }
+    ],
+    "guideHeading": "全部解数",
+    "status": "explained",
+    "note": "与右侧互素时，各奇素数幂两根、2幂分三支，乘积给合数模完整根数。",
+    "guideTopic": "sqrt-composite"
+  },
+  {
+    "topic": "sqrt-composite",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 764,
+        "end": 764
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 422,
+        "end": 422
+      }
+    ],
+    "guideHeading": "课后作业：$x^2\\equiv1\\pmod{108}$",
+    "status": "explained",
+    "note": "分4和27，各两根，四组合得1、53、55、107。",
+    "guideTopic": "sqrt-composite"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 393,
+        "end": 406
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 51,
+        "end": 64
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "7模29，迭代检测并得±23，即6、23。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 407,
+        "end": 426
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 65,
+        "end": 84
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "10模13，n=2的完整迭代表，得7、6。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 427,
+        "end": 450
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 503,
+        "end": 526
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 532,
+        "end": 586
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 594,
+        "end": 604
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 85,
+        "end": 108
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 161,
+        "end": 184
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 190,
+        "end": 244
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 252,
+        "end": 262
+      }
+    ],
+    "guideHeading": "跟着课件算模 17",
+    "status": "explained",
+    "note": "8模17的同题多次动画与算法推导，检测量和更新得两根5、12。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 451,
+        "end": 465
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 109,
+        "end": 123
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "2模17取n=3迭代三轮，得6、11。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 466,
+        "end": 502
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 527,
+        "end": 531
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 621,
+        "end": 621
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 124,
+        "end": 160
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 185,
+        "end": 189
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 279,
+        "end": 279
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "练习13模17的三轮迭代表得8、9；103模1601另列。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "定理",
+    "label": "定理 4",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 587,
+        "end": 593
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 245,
+        "end": 246
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 251,
+        "end": 251
+      }
+    ],
+    "guideHeading": "每次检测为什么必为正负 $1$",
+    "status": "explained",
+    "note": "OCR“定理4”实为4.6.3，完整迭代式及检测量符号不变式证明。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 607,
+        "end": 620
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 265,
+        "end": 278
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "8模41，t=3、s=5，迭代两轮得34、7。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "定理",
+    "label": "定理 4.6.3",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 624,
+        "end": 627
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 247,
+        "end": 250
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 282,
+        "end": 285
+      }
+    ],
+    "guideHeading": "迭代后问题：$b=n^s$ 是哪一阶单位根",
+    "status": "explained",
+    "note": "4.6.3同定理回顾附问题：b的2^(t−1)次幂为−1，阶恰为2^t，非前者单位根。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 631,
+        "end": 636
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 289,
+        "end": 294
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "p=8k+5且a为非剩余，构造−1平方根±a^((p−1)/4)，解释题中a的作用。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 637,
+        "end": 649
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 295,
+        "end": 307
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "6模25从模5根1、4分别提升为16、9，完整线性条件。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "定理",
+    "label": "定理 3.3.2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 645,
+        "end": 645
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 303,
+        "end": 303
+      }
+    ],
+    "guideHeading": "简单根与其他分支",
+    "status": "duplicate",
+    "note": "回顾3.3.2用于6模25，实质是同一个导数可逆提升定理。讲解位于主题“hensel”。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 650,
+        "end": 650
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 308,
+        "end": 308
+      }
+    ],
+    "guideHeading": "课件练习：模 $125$ 求 $24$ 的平方根",
+    "status": "explained",
+    "note": "24模125，从模5根2提升到7模25再到32模125，另根93。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "定理",
+    "label": "定理 4.6.4",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 659,
+        "end": 660
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 317,
+        "end": 318
+      }
+    ],
+    "guideHeading": "不互素时",
+    "status": "explained",
+    "note": "奇素数幂互素右侧：模p平方剩余当且仅当高幂有两根，由简单根唯一提升。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 660,
+        "end": 662
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 318,
+        "end": 320
+      }
+    ],
+    "guideHeading": "课件思考题：不互素时的完整分类",
+    "status": "explained",
+    "note": "右侧p进次数奇数无解、偶数降模、零右侧根数公式，含9模27六根例。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "sqrt-odd-power",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 661,
+        "end": 662
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 319,
+        "end": 320
+      }
+    ],
+    "guideHeading": "不互素时",
+    "status": "explained",
+    "note": "1+Legendre根数式补充互素前提，零右侧模9三根反例说明原页条件遗漏。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 347,
+        "end": 355
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 5,
+        "end": 13
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "21模43，幂公式21^11得35，另一根8。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 356,
+        "end": 362
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 14,
+        "end": 20
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "2模7，2²得4，另一根3。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "定理",
+    "label": "定理 4",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 381,
+        "end": 383
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "duplicate",
+    "note": "OCR“定理4”实4.6.1，p余3模4且a非零剩余，±a^((p+1)/4)，给平方证明。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 384,
+        "end": 388
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 42,
+        "end": 46
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "19模31，两根9、22；同页2模311练习另列。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 387,
+        "end": 388
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 21,
+        "end": 27
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 45,
+        "end": 46
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "一组练习为2模311，2^78得245，另一根66；另一来源3模11另列。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 389,
+        "end": 391
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 47,
+        "end": 49
+      }
+    ],
+    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "status": "explained",
+    "note": "两个不同4k+3形素数，分别幂公式求根，四种符号用Bézout系数合并。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "定理",
+    "label": "定理 4.6.2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 392,
+        "end": 392
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 50,
+        "end": 50
+      }
+    ],
+    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "status": "duplicate",
+    "note": "4.6.2与例4同一构造，证明四种符号给四个互异根。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "定理",
+    "label": "定理 4.6.1",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 39,
+        "end": 41
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "duplicate",
+    "note": "与OCR“定理4”同为4.6.1，平方幂公式及两个非零根。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 663,
+        "end": 675
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 713,
+        "end": 715
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 732,
+        "end": 737
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 321,
+        "end": 333
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 371,
+        "end": 373
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 390,
+        "end": 395
+      }
+    ],
+    "guideHeading": "充分性与四根怎样逐层保持",
+    "status": "explained",
+    "note": "奇右侧模2、4、8三分支，及更高2幂四根必要充分条件与逐层证明。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 676,
+        "end": 706
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 334,
+        "end": 364
+      }
+    ],
+    "guideHeading": "充分性与四根怎样逐层保持",
+    "status": "explained",
+    "note": "17模32根7、9、23、25，说明旧根的两候选与失去/保留分支。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "定理",
+    "label": "定理 3.3.2",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 678,
+        "end": 679
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 336,
+        "end": 337
+      }
+    ],
+    "guideHeading": "为什么出现模 8",
+    "status": "duplicate",
+    "note": "3.3.2为被划出前提条件的回顾：2x不可逆，所以奇素数简单提升公式不能直接套。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 707,
+        "end": 712
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 365,
+        "end": 370
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 402,
+        "end": 405
+      }
+    ],
+    "guideHeading": "充分性与四根怎样逐层保持",
+    "status": "explained",
+    "note": "17模64从模32保留9、23，各生两个，得9、23、41、55；同标签1600题另列。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "定理",
+    "label": "定理 4",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 738,
+        "end": 739
+      }
+    ],
+    "guideHeading": "充分性与四根怎样逐层保持",
+    "status": "explained",
+    "note": "OCR“定理4”实4.6.5，奇右侧模4两根、高2幂四根，必要性及充分性完整证明。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "定理",
+    "label": "定理 4.6.5",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 396,
+        "end": 397
+      }
+    ],
+    "guideHeading": "充分性与四根怎样逐层保持",
+    "status": "duplicate",
+    "note": "4.6.5是上一来源“定理4”的同一定理，非新题。",
+    "guideTopic": "sqrt-two"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "定理",
+    "label": "定理 4.7.1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 766,
+        "end": 766
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 424,
+        "end": 424
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 445,
+        "end": 445
+      }
+    ],
+    "guideHeading": "下降法完整证明：分母为何约得尽，倍数为何真的变小",
+    "status": "explained",
+    "note": "素数为两正平方和当且仅当2或余1模4，下降法给充分性，奇偶模4给必要性。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 430,
+        "end": 434
+      }
+    ],
+    "guideHeading": "课件例一：$53$ 的平方和",
+    "status": "explained",
+    "note": "23²+1=10·53，取余3、1一次下降得7、−2，53=7²+2²。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 435,
+        "end": 440
+      }
+    ],
+    "guideHeading": "三个课堂练习",
+    "status": "explained",
+    "note": "同标签第一练习13=3²+2²，从5、1及倍数2一次下降得到3、−2。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 441,
+        "end": 442
+      }
+    ],
+    "guideHeading": "课件例二：$797$ 需要两次下降",
+    "status": "explained",
+    "note": "从215、1及倍数58，经−63、−4及倍数5，再到−26、11及倍数1。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 662,
+        "end": 666
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 680,
+        "end": 680
+      },
+      {
+        "source": "section2",
+        "start": 223,
+        "end": 227
+      },
+      {
+        "source": "section2",
+        "start": 241,
+        "end": 241
+      }
+    ],
+    "guideHeading": "同页逆元练习：$23x\\equiv1\\pmod{14}$",
+    "status": "explained",
+    "note": "同一“练习”标签的另一题23x≡1模14，化系数9并用9·11=99求唯一根11。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 664,
+        "end": 666
+      },
+      {
+        "source": "section2",
+        "start": 225,
+        "end": 227
+      }
+    ],
+    "guideHeading": "多未知数同模方程组",
+    "status": "explained",
+    "note": "同一例9范围附三未知数练习：4x−3y+7z≡5、5x+y−3z≡2、x−4y−z≡1模17；消元得x=6、y=16、z=9。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-iterate",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 662,
+        "end": 666
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 680,
+        "end": 680
+      },
+      {
+        "source": "section2",
+        "start": 223,
+        "end": 227
+      },
+      {
+        "source": "section2",
+        "start": 241,
+        "end": 241
+      }
+    ],
+    "guideHeading": "多未知数同模方程组",
+    "status": "explained",
+    "note": "同一“练习”区间所含模17三元题，代入x=1+4y+z，逐步消元求出6、16、9。",
+    "guideTopic": "crt-iterate"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 688,
+        "end": 695
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 708,
+        "end": 718
+      },
+      {
+        "source": "section2",
+        "start": 249,
+        "end": 256
+      },
+      {
+        "source": "section2",
+        "start": 269,
+        "end": 279
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "explained",
+    "note": "同标签另一题312的1245次幂模77，底数降为4，用2的30次幂余1得最终余1。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 688,
+        "end": 695
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 708,
+        "end": 718
+      },
+      {
+        "source": "section2",
+        "start": 249,
+        "end": 256
+      },
+      {
+        "source": "section2",
+        "start": 269,
+        "end": 279
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "explained",
+    "note": "同标签的3x²+11x−20模105题，局部根数1·2·2=4，CRT全根13、55、58、100。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 707,
+        "end": 709
+      },
+      {
+        "source": "section2",
+        "start": 268,
+        "end": 270
+      }
+    ],
+    "guideHeading": "模 $10$ 的二次练习也先分解模",
+    "status": "explained",
+    "note": "例13动画附练习5x²+6x+49模10，模2和模5均要求x余1，故唯一根1。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-opt",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 707,
+        "end": 709
+      },
+      {
+        "source": "section2",
+        "start": 268,
+        "end": 270
+      }
+    ],
+    "guideHeading": "课件数值计算",
+    "status": "duplicate",
+    "note": "同页附3x²+11x−20模105练习，与“练习”索引中同题重复，详细局部根及全根已列。",
+    "guideTopic": "crt-opt"
+  },
+  {
+    "topic": "crt-two",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 541,
+        "end": 544
+      },
+      {
+        "source": "section2",
+        "start": 102,
+        "end": 105
+      }
+    ],
+    "guideHeading": "模 $4$ 余 $2$、模 $5$ 余 $1$ 的课堂例题",
+    "status": "explained",
+    "note": "已读首帧541为模4余2、模5余1，与末帧544模14和25题不同；首帧题已独立给代入过程，得6模20。",
+    "guideTopic": "crt-two"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 301,
+        "end": 304
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 309,
+        "end": 312
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "“思考”另一个区间为4x³+3x²+5x+2模7还有哪些根，因式分解给全根1、2、5。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "根数练习第二题x²+x+4模5，在0至4中仅2满足，故一个根；与首题无解不同。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "根数练习第三题x⁴−1模5，Fermat保证四个非零类成立，零类不成立，根数4。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "根数练习第四题x⁵−x模5，对全部五类成立，故五根。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "根数练习第五题x^(p−1)−1模素数p，全部非零类成立，零类不成立，故p−1根。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "equation",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 313,
+        "end": 326
+      }
+    ],
+    "guideHeading": "把“几个解”实际数出来",
+    "status": "explained",
+    "note": "根数练习第六题x^p−x模素数p，由Fermat的全整数版本，全部p类为根。",
+    "guideTopic": "equation"
+  },
+  {
+    "topic": "hensel",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 41,
+        "end": 134
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 175,
+        "end": 176
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 193,
+        "end": 196
+      },
+      {
+        "source": "section3",
+        "start": 41,
+        "end": 126
+      },
+      {
+        "source": "section3",
+        "start": 167,
+        "end": 168
+      },
+      {
+        "source": "section3",
+        "start": 185,
+        "end": 188
+      }
+    ],
+    "guideHeading": "把课件的连续提升完整算完",
+    "status": "explained",
+    "note": "同标签另问提升公式分子能否用初始根替代当前根：不能，需保证f(r)被旧模整除，指南以f(4)/9与f(1)/9对比。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 41,
+        "end": 134
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 175,
+        "end": 176
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 193,
+        "end": 196
+      },
+      {
+        "source": "section3",
+        "start": 41,
+        "end": 126
+      },
+      {
+        "source": "section3",
+        "start": 167,
+        "end": 168
+      },
+      {
+        "source": "section3",
+        "start": 185,
+        "end": 188
+      }
+    ],
+    "guideHeading": "导数为零时的两个反例",
+    "status": "explained",
+    "note": "同标签另问导数不可逆时是否必有高幂根；给x²及x²−p两个反例，分别全部提升和无提升。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "hensel",
+    "type": "定理",
+    "label": "定理 3.3.2",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 184,
+        "end": 186
+      },
+      {
+        "source": "section3",
+        "start": 176,
+        "end": 178
+      }
+    ],
+    "guideHeading": "导式定义与定理页附题",
+    "status": "explained",
+    "note": "定理3.3.2页186附题31x⁴+57x³+96x+191模25，先模5根1、2，再分别提升，全部根1、22。",
+    "guideTopic": "hensel"
+  },
+  {
+    "topic": "jacobi",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 6,
+        "end": 19
+      }
+    ],
+    "guideHeading": "课件三组反例与计算",
+    "status": "explained",
+    "note": "例1第二题x²≡2模119，分7、17均为剩余，CRT四根11、45、74、108。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 6,
+        "end": 19
+      }
+    ],
+    "guideHeading": "课件三组反例与计算",
+    "status": "explained",
+    "note": "例1第三题x²≡3模119，模7和17均非剩余，Jacobi为1仍无解，与前两题分开。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 106,
+        "end": 110
+      }
+    ],
+    "guideHeading": "同页三道 Jacobi 计算练习",
+    "status": "explained",
+    "note": "同标签另一练习47/135的符号为1，但模3右侧为2已无根，故原式无解；不能因符号1判定有解。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 121,
+        "end": 121
+      }
+    ],
+    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "status": "explained",
+    "note": "同一Jacobi单元后续题3878/3989，先化−111并拆3、37，算得−1，故无解。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 121,
+        "end": 121
+      }
+    ],
+    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "status": "explained",
+    "note": "同一Jacobi单元后续题1305/1459，拆3²·5·29算得1；先确认1459为素数才可推出两根。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "legendre",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 160,
+        "end": 164
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 237,
+        "end": 237
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 127,
+        "end": 131
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 204,
+        "end": 204
+      }
+    ],
+    "guideHeading": "2 的补充公式",
+    "status": "explained",
+    "note": "同标签末页237思考8/131，去平方因子化为2/131并用131余3模8得−1。讲解位于主题“gauss”。",
+    "guideTopic": "gauss"
+  },
+  {
+    "topic": "linear",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 329,
+        "end": 329
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 392,
+        "end": 392
+      }
+    ],
+    "guideHeading": "剩余类转换的课堂小题",
+    "status": "explained",
+    "note": "“思考”另一页392为10x≡10模6，经约模3得1，再还原模6两类1、4。",
+    "guideTopic": "linear"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 430,
+        "end": 433
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 234,
+        "end": 237
+      }
+    ],
+    "guideHeading": "例五的三个三次式逐题求根",
+    "status": "explained",
+    "note": "例5第二题x³−3x−2模7=(x−2)(x+1)²，两个不同根2、6，重根只计一次。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 430,
+        "end": 433
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 234,
+        "end": 237
+      }
+    ],
+    "guideHeading": "例五的三个三次式逐题求根",
+    "status": "explained",
+    "note": "例5第三题x³−7x²+14x−8模107=(x−1)(x−2)(x−4)，三个不同根1、2、4。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 436,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 499,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 240,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 303,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 344,
+        "end": 344
+      }
+    ],
+    "guideHeading": "编号黏连的例六与三道思考",
+    "status": "explained",
+    "note": "同“思考”标签第一道(x−2)(x−3)(x−5)+7x^100模7，7倍项消失，三根2、3、5。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 436,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 499,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 240,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 303,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 344,
+        "end": 344
+      }
+    ],
+    "guideHeading": "编号黏连的例六与三道思考",
+    "status": "explained",
+    "note": "同“思考”标签第二道4(x−2)(x−3)(x−5)+7x^100模7，4可逆且7倍项消失，同样三根。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 436,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 499,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 240,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 303,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 344,
+        "end": 344
+      }
+    ],
+    "guideHeading": "编号黏连的例六与三道思考",
+    "status": "explained",
+    "note": "同“思考”标签第三道附x^17+21x^15−x^11+x^7−x，逐项降次抵消，仍三根2、3、5。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 436,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 499,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 540,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 240,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 303,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 344,
+        "end": 344
+      }
+    ],
+    "guideHeading": "何时达到次数",
+    "status": "explained",
+    "note": "末页回顾k^b−1在b整除a时整除k^a−1，是几何级数因式分解；本节用它证明单位根推论。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 468,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 508,
+        "end": 511
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 272,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 312,
+        "end": 315
+      }
+    ],
+    "guideHeading": "何时达到次数",
+    "status": "explained",
+    "note": "“推论”另一段为d整除p−1时x^d−1恰有d根；利用几何级数整除再用3.4.5。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-count",
+    "type": "定理",
+    "label": "定理 3.4.4",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 428,
+        "end": 480
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 489,
+        "end": 490
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 512,
+        "end": 512
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 530,
+        "end": 540
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 232,
+        "end": 284
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 293,
+        "end": 294
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 316,
+        "end": 316
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 334,
+        "end": 344
+      }
+    ],
+    "guideHeading": "模 $7$ 高次例题的答案校正",
+    "status": "explained",
+    "note": "定理回顾页512附合数模反例：x⁶=1模9的六根为1、2、4、5、7、8，但一次因子乘积非所印系数恒等式，已展开勘误。",
+    "guideTopic": "poly-count"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 369,
+        "end": 370
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 173,
+        "end": 174
+      }
+    ],
+    "guideHeading": "课件因式分解与试根练习",
+    "status": "explained",
+    "note": "四道试根练习第二题x⁴+x+4模11，分解(x−2)²(x−3)(x−4)，不同根2、3、4。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 369,
+        "end": 370
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 173,
+        "end": 174
+      }
+    ],
+    "guideHeading": "课件因式分解与试根练习",
+    "status": "explained",
+    "note": "四道试根练习第三题x²−3模13，分解(x−4)(x+4)，全根4、9。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 369,
+        "end": 370
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 173,
+        "end": 174
+      }
+    ],
+    "guideHeading": "课件因式分解与试根练习",
+    "status": "explained",
+    "note": "四道试根练习第四题x²−2模13，完整非零平方表不含2，故无根。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-factor",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 385,
+        "end": 386
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 427,
+        "end": 427
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 189,
+        "end": 190
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 231,
+        "end": 231
+      }
+    ],
+    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "status": "explained",
+    "note": "同“推论”标签另一页427为Wilson充要条件，真素因子论证给出逆向，非前一恒零推论。",
+    "guideTopic": "poly-factor"
+  },
+  {
+    "topic": "poly-reduce",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34580288",
+        "start": 303,
+        "end": 304
+      },
+      {
+        "source": "lesson-34580288",
+        "start": 328,
+        "end": 329
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 105,
+        "end": 106
+      },
+      {
+        "source": "lesson-34607112",
+        "start": 132,
+        "end": 133
+      }
+    ],
+    "guideHeading": "课件大指数式的逐项化简",
+    "status": "explained",
+    "note": "同标签另一练习49x⁵+25x³−6x²+3x−10模3，降为2x−1再乘逆元2化为首一x+1，根2。",
+    "guideTopic": "poly-reduce"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 78,
+        "end": 101
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 109,
+        "end": 113
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 121,
+        "end": 126
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "status": "explained",
+    "note": "同“思考”标签另一段要求模3、5、7、11的平方剩余与非剩余，已给全部四组列表。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "qr-euler",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 78,
+        "end": 101
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 109,
+        "end": 113
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 121,
+        "end": 126
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "status": "explained",
+    "note": "同“思考”末问−1为非剩余时p模4为何，Euler判别得p余3；正向为余1。",
+    "guideTopic": "qr-euler"
+  },
+  {
+    "topic": "quadratic",
+    "type": "练习",
+    "label": "课后思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 11,
+        "end": 24
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 47,
+        "end": 47
+      }
+    ],
+    "guideHeading": "三个课件例题算到底",
+    "status": "explained",
+    "note": "课后思考第二题6x²+15x+5模81，模3即2≡0不可能，故无解。",
+    "guideTopic": "quadratic"
+  },
+  {
+    "topic": "quadratic",
+    "type": "练习",
+    "label": "课后思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 11,
+        "end": 24
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 47,
+        "end": 47
+      }
+    ],
+    "guideHeading": "三个课件例题算到底",
+    "status": "explained",
+    "note": "课后思考第三题6x²+7x+5模81，模3简单根1，逐层提升1、10、64，最终唯一根64。",
+    "guideTopic": "quadratic"
+  },
+  {
+    "topic": "quadratic",
+    "type": "练习",
+    "label": "课后思考",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 11,
+        "end": 24
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 47,
+        "end": 47
+      }
+    ],
+    "guideHeading": "课件思考题：不互素时的完整分类",
+    "status": "explained",
+    "note": "另一页47问配方后右侧与素数幂不互素怎么办，完整p因子次数分类及零右侧处理在sqrt-odd-power。讲解位于主题“sqrt-odd-power”。",
+    "guideTopic": "sqrt-odd-power"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 303,
+        "end": 313
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 371,
+        "end": 373
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 270,
+        "end": 280
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 338,
+        "end": 340
+      }
+    ],
+    "guideHeading": "两个一般二次式练习",
+    "status": "explained",
+    "note": "本标签第一题x²−3x+5模39，配方为(2x−3)²≡−11，模13为2非剩余故无根。",
+    "guideTopic": "reciprocity-app"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 303,
+        "end": 313
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 371,
+        "end": 373
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 270,
+        "end": 280
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 338,
+        "end": 340
+      }
+    ],
+    "guideHeading": "标准计算顺序",
+    "status": "explained",
+    "note": "同标签另一页的163/257符号题，互反换位至3/11，完整计算为−1。讲解位于主题“reciprocity”。",
+    "guideTopic": "reciprocity"
+  },
+  {
+    "topic": "reciprocity-app",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34677074",
+        "start": 303,
+        "end": 313
+      },
+      {
+        "source": "lesson-34677074",
+        "start": 371,
+        "end": 373
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 270,
+        "end": 280
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 338,
+        "end": 340
+      }
+    ],
+    "guideHeading": "标准计算顺序",
+    "status": "explained",
+    "note": "同标签另一页的1215/4523符号题，拆3⁵·5，两个局部符号1、−1，结果−1。讲解位于主题“reciprocity”。",
+    "guideTopic": "reciprocity"
+  },
+  {
+    "topic": "sqrt-general",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 466,
+        "end": 502
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 527,
+        "end": 531
+      },
+      {
+        "source": "lesson-34767597",
+        "start": 621,
+        "end": 621
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 124,
+        "end": 160
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 185,
+        "end": 189
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 279,
+        "end": 279
+      }
+    ],
+    "guideHeading": "其余课件算例的完整迭代表",
+    "status": "explained",
+    "note": "同标签另一练习103模1601，t=6，五轮从595经1153、612到386，全部根386、1215。",
+    "guideTopic": "sqrt-general"
+  },
+  {
+    "topic": "sqrt-special",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 387,
+        "end": 388
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 21,
+        "end": 27
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 45,
+        "end": 46
+      }
+    ],
+    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "status": "explained",
+    "note": "不同来源同标签实际另一题3模11，先判别再由3³求5，负根6；与2模311分开。",
+    "guideTopic": "sqrt-special"
+  },
+  {
+    "topic": "sqrt-two",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 707,
+        "end": 712
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 365,
+        "end": 370
+      },
+      {
+        "source": "lesson-34927552",
+        "start": 402,
+        "end": 405
+      }
+    ],
+    "guideHeading": "课件综合题：$x^2\\equiv81\\pmod{1600}$",
+    "status": "explained",
+    "note": "同“练习”标签另一段81模1600，模25两根与模64四根逐组CRT，得到八根。讲解位于主题“sqrt-composite”。",
+    "guideTopic": "sqrt-composite"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 435,
+        "end": 440
+      }
+    ],
+    "guideHeading": "三个课堂练习",
+    "status": "explained",
+    "note": "同标签第二练习29=5²+2²，从12、1及倍数5一次下降得到5、−2。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "sum-squares",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34927552",
+        "start": 435,
+        "end": 440
+      }
+    ],
+    "guideHeading": "三个课堂练习",
+    "status": "explained",
+    "note": "同标签第三练习41=5²+4²，从9、1及倍数2一次下降得到5、−4。",
+    "guideTopic": "sum-squares"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 106,
+        "end": 106
+      }
+    ],
+    "guideHeading": "同页三道 Jacobi 计算练习",
+    "status": "explained",
+    "note": "同页第二道计算题246/625；625=5⁴、246模5为1，故Jacobi符号为1，互素两根可唯一提升。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 106,
+        "end": 106
+      }
+    ],
+    "guideHeading": "同页三道 Jacobi 计算练习",
+    "status": "explained",
+    "note": "同页第三道计算题521/825；825=3·5²·11，三处符号−1、1、1，乘积−1。",
+    "guideTopic": "jacobi"
+  },
+  {
+    "topic": "jacobi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34767597",
+        "start": 116,
+        "end": 116
+      }
+    ],
+    "guideHeading": "课件三组反例与计算",
+    "status": "explained",
+    "note": "同标签另一练习2/63=1；因63=3²·7掩盖局部负号，模3无根，整体无根。",
+    "guideTopic": "jacobi"
+  }
+]

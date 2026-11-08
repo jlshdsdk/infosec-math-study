@@ -1,0 +1,5961 @@
+[
+  {
+    "topic": "1-intro",
+    "type": "原页",
+    "label": "课程导学与学习方法",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 1,
+        "end": 9
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "guideHeading": "如何使用原页",
+    "status": "explained",
+    "note": "课程导学与多个课件的开头导航合并记录；讲解说明学习次序、逐页动画和缺章范围，并非独立数学命题。"
+  },
+  {
+    "topic": "base",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 291,
+        "end": 291
+      }
+    ],
+    "guideHeading": "反复除、倒着读",
+    "status": "explained",
+    "note": "原练习将13转二进制；连续除2得余数1、0、1、1，倒读1101并回代13。"
+  },
+  {
+    "topic": "base",
+    "type": "定理",
+    "label": "定理 1.2.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 316,
+        "end": 318
+      }
+    ],
+    "guideHeading": "反复除、倒着读",
+    "status": "explained",
+    "note": "正整数在底数b>1下有唯一数码展开；讲解分别证明算法终止和逐位比较余数的唯一性。"
+  },
+  {
+    "topic": "div",
+    "type": "定义",
+    "label": "定义 1.1.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 12,
+        "end": 21
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原定义b整除a等价于存在整数q使a=qb；本主题开头说明非零除数和额外0整除0约定，小节用定义证明基本性质。"
+  },
+  {
+    "topic": "div",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "原单选问0是否整除0；按课件特别约定选能够整除，讲解明确区分此约定与普通除法。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 22,
+        "end": 25
+      }
+    ],
+    "guideHeading": "跟着课件的例题算",
+    "status": "explained",
+    "note": "50的所有整数因数是六个正因数及其相反数；讲解逐个列出并解释配对。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 38,
+        "end": 43
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "改变被除数或除数符号不改变整除；讲解以a=qb构造负的整数系数。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 44,
+        "end": 47
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "传递性例3要求由c整除b、b整除a推出c整除a；讲解将两个整数倍相乘。"
+  },
+  {
+    "topic": "div",
+    "type": "定理",
+    "label": "定理 1.1.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 48,
+        "end": 50
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "duplicate",
+    "note": "定理1.1.1重述例3的传递性，与同一证明对应。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 49,
+        "end": 50
+      }
+    ],
+    "guideHeading": "原页数值与多项线性组合",
+    "status": "explained",
+    "note": "13整除39、39整除78的数值应用；讲解写出13整除78。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 51,
+        "end": 52
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "同一整数整除a、b便整除a加减b；写a=uc,b=vc后合并系数。"
+  },
+  {
+    "topic": "div",
+    "type": "定理",
+    "label": "定理 1.1.2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 53,
+        "end": 55
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "duplicate",
+    "note": "定理1.1.2重述例5的整除加减性质。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 54,
+        "end": 55
+      }
+    ],
+    "guideHeading": "原页数值与多项线性组合",
+    "status": "explained",
+    "note": "13整除39加减78；讲解算出117=9乘13及负39=负3乘13。"
+  },
+  {
+    "topic": "div",
+    "type": "定理",
+    "label": "定理 1.1.3",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 56,
+        "end": 64
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "任意整数系数s、t的线性组合仍被公因数整除；讲解保留整数与负系数条件。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 63,
+        "end": 63
+      }
+    ],
+    "guideHeading": "原页数值与多项线性组合",
+    "status": "explained",
+    "note": "原例7的三种线性组合分别为312、897、117，讲解逐项除以13核对。"
+  },
+  {
+    "topic": "div",
+    "type": "定理",
+    "label": "定理 1.1.4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 64,
+        "end": 64
+      }
+    ],
+    "guideHeading": "原页数值与多项线性组合",
+    "status": "explained",
+    "note": "多项整数线性组合的整除推广，讲解写a_i=dv_i后整体提出d。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 65,
+        "end": 69
+      }
+    ],
+    "guideHeading": "跟着课件的例题算",
+    "status": "explained",
+    "note": "若c同时整除a、b且sa+tb=1，则c整除1，故c为正负1；讲解给出完整理由。"
+  },
+  {
+    "topic": "div",
+    "type": "定理",
+    "label": "定理 1.1.5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 70,
+        "end": 70
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "非零整数互相整除只能得绝对值相等；讲解以整数乘数乘积为1证明并给负数反例。"
+  },
+  {
+    "topic": "div",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 71,
+        "end": 74
+      }
+    ],
+    "guideHeading": "性质为什么成立",
+    "status": "explained",
+    "note": "原例9三空为小于等于、等于、等于；讲解解释非零整数与正整数条件为何分别必要。"
+  },
+  {
+    "topic": "division",
+    "type": "定理",
+    "label": "定理 1.1.9",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 79,
+        "end": 106
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "带余除法存在唯一0≤r<b的商余数；本主题以向下取整构造存在性，小节以两余数差证明唯一性。"
+  },
+  {
+    "topic": "division",
+    "type": "定义",
+    "label": "定义 1.1.3",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 95,
+        "end": 106
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "整数部分即向下取整，原例含正小数、整数和负小数；讲解给出1.2、9、负11、负2.01的实际取整。"
+  },
+  {
+    "topic": "division",
+    "type": "例题",
+    "label": "例 1013",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 96,
+        "end": 106
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "ocr-artifact",
+    "note": "原标签例1013把例10和后面的数13粘连；实际内容为整数部分定义与数值取整，讲解逐个给出结果。"
+  },
+  {
+    "topic": "division",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 100,
+        "end": 101
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "填空求带余除法商余数，含36除5、36除6、负36除5；讲解实际写出7余1、6余0、负8余4。"
+  },
+  {
+    "topic": "division",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 106,
+        "end": 106
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "最小非负余数可写r=a-b乘floor(a/b)；讲解由向下取整不等式构造并说明存在性。"
+  },
+  {
+    "topic": "division",
+    "type": "定义",
+    "label": "定义 1.1.4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 108,
+        "end": 114
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "最小非负余数和不完全商的命名；讲解说明0≤r<b及余数零等价于整除。"
+  },
+  {
+    "topic": "division",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 110,
+        "end": 114
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "36除5与36除6的带余等式，讲解逐一写出并核查区间。"
+  },
+  {
+    "topic": "division",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 115,
+        "end": 121
+      }
+    ],
+    "guideHeading": "负数也要满足余数范围",
+    "status": "explained",
+    "note": "负36除5应取商负8余4；讲解说明负数取商不能只去小数。"
+  },
+  {
+    "topic": "remainder",
+    "type": "定理",
+    "label": "定理 1.1.10",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 122,
+        "end": 163
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "任意整数起点c的一般余数定理，讲解给q=floor((a-c)/b)、r=a-bq，并以14除4的多个c实际核验。"
+  },
+  {
+    "topic": "remainder",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 123,
+        "end": 126
+      }
+    ],
+    "guideHeading": "例 13：固定除数，移动余数区间",
+    "status": "explained",
+    "note": "10除5，c依次为0、2、负6时，商余数为(2,0)、(1,5)、(3,负5)；已按原图补齐。"
+  },
+  {
+    "topic": "remainder",
+    "type": "定义",
+    "label": "定义",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 164,
+        "end": 167
+      }
+    ],
+    "guideHeading": "绝对值最小余数",
+    "status": "explained",
+    "note": "未编号定义包含四种常用余数及绝对值最小余数；讲解给奇偶除数的区间，并在后节填完15除4、15除5。"
+  },
+  {
+    "topic": "prime",
+    "type": "定义",
+    "label": "定义 1.1.2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 197,
+        "end": 200
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原整数定义排除0和正负1；主题开头说明正负素数与合数约定，小节据此解释素因数判定。"
+  },
+  {
+    "topic": "prime",
+    "type": "例题",
+    "label": "例 14",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 199,
+        "end": 200
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "例14列2、3、5、7、11为素数，4、6、8、9、10、12为合数；讲解逐个给出后六数的非平凡分解。"
+  },
+  {
+    "topic": "prime",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 200,
+        "end": 213
+      }
+    ],
+    "guideHeading": "只试到平方根",
+    "status": "explained",
+    "note": "思考的第一题：大于1的最小正因数必为素数；讲解反证其若合数会有更小因数。"
+  },
+  {
+    "topic": "prime",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 227,
+        "end": 238
+      }
+    ],
+    "guideHeading": "筛法与素数无穷性",
+    "status": "explained",
+    "note": "思考的另一题：1000以内和百万以内素数个数，讲解分别给168与78498，说明由有限筛法计数。"
+  },
+  {
+    "topic": "prime",
+    "type": "定理",
+    "label": "定理 1.1.6",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 202,
+        "end": 213
+      }
+    ],
+    "guideHeading": "只试到平方根",
+    "status": "explained",
+    "note": "大于1的整数存在素因数；讲解从最小的大于1正因数证明，避免把1当所求最小因数。"
+  },
+  {
+    "topic": "prime",
+    "type": "定理",
+    "label": "定理 1.1.7",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 212,
+        "end": 213
+      }
+    ],
+    "guideHeading": "只试到平方根",
+    "status": "explained",
+    "note": "正合数必有不超过平方根的素因数，讲解取较小因子再取其素因数。"
+  },
+  {
+    "topic": "prime",
+    "type": "例题",
+    "label": "例 15",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 214,
+        "end": 216
+      }
+    ],
+    "guideHeading": "只试到平方根",
+    "status": "explained",
+    "note": "113的素性检验只需试2、3、5、7，均不整除，故为素数。"
+  },
+  {
+    "topic": "prime",
+    "type": "例题",
+    "label": "例 16",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 216,
+        "end": 216
+      }
+    ],
+    "guideHeading": "只试到平方根",
+    "status": "explained",
+    "note": "119=7乘17，为合数；讲解与113的检验作具体对照。"
+  },
+  {
+    "topic": "prime",
+    "type": "例题",
+    "label": "例 17",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 217,
+        "end": 217
+      },
+      {
+        "source": "lesson-33847191",
+        "start": 224,
+        "end": 224
+      }
+    ],
+    "guideHeading": "筛法与素数无穷性",
+    "status": "explained",
+    "note": "原例17的100以内筛法动画与重述合并；讲解列出25个素数并解释筛至平方根即可。"
+  },
+  {
+    "topic": "prime",
+    "type": "定理",
+    "label": "定理 1.1.8",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 231,
+        "end": 238
+      }
+    ],
+    "guideHeading": "筛法与素数无穷性",
+    "status": "explained",
+    "note": "素数无穷性，构造所有假定素数乘积加1；讲解说明只需新素因数，不要求构造数本身素。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "例题",
+    "label": "例 18",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 239,
+        "end": 248
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "奇素数形如4k正负1，大于3素数形如6k正负1；主题开头从余数分类给出必要条件，提醒不能反推素性。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "例题",
+    "label": "例 192",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 242,
+        "end": 248
+      }
+    ],
+    "guideHeading": "例 19、例 20 与合数拆分",
+    "status": "ocr-artifact",
+    "note": "原标签例192实际为例19，题面是2的n次方加1与减1，n>2；按奇偶指数模3证明至少一项为合数。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "例题",
+    "label": "例 20",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 245,
+        "end": 248
+      }
+    ],
+    "guideHeading": "例 19、例 20 与合数拆分",
+    "status": "explained",
+    "note": "任意奇整数p为两整数平方差，讲解构造((p+1)/2)平方减((p-1)/2)平方。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 247,
+        "end": 260
+      }
+    ],
+    "guideHeading": "例 19、例 20 与合数拆分",
+    "status": "explained",
+    "note": "大于11自然数拆成两个合数，讲解对偶数用4加x减4、奇数用9加x减9。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同标签思考1(1)：33整除6^(2n)+3^(n+2)+3^n。讲解提3^n并模11，补n≥1；n=0为11不能被33整除。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同标签思考1(2)：133整除11^(n+2)+12^(2n+1)。讲解用144同余11，将两项合成133乘11^n，取n≥0。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同标签思考1(3)：7整除3333^4444+4444^3333。讲解将底数化为1、负1，奇偶幂相加为零类。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同页练习1(1)：168整除13^(2n)减1。讲解由13平方=169同余1得出，取n≥0。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同页练习1(2)：2整除n(n+1)(3^(2n+1)+1)。讲解指出连续两个整数乘积恒偶，取n≥0避免负指数。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "幂的整除思考题，逐题展开",
+    "status": "explained",
+    "note": "同页练习1(3)：9整除(3n+1)7^n减1。讲解二项展开得7^n同余1+6n，再乘出9n+18n平方，取n≥0。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 249,
+        "end": 260
+      }
+    ],
+    "guideHeading": "课件思考题的做法",
+    "status": "explained",
+    "note": "同页练习2：素数p>3且2p+1也素，则4p+1合数。讲解排除p模3余1，再得4p+1被3整除且大于3。"
+  },
+  {
+    "topic": "prime-form",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 261,
+        "end": 261
+      }
+    ],
+    "guideHeading": "作业：形如 4k+3 的素数无穷多",
+    "status": "explained",
+    "note": "习题1.8(13)要求4k+3型素数无穷；讲解构造4乘素数列表乘积减1，并证明必含列表外3模4素因数。"
+  },
+  {
+    "topic": "gcd",
+    "type": "定义",
+    "label": "定义 1.3.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 323,
+        "end": 326
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 5,
+        "end": 8
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 5,
+        "end": 8
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "最大公因数、互素定义，主题开头说明不全为零和不定义(0,0)；小节用公因数集合解释运算。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 327,
+        "end": 351
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 9,
+        "end": 33
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 9,
+        "end": 33
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原三个例值(12,22)=2、(负10,30)=10、(28,负35,14)=7，讲解开头逐个列出。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 331,
+        "end": 351
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 13,
+        "end": 33
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 13,
+        "end": 33
+      }
+    ],
+    "guideHeading": "对称与符号变化",
+    "status": "explained",
+    "note": "交换a、b不改变公因数集合，故最大公因数对称。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 341,
+        "end": 351
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 23,
+        "end": 33
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 23,
+        "end": 33
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "素数p不整除a便与a互素，讲解依据p只有1与p两个正因数。"
+  },
+  {
+    "topic": "gcd",
+    "type": "定理",
+    "label": "定理 1.3.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 352,
+        "end": 361
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 34,
+        "end": 43
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 34,
+        "end": 43
+      }
+    ],
+    "guideHeading": "对称与符号变化",
+    "status": "explained",
+    "note": "对各整数取绝对值不变公因数及最大公因数；讲解从整除相反数等价解释。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 362,
+        "end": 371
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 44,
+        "end": 53
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 44,
+        "end": 53
+      }
+    ],
+    "guideHeading": "对称与符号变化",
+    "status": "explained",
+    "note": "原图例4为(a,b)=(-a,b)=(a,-b)=(绝对值a,绝对值b)，讲解已按图补齐。"
+  },
+  {
+    "topic": "gcd",
+    "type": "定理",
+    "label": "定理 1.3.2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 363,
+        "end": 371
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 45,
+        "end": 53
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 45,
+        "end": 53
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "b正时(0,b)=b，主题开头推广为b非零时(0,b)=绝对值b。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 366,
+        "end": 371
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 48,
+        "end": 53
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 48,
+        "end": 53
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "原例(0,21)=21、(负15,0)=15，讲解实际列出，负b的思考统一由绝对值公式回答。"
+  },
+  {
+    "topic": "gcd",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 370,
+        "end": 399
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 52,
+        "end": 81
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 52,
+        "end": 81
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "同标签第一问b为负整数时(0,b)等于多少：讲解(0,b)=绝对值b=负b，保持最大公因数为正。"
+  },
+  {
+    "topic": "gcd",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 370,
+        "end": 399
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 52,
+        "end": 81
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 52,
+        "end": 81
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "同标签后续思考a=qb+c时两组公因数为何相同，以及能否换成(a,c)；讲解给双向整除，并用15=6乘2+3反驳错误替换。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 389,
+        "end": 389
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 71,
+        "end": 75
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 71,
+        "end": 71
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "15=2乘6+3时两组公因数均为正负1、正负3；另一式15=6乘2+3中(15,2)=1却(15,3)=3。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 615",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 390,
+        "end": 393
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 72,
+        "end": 75
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "ocr-artifact",
+    "note": "例615是例6与数字15粘连，内容是15、6与6、3的公因数比较，讲解已具体列出。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 715",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 390,
+        "end": 393
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 72,
+        "end": 75
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 72,
+        "end": 75
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "ocr-artifact",
+    "note": "例715是例7与数字15粘连，内容是15、2与2、3及15、3的公因数对照，讲解给反例结论。"
+  },
+  {
+    "topic": "gcd",
+    "type": "定理",
+    "label": "定理 1.3.3",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 396,
+        "end": 409
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 78,
+        "end": 91
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 78,
+        "end": 91
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "explained",
+    "note": "a=qb+c则(a,b)=(b,c)，讲解证明公因数集合双向包含，且指出不应换为(a,c)。"
+  },
+  {
+    "topic": "gcd",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 401,
+        "end": 409
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 83,
+        "end": 91
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 83,
+        "end": 91
+      }
+    ],
+    "guideHeading": "课件例题逐步算",
+    "status": "explained",
+    "note": "原例8用1859、1573的三步辗转相除得143；对应欧几里得主题同名数值例。",
+    "guideTopic": "euclid"
+  },
+  {
+    "topic": "euclid",
+    "type": "定理",
+    "label": "定理 1.3.4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 443,
+        "end": 448
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 125,
+        "end": 130
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 125,
+        "end": 130
+      }
+    ],
+    "guideHeading": "课件例题逐步算",
+    "status": "explained",
+    "note": "辗转相除法定理，主题说明余数递减与最后非零余数，小节提供四组实际链条。"
+  },
+  {
+    "topic": "euclid",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 444,
+        "end": 448
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 126,
+        "end": 130
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 126,
+        "end": 130
+      }
+    ],
+    "guideHeading": "课件例题逐步算",
+    "status": "duplicate",
+    "note": "例9重复1859、1573的求最大公因数演示，讲解完整写出三行得143。"
+  },
+  {
+    "topic": "euclid",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 449,
+        "end": 451
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 131,
+        "end": 133
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 131,
+        "end": 133
+      }
+    ],
+    "guideHeading": "课件例题逐步算",
+    "status": "explained",
+    "note": "169、121的普通与绝对值最小余数算法，讲解列48、25、23、2、1及121=3乘48减23。"
+  },
+  {
+    "topic": "euclid",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 452,
+        "end": 454
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 134,
+        "end": 136
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 134,
+        "end": 136
+      }
+    ],
+    "guideHeading": "长例题不能跳过的除法链",
+    "status": "explained",
+    "note": "46480、39423的完整14行除法链，讲解逐行展开，最后最大公因数1。"
+  },
+  {
+    "topic": "euclid",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 455,
+        "end": 455
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 137,
+        "end": 137
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 137,
+        "end": 137
+      }
+    ],
+    "guideHeading": "课件例题逐步算",
+    "status": "explained",
+    "note": "68、30采用负余数，30=4乘8减2，最大公因数取2而非负2。"
+  },
+  {
+    "topic": "bezout",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 457,
+        "end": 463
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 139,
+        "end": 145
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 139,
+        "end": 145
+      }
+    ],
+    "guideHeading": "从余数回代",
+    "status": "explained",
+    "note": "1859、1573例题回代143=负5乘1859加6乘1573，讲解实际给出两次代入。"
+  },
+  {
+    "topic": "bezout",
+    "type": "定理",
+    "label": "定理 1.3.5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 474,
+        "end": 474
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 156,
+        "end": 156
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 156,
+        "end": 156
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "Bézout存在性与整数线性组合，主题定义等式，小节说明回代及线性组合的最小正值。"
+  },
+  {
+    "topic": "extended",
+    "type": "定理",
+    "label": "定理 1.3.7",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 527,
+        "end": 538
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 209,
+        "end": 220
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 209,
+        "end": 220
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "扩展欧几里得递推的s、t与余数同递推；主题开头给初值，小节以169、121各行系数保持等式验证。"
+  },
+  {
+    "topic": "extended",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 539,
+        "end": 553
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 221,
+        "end": 235
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 221,
+        "end": 235
+      }
+    ],
+    "guideHeading": "把系数表实际填满",
+    "status": "explained",
+    "note": "169、121系数表最终58乘169减81乘121=1，讲解列全7行并说明负系数与非唯一性。"
+  },
+  {
+    "topic": "extended",
+    "type": "定理",
+    "label": "定理 1.3.5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 554,
+        "end": 584
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 236,
+        "end": 266
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 236,
+        "end": 266
+      }
+    ],
+    "guideHeading": "从余数回代",
+    "status": "duplicate",
+    "note": "复习Bézout定理，对应bezout主题的存在性、回代和最小正线性组合。",
+    "guideTopic": "bezout"
+  },
+  {
+    "topic": "extended",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 555,
+        "end": 555
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 237,
+        "end": 237
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 237,
+        "end": 237
+      }
+    ],
+    "guideHeading": "两道单选分别用了什么",
+    "status": "explained",
+    "note": "已核原图：sa+tb=e只能保证(a,b)整除e，第一道单选选B；讲解给6、10与22的反例说明不能保证相等。"
+  },
+  {
+    "topic": "extended",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 577,
+        "end": 578
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 259,
+        "end": 260
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 259,
+        "end": 260
+      }
+    ],
+    "guideHeading": "两道单选分别用了什么",
+    "status": "explained",
+    "note": "已核原图：e为a、b公因数时必有e整除(a,b)，第二道单选选A；讲解以e整除Bézout等式的两项证明。"
+  },
+  {
+    "topic": "extended",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 556,
+        "end": 584
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 238,
+        "end": 266
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 238,
+        "end": 266
+      }
+    ],
+    "guideHeading": "从余数回代",
+    "status": "explained",
+    "note": "Bézout逆命题不成立，讲解以2乘6加10=22但最大公因数2反驳，并说明加公因数条件后的正确结论。",
+    "guideTopic": "bezout"
+  },
+  {
+    "topic": "extended",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 565,
+        "end": 570
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 247,
+        "end": 252
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 247,
+        "end": 252
+      }
+    ],
+    "guideHeading": "从余数回代",
+    "status": "explained",
+    "note": "最大公因数是正整数线性组合的最小正值，讲解说明所有组合构成d的整数倍集合。",
+    "guideTopic": "bezout"
+  },
+  {
+    "topic": "extended",
+    "type": "定理",
+    "label": "定理 1.3.8",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 575,
+        "end": 576
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 257,
+        "end": 258
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 257,
+        "end": 258
+      }
+    ],
+    "guideHeading": "从余数回代",
+    "status": "explained",
+    "note": "互素当且仅当存在整数s、t使sa+tb=1，讲解给必要方向与公因数整除1的充分方向。",
+    "guideTopic": "bezout"
+  },
+  {
+    "topic": "extended",
+    "type": "定理",
+    "label": "定理 1.3.9",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 594,
+        "end": 594
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 276,
+        "end": 276
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 276,
+        "end": 276
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "定理1.3.9在本主题末尾预告下一主题，实际是最大公因数整除刻画；对应gcd-props开头及证明。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.9",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 595,
+        "end": 597
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 277,
+        "end": 279
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 277,
+        "end": 279
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "最大公因数的整除刻画：自身整除两数，任何公因数整除它；主题开头给等价描述，小节用Bézout落实。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 596,
+        "end": 596
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 278,
+        "end": 278
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 278,
+        "end": 278
+      }
+    ],
+    "guideHeading": "原页练习与四个填空",
+    "status": "explained",
+    "note": "奇d同时整除a加b、a减b，则整除最大公因数；讲解相加减得2a、2b，再互素约去2。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 597,
+        "end": 597
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 279,
+        "end": 279
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 279,
+        "end": 279
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "duplicate",
+    "note": "最大公因数为最小正整数线性组合，在主题开头与bezout主题已解释。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 598,
+        "end": 598
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 280,
+        "end": 280
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 280,
+        "end": 280
+      }
+    ],
+    "guideHeading": "原页练习与四个填空",
+    "status": "explained",
+    "note": "原图四空依次是、是、1、是；讲解分别写出缩放、约公因数、归一化互素与互素因子消去的理由。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.5",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 599,
+        "end": 610
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 281,
+        "end": 292
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 281,
+        "end": 292
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "Bézout定理在此用于同时缩放最大公因数，讲解实际构造缩放后的线性组合。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 599,
+        "end": 610
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 281,
+        "end": 292
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 281,
+        "end": 292
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "explained",
+    "note": "思考第一组以Bézout推导(ma,mb)=m(a,b)，讲解写a=du,b=dv及其线性组合。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 644,
+        "end": 646
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 326,
+        "end": 328
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 326,
+        "end": 328
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "思考第二组要求由a、b互素且均整除D推出ab整除D；对应lcm主题将D=bq再约去b的证明。",
+    "guideTopic": "lcm"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.10",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 611,
+        "end": 622
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 293,
+        "end": 304
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 293,
+        "end": 304
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "explained",
+    "note": "同乘正整数、同除非零公因数与归一化互素三条转换；讲解保留绝对值并给构造证明。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "例题",
+    "label": "例 15",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 623,
+        "end": 623
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 305,
+        "end": 305
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 305,
+        "end": 305
+      }
+    ],
+    "guideHeading": "常用变换及条件",
+    "status": "explained",
+    "note": "11乘200306与23乘200306最大公因数为200306，讲解提公共因数并用11、23互素。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.11",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 636,
+        "end": 646
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 318,
+        "end": 328
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 318,
+        "end": 328
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "explained",
+    "note": "(a,c)=1时(ab,c)=(b,c)，讲解用sa+tc=1乘b证明公因数集合相同。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "例题",
+    "label": "例 16",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 638,
+        "end": 643
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 320,
+        "end": 325
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 320,
+        "end": 325
+      }
+    ],
+    "guideHeading": "常用变换及条件",
+    "status": "explained",
+    "note": "两个数均与c互素则其积与c互素，讲解由互素因子消去公式得到。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.12",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 642,
+        "end": 643
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 324,
+        "end": 325
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 324,
+        "end": 325
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "explained",
+    "note": "若各a_i均与c互素，其积亦然，讲解说明逐个加入互素因子的归纳步骤。"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.4.4",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 646,
+        "end": 646
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 328,
+        "end": 328
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 328,
+        "end": 328
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "duplicate",
+    "note": "定理1.4.4在此作为跨节引用，实际是互素两因数均整除D则乘积整除D；lcm主题给完整证明。",
+    "guideTopic": "lcm"
+  },
+  {
+    "topic": "gcd-props",
+    "type": "定理",
+    "label": "定理 1.3.13",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 647,
+        "end": 660
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 329,
+        "end": 342
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 329,
+        "end": 342
+      }
+    ],
+    "guideHeading": "可逆整数变换",
+    "status": "explained",
+    "note": "行列式为正负1的整数线性变换保持最大公因数，讲解写出逆变换并强调反解系数仍是整数。"
+  },
+  {
+    "topic": "multi-gcd",
+    "type": "例题",
+    "label": "例 17",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 662,
+        "end": 669
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 344,
+        "end": 351
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 344,
+        "end": 351
+      }
+    ],
+    "guideHeading": "多元 Bézout 与等价描述",
+    "status": "explained",
+    "note": "120、150、210、35逐步最大公因数为5，主题列出30、30、5，小节给实际组合5=120减150加35。"
+  },
+  {
+    "topic": "multi-gcd",
+    "type": "定理",
+    "label": "定理 1.3.14",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 667,
+        "end": 670
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 349,
+        "end": 352
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 349,
+        "end": 352
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原定理1.3.14是多元最大公因数的迭代算法，讲解开头给嵌套gcd式，并用120、150、210、35实际算30、30、5。"
+  },
+  {
+    "topic": "multi-gcd",
+    "type": "定理",
+    "label": "定理 1.3.15",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 671,
+        "end": 671
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 353,
+        "end": 353
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 353,
+        "end": 353
+      }
+    ],
+    "guideHeading": "多元 Bézout 与等价描述",
+    "status": "explained",
+    "note": "原定理1.3.15是多元最大公因数的整除等价刻画：d整除每项、每个公因数均整除d；讲解给明确描述并用多元Bézout落实。"
+  },
+  {
+    "topic": "multi-gcd",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 671,
+        "end": 671
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 353,
+        "end": 353
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 353,
+        "end": 353
+      }
+    ],
+    "guideHeading": "多元 Bézout 与等价描述",
+    "status": "explained",
+    "note": "多元整除刻画与最小正线性组合结论，讲解将两元描述推广至全部a_i。"
+  },
+  {
+    "topic": "power-gcd",
+    "type": "定理",
+    "label": "引理 1.3.1",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 672,
+        "end": 685
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 354,
+        "end": 367
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 354,
+        "end": 367
+      }
+    ],
+    "guideHeading": "为什么底数大于 2 时不同",
+    "status": "explained",
+    "note": "2的指数带余除法转为2^a减1对2^b减1的余数；主题开头给k一般底数的同余和余数区间证明。"
+  },
+  {
+    "topic": "power-gcd",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 673,
+        "end": 685
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 355,
+        "end": 367
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 355,
+        "end": 367
+      }
+    ],
+    "guideHeading": "为什么底数大于 2 时不同",
+    "status": "explained",
+    "note": "底数推广与互素条件的思考：一般底数k的最大公因数是k^(a,b)减1，指数互素时为k减1，k>2时不互素。"
+  },
+  {
+    "topic": "power-gcd",
+    "type": "定理",
+    "label": "引理 1.3.2",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 675,
+        "end": 685
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 357,
+        "end": 367
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 357,
+        "end": 367
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原引理1.3.2是gcd(2^a减1,2^b减1)=2^gcd(a,b)减1；讲解从指数辗转相除推导，且推广到整数底数k>1。"
+  },
+  {
+    "topic": "power-gcd",
+    "type": "定理",
+    "label": "定理 1.3.16",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 678,
+        "end": 685
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 360,
+        "end": 367
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 360,
+        "end": 367
+      }
+    ],
+    "guideHeading": "为什么底数大于 2 时不同",
+    "status": "explained",
+    "note": "原定理1.3.16是两个2的幂减1互素当且仅当指数互素，讲解由最大公因数公式等于1解释；小节另说明底数k>2不能照搬。"
+  },
+  {
+    "topic": "power-gcd",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "lesson-33847191",
+        "start": 684,
+        "end": 685
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 366,
+        "end": 367
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 366,
+        "end": 367
+      }
+    ],
+    "guideHeading": "从最大公因数读出整除条件",
+    "status": "explained",
+    "note": "2^b减1整除2^a减1等价于b整除a；讲解给双向证明，并推广到任意整数底数k>1。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 373,
+        "end": 393
+      }
+    ],
+    "guideHeading": "用 Bézout 证明",
+    "status": "explained",
+    "note": "整除乘积能否约去因子的思考，讲解说明必须互素，再用Bézout等式乘另一因子证明。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "定理",
+    "label": "定理 1.3.11",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 378,
+        "end": 383
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "复习1.3.11的互素因子消去公式，对应gcd-props同名证明。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "定理",
+    "label": "定理 1.4.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 381,
+        "end": 383
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 391,
+        "end": 393
+      }
+    ],
+    "guideHeading": "用 Bézout 证明",
+    "status": "explained",
+    "note": "若c整除ab且(a,c)=1则c整除b，讲解实际构造b=sab+tbc。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 383,
+        "end": 383
+      }
+    ],
+    "guideHeading": "例 1 的直接核对",
+    "status": "explained",
+    "note": "17整除5乘102且与5互素，因此整除102；讲解也用102=6乘17回算。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "定理",
+    "label": "定理 1.4.2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 394,
+        "end": 397
+      }
+    ],
+    "guideHeading": "用 Bézout 证明",
+    "status": "explained",
+    "note": "素数整除积必整除一因子；讲解以不整除首因子便互素，应用一般消去。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "例题",
+    "label": "例 217",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 395,
+        "end": 397
+      }
+    ],
+    "guideHeading": "课件例题与反例意识",
+    "status": "ocr-artifact",
+    "note": "原标签例217实际为例2，17整除29乘51且不整除29，所以整除51；讲解区分素数条件。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "定理",
+    "label": "定理 1.4.3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 396,
+        "end": 397
+      }
+    ],
+    "guideHeading": "用 Bézout 证明",
+    "status": "explained",
+    "note": "素数整除多个数之积则整除至少一项，讲解说明反复使用两因子结论。"
+  },
+  {
+    "topic": "euclid-lemma",
+    "type": "定理",
+    "label": "定理 1.3.12",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 397,
+        "end": 397
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "复习1.3.12的多个互素因子乘积仍互素，gcd-props主题给逐项归纳理由。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "lcm",
+    "type": "定义",
+    "label": "定义 1.4.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 398,
+        "end": 402
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "公倍数与最小正公倍数定义，主题开头说明所有公倍数被最小公倍数整除，小节给构造证明。"
+  },
+  {
+    "topic": "lcm",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 400,
+        "end": 400
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "8、12的最小公倍数24，讲解列零、正负24等公倍数，突出最小正值。"
+  },
+  {
+    "topic": "lcm",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 403,
+        "end": 403
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "三空为绝对值ab、是、是；讲解非零整数通式与两种缩放公式。"
+  },
+  {
+    "topic": "lcm",
+    "type": "练习",
+    "label": "多选题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 404,
+        "end": 404
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "a、b互素正整数的四项选择均真；讲解逐项证明消去、公倍数、最小公倍数与同乘m的两个式子。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "定理 1.4.4",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 405,
+        "end": 424
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 435,
+        "end": 437
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 443,
+        "end": 444
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "互素两数共同整除D则积整除D，且最小公倍数为积；讲解写D=bq再约因子。"
+  },
+  {
+    "topic": "lcm",
+    "type": "例题",
+    "label": "例 412",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 424,
+        "end": 424
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "ocr-artifact",
+    "note": "标签例412是例4与数字12粘连，实际[12,35]=420；讲解按互素乘积计算。"
+  },
+  {
+    "topic": "lcm",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 424,
+        "end": 424
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "不同素数p、q的最小公倍数为pq，讲解明确不同才互素。"
+  },
+  {
+    "topic": "lcm",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 425,
+        "end": 426
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "同标签第一题a、b互素，同乘正整数m后共同整除D，推出mab整除D与[ma,mb]=mab；讲解用D/m和互素消去证明。"
+  },
+  {
+    "topic": "lcm",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 445,
+        "end": 446
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "同标签第二题一般最小公倍数定理在a、b互素时如何表达；讲解把(a,b)=1代入，得[a,b]=ab且ab整除任意共同倍数。"
+  },
+  {
+    "topic": "lcm",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 455,
+        "end": 456
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "同标签第三题正整数k同时整除a、b，求[a/k,b/k]；讲解由缩放反向得到[a,b]/k，不要求约后互素。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "推论 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 427,
+        "end": 437
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "duplicate",
+    "note": "推论1复述同乘m后的公倍数与最小公倍数公式，讲解用D/m解释。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "定理 1.3.10",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 434,
+        "end": 437
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "duplicate",
+    "note": "1.3.10作为推导[a,b]=ab/(a,b)时的归一化互素引用，讲解令a=du,b=dv落实。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "定理 1.4.5",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 439,
+        "end": 447
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "一般最小公倍数整除任何公倍数，且等于正整数积除最大公因数；讲解给归一化证明。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 448,
+        "end": 448
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "最小公倍数的整除等价刻画，讲解说明其为公倍数且整除任一公倍数。"
+  },
+  {
+    "topic": "lcm",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 453,
+        "end": 456
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "explained",
+    "note": "例6若[a,b]=D则[ad,bd]=Dd，讲解给同乘正整数缩放公式。"
+  },
+  {
+    "topic": "lcm",
+    "type": "定理",
+    "label": "定理 1.4.6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 457,
+        "end": 460
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "多元最小公倍数可迭代，讲解解释每步取前面数的共同倍数，四数例实际算600、4200、4200。"
+  },
+  {
+    "topic": "lcm",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 458,
+        "end": 459
+      }
+    ],
+    "guideHeading": "原页数值、符号与选择题",
+    "status": "explained",
+    "note": "120、150、210、35的最小公倍数4200，讲解逐步求最大公因数再求最小公倍数。"
+  },
+  {
+    "topic": "factor",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 477,
+        "end": 479
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "explained",
+    "note": "选择题考查非平凡平方同余分解的条件；讲解说明须排除a与正负b同余，才能保证最大公因数非1非n。"
+  },
+  {
+    "topic": "factor",
+    "type": "定理",
+    "label": "定理 1.5.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 480,
+        "end": 489
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "explained",
+    "note": "整数分解定理，从n整除(a-b)(a+b)及两个排除条件，讲解分别反证最大公因数为1或n。"
+  },
+  {
+    "topic": "factor",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 490,
+        "end": 492
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "explained",
+    "note": "37909与16355、11例题，讲解实际求得两最大公因数227和167并还原乘积。"
+  },
+  {
+    "topic": "factor",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 493,
+        "end": 493
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "explained",
+    "note": "第二例底数5344184与150，讲解先取余36774、37074再求相同两个因数，给平方差倍数核对。"
+  },
+  {
+    "topic": "fta",
+    "type": "定理",
+    "label": "定理 1.6.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 496,
+        "end": 522
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "算术基本定理：素因数乘积分解存在且忽略次序唯一，讲解分别由继续拆因子和素数整除积证明。"
+  },
+  {
+    "topic": "fta",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 522,
+        "end": 522
+      }
+    ],
+    "guideHeading": "存在与唯一分开理解",
+    "status": "explained",
+    "note": "369的素数乘积分解为3乘3乘41，讲解合并同素因子得到3平方乘41。"
+  },
+  {
+    "topic": "fta",
+    "type": "定理",
+    "label": "定理 1.6.2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 523,
+        "end": 525
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "标准分解按素数从小到大、指数正整数，讲解说明补零指数用于比较而非标准非零项。"
+  },
+  {
+    "topic": "fta",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 524,
+        "end": 525
+      }
+    ],
+    "guideHeading": "存在与唯一分开理解",
+    "status": "duplicate",
+    "note": "例2将369的分解写成标准幂式，与例1同一数字不同记法。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "定理",
+    "label": "定理 1.6.3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 526,
+        "end": 535
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "标准分解下d整除n等价于各素因数指数在0至对应指数之间，主题开头给完整等价式，小节演示最小最大指数。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 534,
+        "end": 535
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "思考求因数个数，主题开头解释每个指数独立选择，得各指数加1的乘积。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 536,
+        "end": 544
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "duplicate",
+    "note": "例3以一般标准分解证明正因数计数公式，与前一思考同一内容。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "定理",
+    "label": "定理 1.6.4",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 545,
+        "end": 557
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "最大公因数取各指数最小值、最小公倍数取最大值，讲解给四数逐素数分解。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 553,
+        "end": 556
+      }
+    ],
+    "guideHeading": "与最大公因数的关系",
+    "status": "duplicate",
+    "note": "推论(a,b)[a,b]=ab，对应lcm主题归一化证明，也由本主题最小加最大指数等于指数和得出。",
+    "guideTopic": "lcm"
+  },
+  {
+    "topic": "factor-app",
+    "type": "定理",
+    "label": "定理 1.6.5",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 558,
+        "end": 558
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "多元最大公因数、最小公倍数仍取各指数的最小、最大，讲解明确推广。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 559,
+        "end": 559
+      }
+    ],
+    "guideHeading": "课件例题",
+    "status": "explained",
+    "note": "120、150、210、35的标准分解，讲解实际得最大公因数5、最小公倍数4200。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "定理",
+    "label": "定理 1.6.6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 560,
+        "end": 564
+      }
+    ],
+    "guideHeading": "定理 1.6.6：怎样构造，不只知道存在",
+    "status": "explained",
+    "note": "构造分别整除a、b且互素、乘积为最小公倍数的a'、b'；讲解按每个素数较高幂分配，并说明相等时只放一侧。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 563,
+        "end": 563
+      }
+    ],
+    "guideHeading": "例 6 与例 8：构造和素数幂计数",
+    "status": "explained",
+    "note": "a=4,b=6可取a'=4,b'=3；讲解验证整除、互素与乘积12三个条件。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 564,
+        "end": 564
+      }
+    ],
+    "guideHeading": "定理 1.6.6：怎样构造，不只知道存在",
+    "status": "explained",
+    "note": "a=1210,b=363的两组构造(10,363)、(1210,3)，讲解核对共同乘积3630并指出重复放11平方的错误。"
+  },
+  {
+    "topic": "factor-app",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 565,
+        "end": 581
+      }
+    ],
+    "guideHeading": "例 6 与例 8：构造和素数幂计数",
+    "status": "explained",
+    "note": "已核原图：p^α恰好整除n时，p^α不能整除组合数C(n,p)。讲解计算其p指数恰为α减1，区别于OCR遗漏的不整除符号。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "定理",
+    "label": "定理 1.7.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 586,
+        "end": 586
+      }
+    ],
+    "guideHeading": "素数计数函数",
+    "status": "explained",
+    "note": "原Chebyshev不等式常数为ln2/3与6ln2，x≥2；讲解给实际界、常数近似及粗界含义。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "定理",
+    "label": "定理 1.7.2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 586,
+        "end": 586
+      }
+    ],
+    "guideHeading": "素数计数函数",
+    "status": "explained",
+    "note": "素数定理π(x)/(x/lnx)趋于1，讲解说明相对渐近而非每点等式。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 589,
+        "end": 589
+      }
+    ],
+    "guideHeading": "作业与阶乘原例逐步计算",
+    "status": "explained",
+    "note": "习题1.8(32)求1613、3589的Bézout系数，讲解列除法链并得s=负1226,t=551，乘回为1。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "定理",
+    "label": "定理",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 592,
+        "end": 592
+      }
+    ],
+    "guideHeading": "阶乘中素因数的指数",
+    "status": "explained",
+    "note": "阶乘素数幂指数公式，讲解逐层数p、p平方倍数，避免漏计重复因子。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 592,
+        "end": 592
+      }
+    ],
+    "guideHeading": "阶乘中素因数的指数",
+    "status": "explained",
+    "note": "n!的标准分解指数由各p的floor求和得到，讲解解释计算到p幂大于n停止。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 593,
+        "end": 593
+      }
+    ],
+    "guideHeading": "作业与阶乘原例逐步计算",
+    "status": "explained",
+    "note": "1000!末尾零为200+40+8+1=249，讲解以2、5配对证明。原同页5^α恰好整除1000!练习亦给α=249。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 593,
+        "end": 593
+      }
+    ],
+    "guideHeading": "作业与阶乘原例逐步计算",
+    "status": "explained",
+    "note": "原例1同页另有未独立标注练习：5^α恰好整除1000!，求α。讲解计算200+40+8+1=249并解释恰好整除符号；保留原索引例1标签作为该页入口。"
+  },
+  {
+    "topic": "prime-dist",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 593,
+        "end": 593
+      }
+    ],
+    "guideHeading": "作业与阶乘原例逐步计算",
+    "status": "explained",
+    "note": "30!标准分解完整列出2指数26、3指数14、5指数7等全部十个素数因子。"
+  },
+  {
+    "topic": "2-intro",
+    "type": "原页",
+    "label": "本章导航与原页说明",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 1,
+        "end": 3
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "原页导航与本章学习说明，讲解给同余、剩余系、欧拉函数、三个定理和快速幂的学习路径。"
+  },
+  {
+    "topic": "congruence",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 617,
+        "end": 650
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 392,
+        "end": 425
+      }
+    ],
+    "guideHeading": "类和代表元有什么区别",
+    "status": "explained",
+    "note": "按模6给整数分类的思考，对应classes主题的C_a=a+6Z及六个互不相交的类。",
+    "guideTopic": "classes"
+  },
+  {
+    "topic": "congruence",
+    "type": "定义",
+    "label": "定义 2.1.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 652,
+        "end": 653
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 427,
+        "end": 428
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "主题开头给同余定义m整除a减b及整数倍、余数的等价形式；本小节由整除差证明等价关系。"
+  },
+  {
+    "topic": "congruence",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 653,
+        "end": 653
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 428,
+        "end": 428
+      }
+    ],
+    "guideHeading": "三种等价关系性质",
+    "status": "explained",
+    "note": "26、8、负1模9同余，讲解按差为9的倍数具体核对。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.1",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 658,
+        "end": 659
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 433,
+        "end": 434
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "a同余b等价于a=b+qm，congruence主题给等价形式，本节用67除8实际验证。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 659,
+        "end": 659
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 434,
+        "end": 434
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "67=8乘8+3，所以67模8余3，讲解写完整原例。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 672,
+        "end": 676
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 447,
+        "end": 451
+      }
+    ],
+    "guideHeading": "三种等价关系性质",
+    "status": "explained",
+    "note": "同余自反、对称、传递，congruence主题分别由差为零、差变号、差相加证明。",
+    "guideTopic": "congruence"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 674,
+        "end": 674
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 449,
+        "end": 449
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "29、11、2模9同余，讲解给三个差18、9、27并对应三性质。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 675,
+        "end": 679
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 450,
+        "end": 454
+      }
+    ],
+    "guideHeading": "类和代表元有什么区别",
+    "status": "explained",
+    "note": "模5所有同余等价类，classes主题写C_j=j+5Z，j从0到4，说明相交必相同。",
+    "guideTopic": "classes"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 677,
+        "end": 678
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 452,
+        "end": 453
+      }
+    ],
+    "guideHeading": "三种等价关系性质",
+    "status": "explained",
+    "note": "同余当且仅当最小非负余数相同，congruence开头给等价形式；带余唯一性解释标准余数不能不同。",
+    "guideTopic": "congruence"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 678,
+        "end": 678
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 453,
+        "end": 453
+      }
+    ],
+    "guideHeading": "三种等价关系性质",
+    "status": "explained",
+    "note": "58、92除17均余7，congruence主题给具体结果。",
+    "guideTopic": "congruence"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 680,
+        "end": 680
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 455,
+        "end": 455
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "a余2、b余5模6，原两空按图为a+b余1、ab余4，讲解分别计算。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.4",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 681,
+        "end": 692
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 456,
+        "end": 467
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "加减乘、乘整数与非负整数次幂保持同余，主题开头给规则，小节用39、22实际验证。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 684,
+        "end": 684
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 459,
+        "end": 459
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "39、22模7分别余4、1，和余5、积余4，讲解逐项算出。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 685,
+        "end": 692
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 460,
+        "end": 467
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "4k+3型正整数不能是两个整数平方和，讲解列平方模4余0、1，和只余0、1、2。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 693,
+        "end": 694
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 468,
+        "end": 469
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "单选首帧a^3同余1求a^301，讲解拆301=3乘100+1，答案a。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 693,
+        "end": 694
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 468,
+        "end": 469
+      }
+    ],
+    "guideHeading": "原页基础例题与平方和障碍",
+    "status": "explained",
+    "note": "单选后一帧改求a^302+a^301，原标签相同但题面不同；讲解分别化两项，答案a平方加a。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 704,
+        "end": 705
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "guideHeading": "幂的题目",
+    "status": "explained",
+    "note": "同标签日期题：2^3268模7余2，从题设星期五加两天为星期日；讲解指出原公历日期与星期五不符，按明确星期条件计算。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 704,
+        "end": 705
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "guideHeading": "幂的题目",
+    "status": "explained",
+    "note": "同标签练习1：1996^100除7余1，讲解底数1996同余1。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 704,
+        "end": 705
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "guideHeading": "幂的题目",
+    "status": "explained",
+    "note": "同标签练习2：80^20除13余9，讲解底数化2及2^6同余负1。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 704,
+        "end": 705
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "guideHeading": "幂的题目",
+    "status": "explained",
+    "note": "同标签练习3：641整除2^32加1。讲解结合5乘2^7同余负1及5^4同余负16，四次方得到所需结果。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 704,
+        "end": 705
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 479,
+        "end": 480
+      }
+    ],
+    "guideHeading": "幂的题目",
+    "status": "explained",
+    "note": "同标签练习4：1949^(1979^2000)除7余3。讲解先求上层指数模6为1，明确按幂塔读题。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.5",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 707,
+        "end": 747
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 482,
+        "end": 522
+      }
+    ],
+    "guideHeading": "数位整除判别的来源",
+    "status": "explained",
+    "note": "整数系数多项式可逐项替换同余系数及自变量，主题开头给规则，小节代入十进制和千进制应用。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 718,
+        "end": 722
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 493,
+        "end": 497
+      }
+    ],
+    "guideHeading": "数位整除判别的来源",
+    "status": "explained",
+    "note": "5874192数字和36，因此同时被3、9整除，讲解实际相加。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 726,
+        "end": 736
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 501,
+        "end": 511
+      }
+    ],
+    "guideHeading": "数位整除判别的来源",
+    "status": "explained",
+    "note": "126637693按三位分组交错和693减637加126=182，被7、13整除而不被11整除；讲解分别判断。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.6",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 738,
+        "end": 747
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 513,
+        "end": 522
+      }
+    ],
+    "guideHeading": "数位整除判别的来源",
+    "status": "explained",
+    "note": "数字和判3与9整除，讲解由10同余1证明。"
+  },
+  {
+    "topic": "congruence-test",
+    "type": "定理",
+    "label": "定理 2.1.7",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 748,
+        "end": 754
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 523,
+        "end": 529
+      }
+    ],
+    "guideHeading": "数位整除判别的来源",
+    "status": "explained",
+    "note": "三位分组交错和判7、11、13，讲解由1000同余负1证明，避免混为同一个整除结论。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2.1.8",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 758,
+        "end": 785
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 533,
+        "end": 560
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "因子与模互素才能保持原模约分，一般降模到m除最大公因数；讲解比较60、18模7与14。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 764,
+        "end": 766
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 539,
+        "end": 541
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "66同余3模7，因3与7互素约3得22同余1，已给实际原例。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 768,
+        "end": 784
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 543,
+        "end": 559
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "第一组思考比较60同余18在模7、14下约2，讲解区分保持原模与同时降模。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 796,
+        "end": 797
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 571,
+        "end": 572
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "第二组思考同时约去数与模的非零公因子，讲解用整除整数等式证明双向等价。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 825,
+        "end": 830
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 600,
+        "end": 605
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "第三组思考最大公因数不变及逆命题，讲解证明(a,m)=(b,m)，以2、4模6反驳逆向。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 857,
+        "end": 864
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 632,
+        "end": 639
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "第四组思考4x同余9模6无解，讲解4x减6k恒偶，与奇数9矛盾。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 772,
+        "end": 779
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 547,
+        "end": 554
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "第一组推论为互素消去的等价关系，讲解说明同乘总可、逆向要互素。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 798,
+        "end": 800
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 573,
+        "end": 575
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "第二组推论ad同余bd模md与a同余b模m等价，讲解同时约非零d。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 818,
+        "end": 822
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 593,
+        "end": 597
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "第三组推论两两互素模可合成乘积模，讲解先最小公倍数再以互素换乘积。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 773,
+        "end": 785
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 548,
+        "end": 560
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "第一组练习检验模7与14下约2，讲解有原数比较。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 852,
+        "end": 856
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 627,
+        "end": 631
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "第二组练习3x+7同余9模11，讲解移项再乘逆元4得x余8。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 786,
+        "end": 800
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 561,
+        "end": 575
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "例11数与模同时约非零d，讲解由md整除d(a-b)等价于m整除a-b解释。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 792,
+        "end": 794
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 567,
+        "end": 569
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "同号例12第一内容为60同余18模14，同除2得30同余9模7；与逆元方程分开。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 858,
+        "end": 859
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 633,
+        "end": 634
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "同号例12另一内容169x同余9模121，讲解用逆元58得x同余38。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 793,
+        "end": 793
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 568,
+        "end": 568
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "ocr-artifact",
+    "note": "标签定理2实际为2.1.10，同余两数与模同除公因数；讲解给同时缩放与约去规则。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 801,
+        "end": 822
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 576,
+        "end": 597
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "ocr-artifact",
+    "note": "标签定理2这一组为2.1.11、2.1.12，降到因数模及合并最小公倍数模；讲解分别说明。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 602,
+        "end": 605
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "ocr-artifact",
+    "note": "标签定理2另一组为2.1.13最大公因数不变，讲解从a=b+km证明。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 847,
+        "end": 847
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 622,
+        "end": 622
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "ocr-artifact",
+    "note": "标签定理2在选择题附近误截；实际模324同余等价于模4且模81同余，讲解给模2、3过弱的反例。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2.1.9",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 799,
+        "end": 799
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 574,
+        "end": 574
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "定理2.1.9实际为ka同余kb模km，k正整数，并非幂；讲解差为kmt的证明。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 800,
+        "end": 800
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 575,
+        "end": 575
+      }
+    ],
+    "guideHeading": "课件对比例子",
+    "status": "explained",
+    "note": "50同余35模15，同除5得10同余7模3，讲解写完整数值。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 14",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 809,
+        "end": 811
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 584,
+        "end": 586
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "60同余4模14可降到模2、7，讲解实际核对差56。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 15",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 819,
+        "end": 822
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "不同素数p、q的同余合并到pq，讲解以互素最小公倍数说明。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 1.3.3",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 825,
+        "end": 827
+      },
+      {
+        "source": "lesson-33907436",
+        "start": 847,
+        "end": 847
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 600,
+        "end": 602
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 622,
+        "end": 622
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "duplicate",
+    "note": "复习1.3.3供a=b+km的最大公因数不变证明使用；讲解另给公因数双向整除。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "定理",
+    "label": "定理 2.1.13",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 827,
+        "end": 830
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "最大公因数不变及逆命题，讲解给(a,m)=(b,m)证明和2、4模6反例。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "例题",
+    "label": "例 16",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 831,
+        "end": 840
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 606,
+        "end": 615
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "explained",
+    "note": "n的正整数次幂非0、1类则某素因数同次幂亦非0、1，讲解以标准分解反证并说明零类情形。"
+  },
+  {
+    "topic": "congruence-props",
+    "type": "练习",
+    "label": "多选题",
+    "sources": [
+      {
+        "source": "lesson-33907436",
+        "start": 842,
+        "end": 843
+      },
+      {
+        "source": "lesson-34019852",
+        "start": 617,
+        "end": 618
+      }
+    ],
+    "guideHeading": "同时缩放与九项多选",
+    "status": "explained",
+    "note": "已核九选项原图，(a,b)=2及5a同余5b模8下A至I全真；讲解逐项说明，尤其F除2与I倍模。"
+  },
+  {
+    "topic": "classes",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 647,
+        "end": 653
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 7,
+        "end": 13
+      }
+    ],
+    "guideHeading": "类和代表元有什么区别",
+    "status": "explained",
+    "note": "第一组思考关于剩余类划分，讲解从共同元素推出同余，说明两类相等或不交。"
+  },
+  {
+    "topic": "classes",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 693,
+        "end": 695
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 53,
+        "end": 55
+      }
+    ],
+    "guideHeading": "怎样判断",
+    "status": "explained",
+    "note": "已核原图：给定m个整数怎样判为模m完全剩余系；complete主题给数量与两两不同余的判据及逐个取标准余数的做法。",
+    "guideTopic": "complete"
+  },
+  {
+    "topic": "classes",
+    "type": "定理",
+    "label": "定理 2.2.1",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 654,
+        "end": 675
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 14,
+        "end": 35
+      }
+    ],
+    "guideHeading": "类和代表元有什么区别",
+    "status": "explained",
+    "note": "同余把整数划为m个不交类，讲解给C_a=a+mZ及相交判据。"
+  },
+  {
+    "topic": "classes",
+    "type": "定义",
+    "label": "定义 2.2.1",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 676,
+        "end": 686
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 36,
+        "end": 46
+      }
+    ],
+    "guideHeading": "类和代表元有什么区别",
+    "status": "explained",
+    "note": "剩余类与剩余、代表元定义，讲解以模6的1、7、13区分无限集合与具体整数。"
+  },
+  {
+    "topic": "classes",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 687,
+        "end": 690
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 47,
+        "end": 50
+      }
+    ],
+    "guideHeading": "怎样判断",
+    "status": "explained",
+    "note": "原模6含负数代表例，complete主题逐项取标准余数0至5，验证每类一个。",
+    "guideTopic": "complete"
+  },
+  {
+    "topic": "classes",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 691,
+        "end": 692
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 51,
+        "end": 52
+      }
+    ],
+    "guideHeading": "怎样判断",
+    "status": "explained",
+    "note": "原例列常用代表范围，complete主题写非负、正、非正、负与奇偶模绝对值最小的完整范围。",
+    "guideTopic": "complete"
+  },
+  {
+    "topic": "complete",
+    "type": "定理",
+    "label": "定理 2.2.2",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 696,
+        "end": 699
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 56,
+        "end": 59
+      }
+    ],
+    "guideHeading": "怎样判断",
+    "status": "explained",
+    "note": "m个整数两两模m不同余即完全剩余系，讲解以数数量再化标准余数判断。"
+  },
+  {
+    "topic": "complete",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 700,
+        "end": 710
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 60,
+        "end": 70
+      }
+    ],
+    "guideHeading": "例 3、例 4 的实际遍历",
+    "status": "explained",
+    "note": "例3为模10的3k，讲解列十个实际数及标准余数。"
+  },
+  {
+    "topic": "complete",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 703,
+        "end": 703
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 63,
+        "end": 63
+      }
+    ],
+    "guideHeading": "例 3、例 4 的实际遍历",
+    "status": "explained",
+    "note": "第一道单选固定b时k+b总保留完全剩余系，讲解平移不改变差。"
+  },
+  {
+    "topic": "complete",
+    "type": "练习",
+    "label": "单选题",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 709,
+        "end": 709
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 69,
+        "end": 69
+      }
+    ],
+    "guideHeading": "例 3、例 4 的实际遍历",
+    "status": "explained",
+    "note": "另一道单选任意a的ak未必完整，讲解说明需(a,m)=1，给模6的2k反例。"
+  },
+  {
+    "topic": "complete",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 714,
+        "end": 716
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 74,
+        "end": 76
+      }
+    ],
+    "guideHeading": "例 3、例 4 的实际遍历",
+    "status": "explained",
+    "note": "例4为3k+7，讲解列十个实际数和余数，覆盖模10。"
+  },
+  {
+    "topic": "complete",
+    "type": "定理",
+    "label": "定理 2.2.3",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 718,
+        "end": 718
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 78,
+        "end": 78
+      }
+    ],
+    "guideHeading": "仿射遍历定理",
+    "status": "explained",
+    "note": "互素a时ak+b遍历，讲解由两项同余约a证明不重复，并说明条件必要。"
+  },
+  {
+    "topic": "complete",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 719,
+        "end": 720
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 79,
+        "end": 80
+      }
+    ],
+    "guideHeading": "仿射遍历定理",
+    "status": "explained",
+    "note": "m=10,a=7,b=5，讲解给5、12至68十个原数并说明余数各一次。"
+  },
+  {
+    "topic": "complete",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 720,
+        "end": 720
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 80,
+        "end": 80
+      }
+    ],
+    "guideHeading": "仿射遍历定理",
+    "status": "explained",
+    "note": "原练习标准余数和为m(m-1)/2，讲解由0至m减1各出现一次得到。"
+  },
+  {
+    "topic": "complete",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 721,
+        "end": 727
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 81,
+        "end": 87
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "duplicate",
+    "note": "例6的2、3两模组合在multi-residue主题继续讲，六格表列完整组合。",
+    "guideTopic": "multi-residue"
+  },
+  {
+    "topic": "complete",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 721,
+        "end": 727
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 81,
+        "end": 87
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "duplicate",
+    "note": "同一例6三空为2、3、6，multi-residue主题分别解释两个平移与双变量合成。",
+    "guideTopic": "multi-residue"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 728,
+        "end": 741
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 88,
+        "end": 101
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "explained",
+    "note": "2、3两模例6，讲解列六格表及三个遍历结论，强调变量各在自身范围内独立变化。"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "定理",
+    "label": "定理 2.1.11",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 730,
+        "end": 731
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 90,
+        "end": 91
+      }
+    ],
+    "guideHeading": "改变模与合并模",
+    "status": "duplicate",
+    "note": "证明中复习2.1.11降模，congruence-props主题说明乘积模可降到各因数模。",
+    "guideTopic": "congruence-props"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "定理",
+    "label": "定理 2.2.4",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 742,
+        "end": 742
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 102,
+        "end": 102
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "explained",
+    "note": "两互素模合成完全剩余系，讲解分别降模约系数，以组合总数证明覆盖。"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 747,
+        "end": 749
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 107,
+        "end": 109
+      }
+    ],
+    "guideHeading": "模 4 与模 5 的完全组合表",
+    "status": "explained",
+    "note": "例4是4、5两模的完全系，讲解给全部20个标准余数的表，区别于简化系八项。"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 752,
+        "end": 752
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 112,
+        "end": 112
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "explained",
+    "note": "不同素数p、q的qx+py同余任意c恰有标准范围一组参数，讲解由无重复与pq个组合证明。"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "定理",
+    "label": "定理 2.2.5",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 753,
+        "end": 757
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 113,
+        "end": 117
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "explained",
+    "note": "多两两互素模的M_i参数组合，讲解写一般式，并解模3、5、7经典题得23。"
+  },
+  {
+    "topic": "multi-residue",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34019852",
+        "start": 759,
+        "end": 764
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 119,
+        "end": 124
+      }
+    ],
+    "guideHeading": "为何不会重复",
+    "status": "explained",
+    "note": "10x同余10模6先化x=1+3t，讲解列新模6、9、12、15各解类；另给t余1模3后x余4模9。"
+  },
+  {
+    "topic": "phi",
+    "type": "定义",
+    "label": "定义 2.3.1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 130,
+        "end": 139
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "欧拉函数数0至m减1中互素数，主题开头说明φ(1)=1与φ(10)=4。"
+  },
+  {
+    "topic": "phi",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 132,
+        "end": 139
+      }
+    ],
+    "guideHeading": "先数清对象",
+    "status": "explained",
+    "note": "原例φ(10)=4、φ(7)=6、φ(1)=1，讲解列互素代表并说明模1特例。"
+  },
+  {
+    "topic": "phi",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 136,
+        "end": 139
+      }
+    ],
+    "guideHeading": "先数清对象",
+    "status": "explained",
+    "note": "素数p的φ(p)=p减1，原指定p=11时讲解列1至10，得10。"
+  },
+  {
+    "topic": "phi",
+    "type": "定理",
+    "label": "定理 2.3.1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 140,
+        "end": 154
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "素数幂φ(p^α)=p^α减p^(α减1)，讲解数p倍数并列27的排除列表。"
+  },
+  {
+    "topic": "phi",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 153,
+        "end": 154
+      }
+    ],
+    "guideHeading": "素数幂原例与练习",
+    "status": "explained",
+    "note": "例3的φ(8)=4，讲解列1、3、5、7四个互素代表。"
+  },
+  {
+    "topic": "phi",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 154,
+        "end": 154
+      }
+    ],
+    "guideHeading": "素数幂原例与练习",
+    "status": "explained",
+    "note": "练习1024=2^10，讲解排512个偶数，φ(1024)=512。"
+  },
+  {
+    "topic": "phi",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 156,
+        "end": 162
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "以模6找所有互素整数，reduced主题给6k+1、6k+5两整类。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "phi",
+    "type": "定理",
+    "label": "定理 1.3.3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 160,
+        "end": 162
+      }
+    ],
+    "guideHeading": "最关键的变换",
+    "status": "duplicate",
+    "note": "复习1.3.3支持同余代表互素性不变，gcd主题给公因数双向证明，并反驳(a,b)=(a,c)的错误替换。",
+    "guideTopic": "gcd"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 2.3.2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 163,
+        "end": 183
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "同一类两个代表与模互素性质等价，讲解用最大公因数不变解释，并给模6整类。"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 165,
+        "end": 167
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "ocr-artifact",
+    "note": "定理2实际为2.3.2的截断编号，同类代表互素性等价，对应同一解释。"
+  },
+  {
+    "topic": "reduced",
+    "type": "定义",
+    "label": "定义 2.3.2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 170,
+        "end": 183
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "简化剩余类定义，主题开头说明互素类与每类代表，后以模6给实际整类。"
+  },
+  {
+    "topic": "reduced",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 171,
+        "end": 171
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "第一题思考模6的所有互素整数，讲解列6k+1与6k+5。"
+  },
+  {
+    "topic": "reduced",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 178,
+        "end": 180
+      }
+    ],
+    "guideHeading": "素数幂原例与练习",
+    "status": "explained",
+    "note": "第二题思考模m有多少简化类，phi主题解释恰为φ(m)。",
+    "guideTopic": "phi"
+  },
+  {
+    "topic": "reduced",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 220,
+        "end": 220
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "第三题b非互素时ax同余b，讲解全体整数中仍唯一解但解非互素，以2x同余3模9得6解释。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 173,
+        "end": 173
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 187,
+        "end": 189
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "模6的两个简化类是1类与5类，讲解给1、5及负5、17两种代表系。"
+  },
+  {
+    "topic": "reduced",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 174,
+        "end": 180
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "模5共有四个简化类C1至C4，讲解明确列出。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 16",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 182,
+        "end": 182
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "例16复习两个与c互素因子的积仍互素，gcd-props主题用互素因子消去说明。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 1.3.11",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 182,
+        "end": 182
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "复习1.3.11的(ab,c)=(b,c)，gcd-props主题写Bézout乘b的双向公因数证明。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 1.3.12",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 182,
+        "end": 182
+      }
+    ],
+    "guideHeading": "两条转换性质的证明补全",
+    "status": "duplicate",
+    "note": "复习1.3.12多个互素因子的积，gcd-props主题说明逐个加入的归纳步骤。",
+    "guideTopic": "gcd-props"
+  },
+  {
+    "topic": "reduced",
+    "type": "定义",
+    "label": "定义 2.3.3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 184,
+        "end": 190
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "简化剩余系每可逆类选一代表，主题给数量、互素、两两不同余三判据，补充模30八项。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 190,
+        "end": 190
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "原例6含模30代表1、7、11、13、17、19、23、29与素数p的1至p减1，讲解实际写出。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 191,
+        "end": 191
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "例7四种范围中筛互素数，讲解列非负、正、非正、负区间，解释负代表有效。"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 2.3.3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 194,
+        "end": 199
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "φ(m)个互素且两两不同余的整数即简化系，主题开头完整给三判据。"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 2.3.4",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 200,
+        "end": 204
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "互素a乘简化系只重排，讲解分别说明积互素及约a得无重复。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 205,
+        "end": 205
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 227,
+        "end": 228
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "m=10,a=7的实际重排，讲解列7、21、49、63，标准余数7、1、9、3及逆元3。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 206,
+        "end": 226
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "模9六个可逆类的重排，讲解以a=2逐个算2、4、8、1、5、7，并说明一般理由。"
+  },
+  {
+    "topic": "reduced",
+    "type": "定理",
+    "label": "定理 2.3.5",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 230,
+        "end": 232
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 243,
+        "end": 249
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "互素便存在唯一逆元类，讲解用重排及Bézout解释，并补m>1或模1代表0的边界。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 233,
+        "end": 242
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 250,
+        "end": 255
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "模7逆元表完整对应1、4、5、2、3、6，讲解逐对乘积余1。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 251,
+        "end": 255
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "explained",
+    "note": "5x+6同余13模11，讲解化5x余7再乘逆元9，得x余8。"
+  },
+  {
+    "topic": "reduced",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 256,
+        "end": 263
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "635模737逆元513，讲解列五行除法链、系数负224和193，乘回635乘513=737乘442+1。"
+  },
+  {
+    "topic": "reduced",
+    "type": "练习",
+    "label": "填空题",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 264,
+        "end": 264
+      }
+    ],
+    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "status": "explained",
+    "note": "两模互素的填空，m2k1模m1遍历、m1k2模m2遍历，两空m1、m2；讲解强调此时未相加。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 2.3.6",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 291,
+        "end": 291
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 296,
+        "end": 301
+      }
+    ],
+    "guideHeading": "两个模的简化剩余系",
+    "status": "explained",
+    "note": "两互素模的简化系合成，reduced主题给互素性、无重复及参数计数证明。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 292,
+        "end": 293
+      }
+    ],
+    "guideHeading": "两个模的简化剩余系",
+    "status": "explained",
+    "note": "4、5两模合成八个模20可逆类，讲解列1、3、7、9、11、13、17、19。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 14",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 294,
+        "end": 295
+      }
+    ],
+    "guideHeading": "两个模的简化剩余系",
+    "status": "explained",
+    "note": "8、9两模合成24类，讲解完整给4乘6表并说明均与72互素。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 23.6",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 299,
+        "end": 300
+      }
+    ],
+    "guideHeading": "两个模的简化剩余系",
+    "status": "ocr-artifact",
+    "note": "定理23.6漏小数点，实际复述2.3.6两模简化系定理。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 2.3.7",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 302,
+        "end": 319
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "欧拉函数互素乘法性，主题开头以两个简化系参数组合计数证明，须互素条件。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 1577",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 304,
+        "end": 312
+      }
+    ],
+    "guideHeading": "例 15、例 16 与 72 的计算",
+    "status": "ocr-artifact",
+    "note": "例1577实际为例15，φ(77)=φ(7)φ(11)=60，讲解算出6乘10。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 1630",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 308,
+        "end": 312
+      }
+    ],
+    "guideHeading": "例 15、例 16 与 72 的计算",
+    "status": "ocr-artifact",
+    "note": "例1630实际为例16，φ(30)=1乘2乘4=8，讲解给素因数分解。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 312,
+        "end": 312
+      }
+    ],
+    "guideHeading": "例 15、例 16 与 72 的计算",
+    "status": "explained",
+    "note": "72=8乘9两因子互素，讲解φ(72)=4乘6=24。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 2.3.8",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 319,
+        "end": 319
+      }
+    ],
+    "guideHeading": "正文开头",
+    "status": "explained",
+    "note": "欧拉函数标准分解公式，主题给指数乘积和m乘各不同素数(1减1/p)，说明只取不同素因数。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "推论",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 320,
+        "end": 329
+      }
+    ],
+    "guideHeading": "两个应用",
+    "status": "explained",
+    "note": "不同素数p、q的φ(pq)=pq减p减q加1，讲解由(p减1)(q减1)推得并用于恢复因子。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 17",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 325,
+        "end": 329
+      }
+    ],
+    "guideHeading": "两个应用",
+    "status": "explained",
+    "note": "同号例17第一题已知m=pq及φ(m)恢复素因子，讲解用p+q=m+1减φ(m)解二次方程。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "例题",
+    "label": "例 17",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 334,
+        "end": 335
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 342,
+        "end": 350
+      }
+    ],
+    "guideHeading": "两个应用",
+    "status": "explained",
+    "note": "同号例17另一题m=50按最大公因数分类，讲解列六类数量20、20、4、4、1、1与部分实际集合。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 2.3.9",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 330,
+        "end": 341
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 351,
+        "end": 358
+      }
+    ],
+    "guideHeading": "两个应用",
+    "status": "explained",
+    "note": "φ的因数和等于m，讲解分类(n,m)=d对应n=dk及(k,m/d)=1，最后用因数配对改写。"
+  },
+  {
+    "topic": "phi-props",
+    "type": "定理",
+    "label": "定理 2.3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 355,
+        "end": 356
+      }
+    ],
+    "guideHeading": "两个应用",
+    "status": "ocr-artifact",
+    "note": "定理2.3为动画截断编号与回顾，实际说明d遍历因数时m/d也遍历；讲解列50正因数并解释求和重排。"
+  },
+  {
+    "topic": "euler",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 371,
+        "end": 371
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 381,
+        "end": 382
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 12,
+        "end": 12
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 22,
+        "end": 23
+      }
+    ],
+    "guideHeading": "证明逐步看",
+    "status": "explained",
+    "note": "模11的1至10乘3后重排，讲解列十个标准余数，约去可逆10!得3^10余1。"
+  },
+  {
+    "topic": "euler",
+    "type": "定理",
+    "label": "定理 2.4.1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 379,
+        "end": 386
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 424,
+        "end": 428
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 433,
+        "end": 437
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 20,
+        "end": 27
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 65,
+        "end": 69
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 74,
+        "end": 78
+      }
+    ],
+    "guideHeading": "证明逐步看",
+    "status": "explained",
+    "note": "欧拉定理及多处复习合并，讲解从重排乘积式逐步约去可逆代表，明确互素前提。"
+  },
+  {
+    "topic": "euler",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 383,
+        "end": 383
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 24,
+        "end": 24
+      }
+    ],
+    "guideHeading": "证明逐步看",
+    "status": "explained",
+    "note": "模12的1、5、7、11乘5后余5、1、11、7，讲解得5^4余1及7^4、11^4同结论。"
+  },
+  {
+    "topic": "euler",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 384,
+        "end": 386
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 423,
+        "end": 428
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 433,
+        "end": 437
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 25,
+        "end": 27
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 64,
+        "end": 69
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 74,
+        "end": 78
+      }
+    ],
+    "guideHeading": "证明逐步看",
+    "status": "explained",
+    "note": "原逆向思考a^φ(m)余1推出互素，讲解令d=(a,m)并证明d整除1，不把它误当素性判据。"
+  },
+  {
+    "topic": "euler",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 387,
+        "end": 390
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 28,
+        "end": 31
+      }
+    ],
+    "guideHeading": "课件例题：逆元与 RSA 的小数值模型",
+    "status": "explained",
+    "note": "13x余5模17，讲解13平方余负1、逆元4，得x余3并回代。"
+  },
+  {
+    "topic": "euler",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 429,
+        "end": 432
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 70,
+        "end": 73
+      }
+    ],
+    "guideHeading": "例 4 与例 5 的素数模过渡",
+    "status": "explained",
+    "note": "例4模11、a=2，讲解2^10余1，乘2得2^11余2。"
+  },
+  {
+    "topic": "euler",
+    "type": "例题",
+    "label": "例 5",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 431,
+        "end": 432
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 72,
+        "end": 73
+      }
+    ],
+    "guideHeading": "例 4 与例 5 的素数模过渡",
+    "status": "explained",
+    "note": "例5中23不整除a，则a^22余1再乘a；讲解后一同余a^23余a也覆盖零类。"
+  },
+  {
+    "topic": "fermat",
+    "type": "定理",
+    "label": "定理 2.4.2",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 438,
+        "end": 438
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 79,
+        "end": 79
+      }
+    ],
+    "guideHeading": "两个版本如何联系",
+    "status": "explained",
+    "note": "任意整数a的a^p余a，讲解分p整除a、p不整除a，联系非零类a^(p减1)余1。"
+  },
+  {
+    "topic": "fermat",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 451,
+        "end": 452
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 92,
+        "end": 93
+      }
+    ],
+    "guideHeading": "三个课件推论",
+    "status": "explained",
+    "note": "正整数t的指数t+k(p减1)化为t，讲解分别处理零类与非零类，保留t>0。"
+  },
+  {
+    "topic": "fermat",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 453,
+        "end": 454
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 94,
+        "end": 95
+      }
+    ],
+    "guideHeading": "证明逐步看",
+    "status": "duplicate",
+    "note": "回顾模11乘3的欧拉重排，euler主题完整列十项及乘积约分。",
+    "guideTopic": "euler"
+  },
+  {
+    "topic": "fermat",
+    "type": "练习",
+    "label": "思考",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 454,
+        "end": 464
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 95,
+        "end": 105
+      }
+    ],
+    "guideHeading": "课件阶乘同余的算法",
+    "status": "explained",
+    "note": "思考求1至10乘积模11，wilson主题用逆元完整配对得负1。",
+    "guideTopic": "wilson"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 6",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 465,
+        "end": 471
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 476,
+        "end": 478
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 106,
+        "end": 112
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 117,
+        "end": 119
+      }
+    ],
+    "guideHeading": "课件阶乘同余的算法",
+    "status": "explained",
+    "note": "p=17的七对逆元及剩余1、16，讲解全部列出得16!余负1并推出15!余1。"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 7",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 465,
+        "end": 471
+      },
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 106,
+        "end": 112
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "课件阶乘同余的算法",
+    "status": "explained",
+    "note": "p>5时2(p减3)!加1余0，讲解从(p减1)!补两因子，说明p>3已足够。"
+  },
+  {
+    "topic": "wilson",
+    "type": "定理",
+    "label": "定理 2.4.3",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 474,
+        "end": 475
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 115,
+        "end": 116
+      }
+    ],
+    "guideHeading": "素数为何成立",
+    "status": "explained",
+    "note": "Wilson两个方向，讲解配对非自逆元素、保留正负1；反向用合数真因数整除阶乘与1矛盾。"
+  },
+  {
+    "topic": "wilson",
+    "type": "定理",
+    "label": "定理 2.3.5",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 475,
+        "end": 475
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 116,
+        "end": 116
+      }
+    ],
+    "guideHeading": "可逆的乘法只会重排",
+    "status": "duplicate",
+    "note": "Wilson证明引用2.3.5逆元存在，reduced主题给存在与唯一类解释。",
+    "guideTopic": "reduced"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 10",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "三个课件推论",
+    "status": "explained",
+    "note": "素数p下(a+b)^p余a^p+b^p，fermat主题由两边均余a+b证明，并给二项式路线。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 8",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "末位与末三位例题",
+    "status": "explained",
+    "note": "243^402末三位，讲解φ(1000)=400化为243平方余49，规范写049。"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 9",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "末位与末三位例题",
+    "status": "explained",
+    "note": "幂塔7^(7^7)末位3，讲解先算上层指数模4余3，再用底数末位循环。"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "末位与末三位例题",
+    "status": "explained",
+    "note": "同标签第一练习：77^777末位。讲解化7的循环，777模4余1，答案7；区别于上一幂塔题。"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 479,
+        "end": 482
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 120,
+        "end": 123
+      }
+    ],
+    "guideHeading": "末位与末三位例题",
+    "status": "explained",
+    "note": "同标签第二练习：(a,10)=1证明a^(100n+1)同余a模1000。讲解模125用φ=100、模8用奇数平方余1，再合并，取n≥0。"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 494,
+        "end": 495
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 135,
+        "end": 136
+      }
+    ],
+    "guideHeading": "三个课件推论",
+    "status": "explained",
+    "note": "另一练习复述正指数加k(p减1)化简，fermat主题给零类与非零类两情形。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 11",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 483,
+        "end": 496
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 124,
+        "end": 137
+      }
+    ],
+    "guideHeading": "三个课件推论",
+    "status": "explained",
+    "note": "2^(37乘73减1)模2701，讲解模37用2^36余1、模73用2^9余1，合并得1。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 491,
+        "end": 496
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 132,
+        "end": 137
+      }
+    ],
+    "guideHeading": "原页另外两道思考题",
+    "status": "explained",
+    "note": "思考1：n+1为素数且不整除a、b，则整除a^n减b^n。讲解两项由小定理均余1。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 491,
+        "end": 496
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 132,
+        "end": 137
+      }
+    ],
+    "guideHeading": "三个课件推论",
+    "status": "explained",
+    "note": "思考2：任意整数n有42整除n^7减n。讲解分别模2、3、7证明，再因三模互素合并。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "思考题",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 491,
+        "end": 496
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 132,
+        "end": 137
+      }
+    ],
+    "guideHeading": "原页另外两道思考题",
+    "status": "explained",
+    "note": "思考3：a^(6m)+a^(6n)同余0模7当且仅当7整除a。讲解补m,n≥1：非零类两项均余1，和余2；给零指数反例说明原范围过宽。",
+    "guideTopic": "fermat"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 12",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 497,
+        "end": 499
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 138,
+        "end": 140
+      }
+    ],
+    "guideHeading": "末位与末三位例题",
+    "status": "explained",
+    "note": "9991=100平方减3平方=97乘103，讲解实际分解。"
+  },
+  {
+    "topic": "wilson",
+    "type": "例题",
+    "label": "例 13",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 500,
+        "end": 504
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 141,
+        "end": 145
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "duplicate",
+    "note": "37909的16355平方同余11平方分解，factor主题求两最大公因数227、167。",
+    "guideTopic": "factor"
+  },
+  {
+    "topic": "wilson",
+    "type": "定理",
+    "label": "定理 1.5.1",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 502,
+        "end": 503
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 143,
+        "end": 144
+      }
+    ],
+    "guideHeading": "为什么要排除正负同余",
+    "status": "duplicate",
+    "note": "此处复习1.5.1整数分解定理，factor主题说明排除正负同余后给非平凡因数。",
+    "guideTopic": "factor"
+  },
+  {
+    "topic": "wilson",
+    "type": "练习",
+    "label": "作业",
+    "sources": [
+      {
+        "source": "lesson-34093915",
+        "start": 505,
+        "end": 505
+      },
+      {
+        "source": "lesson-34268933",
+        "start": 146,
+        "end": 146
+      }
+    ],
+    "guideHeading": "简化剩余之和",
+    "status": "explained",
+    "note": "习题2.6(31)须m>2，phi-props主题将a与m减a配对证明和余0，以m=2反例说明边界。",
+    "guideTopic": "phi-props"
+  },
+  {
+    "topic": "fast-power",
+    "type": "例题",
+    "label": "例 1",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 158,
+        "end": 172
+      }
+    ],
+    "guideHeading": "课件四个例题完整算式",
+    "status": "explained",
+    "note": "3^11模7，讲解列四项平方表及11=8+2+1，得余5。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "例题",
+    "label": "例 2",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 173,
+        "end": 189
+      }
+    ],
+    "guideHeading": "课件四个例题完整算式",
+    "status": "explained",
+    "note": "2^1234模789，讲解十一列平方表和逐次乘入，得余481。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "例题",
+    "label": "例 3",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 224,
+        "end": 241
+      }
+    ],
+    "guideHeading": "课件四个例题完整算式",
+    "status": "explained",
+    "note": "312^15模667，讲解列312、629、110、94四项，按15二进制选项得225。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "例题",
+    "label": "例 4",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 242,
+        "end": 279
+      }
+    ],
+    "guideHeading": "课件四个例题完整算式",
+    "status": "explained",
+    "note": "225^575模667，讲解十项平方表和七个选中指数，得312，与RSA往返对应。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 280,
+        "end": 280
+      }
+    ],
+    "guideHeading": "原页练习核对",
+    "status": "explained",
+    "note": "原练习(1)：312^13模667。讲解选8、4、1三指数余数94、110、312相乘，得468。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 280,
+        "end": 280
+      }
+    ],
+    "guideHeading": "原页练习核对",
+    "status": "explained",
+    "note": "原练习(2)：34^60模51。讲解34平方同余34，因此全部正整数次幂均余34，不需互素。"
+  },
+  {
+    "topic": "fast-power",
+    "type": "练习",
+    "label": "练习",
+    "sources": [
+      {
+        "source": "lesson-34268933",
+        "start": 280,
+        "end": 280
+      }
+    ],
+    "guideHeading": "原页练习核对",
+    "status": "explained",
+    "note": "原练习(3)：345^89模101。讲解化底数42，列七项平方表，89=64+16+8+1，余34。"
+  }
+]
