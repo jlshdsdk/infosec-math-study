@@ -54,3 +54,9 @@ test('课件模35高次式的校正答案经逐类回代',()=>{
   assert.deepEqual(roots,[0n,1n,14n,15n,21n,29n]);
   assert.equal(m.mod(f(4n),35n),30n);
 });
+test('课件模7高次式的校正：逐类核对后无根',()=>{
+  const f=x=>20n*x**18n+2n*x**15n-x**10n+4n*x-3n;
+  const values=[];for(let x=0n;x<7n;x++)values.push(m.mod(f(x),7n));
+  assert.deepEqual(values,[4n,1n,4n,2n,3n,5n,3n]);
+  assert.equal(values.includes(0n),false);
+});

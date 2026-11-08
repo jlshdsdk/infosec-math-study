@@ -115,9 +115,12 @@ def build(draft=False):
     if kd.exists():
         (vendor/'katex').mkdir(exist_ok=True)
         for name in ['katex.min.js','katex.min.css']:shutil.copy2(kd/name,vendor/'katex'/name)
+        shutil.copy2(ROOT/'node_modules/katex/LICENSE',vendor/'katex/LICENSE')
         shutil.copytree(kd/'fonts',vendor/'katex/fonts',dirs_exist_ok=True)
     mk=ROOT/'node_modules/marked/lib/marked.umd.js'
-    if mk.exists():shutil.copy2(mk,vendor/'marked.umd.js')
+    if mk.exists():
+        shutil.copy2(mk,vendor/'marked.umd.js')
+        shutil.copy2(ROOT/'node_modules/marked/LICENSE.md',vendor/'marked.LICENSE.md')
     print(json.dumps({'stats':catalog['stats'],'missing_guides':missing,'sources':len(sources)},ensure_ascii=False))
 
 if __name__=='__main__':
