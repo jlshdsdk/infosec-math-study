@@ -1,0 +1,9 @@
+.work/
+node_modules/
+*.log
+.env*
+!.env.example
+tools/github_api.py
+tools/publish.py
+__pycache__/
+*.pyc
