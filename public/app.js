@@ -7,7 +7,7 @@
   const num = value => Number(value || 0).toLocaleString('zh-CN');
   const STORAGE_KEY = 'math-self-study.v1';
   const SCHEMA = 'math-self-study';
-  const DATA_VERSION = 'ppt-20261109c';
+  const DATA_VERSION = 'ppt-20261109d';
   let catalog, lessons = [], lessonMap = new Map(), currentLesson = null;
   let routeToken = 0, activeTab = 'guide', viewer = null, storageOK = true, currentOutlineNode = null, currentFocus = null;
   let searchData, searchPromise, searchWorker, searchWorkerReady = false, searchWorkerFailed = false, searchSequence = 0, searchMatches = [], searchPage = 0;
@@ -258,11 +258,36 @@
     html=sanitizeHTML(html);
     html=html.replace(/MATHPLACEHOLDER(\d+)ENDMATH/g,(full,index)=>{
       const formula=math[Number(index)];if (!formula)return full;
-      try {if(window.katex)return window.katex.renderToString(formula.text,{displayMode:formula.display,throwOnError:false,trust:false,strict:'ignore',output:'htmlAndMathml'});}
-      catch { /* Preserve the readable original on render failure. */ }
-      return `<code class="math-error">${esc(formula.text)}</code>`;
+      // Deferred: formulas render when they enter the viewport (hydrateMath),
+      // so thousand-formula lessons paint their text immediately.
+      return `<span class="math-todo" data-d="${formula.display?1:0}">${esc(formula.text)}</span>`;
     });
     return html;
+  }
+  let mathObserver=null;
+  function renderMathSpans(spans){
+    for(const el of spans){
+      if(!el.isConnected||!el.classList.contains('math-todo'))continue;
+      const tex=el.textContent,display=el.dataset.d==='1';
+      if(window.katex){
+        try{el.innerHTML=window.katex.renderToString(tex,{displayMode:display,throwOnError:false,trust:false,strict:'ignore',output:'htmlAndMathml'});}
+        catch{el.innerHTML=`<code class="math-error">${esc(tex)}</code>`;}
+      }
+      el.classList.remove('math-todo');
+    }
+  }
+  function hydrateMath(root){
+    if(!root)return;
+    const pending=[...root.querySelectorAll('.math-todo')];
+    if(!pending.length)return;
+    if(!('IntersectionObserver' in window)||!window.katex){renderMathSpans(pending);return;}
+    if(mathObserver)mathObserver.disconnect();
+    mathObserver=new IntersectionObserver(entries=>{
+      const hit=entries.filter(entry=>entry.isIntersecting).map(entry=>entry.target);
+      hit.forEach(el=>mathObserver.unobserve(el));
+      if(hit.length)renderMathSpans(hit);
+    },{rootMargin:'1200px 0px'});
+    pending.forEach(el=>mathObserver.observe(el));
   }
   function renderLessonShell(lesson, params = new URLSearchParams()) {
     const chapter=catalog.chapters.find(c=>String(c.id)===String(lesson.chapter));
@@ -615,7 +640,7 @@
     else if(action==='data'){openDialog('#data-dialog');}
     else if(action==='theme'){state.settings.theme=state.settings.theme==='light'?'dark':'light';applySettings();save();notice(`已切换为${state.settings.theme==='dark'?'深色':'浅色'}阅读模式`);}
     else if(action==='font'){const fonts=['normal','large','larger'];state.settings.font=fonts[(fonts.indexOf(state.settings.font)+1)%fonts.length];applySettings();save();notice(`正文字号：${{normal:'标准',large:'大',larger:'更大'}[state.settings.font]}`);}
-    else if(action==='retry')route();
+    else if(action==='retry'){route().then(()=>hydrateMath($('#main')));}
     else if(action==='retry-pages')renderLessonPages(new URLSearchParams());
     else if(action==='bookmark'&&currentLesson){const id=currentLesson.id;const active=!state.bookmarks.includes(id);state.bookmarks=active?[...state.bookmarks,id]:state.bookmarks.filter(v=>v!==id);save();actionNode.classList.toggle('is-active',active);actionNode.setAttribute('aria-pressed',String(active));actionNode.textContent=active?'★ 已收藏':'☆ 收藏';notice(active?'已加入收藏':'已取消收藏');}
     else if(action==='complete'&&currentLesson){const id=currentLesson.id;const active=!state.completed.includes(id);state.completed=active?[...state.completed,id]:state.completed.filter(v=>v!==id);save();updateProgress();actionNode.classList.toggle('is-active',active);actionNode.setAttribute('aria-pressed',String(active));actionNode.textContent=active?'✓ 已完成':'标记为完成';notice(active?'这个知识点，向前一步。已标记完成。':'已取消完成标记');}
@@ -624,7 +649,7 @@
     else if(action==='item-page'){setTab('pages',new URLSearchParams({source:actionNode.dataset.source,page:actionNode.dataset.page}));$('#lesson-panel').scrollIntoView({block:'start'});}
     else if(action==='inline-image')openSlideImage({url:actionNode.dataset.image,alt:actionNode.dataset.alt});
     else if(action==='image-zoom')$('#image-dialog').classList.toggle('zoomed');
-    else if(action==='search-result'){$('#search-dialog').close();if(actionNode.getAttribute('href')===location.hash)route();}
+    else if(action==='search-result'){$('#search-dialog').close();if(actionNode.getAttribute('href')===location.hash)route().then(()=>hydrateMath($('#main')));}
     else if(action==='export')exportProgress();
     else if(action==='reset-practice')renderPracticePanel();
   });
@@ -644,7 +669,7 @@
       event.preventDefault();const tabs=$$('[role="tab"]');let index=tabs.indexOf(event.target);index=event.key==='Home'?0:event.key==='End'?tabs.length-1:(index+(event.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;setTab(tabs[index].dataset.tab);tabs[index].focus();
     }
   });
-  window.addEventListener('hashchange',route);
+  window.addEventListener('hashchange',async()=>{await route();hydrateMath($('#main'));});
   compactScreen.addEventListener('change',()=>{closeMenu();syncSidebar();});
   syncSidebar();
   window.addEventListener('pagehide',()=>{clearTimeout(noteTimer);clearTimeout(slideSaveTimer);disposeSlideReader();if(catalog)save();});
@@ -656,7 +681,7 @@
       if(!Object.keys(outline).length)throw new Error('课件原目录暂未加载，请刷新页面重试。');
       if(!Array.isArray(catalog.chapters)||!catalog.chapters.length||!Array.isArray(catalog.sources))throw new Error('课程目录格式有误，请联系网站维护者。');
       lessons=catalog.chapters.flatMap(chapter=>chapter.sections.flatMap(section=>section.lessons.map(lesson=>({...lesson,chapter:String(chapter.id),section:section.id}))));lessonMap=new Map(lessons.map(lesson=>[lesson.id,lesson]));
-      loadState();renderSidebar();await route();
+      loadState();renderSidebar();await route();hydrateMath($('#main'));
     }catch(error){$('#main').innerHTML=errorHTML(error.message,'reload-app');$('#course-nav').innerHTML='<p class="muted loading-text">目录暂时无法加载。</p>';}
   }
   document.addEventListener('click',event=>{if(event.target.closest('[data-action="reload-app"]'))init();});
