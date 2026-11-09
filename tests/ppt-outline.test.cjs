@@ -39,7 +39,7 @@ test('正式二级逐项等于课件章首页，导学不占正式二级，第3�
   assert.equal(outline[8].title,'群、环、域');
 });
 
-test('三级保留真实数字编号及顺序，不推导3.3.3或伪造第8章数字编号',()=>{
+test('三级保留真实数字编号及顺序，不推导3.3.3或将网站编号冒充PPT原号',()=>{
   const expected={
     '1.1':['1.1.1','1.1.2','1.1.3','1.1.4','1.1.5'],
     '1.2':['1.2.1','1.2.2'],'1.3':['1.3.1','1.3.2','1.3.3','1.3.4','1.3.5','1.3.6','1.3.7'],
@@ -54,7 +54,8 @@ test('三级保留真实数字编号及顺序，不推导3.3.3或伪造第8章�
   for(const node of nodes.filter(node=>node.key===node.section))assert.deepEqual(node.topics.filter(topic=>topic.number).map(topic=>topic.number),expected[node.key]||[],node.key);
   assert.equal(nodeMap.get('3.2.1').title,'两个方程的中国剩余定理');
   assert.equal(nodeMap.get('4.6.3').parts.length,3);
-  assert.deepEqual(nodeMap.get('8.1').topics.filter(topic=>!topic.number).map(topic=>[topic.sourceLabel||null,topic.title]),[
+  const originalHeadingKeys=['8.1-heading-1','8.1-heading-2','8.1-heading-3','8.1-heading-4'];
+  assert.deepEqual(nodeMap.get('8.1').topics.filter(topic=>originalHeadingKeys.includes(topic.key)).map(topic=>[topic.sourceLabel||null,topic.title]),[
     ['三','群的性质'],[null,'群的判定'],['§6.2','群的定义'],['四','置换群']
   ]);
   assert.ok(nodeMap.get('8.2').topics.every(topic=>topic.number===null));
@@ -132,7 +133,7 @@ test('仅见目录与另处已有讲解分别标明，空parts不冒充新的待
   assert.equal(complexity.sources[0].page,265);
   const heading=nodeMap.get('8.1-heading-3');
   assert.equal(heading.readingStatus,'related_reading');
-  assert.equal(heading.readingLabel,'教材标题，讲解见8.1.2');
+  assert.equal(heading.readingLabel,'课件回顾：群的定义，讲解见8.1.2');
   assert.deepEqual(heading.parts,[]);
   assert.equal(heading.coverage,'source_heading');
   assert.equal(heading.number,null);assert.equal(heading.sourceLabel,'§6.2');
@@ -149,16 +150,47 @@ test('仅见目录与另处已有讲解分别标明，空parts不冒充新的待
   }
 });
 
-test('第8章section级核心正文有独立入口标签，26篇讲解完整且恰好映射一次',()=>{
+test('第8章核心正文按课件顺序迁入三级，保留原号、旧key与26篇讲解的独占完整映射',()=>{
   const subgroup=nodeMap.get('8.2'),cosets=nodeMap.get('8.3');
-  assert.equal(subgroup.sectionReadingLabel,'子群定义、循环群与本节例题');
-  assert.equal(cosets.sectionReadingLabel,'陪集定义、正规子群与本节例题');
-  assert.deepEqual(subgroup.parts.map(part=>part.lesson),['subgroup','generated','cyclic','generators','cyclic-subgroup']);
-  assert.deepEqual(cosets.parts.map(part=>part.lesson),['cosets','normal','cyclic-subgroups','small-groups','order-criterion']);
+  const topicKeys={
+    '8.1':['8.1.1','8.1.2','8.1-heading-1','8.1-heading-2','8.1-group-examples','8.1-group-power','8.1-heading-3','8.1-heading-4','8.1-cycles','8.1-cycle-decomp','8.1-parity','8.1-group-table'],
+    '8.2':['8.2-subgroup','8.2-heading-1','8.2-heading-2','8.2-generated','8.2-cyclic','8.2-heading-3','8.2-heading-4','8.2-generators','8.2-heading-5','8.2-cyclic-subgroup'],
+    '8.3':['8.3-cosets-definition','8.3-heading-1','8.3-normal','8.3-heading-2','8.3-cyclic-subgroups','8.3-small-groups','8.3-order-criterion']
+  };
+  for(const [key,keys]of Object.entries(topicKeys)){
+    const section=nodeMap.get(key);
+    assert.deepEqual(section.parts,[],'二级不得重复挂载已迁入三级的正文');
+    assert.deepEqual(section.topics.map(topic=>topic.key),keys,key+': 保持课件知识点顺序与稳定key');
+    assert.deepEqual(section.topics.map(topic=>topic.displayNumber),keys.map((_,i)=>key+'.'+(i+1)));
+    assert.match(section.note,/网站整理/);
+    for(const topic of section.topics){
+      if(topic.number){
+        assert.ok(['8.1.1','8.1.2'].includes(topic.number));
+        assert.equal(topic.numberOrigin,'ppt');
+        assert.equal(topic.displayNumber,topic.number);
+        assert.equal(topic.sourceNumber??topic.number,topic.number);
+      }else{
+        assert.equal(topic.numberOrigin,'website');
+        assert.equal(topic.sourceNumber??null,null,'网站整理号不能进入PPT原号字段');
+        assert.notEqual(topic.key,topic.displayNumber,'显示序号不替代旧路由key');
+      }
+    }
+  }
+  const migrated={
+    '8.2-subgroup':['subgroup'],'8.2-generated':['generated'],'8.2-cyclic':['cyclic'],
+    '8.2-generators':['generators'],'8.2-cyclic-subgroup':['cyclic-subgroup'],
+    '8.3-cosets-definition':['cosets'],'8.3-normal':['normal'],'8.3-cyclic-subgroups':['cyclic-subgroups'],
+    '8.3-small-groups':['small-groups'],'8.3-order-criterion':['order-criterion']
+  };
+  for(const [key,ids]of Object.entries(migrated))assert.deepEqual(nodeMap.get(key).parts.map(part=>part.lesson),ids,key);
+  const originalSources={
+    '8.1-heading-1':152,'8.1-heading-2':152,'8.1-heading-3':311,'8.1-heading-4':2,
+    '8.2-heading-1':41,'8.2-heading-2':77,'8.2-heading-3':158,'8.2-heading-4':195,'8.2-heading-5':269,
+    '8.3-heading-1':471,'8.3-heading-2':514
+  };
+  for(const [key,page]of Object.entries(originalSources))assert.equal(nodeMap.get(key).sources[0].page,page,key+': 保留旧知识点与真实原页');
   for(const section of [subgroup,cosets]){
     assert.equal(section.coverage,'body');
-    assert.match(section.note,/本节正文入口/);
-    assert.match(section.note,/不能代替本节全部正文/);
     assert.ok(section.topics.every(topic=>topic.number===null));
   }
   const rangesByLesson=new Map();
@@ -168,6 +200,10 @@ test('第8章section级核心正文有独立入口标签，26篇讲解完整且�
     rangesByLesson.get(part.lesson).push(range);
   }
   assert.equal(rangesByLesson.size,26);
+  const anchors=new Set(outline['8'].sections.flatMap(section=>[section,...section.topics]).flatMap(node=>node.parts.map(part=>part.anchor)));
+  for(const anchor of ['8-1-heading-1-2','8-1-heading-1-3','8-1-heading-4-2','8-1-heading-4-3','8-1-heading-4-4','8-1-heading-4-5','8-2-1','8-2-2','8-2-3','8-2-4','8-2-5','8-3-1','8-3-2','8-3-3','8-3-4','8-3-5']){
+    assert.ok(anchors.has(anchor),anchor+': 保留迁移前的文章定位锚点');
+  }
   for(const [id,ranges]of rangesByLesson){
     const text=lessons.get(id).guide;
     ranges.sort((a,b)=>a.start-b.start);

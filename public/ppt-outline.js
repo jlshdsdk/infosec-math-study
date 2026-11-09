@@ -1,7 +1,7 @@
 'use strict';
 
-// 正式目录逐项依据课件章首页与原小节标题；内部 key 不是课件编号。
-// parts 仅将已存在的完整讲解定位到相关段落；原 lesson ID、原页与学习记录保持不变。
+// number保存PPT原号，displayNumber为界面学习序号；numberOrigin明确区分来源。
+// 旧目录key、讲解ID、片段锚点与原页证据保持可用。
 window.PPT_OUTLINE = {
   "1": {
     "title": "整数的可除性",
@@ -704,12 +704,7 @@ window.PPT_OUTLINE = {
         "title": "整数分解",
         "chapter": "1",
         "section": "1.5",
-        "parts": [
-          {
-            "lesson": "factor",
-            "anchor": "1-5-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-33847191",
@@ -725,7 +720,98 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "1.5-factor-theorem",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "整数分解定理及证明",
+            "chapter": "1",
+            "section": "1.5",
+            "parts": [
+              {
+                "lesson": "factor",
+                "anchor": "1-5-1",
+                "label": "非平凡平方同余与整数分解定理",
+                "until": "课件取 $n=37909$，$a=16355,b=11$。先检查 $a^2-b^2$ 被 n 整除，再算 $\\gcd(37909,16344)=227$、$\\gcd(37909,16366)=167$，于是 $37909=167\\cdot227$。另一个大数例题沿用完全相同的步骤。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-33907436",
+                "page": 480,
+                "asset": "e89c5496a3902d46765c"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 489,
+                "asset": "e27b49b44bac0974b4ac"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-33907436",
+                "page": 480,
+                "asset": "e89c5496a3902d46765c"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 489,
+                "asset": "e27b49b44bac0974b4ac"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "1.5.1"
+          },
+          {
+            "key": "1.5-factor-examples",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "平方同余分解实例",
+            "chapter": "1",
+            "section": "1.5",
+            "parts": [
+              {
+                "lesson": "factor",
+                "anchor": "1-5-factor-examples-1",
+                "label": "两个平方同余分解实例",
+                "from": "课件取 $n=37909$，$a=16355,b=11$。先检查 $a^2-b^2$ 被 n 整除，再算 $\\gcd(37909,16344)=227$、$\\gcd(37909,16366)=167$，于是 $37909=167\\cdot227$。另一个大数例题沿用完全相同的步骤。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-33907436",
+                "page": 490,
+                "asset": "e58f66d4384747e81a92"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 493,
+                "asset": "8472a2e2691cbf191506"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-33907436",
+                "page": 490,
+                "asset": "e58f66d4384747e81a92"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 493,
+                "asset": "8472a2e2691cbf191506"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "1.5.2"
+          }
+        ],
+        "sourceNumber": "1.5",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       },
       {
         "key": "1.6",
@@ -815,12 +901,7 @@ window.PPT_OUTLINE = {
         "title": "素数定理",
         "chapter": "1",
         "section": "1.7",
-        "parts": [
-          {
-            "lesson": "prime-dist",
-            "anchor": "1-7-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-33847191",
@@ -836,7 +917,118 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "1.7-prime-distribution",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "素数分布、计数函数与素数定理",
+            "chapter": "1",
+            "section": "1.7",
+            "parts": [
+              {
+                "lesson": "prime-dist",
+                "anchor": "1-7-1",
+                "label": "素数分布、Chebyshev不等式与素数定理",
+                "until": "### 阶乘中素因数的指数\n课件补充应用：素数 p 在 $n!$ 中的指数为 $\\sum_{j\\ge1}\\lfloor n/p^j\\rfloor$。第一项统计所有 p 的倍数，第二项给 $p^2$ 的倍数补计一个 p，后续以此类推，直到分母大于 n。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-33907436",
+                "page": 583,
+                "asset": "43c35ed9417daf26c02b"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 584,
+                "asset": "c5521f4ddffca06abb9b"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 586,
+                "asset": "a139ffeb34a7ca389104"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-33907436",
+                "page": 583,
+                "asset": "43c35ed9417daf26c02b"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 584,
+                "asset": "c5521f4ddffca06abb9b"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 586,
+                "asset": "a139ffeb34a7ca389104"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "1.7.1"
+          },
+          {
+            "key": "1.7-factorial-applications",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "阶乘素因数指数与本章练习",
+            "chapter": "1",
+            "section": "1.7",
+            "parts": [
+              {
+                "lesson": "prime-dist",
+                "anchor": "1-7-factorial-applications-1",
+                "label": "阶乘指数、标准分解与本章作业",
+                "from": "### 阶乘中素因数的指数\n课件补充应用：素数 p 在 $n!$ 中的指数为 $\\sum_{j\\ge1}\\lfloor n/p^j\\rfloor$。第一项统计所有 p 的倍数，第二项给 $p^2$ 的倍数补计一个 p，后续以此类推，直到分母大于 n。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-33907436",
+                "page": 592,
+                "asset": "e7561a912b8736db8495"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 593,
+                "asset": "e0a7b8cd0d77246da987"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 589,
+                "asset": "1ab602715d513af93fa1"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-33907436",
+                "page": 592,
+                "asset": "e7561a912b8736db8495"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 593,
+                "asset": "e0a7b8cd0d77246da987"
+              },
+              {
+                "source": "lesson-33907436",
+                "page": 589,
+                "asset": "1ab602715d513af93fa1"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。包含原讲解保留的本章作业，不将作业改称素数定理本身。",
+            "displayNumber": "1.7.2"
+          }
+        ],
+        "sourceNumber": "1.7",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       }
     ]
   },
@@ -1432,12 +1624,7 @@ window.PPT_OUTLINE = {
         "title": "模重复平方计算法",
         "chapter": "2",
         "section": "2.5",
-        "parts": [
-          {
-            "lesson": "fast-power",
-            "anchor": "2-5-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34093915",
@@ -1453,7 +1640,160 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "2.5-power-introduction",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "重复平方入门例题",
+            "chapter": "2",
+            "section": "2.5",
+            "parts": [
+              {
+                "lesson": "fast-power",
+                "anchor": "2-5-power-introduction-1",
+                "label": "从两个模幂例题认识重复平方",
+                "from": "### 课件四个例题完整算式\n计算 $3^{11}\\pmod7$。平方表给出 $3^1\\equiv3$、$3^2\\equiv2$、$3^4\\equiv4$、$3^8\\equiv2$。因 $11=8+2+1$，选中三项相乘：$3^{11}\\equiv2\\cdot2\\cdot3\\equiv5$。",
+                "until": "计算 $312^{15}\\pmod{667}$，平方表为 $312,629,110,94$，分别对应指数 $1,2,4,8$。因 $15=1+2+4+8$，得 $312^{15}\\equiv312\\cdot629\\cdot110\\cdot94\\equiv225$。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34268933",
+                "page": 158,
+                "asset": "21dc1ebddbc96aa12cbc"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 173,
+                "asset": "5b5993624128d5aecd9c"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34268933",
+                "page": 158,
+                "asset": "21dc1ebddbc96aa12cbc"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 173,
+                "asset": "5b5993624128d5aecd9c"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。按课件先举例、后归纳算法的顺序排列。",
+            "displayNumber": "2.5.1"
+          },
+          {
+            "key": "2.5-binary-algorithm",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "二进制算法及运算次数",
+            "chapter": "2",
+            "section": "2.5",
+            "parts": [
+              {
+                "lesson": "fast-power",
+                "anchor": "2-5-1",
+                "label": "指数二进制分解与逐次平方选乘",
+                "until": "### 课件四个例题完整算式\n计算 $3^{11}\\pmod7$。平方表给出 $3^1\\equiv3$、$3^2\\equiv2$、$3^4\\equiv4$、$3^8\\equiv2$。因 $11=8+2+1$，选中三项相乘：$3^{11}\\equiv2\\cdot2\\cdot3\\equiv5$。"
+              },
+              {
+                "lesson": "fast-power",
+                "anchor": "2-5-binary-algorithm-2",
+                "label": "算法的检查方法",
+                "from": "### 检查方法\n平方表先逐行验证，再核对二进制选中的指数之和是否等于原指数。小型结果可与直接幂或欧拉、Fermat 化简交叉检查。网站的“计算练习”会展示平方、乘入和取模的过程，输入来自课件时可以对照原页。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34268933",
+                "page": 200,
+                "asset": "2fd1ea754e210a4542e6"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 223,
+                "asset": "666fa73cc1a8249f7aeb"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34268933",
+                "page": 200,
+                "asset": "2fd1ea754e210a4542e6"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 223,
+                "asset": "666fa73cc1a8249f7aeb"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "2.5.2"
+          },
+          {
+            "key": "2.5-power-applications",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "模幂应用与课件练习",
+            "chapter": "2",
+            "section": "2.5",
+            "parts": [
+              {
+                "lesson": "fast-power",
+                "anchor": "2-5-power-applications-1",
+                "label": "模667计算、原页练习与复合幂",
+                "from": "计算 $312^{15}\\pmod{667}$，平方表为 $312,629,110,94$，分别对应指数 $1,2,4,8$。因 $15=1+2+4+8$，得 $312^{15}\\equiv312\\cdot629\\cdot110\\cdot94\\equiv225$。",
+                "until": "### 检查方法\n平方表先逐行验证，再核对二进制选中的指数之和是否等于原指数。小型结果可与直接幂或欧拉、Fermat 化简交叉检查。网站的“计算练习”会展示平方、乘入和取模的过程，输入来自课件时可以对照原页。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34268933",
+                "page": 224,
+                "asset": "cb99e119b6ae068519ec"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 242,
+                "asset": "9110c795315140c1f94f"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 154,
+                "asset": "889825e8232e112d894f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34268933",
+                "page": 224,
+                "asset": "cb99e119b6ae068519ec"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 242,
+                "asset": "9110c795315140c1f94f"
+              },
+              {
+                "source": "lesson-34268933",
+                "page": 154,
+                "asset": "889825e8232e112d894f"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。复合幂例题原页位于同一份课件第154页，在2.4末尾；原讲解将其作为重复平方的补充应用，保留真实来源。",
+            "displayNumber": "2.5.3"
+          }
+        ],
+        "sourceNumber": "2.5",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       }
     ]
   },
@@ -1553,12 +1893,7 @@ window.PPT_OUTLINE = {
         "title": "中国剩余定理",
         "chapter": "3",
         "section": "3.2",
-        "parts": [
-          {
-            "lesson": "crt-story",
-            "anchor": "3-2-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34268933",
@@ -1583,6 +1918,10 @@ window.PPT_OUTLINE = {
             "section": "3.2",
             "parts": [
               {
+                "lesson": "crt-story",
+                "anchor": "3-2-1"
+              },
+              {
                 "lesson": "crt-two",
                 "anchor": "3-2-1-1"
               }
@@ -1599,6 +1938,11 @@ window.PPT_OUTLINE = {
                 "source": "lesson-34268933",
                 "page": 474,
                 "asset": "1cd4fa6b56ead136734f"
+              },
+              {
+                "source": "section2",
+                "page": 4,
+                "asset": "565559cab758f7dd7914"
               }
             ],
             "coverage": "body_heading_found"
@@ -1992,16 +2336,7 @@ window.PPT_OUTLINE = {
         "title": "一般二次同余式",
         "chapter": "4",
         "section": "4.1",
-        "parts": [
-          {
-            "lesson": "quadratic",
-            "anchor": "4-1-1"
-          },
-          {
-            "lesson": "qr-def",
-            "anchor": "4-1-2"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34927552",
@@ -2017,7 +2352,181 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "4.1-quadratic-reduction",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "一般二次式的化简与配方",
+            "chapter": "4",
+            "section": "4.1",
+            "parts": [
+              {
+                "lesson": "quadratic",
+                "anchor": "4-1-1",
+                "label": "分解模、检查首项系数与等价配方"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 4,
+                "asset": "600ea0cd0c0a6385d6fd"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 9,
+                "asset": "1e32cce579d838e2b20b"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 23,
+                "asset": "cd11b93b250347d1e8ad"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 36,
+                "asset": "6bba87221dc6112c35a5"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 42,
+                "asset": "ea164413257d3bb6377f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 4,
+                "asset": "600ea0cd0c0a6385d6fd"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 9,
+                "asset": "1e32cce579d838e2b20b"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 23,
+                "asset": "cd11b93b250347d1e8ad"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 36,
+                "asset": "6bba87221dc6112c35a5"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 42,
+                "asset": "ea164413257d3bb6377f"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.1.1"
+          },
+          {
+            "key": "4.1-quadratic-residues",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "平方剩余与平方非剩余",
+            "chapter": "4",
+            "section": "4.1",
+            "parts": [
+              {
+                "lesson": "qr-def",
+                "anchor": "4-1-2",
+                "label": "平方剩余定义与模4、模7的例子",
+                "until": "### 曲线点的例题"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 48,
+                "asset": "1fa08bcaebdb950df5d3"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 53,
+                "asset": "18857f3b04962a27fcf5"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 55,
+                "asset": "824402597f10ae2f338d"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 48,
+                "asset": "1fa08bcaebdb950df5d3"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 53,
+                "asset": "18857f3b04962a27fcf5"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 55,
+                "asset": "824402597f10ae2f338d"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.1.2"
+          },
+          {
+            "key": "4.1-curve-points",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "模7曲线点枚举",
+            "chapter": "4",
+            "section": "4.1",
+            "parts": [
+              {
+                "lesson": "qr-def",
+                "anchor": "4-1-curve-points-1",
+                "label": "利用平方剩余表枚举曲线点",
+                "from": "### 曲线点的例题"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 69,
+                "asset": "9bd168186117b6f8f298"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 72,
+                "asset": "edfe490894628b842b29"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 69,
+                "asset": "9bd168186117b6f8f298"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 72,
+                "asset": "edfe490894628b842b29"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.1.3"
+          }
+        ],
+        "sourceNumber": "4.1",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       },
       {
         "key": "4.2",
@@ -2216,16 +2725,7 @@ window.PPT_OUTLINE = {
         "title": "二次互反律",
         "chapter": "4",
         "section": "4.4",
-        "parts": [
-          {
-            "lesson": "reciprocity",
-            "anchor": "4-4-1"
-          },
-          {
-            "lesson": "reciprocity-app",
-            "anchor": "4-4-2"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34927552",
@@ -2241,7 +2741,219 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "4.4-reciprocity-theorem",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "二次互反律及证明",
+            "chapter": "4",
+            "section": "4.4",
+            "parts": [
+              {
+                "lesson": "reciprocity",
+                "anchor": "4-4-1",
+                "label": "二次互反律与换位符号",
+                "until": "### 标准计算顺序\n先将分子模分母化简；拆出 −1、2 的幂和平方因子；对剩下的奇素因子逐个使用互反律；换位后再取模，直到落到补充公式。每次变号单独记录，避免最后丢一个负号。"
+              },
+              {
+                "lesson": "reciprocity",
+                "anchor": "4-4-reciprocity-theorem-2",
+                "label": "整数部分与格点计数证明",
+                "from": "### 原页互反律证明中的整数部分计数\nGauss 引理的整数部分形式给出"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 260,
+                "asset": "dac9eb32e6449541c3b0"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 280,
+                "asset": "d0b8898de7dad3d3e9e3"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 293,
+                "asset": "04c962c979a479936884"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 260,
+                "asset": "dac9eb32e6449541c3b0"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 280,
+                "asset": "d0b8898de7dad3d3e9e3"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 293,
+                "asset": "04c962c979a479936884"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.4.1"
+          },
+          {
+            "key": "4.4-symbol-calculation",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "符号计算与有解判断",
+            "chapter": "4",
+            "section": "4.4",
+            "parts": [
+              {
+                "lesson": "reciprocity",
+                "anchor": "4-4-symbol-calculation-1",
+                "label": "Legendre符号计算与原页练习",
+                "from": "### 标准计算顺序\n先将分子模分母化简；拆出 −1、2 的幂和平方因子；对剩下的奇素因子逐个使用互反律；换位后再取模，直到落到补充公式。每次变号单独记录，避免最后丢一个负号。",
+                "until": "### 原页互反律证明中的整数部分计数\nGauss 引理的整数部分形式给出"
+              },
+              {
+                "lesson": "reciprocity-app",
+                "anchor": "4-4-2",
+                "label": "由符号判断解数与应用概览",
+                "until": "例如课件研究 $x^2\\equiv-3\\pmod p$（p>3），得到有解的奇素数满足 $p\\equiv1\\pmod6$。对 $x^2\\equiv5\\pmod p$，要另外检查 p=2，不能在一开始只讨论奇素数就把它漏掉。"
+              },
+              {
+                "lesson": "reciprocity-app",
+                "anchor": "4-4-symbol-calculation-3",
+                "label": "一般二次同余式练习",
+                "from": "### 两个一般二次式练习\n$x^2-3x+5\\equiv0\\pmod{39}$ 同乘 $4$，得 $(2x-3)^2\\equiv-11\\pmod{39}$。模 $13$ 时右侧为 $2$，而 $2$ 是模 $13$ 非剩余，因此无解。模 $3$ 右侧为 $1$ 并不能挽救另一个子模的失败。",
+                "until": "### 从符号推导素数的形状\n对 $p>3$，互反律给出"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 299,
+                "asset": "3744ca951d6cf2d3ec94"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 301,
+                "asset": "3208551029ebde04cd0d"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 302,
+                "asset": "0214eafc9ad084a42111"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 303,
+                "asset": "f680d0f109e371ff5c5f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 299,
+                "asset": "3744ca951d6cf2d3ec94"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 301,
+                "asset": "3208551029ebde04cd0d"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 302,
+                "asset": "0214eafc9ad084a42111"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 303,
+                "asset": "f680d0f109e371ff5c5f"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.4.2"
+          },
+          {
+            "key": "4.4-prime-form-applications",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "素数形状与证明应用",
+            "chapter": "4",
+            "section": "4.4",
+            "parts": [
+              {
+                "lesson": "reciprocity-app",
+                "anchor": "4-4-prime-form-applications-1",
+                "label": "平方剩余条件与素数形状概览",
+                "from": "例如课件研究 $x^2\\equiv-3\\pmod p$（p>3），得到有解的奇素数满足 $p\\equiv1\\pmod6$。对 $x^2\\equiv5\\pmod p$，要另外检查 p=2，不能在一开始只讨论奇素数就把它漏掉。",
+                "until": "### 两个一般二次式练习\n$x^2-3x+5\\equiv0\\pmod{39}$ 同乘 $4$，得 $(2x-3)^2\\equiv-11\\pmod{39}$。模 $13$ 时右侧为 $2$，而 $2$ 是模 $13$ 非剩余，因此无解。模 $3$ 右侧为 $1$ 并不能挽救另一个子模的失败。"
+              },
+              {
+                "lesson": "reciprocity-app",
+                "anchor": "4-4-prime-form-applications-2",
+                "label": "素数同余条件、无穷多证明与整数表示",
+                "from": "### 从符号推导素数的形状\n对 $p>3$，互反律给出"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34677074",
+                "page": 314,
+                "asset": "fb935ceb9f2521305387"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 320,
+                "asset": "657a4b0cdd3ffe70bf21"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 350,
+                "asset": "b5417fbaeac49bad1161"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 369,
+                "asset": "fb2cc3b41e94d4cca26f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34677074",
+                "page": 314,
+                "asset": "fb935ceb9f2521305387"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 320,
+                "asset": "657a4b0cdd3ffe70bf21"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 350,
+                "asset": "b5417fbaeac49bad1161"
+              },
+              {
+                "source": "lesson-34677074",
+                "page": 369,
+                "asset": "fb2cc3b41e94d4cca26f"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.4.3"
+          }
+        ],
+        "sourceNumber": "4.4",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       },
       {
         "key": "4.5",
@@ -2249,12 +2961,7 @@ window.PPT_OUTLINE = {
         "title": "雅可比符号",
         "chapter": "4",
         "section": "4.5",
-        "parts": [
-          {
-            "lesson": "jacobi",
-            "anchor": "4-5-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34927552",
@@ -2270,7 +2977,200 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "4.5-jacobi-definition",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "Jacobi符号定义与判断局限",
+            "chapter": "4",
+            "section": "4.5",
+            "parts": [
+              {
+                "lesson": "jacobi",
+                "anchor": "4-5-1",
+                "label": "Jacobi定义与合数模下的有解限制",
+                "until": "### 可高效使用的公式"
+              },
+              {
+                "lesson": "jacobi",
+                "anchor": "4-5-jacobi-definition-2",
+                "label": "合数模的例题与反例",
+                "from": "### 例一中的模 $85$ 题",
+                "until": "原页 $x^2\\equiv286\\pmod{563}$ 可不先分解分母，用 Jacobi 规则算得 $-1$，立即排除有解。只有想从符号 $1$ 推出有根时，才需要额外确认分母为素数或逐个检查素数幂条件。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34767597",
+                "page": 4,
+                "asset": "36d649dcb468e270ca49"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 9,
+                "asset": "2a68c4a364399c759a2d"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 15,
+                "asset": "61c10222b2fec5dd94b7"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 25,
+                "asset": "759d32994f3c1bc0bf71"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34767597",
+                "page": 4,
+                "asset": "36d649dcb468e270ca49"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 9,
+                "asset": "2a68c4a364399c759a2d"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 15,
+                "asset": "61c10222b2fec5dd94b7"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 25,
+                "asset": "759d32994f3c1bc0bf71"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.5.1"
+          },
+          {
+            "key": "4.5-jacobi-properties",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "运算性质、补充公式与互反律",
+            "chapter": "4",
+            "section": "4.5",
+            "parts": [
+              {
+                "lesson": "jacobi",
+                "anchor": "4-5-jacobi-properties-1",
+                "label": "Jacobi运算规则及其证明",
+                "from": "### 可高效使用的公式",
+                "until": "### 例一中的模 $85$ 题"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34767597",
+                "page": 56,
+                "asset": "92f53b618236efdc7179"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 94,
+                "asset": "7ec9536e94a663188c64"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 95,
+                "asset": "093d6d195cb2f9898168"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34767597",
+                "page": 56,
+                "asset": "92f53b618236efdc7179"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 94,
+                "asset": "7ec9536e94a663188c64"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 95,
+                "asset": "093d6d195cb2f9898168"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.5.2"
+          },
+          {
+            "key": "4.5-jacobi-examples",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "符号计算与同余式例题",
+            "chapter": "4",
+            "section": "4.5",
+            "parts": [
+              {
+                "lesson": "jacobi",
+                "anchor": "4-5-jacobi-examples-1",
+                "label": "Jacobi计算、解数判断与模135的全根",
+                "from": "原页 $x^2\\equiv286\\pmod{563}$ 可不先分解分母，用 Jacobi 规则算得 $-1$，立即排除有解。只有想从符号 $1$ 推出有根时，才需要额外确认分母为素数或逐个检查素数幂条件。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34767597",
+                "page": 107,
+                "asset": "abc6e7c337e2c28c5caa"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 114,
+                "asset": "58fba593c739b4d4a6c5"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 119,
+                "asset": "94617d6da4655822e070"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 121,
+                "asset": "bb7e53c982176eb3dbd1"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34767597",
+                "page": 107,
+                "asset": "abc6e7c337e2c28c5caa"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 114,
+                "asset": "58fba593c739b4d4a6c5"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 119,
+                "asset": "94617d6da4655822e070"
+              },
+              {
+                "source": "lesson-34767597",
+                "page": 121,
+                "asset": "bb7e53c982176eb3dbd1"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.5.3"
+          }
+        ],
+        "sourceNumber": "4.5",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       },
       {
         "key": "4.6",
@@ -2430,12 +3330,7 @@ window.PPT_OUTLINE = {
         "title": "x²+y²=p",
         "chapter": "4",
         "section": "4.7",
-        "parts": [
-          {
-            "lesson": "sum-squares",
-            "anchor": "4-7-1"
-          }
-        ],
+        "parts": [],
         "evidence": [
           {
             "source": "lesson-34927552",
@@ -2451,7 +3346,170 @@ window.PPT_OUTLINE = {
           }
         ],
         "coverage": "body",
-        "topics": []
+        "topics": [
+          {
+            "key": "4.7-sum-squares-condition",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "素数平方和的可解条件",
+            "chapter": "4",
+            "section": "4.7",
+            "parts": [
+              {
+                "lesson": "sum-squares",
+                "anchor": "4-7-1",
+                "label": "定理4.7.1的可解条件",
+                "until": "### 从模平方根走向整数解\n先求 $r^2\\equiv-1\\pmod p$，于是 $r^2+1=mp$。若 m=1 已得到答案；否则按课件下降法，对当前 x、y 取模 m 的绝对值最小余数 u、v，利用"
+              },
+              {
+                "lesson": "sum-squares",
+                "anchor": "4-7-sum-squares-condition-2",
+                "label": "必要性的模4证明",
+                "from": "必要性也很简单：奇素数的平方和中一奇一偶，奇数平方模 $4$ 为 $1$，偶数平方模 $4$ 为 $0$，所以 $p\\equiv1\\pmod4$。这就补全了定理的两方向。",
+                "until": "### 课件例一：$53$ 的平方和\n由 $23^2\\equiv-1\\pmod{53}$，取 $(x,y)=(23,1)$，此时 $x^2+y^2=530=10\\cdot53$。模 $10$ 的绝对值最小余数为 $(u,v)=(3,1)$，于是"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34927552",
+                "page": 424,
+                "asset": "b334ea58367bd9ed0a8f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34927552",
+                "page": 424,
+                "asset": "b334ea58367bd9ed0a8f"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.7.1"
+          },
+          {
+            "key": "4.7-descent-method",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "下降法及证明",
+            "chapter": "4",
+            "section": "4.7",
+            "parts": [
+              {
+                "lesson": "sum-squares",
+                "anchor": "4-7-descent-method-1",
+                "label": "从模平方根构造整数平方和",
+                "from": "### 从模平方根走向整数解\n先求 $r^2\\equiv-1\\pmod p$，于是 $r^2+1=mp$。若 m=1 已得到答案；否则按课件下降法，对当前 x、y 取模 m 的绝对值最小余数 u、v，利用",
+                "until": "必要性也很简单：奇素数的平方和中一奇一偶，奇数平方模 $4$ 为 $1$，偶数平方模 $4$ 为 $0$，所以 $p\\equiv1\\pmod4$。这就补全了定理的两方向。"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34927552",
+                "page": 425,
+                "asset": "67677af5228e76f914ff"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 441,
+                "asset": "e61054502f4fe27d50ea"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 442,
+                "asset": "a4b270cc3ad8a9590d8e"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34927552",
+                "page": 425,
+                "asset": "67677af5228e76f914ff"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 441,
+                "asset": "e61054502f4fe27d50ea"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 442,
+                "asset": "a4b270cc3ad8a9590d8e"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.7.2"
+          },
+          {
+            "key": "4.7-sum-squares-examples",
+            "number": null,
+            "sourceNumber": null,
+            "numberOrigin": "website",
+            "title": "平方和实例与课堂练习",
+            "chapter": "4",
+            "section": "4.7",
+            "parts": [
+              {
+                "lesson": "sum-squares",
+                "anchor": "4-7-sum-squares-examples-1",
+                "label": "53、13、29、41与797的平方和",
+                "from": "### 课件例一：$53$ 的平方和\n由 $23^2\\equiv-1\\pmod{53}$，取 $(x,y)=(23,1)$，此时 $x^2+y^2=530=10\\cdot53$。模 $10$ 的绝对值最小余数为 $(u,v)=(3,1)$，于是"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-34927552",
+                "page": 430,
+                "asset": "5ff789feb126e7c0a416"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 439,
+                "asset": "60940fa2657717d48220"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 441,
+                "asset": "e61054502f4fe27d50ea"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 444,
+                "asset": "c5887f72baf27be68085"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-34927552",
+                "page": 430,
+                "asset": "5ff789feb126e7c0a416"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 439,
+                "asset": "60940fa2657717d48220"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 441,
+                "asset": "e61054502f4fe27d50ea"
+              },
+              {
+                "source": "lesson-34927552",
+                "page": 444,
+                "asset": "c5887f72baf27be68085"
+              }
+            ],
+            "coverage": "body",
+            "note": "本知识点及三级编号由网站依据课件正文整理，课件没有给出此三级数字编号。",
+            "displayNumber": "4.7.3"
+          }
+        ],
+        "sourceNumber": "4.7",
+        "note": "本节课件未给出三级数字编号；下列知识点依课件内容顺序使用网站整理编号，原PPT节号与原页链接保留。"
       }
     ]
   },
@@ -2485,7 +3543,7 @@ window.PPT_OUTLINE = {
             "asset": "ec02f5f53afa722d7d44"
           }
         ],
-        "coverage": "source_heading",
+        "coverage": "body",
         "topics": [
           {
             "key": "8.1.1",
@@ -2522,7 +3580,9 @@ window.PPT_OUTLINE = {
                 "asset": "704687e9e9cd2a2c8c55"
               }
             ],
-            "coverage": "body_heading_found"
+            "coverage": "body_heading_found",
+            "displayNumber": "8.1.1",
+            "numberOrigin": "ppt"
           },
           {
             "key": "8.1.2",
@@ -2554,7 +3614,9 @@ window.PPT_OUTLINE = {
                 "asset": "f0ac80f9d64c7c0084dc"
               }
             ],
-            "coverage": "toc_heading_only_or_ocr_missed"
+            "coverage": "toc_heading_only_or_ocr_missed",
+            "displayNumber": "8.1.2",
+            "numberOrigin": "ppt"
           },
           {
             "key": "8.1-heading-1",
@@ -2566,14 +3628,6 @@ window.PPT_OUTLINE = {
               {
                 "lesson": "group-props",
                 "anchor": "8-1-heading-1-1"
-              },
-              {
-                "lesson": "group-examples",
-                "anchor": "8-1-heading-1-2"
-              },
-              {
-                "lesson": "group-power",
-                "anchor": "8-1-heading-1-3"
               }
             ],
             "sourceLabel": "三",
@@ -2591,7 +3645,10 @@ window.PPT_OUTLINE = {
                 "asset": "539e082c84159bfbeb2c"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.1.3",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.1-heading-2",
@@ -2619,14 +3676,79 @@ window.PPT_OUTLINE = {
                 "asset": "539e082c84159bfbeb2c"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.1.4",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-group-examples",
+            "number": null,
+            "title": "新运算、模加法与剩余类例题",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "group-examples",
+                "anchor": "8-1-heading-1-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35006615",
+                "page": 227,
+                "asset": "3bb781cf4ba198986be6"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35006615",
+                "page": 227,
+                "asset": "3bb781cf4ba198986be6"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.5",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-group-power",
+            "number": null,
+            "title": "群中幂运算与乘积逆元",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "group-power",
+                "anchor": "8-1-heading-1-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35006615",
+                "page": 284,
+                "asset": "ae5d937be270e1fe7e6d"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35006615",
+                "page": 284,
+                "asset": "ae5d937be270e1fe7e6d"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.6",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.1-heading-3",
             "number": null,
             "title": "群的定义",
             "readingStatus": "related_reading",
-            "readingLabel": "教材标题，讲解见8.1.2",
+            "readingLabel": "课件回顾：群的定义，讲解见8.1.2",
             "relatedTopics": [
               {
                 "key": "8.1.2",
@@ -2637,7 +3759,7 @@ window.PPT_OUTLINE = {
             "section": "8.1",
             "parts": [],
             "sourceLabel": "§6.2",
-            "note": "这是课件沿用的教材标题§6.2，保留原编号；原页位于置换群材料开头。群的定义讲解见8.1.2，不将其改编为新的8.x.x编号。",
+            "note": "此项为下一份课件开头沿用教材§6.2的群定义回顾，原页及相关讲解入口保留；网站学习序号不改变教材原编号。",
             "evidence": [
               {
                 "source": "lesson-35159940",
@@ -2652,7 +3774,10 @@ window.PPT_OUTLINE = {
                 "asset": "271dab45f1245cfb0af2"
               }
             ],
-            "coverage": "source_heading"
+            "coverage": "source_heading",
+            "displayNumber": "8.1.7",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.1-heading-4",
@@ -2664,22 +3789,6 @@ window.PPT_OUTLINE = {
               {
                 "lesson": "permutation",
                 "anchor": "8-1-heading-4-1"
-              },
-              {
-                "lesson": "cycles",
-                "anchor": "8-1-heading-4-2"
-              },
-              {
-                "lesson": "cycle-decomp",
-                "anchor": "8-1-heading-4-3"
-              },
-              {
-                "lesson": "parity",
-                "anchor": "8-1-heading-4-4"
-              },
-              {
-                "lesson": "group-table",
-                "anchor": "8-1-heading-4-5"
               }
             ],
             "sourceLabel": "四",
@@ -2697,42 +3806,146 @@ window.PPT_OUTLINE = {
                 "asset": "3cf40a03a683878f6a49"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.1.8",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-cycles",
+            "number": null,
+            "title": "轮换、不相交轮换与计算",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "cycles",
+                "anchor": "8-1-heading-4-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35239721",
+                "page": 32,
+                "asset": "14805f58386f81172f50"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35239721",
+                "page": 32,
+                "asset": "14805f58386f81172f50"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.9",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-cycle-decomp",
+            "number": null,
+            "title": "不相交轮换分解与置换周期",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "cycle-decomp",
+                "anchor": "8-1-heading-4-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35239721",
+                "page": 125,
+                "asset": "056fc3c906208e2719b2"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35239721",
+                "page": 125,
+                "asset": "056fc3c906208e2719b2"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.10",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-parity",
+            "number": null,
+            "title": "对换、奇偶性与交错群",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "parity",
+                "anchor": "8-1-heading-4-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35387870",
+                "page": 1,
+                "asset": "8720712220562f00b915"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35387870",
+                "page": 1,
+                "asset": "8720712220562f00b915"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.11",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.1-group-table",
+            "number": null,
+            "title": "群的运算表与拉丁方性质",
+            "chapter": "8",
+            "section": "8.1",
+            "parts": [
+              {
+                "lesson": "group-table",
+                "anchor": "8-1-heading-4-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "lesson-35387870",
+                "page": 100,
+                "asset": "040d1c426c0941fe98d6"
+              }
+            ],
+            "sources": [
+              {
+                "source": "lesson-35387870",
+                "page": 100,
+                "asset": "040d1c426c0941fe98d6"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.1.12",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           }
-        ]
+        ],
+        "note": "以下三级知识点按课件顺序整理。8.1.1、8.1.2沿用课件原编号；标有“整理”的序号为网站整理编号。"
       },
       {
         "key": "8.2",
         "number": "8.2",
         "title": "子群",
-        "sectionReadingLabel": "子群定义、循环群与本节例题",
         "chapter": "8",
         "section": "8.2",
-        "parts": [
-          {
-            "lesson": "subgroup",
-            "anchor": "8-2-1"
-          },
-          {
-            "lesson": "generated",
-            "anchor": "8-2-2"
-          },
-          {
-            "lesson": "cyclic",
-            "anchor": "8-2-3"
-          },
-          {
-            "lesson": "generators",
-            "until": "### 同构：保留运算的重新命名\n两个群同构，指存在双射 $f:G\\to K$，使 $f(xy)=f(x)f(y)$；加法群应按各自运算改写。双射保证元素一一对应，保运算保证乘法关",
-            "label": "循环群的生成元",
-            "anchor": "8-2-4"
-          },
-          {
-            "lesson": "cyclic-subgroup",
-            "anchor": "8-2-5"
-          }
-        ],
-        "note": "11月4日的《第八章-4-原版》对应合并来源第1—320页，覆盖子群、循环群与元素周期。子群定义、生成子群、循环群及相关例题的讲解保留在本节正文入口；下列条目仅列课件中另有标题的知识点，不能代替本节全部正文，也不据此新增8.2.x编号。",
+        "parts": [],
+        "note": "以下三级知识点按课件顺序整理；标有“整理”的序号为网站整理编号，原页和学习记录仍可查看。",
         "evidence": [
           {
             "source": "lesson-35006615",
@@ -2749,6 +3962,37 @@ window.PPT_OUTLINE = {
         ],
         "coverage": "body",
         "topics": [
+          {
+            "key": "8.2-subgroup",
+            "number": null,
+            "title": "子群、平凡子群与中心化子",
+            "chapter": "8",
+            "section": "8.2",
+            "parts": [
+              {
+                "lesson": "subgroup",
+                "anchor": "8-2-1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 3,
+                "asset": "a2b26ca3a06436de4a35"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 3,
+                "asset": "a2b26ca3a06436de4a35"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.2.1",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
           {
             "key": "8.2-heading-1",
             "number": null,
@@ -2777,7 +4021,10 @@ window.PPT_OUTLINE = {
                 "asset": "9d05d0ce7fed320ad1b0"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.2.2",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.2-heading-2",
@@ -2807,7 +4054,72 @@ window.PPT_OUTLINE = {
                 "asset": "a45b3a0e0c439197f92a"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.2.3",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.2-generated",
+            "number": null,
+            "title": "由一个元素生成的子群",
+            "chapter": "8",
+            "section": "8.2",
+            "parts": [
+              {
+                "lesson": "generated",
+                "anchor": "8-2-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 122,
+                "asset": "60fe9ba0df4f635e550e"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 122,
+                "asset": "60fe9ba0df4f635e550e"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.2.4",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.2-cyclic",
+            "number": null,
+            "title": "循环群",
+            "chapter": "8",
+            "section": "8.2",
+            "parts": [
+              {
+                "lesson": "cyclic",
+                "anchor": "8-2-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 136,
+                "asset": "e5102cefd8248929fc1f"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 136,
+                "asset": "e5102cefd8248929fc1f"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.2.5",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.2-heading-3",
@@ -2837,7 +4149,10 @@ window.PPT_OUTLINE = {
                 "asset": "9ed2fc75f520cfdefcd8"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.2.6",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.2-heading-4",
@@ -2867,7 +4182,43 @@ window.PPT_OUTLINE = {
                 "asset": "9a714253ab72812de276"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.2.7",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.2-generators",
+            "number": null,
+            "title": "循环群的生成元",
+            "chapter": "8",
+            "section": "8.2",
+            "parts": [
+              {
+                "lesson": "generators",
+                "until": "### 同构：保留运算的重新命名\n两个群同构，指存在双射 $f:G\\to K$，使 $f(xy)=f(x)f(y)$；加法群应按各自运算改写。双射保证元素一一对应，保运算保证乘法关",
+                "label": "循环群的生成元",
+                "anchor": "8-2-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 244,
+                "asset": "428f806c6e769d20f175"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 244,
+                "asset": "428f806c6e769d20f175"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.2.8",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.2-heading-5",
@@ -2898,7 +4249,41 @@ window.PPT_OUTLINE = {
                 "asset": "865b468b761e55f75da1"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.2.9",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.2-cyclic-subgroup",
+            "number": null,
+            "title": "循环群的子群仍是循环群",
+            "chapter": "8",
+            "section": "8.2",
+            "parts": [
+              {
+                "lesson": "cyclic-subgroup",
+                "anchor": "8-2-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 302,
+                "asset": "9695d086fcd7357fb5a7"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 302,
+                "asset": "9695d086fcd7357fb5a7"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.2.10",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           }
         ],
         "material": {
@@ -2912,34 +4297,10 @@ window.PPT_OUTLINE = {
         "key": "8.3",
         "number": "8.3",
         "title": "子群的陪集",
-        "sectionReadingLabel": "陪集定义、正规子群与本节例题",
         "chapter": "8",
         "section": "8.3",
-        "parts": [
-          {
-            "lesson": "cosets",
-            "until": "$b$ 所在等价类是 $bH=\\{bh:h\\in H\\}$。课件称它为 $H$ 的右陪集；许多其他教材称它为左陪集。本章沿用课件命名，始终以 $bH$ 这个公式为准。相应的另一类集",
-            "label": "模子群合同与陪集的定义",
-            "anchor": "8-3-1"
-          },
-          {
-            "lesson": "normal",
-            "anchor": "8-3-2"
-          },
-          {
-            "lesson": "cyclic-subgroups",
-            "anchor": "8-3-3"
-          },
-          {
-            "lesson": "small-groups",
-            "anchor": "8-3-4"
-          },
-          {
-            "lesson": "order-criterion",
-            "anchor": "8-3-5"
-          }
-        ],
-        "note": "11月4日的《第八章-5-原版》对应合并来源第321—625页；第321页为该份封面，第322页为8.3目录，合同关系与陪集正文自第331页起。合同关系与陪集定义、正规子群及相关例题的讲解保留在本节正文入口；下列条目仅列课件中另有标题的知识点，不能代替本节全部正文，也不据此新增8.3.x编号。",
+        "parts": [],
+        "note": "以下三级知识点按课件顺序整理；标有“整理”的序号为网站整理编号，原页和学习记录仍可查看。",
         "evidence": [
           {
             "source": "lesson-35006615",
@@ -2956,6 +4317,39 @@ window.PPT_OUTLINE = {
         ],
         "coverage": "body",
         "topics": [
+          {
+            "key": "8.3-cosets-definition",
+            "number": null,
+            "title": "模子群合同与陪集的定义",
+            "chapter": "8",
+            "section": "8.3",
+            "parts": [
+              {
+                "lesson": "cosets",
+                "until": "$b$ 所在等价类是 $bH=\\{bh:h\\in H\\}$。课件称它为 $H$ 的右陪集；许多其他教材称它为左陪集。本章沿用课件命名，始终以 $bH$ 这个公式为准。相应的另一类集",
+                "label": "模子群合同与陪集的定义",
+                "anchor": "8-3-1"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 331,
+                "asset": "c10861a2e2c1713317f5"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 331,
+                "asset": "c10861a2e2c1713317f5"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.3.1",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
           {
             "key": "8.3-heading-1",
             "number": null,
@@ -2984,7 +4378,41 @@ window.PPT_OUTLINE = {
                 "asset": "f12c6e00e933f40d8f9e"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.3.2",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.3-normal",
+            "number": null,
+            "title": "正规子群与左右陪集",
+            "chapter": "8",
+            "section": "8.3",
+            "parts": [
+              {
+                "lesson": "normal",
+                "anchor": "8-3-2"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 484,
+                "asset": "4717757f6eb0327d7b25"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 484,
+                "asset": "4717757f6eb0327d7b25"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.3.3",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           },
           {
             "key": "8.3-heading-2",
@@ -3012,7 +4440,103 @@ window.PPT_OUTLINE = {
                 "asset": "22037362635143c7b7d1"
               }
             ],
-            "coverage": "body"
+            "coverage": "body",
+            "displayNumber": "8.3.4",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.3-cyclic-subgroups",
+            "number": null,
+            "title": "有限循环群的全部子群",
+            "chapter": "8",
+            "section": "8.3",
+            "parts": [
+              {
+                "lesson": "cyclic-subgroups",
+                "anchor": "8-3-3"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 549,
+                "asset": "614d302d0e4f1ca83171"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 549,
+                "asset": "614d302d0e4f1ca83171"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.3.5",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.3-small-groups",
+            "number": null,
+            "title": "四元群、六元群与元素周期",
+            "chapter": "8",
+            "section": "8.3",
+            "parts": [
+              {
+                "lesson": "small-groups",
+                "anchor": "8-3-4"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 585,
+                "asset": "3f531e166b6e2ab9590e"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 585,
+                "asset": "3f531e166b6e2ab9590e"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.3.6",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
+          },
+          {
+            "key": "8.3-order-criterion",
+            "number": null,
+            "title": "用素因数判定元素的周期",
+            "chapter": "8",
+            "section": "8.3",
+            "parts": [
+              {
+                "lesson": "order-criterion",
+                "anchor": "8-3-5"
+              }
+            ],
+            "evidence": [
+              {
+                "source": "chapter8-4",
+                "page": 619,
+                "asset": "20e866a201ed65c3ab7e"
+              }
+            ],
+            "sources": [
+              {
+                "source": "chapter8-4",
+                "page": 619,
+                "asset": "20e866a201ed65c3ab7e"
+              }
+            ],
+            "coverage": "body",
+            "displayNumber": "8.3.7",
+            "numberOrigin": "website",
+            "numberNote": "网站按课件顺序整理的学习序号；原片未给出对应8.x.x编号。"
           }
         ],
         "material": {
@@ -3090,6 +4614,7 @@ window.PPT_OUTLINE = {
         "start": 321,
         "end": 625
       }
-    ]
+    ],
+    "orderedKnowledgePointsVersion": 1
   }
 };

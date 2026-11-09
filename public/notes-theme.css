@@ -682,3 +682,6 @@ body.notes-theme .ppt-return-link { color: var(--accent); margin-top: 26px; font
 
 body.notes-theme .ppt-source-material { color: var(--muted); font-size: 12px; line-height: 1.9; padding: 12px 15px; border-left: 2px solid var(--border); background: var(--accent-soft); }
 body.notes-theme .ppt-source-material a { color: var(--accent); display: inline-block; margin-left: 8px; }
+
+body.notes-theme .outline-origin { margin-left: .45em; color: var(--muted); font: 400 11px/1.5 var(--sans); white-space: nowrap; }
+body.notes-theme .ppt-number-explanation { color: var(--muted); font-size: 13px; line-height: 1.7; }

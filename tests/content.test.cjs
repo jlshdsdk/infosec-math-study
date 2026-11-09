@@ -14,7 +14,7 @@ test('网站正文与已经审校的Markdown讲解一致',()=>{
   }
   assert.equal(count,91);
 });
-test('17份来源的9024页全部可定位，且每页只属于一个主题',()=>{
+test('本地17个来源组的9024帧均可定位，且每帧只属于一个主题',()=>{
   const catalog=read('data/catalog.json');
   assert.equal(catalog.stats.pages,9024);assert.equal(catalog.sources.length,17);
   const lessons=new Map(catalog.chapters.flatMap(c=>c.sections.flatMap(s=>s.lessons.map(l=>[l.id,l]))));
