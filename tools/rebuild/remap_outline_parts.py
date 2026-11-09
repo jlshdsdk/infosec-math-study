@@ -82,6 +82,13 @@ OVERRIDES = {
     'factor': {
         1: '### 例 1：用平方同余分解 $37909$',
     },
+    'fast-power': {
+        1: '### 二进制算法及运算次数',
+        2: '**◆ p.210-218**｜过程列成表格',
+    },
+    'reduced': {
+        3: '### 定理 2.3.4：乘一个互素的数不改变简化剩余系',
+    },
     'reciprocity-app': {
         3: '### 4.4 符号计算的收尾练习',
     },
@@ -132,7 +139,8 @@ def main(check=False):
         for pos, i in enumerate(seq):
             until_of[i] = markers[seq[pos + 1]] if pos + 1 < len(seq) else ''
         for i, e in enumerate(entries):
-            new_from = markers[i] if i > 0 else (e['part'].get('from') or '')
+            # rebuilt lessons: part 1 always spans from the lesson start
+            new_from = markers[i] if i > 0 else ''
             # the rebuilt lesson's last part in text order runs to the end
             new_until = until_of.get(i, markers[seq[0]] if seq else '')
             if new_from is None or new_until is None:

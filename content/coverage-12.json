@@ -2961,7 +2961,7 @@
         "end": 3
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "第二章总目录",
     "status": "explained",
     "note": "原页导航与本章学习说明，讲解给同余、剩余系、欧拉函数、三个定理和快速幂的学习路径。"
   },
@@ -2981,7 +2981,7 @@
         "end": 425
       }
     ],
-    "guideHeading": "类和代表元有什么区别",
+    "guideHeading": "思考：怎样判断完全剩余系",
     "status": "explained",
     "note": "按模6给整数分类的思考，对应classes主题的C_a=a+6Z及六个互不相交的类。",
     "guideTopic": "classes"
@@ -3002,7 +3002,7 @@
         "end": 428
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "第二份授课录制：同内容页对照",
     "status": "explained",
     "note": "主题开头给同余定义m整除a减b及整数倍、余数的等价形式；本小节由整除差证明等价关系。"
   },
@@ -3022,7 +3022,7 @@
         "end": 428
       }
     ],
-    "guideHeading": "三种等价关系性质",
+    "guideHeading": "第二份授课录制：同内容页对照",
     "status": "explained",
     "note": "26、8、负1模9同余，讲解按差为9的倍数具体核对。"
   },
@@ -3042,7 +3042,7 @@
         "end": 434
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "定理 2.1.1：同余与带余表示的等价",
     "status": "explained",
     "note": "a同余b等价于a=b+qm，congruence主题给等价形式，本节用67除8实际验证。"
   },
@@ -3062,7 +3062,7 @@
         "end": 434
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "定理 2.1.1：同余与带余表示的等价",
     "status": "explained",
     "note": "67=8乘8+3，所以67模8余3，讲解写完整原例。"
   },
@@ -3082,7 +3082,7 @@
         "end": 451
       }
     ],
-    "guideHeading": "三种等价关系性质",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "同余自反、对称、传递，congruence主题分别由差为零、差变号、差相加证明。",
     "guideTopic": "congruence"
@@ -3103,7 +3103,7 @@
         "end": 449
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "例 3 与模 5 的等价类",
     "status": "explained",
     "note": "29、11、2模9同余，讲解给三个差18、9、27并对应三性质。"
   },
@@ -3123,7 +3123,7 @@
         "end": 454
       }
     ],
-    "guideHeading": "类和代表元有什么区别",
+    "guideHeading": "思考：怎样判断完全剩余系",
     "status": "explained",
     "note": "模5所有同余等价类，classes主题写C_j=j+5Z，j从0到4，说明相交必相同。",
     "guideTopic": "classes"
@@ -3144,7 +3144,7 @@
         "end": 453
       }
     ],
-    "guideHeading": "三种等价关系性质",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "同余当且仅当最小非负余数相同，congruence开头给等价形式；带余唯一性解释标准余数不能不同。",
     "guideTopic": "congruence"
@@ -3165,7 +3165,7 @@
         "end": 453
       }
     ],
-    "guideHeading": "三种等价关系性质",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "58、92除17均余7，congruence主题给具体结果。",
     "guideTopic": "congruence"
@@ -3186,7 +3186,7 @@
         "end": 455
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "定理 2.1.3：同余即余数相同",
     "status": "explained",
     "note": "a余2、b余5模6，原两空按图为a+b余1、ab余4，讲解分别计算。"
   },
@@ -3206,7 +3206,7 @@
         "end": 467
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "定理 2.1.4：同余式的加减乘",
     "status": "explained",
     "note": "加减乘、乘整数与非负整数次幂保持同余，主题开头给规则，小节用39、22实际验证。"
   },
@@ -3226,7 +3226,7 @@
         "end": 459
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "定理 2.1.4：同余式的加减乘",
     "status": "explained",
     "note": "39、22模7分别余4、1，和余5、积余4，讲解逐项算出。"
   },
@@ -3246,7 +3246,7 @@
         "end": 467
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "例 6：平方和与模 4",
     "status": "explained",
     "note": "4k+3型正整数不能是两个整数平方和，讲解列平方模4余0、1，和只余0、1、2。"
   },
@@ -3266,7 +3266,7 @@
         "end": 469
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "单选首帧a^3同余1求a^301，讲解拆301=3乘100+1，答案a。"
   },
@@ -3286,7 +3286,7 @@
         "end": 469
       }
     ],
-    "guideHeading": "原页基础例题与平方和障碍",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "单选后一帧改求a^302+a^301，原标签相同但题面不同；讲解分别化两项，答案a平方加a。"
   },
@@ -3306,7 +3306,7 @@
         "end": 480
       }
     ],
-    "guideHeading": "幂的题目",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "同标签日期题：2^3268模7余2，从题设星期五加两天为星期日；讲解指出原公历日期与星期五不符，按明确星期条件计算。"
   },
@@ -3326,7 +3326,7 @@
         "end": 480
       }
     ],
-    "guideHeading": "幂的题目",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "同标签练习1：1996^100除7余1，讲解底数1996同余1。"
   },
@@ -3346,7 +3346,7 @@
         "end": 480
       }
     ],
-    "guideHeading": "幂的题目",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "同标签练习2：80^20除13余9，讲解底数化2及2^6同余负1。"
   },
@@ -3366,7 +3366,7 @@
         "end": 480
       }
     ],
-    "guideHeading": "幂的题目",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "同标签练习3：641整除2^32加1。讲解结合5乘2^7同余负1及5^4同余负16，四次方得到所需结果。"
   },
@@ -3386,7 +3386,7 @@
         "end": 480
       }
     ],
-    "guideHeading": "幂的题目",
+    "guideHeading": "幂的同余与三个练习",
     "status": "explained",
     "note": "同标签练习4：1949^(1979^2000)除7余3。讲解先求上层指数模6为1，明确按幂塔读题。"
   },
@@ -3406,7 +3406,7 @@
         "end": 522
       }
     ],
-    "guideHeading": "数位整除判别的来源",
+    "guideHeading": "定理 2.1.5：多项式代入保持同余",
     "status": "explained",
     "note": "整数系数多项式可逐项替换同余系数及自变量，主题开头给规则，小节代入十进制和千进制应用。"
   },
@@ -3426,7 +3426,7 @@
         "end": 497
       }
     ],
-    "guideHeading": "数位整除判别的来源",
+    "guideHeading": "被3与9整除的判别（定理 2.1.5 应用一）",
     "status": "explained",
     "note": "5874192数字和36，因此同时被3、9整除，讲解实际相加。"
   },
@@ -3446,7 +3446,7 @@
         "end": 511
       }
     ],
-    "guideHeading": "数位整除判别的来源",
+    "guideHeading": "被 7、11、13 整除的判别（定理 2.1.5 应用二）",
     "status": "explained",
     "note": "126637693按三位分组交错和693减637加126=182，被7、13整除而不被11整除；讲解分别判断。"
   },
@@ -3466,7 +3466,7 @@
         "end": 522
       }
     ],
-    "guideHeading": "数位整除判别的来源",
+    "guideHeading": "定理 2.1.6：被 3、9 整除的判别定理",
     "status": "explained",
     "note": "数字和判3与9整除，讲解由10同余1证明。"
   },
@@ -3486,7 +3486,7 @@
         "end": 529
       }
     ],
-    "guideHeading": "数位整除判别的来源",
+    "guideHeading": "定理 2.1.7：被 7、11、13 整除的判别定理",
     "status": "explained",
     "note": "三位分组交错和判7、11、13，讲解由1000同余负1证明，避免混为同一个整除结论。"
   },
@@ -3506,7 +3506,7 @@
         "end": 560
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "因子与模互素才能保持原模约分，一般降模到m除最大公因数；讲解比较60、18模7与14。"
   },
@@ -3526,7 +3526,7 @@
         "end": 541
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "66同余3模7，因3与7互素约3得22同余1，已给实际原例。"
   },
@@ -3546,7 +3546,7 @@
         "end": 559
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第一组思考比较60同余18在模7、14下约2，讲解区分保持原模与同时降模。"
   },
@@ -3566,7 +3566,7 @@
         "end": 572
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第二组思考同时约去数与模的非零公因子，讲解用整除整数等式证明双向等价。"
   },
@@ -3586,7 +3586,7 @@
         "end": 605
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第三组思考最大公因数不变及逆命题，讲解证明(a,m)=(b,m)，以2、4模6反驳逆向。"
   },
@@ -3606,7 +3606,7 @@
         "end": 639
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第四组思考4x同余9模6无解，讲解4x减6k恒偶，与奇数9矛盾。"
   },
@@ -3626,7 +3626,7 @@
         "end": 554
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第一组推论为互素消去的等价关系，讲解说明同乘总可、逆向要互素。"
   },
@@ -3646,7 +3646,7 @@
         "end": 575
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第二组推论ad同余bd模md与a同余b模m等价，讲解同时约非零d。"
   },
@@ -3666,7 +3666,7 @@
         "end": 597
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第三组推论两两互素模可合成乘积模，讲解先最小公倍数再以互素换乘积。"
   },
@@ -3686,7 +3686,7 @@
         "end": 560
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第一组练习检验模7与14下约2，讲解有原数比较。"
   },
@@ -3706,7 +3706,7 @@
         "end": 631
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "第二组练习3x+7同余9模11，讲解移项再乘逆元4得x余8。"
   },
@@ -3726,7 +3726,7 @@
         "end": 575
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "例11数与模同时约非零d，讲解由md整除d(a-b)等价于m整除a-b解释。"
   },
@@ -3746,7 +3746,7 @@
         "end": 569
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "同号例12第一内容为60同余18模14，同除2得30同余9模7；与逆元方程分开。"
   },
@@ -3766,7 +3766,7 @@
         "end": 634
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "同号例12另一内容169x同余9模121，讲解用逆元58得x同余38。"
   },
@@ -3786,7 +3786,7 @@
         "end": 568
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "ocr-artifact",
     "note": "标签定理2实际为2.1.10，同余两数与模同除公因数；讲解给同时缩放与约去规则。"
   },
@@ -3806,7 +3806,7 @@
         "end": 597
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "ocr-artifact",
     "note": "标签定理2这一组为2.1.11、2.1.12，降到因数模及合并最小公倍数模；讲解分别说明。"
   },
@@ -3821,7 +3821,7 @@
         "end": 605
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "定理 2.1.13：同余不改变与模的最大公因数",
     "status": "ocr-artifact",
     "note": "标签定理2另一组为2.1.13最大公因数不变，讲解从a=b+km证明。"
   },
@@ -3841,7 +3841,7 @@
         "end": 622
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "ocr-artifact",
     "note": "标签定理2在选择题附近误截；实际模324同余等价于模4且模81同余，讲解给模2、3过弱的反例。"
   },
@@ -3861,7 +3861,7 @@
         "end": 574
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "定理2.1.9实际为ka同余kb模km，k正整数，并非幂；讲解差为kmt的证明。"
   },
@@ -3881,7 +3881,7 @@
         "end": 575
       }
     ],
-    "guideHeading": "课件对比例子",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "50同余35模15，同除5得10同余7模3，讲解写完整数值。"
   },
@@ -3901,7 +3901,7 @@
         "end": 586
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "60同余4模14可降到模2、7，讲解实际核对差56。"
   },
@@ -3916,7 +3916,7 @@
         "end": 822
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "不同素数p、q的同余合并到pq，讲解以互素最小公倍数说明。"
   },
@@ -3946,7 +3946,7 @@
         "end": 622
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "duplicate",
     "note": "复习1.3.3供a=b+km的最大公因数不变证明使用；讲解另给公因数双向整除。"
   },
@@ -3961,7 +3961,7 @@
         "end": 830
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "最大公因数不变及逆命题，讲解给(a,m)=(b,m)证明和2、4模6反例。"
   },
@@ -3981,7 +3981,7 @@
         "end": 615
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "n的正整数次幂非0、1类则某素因数同次幂亦非0、1，讲解以标准分解反证并说明零类情形。"
   },
@@ -4001,7 +4001,7 @@
         "end": 618
       }
     ],
-    "guideHeading": "同时缩放与九项多选",
+    "guideHeading": "第二份录像（p.755-865）：小结与定理 2.1.8 复习重现",
     "status": "explained",
     "note": "已核九选项原图，(a,b)=2及5a同余5b模8下A至I全真；讲解逐项说明，尤其F除2与I倍模。"
   },
@@ -4021,7 +4021,7 @@
         "end": 13
       }
     ],
-    "guideHeading": "类和代表元有什么区别",
+    "guideHeading": "2.2.1 剩余类与剩余：从同余到分类",
     "status": "explained",
     "note": "第一组思考关于剩余类划分，讲解从共同元素推出同余，说明两类相等或不交。"
   },
@@ -4041,7 +4041,7 @@
         "end": 55
       }
     ],
-    "guideHeading": "怎样判断",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "已核原图：给定m个整数怎样判为模m完全剩余系；complete主题给数量与两两不同余的判据及逐个取标准余数的做法。",
     "guideTopic": "complete"
@@ -4062,7 +4062,7 @@
         "end": 35
       }
     ],
-    "guideHeading": "类和代表元有什么区别",
+    "guideHeading": "定理 2.2.1：剩余类的三条基本性质",
     "status": "explained",
     "note": "同余把整数划为m个不交类，讲解给C_a=a+mZ及相交判据。"
   },
@@ -4082,7 +4082,7 @@
         "end": 46
       }
     ],
-    "guideHeading": "类和代表元有什么区别",
+    "guideHeading": "定义 2.2.1：剩余、代表元与完全剩余系",
     "status": "explained",
     "note": "剩余类与剩余、代表元定义，讲解以模6的1、7、13区分无限集合与具体整数。"
   },
@@ -4102,7 +4102,7 @@
         "end": 50
       }
     ],
-    "guideHeading": "怎样判断",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "原模6含负数代表例，complete主题逐项取标准余数0至5，验证每类一个。",
     "guideTopic": "complete"
@@ -4123,7 +4123,7 @@
         "end": 52
       }
     ],
-    "guideHeading": "怎样判断",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "原例列常用代表范围，complete主题写非负、正、非正、负与奇偶模绝对值最小的完整范围。",
     "guideTopic": "complete"
@@ -4144,7 +4144,7 @@
         "end": 59
       }
     ],
-    "guideHeading": "怎样判断",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "m个整数两两模m不同余即完全剩余系，讲解以数数量再化标准余数判断。"
   },
@@ -4164,7 +4164,7 @@
         "end": 70
       }
     ],
-    "guideHeading": "例 3、例 4 的实际遍历",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "例3为模10的3k，讲解列十个实际数及标准余数。"
   },
@@ -4184,7 +4184,7 @@
         "end": 63
       }
     ],
-    "guideHeading": "例 3、例 4 的实际遍历",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "第一道单选固定b时k+b总保留完全剩余系，讲解平移不改变差。"
   },
@@ -4204,7 +4204,7 @@
         "end": 69
       }
     ],
-    "guideHeading": "例 3、例 4 的实际遍历",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "另一道单选任意a的ak未必完整，讲解说明需(a,m)=1，给模6的2k反例。"
   },
@@ -4224,7 +4224,7 @@
         "end": 76
       }
     ],
-    "guideHeading": "例 3、例 4 的实际遍历",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "例4为3k+7，讲解列十个实际数和余数，覆盖模10。"
   },
@@ -4244,7 +4244,7 @@
         "end": 78
       }
     ],
-    "guideHeading": "仿射遍历定理",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "互素a时ak+b遍历，讲解由两项同余约a证明不重复，并说明条件必要。"
   },
@@ -4264,7 +4264,7 @@
         "end": 80
       }
     ],
-    "guideHeading": "仿射遍历定理",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "m=10,a=7,b=5，讲解给5、12至68十个原数并说明余数各一次。"
   },
@@ -4284,7 +4284,7 @@
         "end": 80
       }
     ],
-    "guideHeading": "仿射遍历定理",
+    "guideHeading": "附：两套页码对照页块（p.696-727 版本）",
     "status": "explained",
     "note": "原练习标准余数和为m(m-1)/2，讲解由0至m减1各出现一次得到。"
   },
@@ -4304,7 +4304,7 @@
         "end": 87
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "2.2.3 两个模的完全剩余系：例 6——$3k_1+2k_2$ 遍历模 6",
     "status": "duplicate",
     "note": "例6的2、3两模组合在multi-residue主题继续讲，六格表列完整组合。",
     "guideTopic": "multi-residue"
@@ -4325,7 +4325,7 @@
         "end": 87
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "同一例6三空为2、3、6，multi-residue主题分别解释两个平移与双变量合成。",
     "guideTopic": "multi-residue"
@@ -4346,7 +4346,7 @@
         "end": 101
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "2.2.3 两个模的完全剩余系：例 6——$3k_1+2k_2$ 遍历模 6",
     "status": "explained",
     "note": "2、3两模例6，讲解列六格表及三个遍历结论，强调变量各在自身范围内独立变化。"
   },
@@ -4366,7 +4366,7 @@
         "end": 91
       }
     ],
-    "guideHeading": "改变模与合并模",
+    "guideHeading": "定理 2.1.11：模缩小为自身的因数",
     "status": "duplicate",
     "note": "证明中复习2.1.11降模，congruence-props主题说明乘积模可降到各因数模。",
     "guideTopic": "congruence-props"
@@ -4387,7 +4387,7 @@
         "end": 102
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "定理 2.2.4：一般互素模的合并定理",
     "status": "explained",
     "note": "两互素模合成完全剩余系，讲解分别降模约系数，以组合总数证明覆盖。"
   },
@@ -4407,7 +4407,7 @@
         "end": 109
       }
     ],
-    "guideHeading": "模 4 与模 5 的完全组合表",
+    "guideHeading": "例 4：模 4 与模 5 的完全组合表",
     "status": "explained",
     "note": "例4是4、5两模的完全系，讲解给全部20个标准余数的表，区别于简化系八项。"
   },
@@ -4427,7 +4427,7 @@
         "end": 112
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "例 5：素数乘积模 $n=pq$ 的唯一表示",
     "status": "explained",
     "note": "不同素数p、q的qx+py同余任意c恰有标准范围一组参数，讲解由无重复与pq个组合证明。"
   },
@@ -4447,7 +4447,7 @@
         "end": 117
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "2.2.4 多个模的完全剩余系：定理 2.2.5 与 CRT 示例",
     "status": "explained",
     "note": "多两两互素模的M_i参数组合，讲解写一般式，并解模3、5、7经典题得23。"
   },
@@ -4467,7 +4467,7 @@
         "end": 124
       }
     ],
-    "guideHeading": "为何不会重复",
+    "guideHeading": "2.2.4 多个模的完全剩余系：定理 2.2.5 与 CRT 示例",
     "status": "explained",
     "note": "10x同余10模6先化x=1+3t，讲解列新模6、9、12、15各解类；另给t余1模3后x余4模9。"
   },
@@ -4482,7 +4482,7 @@
         "end": 139
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定义 2.3.1 与例 1、例 2",
     "status": "explained",
     "note": "欧拉函数数0至m减1中互素数，主题开头说明φ(1)=1与φ(10)=4。"
   },
@@ -4497,7 +4497,7 @@
         "end": 139
       }
     ],
-    "guideHeading": "先数清对象",
+    "guideHeading": "定义 2.3.1 与例 1、例 2",
     "status": "explained",
     "note": "原例φ(10)=4、φ(7)=6、φ(1)=1，讲解列互素代表并说明模1特例。"
   },
@@ -4512,7 +4512,7 @@
         "end": 139
       }
     ],
-    "guideHeading": "先数清对象",
+    "guideHeading": "定义 2.3.1 与例 1、例 2",
     "status": "explained",
     "note": "素数p的φ(p)=p减1，原指定p=11时讲解列1至10，得10。"
   },
@@ -4527,7 +4527,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 2.3.1：素数幂的欧拉函数",
     "status": "explained",
     "note": "素数幂φ(p^α)=p^α减p^(α减1)，讲解数p倍数并列27的排除列表。"
   },
@@ -4542,7 +4542,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "素数幂原例与练习",
+    "guideHeading": "例 3、练习与模 6 思考",
     "status": "explained",
     "note": "例3的φ(8)=4，讲解列1、3、5、7四个互素代表。"
   },
@@ -4557,7 +4557,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "素数幂原例与练习",
+    "guideHeading": "例 3、练习与模 6 思考",
     "status": "explained",
     "note": "练习1024=2^10，讲解排512个偶数，φ(1024)=512。"
   },
@@ -4572,7 +4572,7 @@
         "end": 162
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "以模6找所有互素整数，reduced主题给6k+1、6k+5两整类。",
     "guideTopic": "reduced"
@@ -4604,7 +4604,7 @@
         "end": 183
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "explained",
     "note": "同一类两个代表与模互素性质等价，讲解用最大公因数不变解释，并给模6整类。"
   },
@@ -4619,7 +4619,7 @@
         "end": 167
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "ocr-artifact",
     "note": "定理2实际为2.3.2的截断编号，同类代表互素性等价，对应同一解释。"
   },
@@ -4634,7 +4634,7 @@
         "end": 183
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "explained",
     "note": "简化剩余类定义，主题开头说明互素类与每类代表，后以模6给实际整类。"
   },
@@ -4649,7 +4649,7 @@
         "end": 171
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "explained",
     "note": "第一题思考模6的所有互素整数，讲解列6k+1与6k+5。"
   },
@@ -4664,7 +4664,7 @@
         "end": 180
       }
     ],
-    "guideHeading": "素数幂原例与练习",
+    "guideHeading": "例 3、练习与模 6 思考",
     "status": "explained",
     "note": "第二题思考模m有多少简化类，phi主题解释恰为φ(m)。",
     "guideTopic": "phi"
@@ -4680,7 +4680,7 @@
         "end": 220
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定理 2.3.4：乘一个互素的数不改变简化剩余系",
     "status": "explained",
     "note": "第三题b非互素时ax同余b，讲解全体整数中仍唯一解但解非互素，以2x同余3模9得6解释。"
   },
@@ -4700,7 +4700,7 @@
         "end": 189
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "explained",
     "note": "模6的两个简化类是1类与5类，讲解给1、5及负5、17两种代表系。"
   },
@@ -4715,7 +4715,7 @@
         "end": 180
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "2.3.2 简化剩余类与简化剩余系",
     "status": "explained",
     "note": "模5共有四个简化类C1至C4，讲解明确列出。"
   },
@@ -4778,7 +4778,7 @@
         "end": 190
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定义 2.3.3 与几类特殊的简化剩余系",
     "status": "explained",
     "note": "简化剩余系每可逆类选一代表，主题给数量、互素、两两不同余三判据，补充模30八项。"
   },
@@ -4793,7 +4793,7 @@
         "end": 190
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定义 2.3.3 与几类特殊的简化剩余系",
     "status": "explained",
     "note": "原例6含模30代表1、7、11、13、17、19、23、29与素数p的1至p减1，讲解实际写出。"
   },
@@ -4808,7 +4808,7 @@
         "end": 191
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定义 2.3.3 与几类特殊的简化剩余系",
     "status": "explained",
     "note": "例7四种范围中筛互素数，讲解列非负、正、非正、负区间，解释负代表有效。"
   },
@@ -4823,7 +4823,7 @@
         "end": 199
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 2.3.3：简化剩余系的判别法",
     "status": "explained",
     "note": "φ(m)个互素且两两不同余的整数即简化系，主题开头完整给三判据。"
   },
@@ -4838,7 +4838,7 @@
         "end": 204
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.4：乘一个互素的数不改变简化剩余系",
     "status": "explained",
     "note": "互素a乘简化系只重排，讲解分别说明积互素及约a得无重复。"
   },
@@ -4858,7 +4858,7 @@
         "end": 228
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.4：乘一个互素的数不改变简化剩余系",
     "status": "explained",
     "note": "m=10,a=7的实际重排，讲解列7、21、49、63，标准余数7、1、9、3及逆元3。"
   },
@@ -4873,7 +4873,7 @@
         "end": 226
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.4：乘一个互素的数不改变简化剩余系",
     "status": "explained",
     "note": "模9六个可逆类的重排，讲解以a=2逐个算2、4、8、1、5、7，并说明一般理由。"
   },
@@ -4893,7 +4893,7 @@
         "end": 249
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "explained",
     "note": "互素便存在唯一逆元类，讲解用重排及Bézout解释，并补m>1或模1代表0的边界。"
   },
@@ -4913,7 +4913,7 @@
         "end": 255
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "explained",
     "note": "模7逆元表完整对应1、4、5、2、3、6，讲解逐对乘积余1。"
   },
@@ -4928,7 +4928,7 @@
         "end": 255
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "explained",
     "note": "5x+6同余13模11，讲解化5x余7再乘逆元9，得x余8。"
   },
@@ -4943,7 +4943,7 @@
         "end": 263
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "explained",
     "note": "635模737逆元513，讲解列五行除法链、系数负224和193，乘回635乘513=737乘442+1。"
   },
@@ -4958,7 +4958,7 @@
         "end": 264
       }
     ],
-    "guideHeading": "原页补充：代表范围、方程与 635 的逆元",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "explained",
     "note": "两模互素的填空，m2k1模m1遍历、m1k2模m2遍历，两空m1、m2；讲解强调此时未相加。"
   },
@@ -4978,7 +4978,7 @@
         "end": 301
       }
     ],
-    "guideHeading": "两个模的简化剩余系",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "两互素模的简化系合成，reduced主题给互素性、无重复及参数计数证明。",
     "guideTopic": "reduced"
@@ -4994,7 +4994,7 @@
         "end": 293
       }
     ],
-    "guideHeading": "两个模的简化剩余系",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "4、5两模合成八个模20可逆类，讲解列1、3、7、9、11、13、17、19。",
     "guideTopic": "reduced"
@@ -5010,7 +5010,7 @@
         "end": 295
       }
     ],
-    "guideHeading": "两个模的简化剩余系",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "8、9两模合成24类，讲解完整给4乘6表并说明均与72互素。",
     "guideTopic": "reduced"
@@ -5026,7 +5026,7 @@
         "end": 300
       }
     ],
-    "guideHeading": "两个模的简化剩余系",
+    "guideHeading": "正文开头",
     "status": "ocr-artifact",
     "note": "定理23.6漏小数点，实际复述2.3.6两模简化系定理。",
     "guideTopic": "reduced"
@@ -5042,7 +5042,7 @@
         "end": 319
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "欧拉函数的乘法性：定理 2.3.7",
     "status": "explained",
     "note": "欧拉函数互素乘法性，主题开头以两个简化系参数组合计数证明，须互素条件。"
   },
@@ -5057,7 +5057,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "例 15、例 16 与 72 的计算",
+    "guideHeading": "欧拉函数的乘法性：定理 2.3.7",
     "status": "ocr-artifact",
     "note": "例1577实际为例15，φ(77)=φ(7)φ(11)=60，讲解算出6乘10。"
   },
@@ -5072,7 +5072,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "例 15、例 16 与 72 的计算",
+    "guideHeading": "欧拉函数的乘法性：定理 2.3.7",
     "status": "ocr-artifact",
     "note": "例1630实际为例16，φ(30)=1乘2乘4=8，讲解给素因数分解。"
   },
@@ -5087,7 +5087,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "例 15、例 16 与 72 的计算",
+    "guideHeading": "欧拉函数的乘法性：定理 2.3.7",
     "status": "explained",
     "note": "72=8乘9两因子互素，讲解φ(72)=4乘6=24。"
   },
@@ -5102,7 +5102,7 @@
         "end": 319
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "欧拉函数的计算公式：定理 2.3.8",
     "status": "explained",
     "note": "欧拉函数标准分解公式，主题给指数乘积和m乘各不同素数(1减1/p)，说明只取不同素因数。"
   },
@@ -5117,7 +5117,7 @@
         "end": 329
       }
     ],
-    "guideHeading": "两个应用",
+    "guideHeading": "推论：两个不同素数之积的欧拉函数",
     "status": "explained",
     "note": "不同素数p、q的φ(pq)=pq减p减q加1，讲解由(p减1)(q减1)推得并用于恢复因子。"
   },
@@ -5132,7 +5132,7 @@
         "end": 329
       }
     ],
-    "guideHeading": "两个应用",
+    "guideHeading": "推论：两个不同素数之积的欧拉函数",
     "status": "explained",
     "note": "同号例17第一题已知m=pq及φ(m)恢复素因子，讲解用p+q=m+1减φ(m)解二次方程。"
   },
@@ -5152,7 +5152,7 @@
         "end": 350
       }
     ],
-    "guideHeading": "两个应用",
+    "guideHeading": "定理 2.3.9：对全部正因数的欧拉函数求和",
     "status": "explained",
     "note": "同号例17另一题m=50按最大公因数分类，讲解列六类数量20、20、4、4、1、1与部分实际集合。"
   },
@@ -5172,7 +5172,7 @@
         "end": 358
       }
     ],
-    "guideHeading": "两个应用",
+    "guideHeading": "定理 2.3.9：对全部正因数的欧拉函数求和",
     "status": "explained",
     "note": "φ的因数和等于m，讲解分类(n,m)=d对应n=dk及(k,m/d)=1，最后用因数配对改写。"
   },
@@ -5187,7 +5187,7 @@
         "end": 356
       }
     ],
-    "guideHeading": "两个应用",
+    "guideHeading": "定理 2.3.9：对全部正因数的欧拉函数求和",
     "status": "ocr-artifact",
     "note": "定理2.3为动画截断编号与回顾，实际说明d遍历因数时m/d也遍历；讲解列50正因数并解释求和重排。"
   },
@@ -5217,7 +5217,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "证明逐步看",
+    "guideHeading": "2.4.1 的引入：先把定理 2.3.4 搬出来",
     "status": "explained",
     "note": "模11的1至10乘3后重排，讲解列十个标准余数，约去可逆10!得3^10余1。"
   },
@@ -5257,7 +5257,7 @@
         "end": 78
       }
     ],
-    "guideHeading": "证明逐步看",
+    "guideHeading": "定理 2.4.1（Euler 定理）",
     "status": "explained",
     "note": "欧拉定理及多处复习合并，讲解从重排乘积式逐步约去可逆代表，明确互素前提。"
   },
@@ -5277,7 +5277,7 @@
         "end": 24
       }
     ],
-    "guideHeading": "证明逐步看",
+    "guideHeading": "例 2：模 12 下三个单位元都满足 $a^4\\equiv1$",
     "status": "explained",
     "note": "模12的1、5、7、11乘5后余5、1、11、7，讲解得5^4余1及7^4、11^4同结论。"
   },
@@ -5317,7 +5317,7 @@
         "end": 78
       }
     ],
-    "guideHeading": "证明逐步看",
+    "guideHeading": "思考：逆命题也成立吗",
     "status": "explained",
     "note": "原逆向思考a^φ(m)余1推出互素，讲解令d=(a,m)并证明d整除1，不把它误当素性判据。"
   },
@@ -5337,7 +5337,7 @@
         "end": 31
       }
     ],
-    "guideHeading": "课件例题：逆元与 RSA 的小数值模型",
+    "guideHeading": "例 3：用欧拉定理解一次同余式 $13x\\equiv5\\pmod{17}$",
     "status": "explained",
     "note": "13x余5模17，讲解13平方余负1、逆元4，得x余3并回代。"
   },
@@ -5357,7 +5357,7 @@
         "end": 73
       }
     ],
-    "guideHeading": "例 4 与例 5 的素数模过渡",
+    "guideHeading": "例 4 与例 5：素数模下的两个具体验证",
     "status": "explained",
     "note": "例4模11、a=2，讲解2^10余1，乘2得2^11余2。"
   },
@@ -5377,7 +5377,7 @@
         "end": 73
       }
     ],
-    "guideHeading": "例 4 与例 5 的素数模过渡",
+    "guideHeading": "例 4 与例 5：素数模下的两个具体验证",
     "status": "explained",
     "note": "例5中23不整除a，则a^22余1再乘a；讲解后一同余a^23余a也覆盖零类。"
   },
@@ -5397,7 +5397,7 @@
         "end": 79
       }
     ],
-    "guideHeading": "两个版本如何联系",
+    "guideHeading": "定理 2.4.2（Fermat 定理）",
     "status": "explained",
     "note": "任意整数a的a^p余a，讲解分p整除a、p不整除a，联系非零类a^(p减1)余1。"
   },
@@ -5417,7 +5417,7 @@
         "end": 93
       }
     ],
-    "guideHeading": "三个课件推论",
+    "guideHeading": "练习：Fermat 小定理的指数推论",
     "status": "explained",
     "note": "正整数t的指数t+k(p减1)化为t，讲解分别处理零类与非零类，保留t>0。"
   },
@@ -5437,7 +5437,7 @@
         "end": 95
       }
     ],
-    "guideHeading": "证明逐步看",
+    "guideHeading": "例 1：模 11 下把简化剩余系乘 3 再验证 $3^{10}\\equiv1$",
     "status": "duplicate",
     "note": "回顾模11乘3的欧拉重排，euler主题完整列十项及乘积约分。",
     "guideTopic": "euler"
@@ -5458,7 +5458,7 @@
         "end": 105
       }
     ],
-    "guideHeading": "课件阶乘同余的算法",
+    "guideHeading": "三道思考题与一条推论",
     "status": "explained",
     "note": "思考求1至10乘积模11，wilson主题用逆元完整配对得负1。",
     "guideTopic": "wilson"
@@ -5489,7 +5489,7 @@
         "end": 119
       }
     ],
-    "guideHeading": "课件阶乘同余的算法",
+    "guideHeading": "例6 与例7：两个阶乘同余的引子",
     "status": "explained",
     "note": "p=17的七对逆元及剩余1、16，讲解全部列出得16!余负1并推出15!余1。"
   },
@@ -5519,7 +5519,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件阶乘同余的算法",
+    "guideHeading": "例6 与例7：两个阶乘同余的引子",
     "status": "explained",
     "note": "p>5时2(p减3)!加1余0，讲解从(p减1)!补两因子，说明p>3已足够。"
   },
@@ -5539,7 +5539,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "素数为何成立",
+    "guideHeading": "Wilson 定理 2.4.3",
     "status": "explained",
     "note": "Wilson两个方向，讲解配对非自逆元素、保留正负1；反向用合数真因数整除阶乘与1矛盾。"
   },
@@ -5559,7 +5559,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "可逆的乘法只会重排",
+    "guideHeading": "定理 2.3.5：逆元的存在性与唯一性",
     "status": "duplicate",
     "note": "Wilson证明引用2.3.5逆元存在，reduced主题给存在与唯一类解释。",
     "guideTopic": "reduced"
@@ -5580,7 +5580,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "三个课件推论",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "素数p下(a+b)^p余a^p+b^p，fermat主题由两边均余a+b证明，并给二项式路线。",
     "guideTopic": "fermat"
@@ -5601,7 +5601,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "末位与末三位例题",
+    "guideHeading": "阶乘与费马小定理：例7 到例10",
     "status": "explained",
     "note": "243^402末三位，讲解φ(1000)=400化为243平方余49，规范写049。"
   },
@@ -5621,7 +5621,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "末位与末三位例题",
+    "guideHeading": "阶乘与费马小定理：例7 到例10",
     "status": "explained",
     "note": "幂塔7^(7^7)末位3，讲解先算上层指数模4余3，再用底数末位循环。"
   },
@@ -5641,7 +5641,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "末位与末三位例题",
+    "guideHeading": "阶乘与费马小定理：例7 到例10",
     "status": "explained",
     "note": "同标签第一练习：77^777末位。讲解化7的循环，777模4余1，答案7；区别于上一幂塔题。"
   },
@@ -5661,7 +5661,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "末位与末三位例题",
+    "guideHeading": "阶乘与费马小定理：例7 到例10",
     "status": "explained",
     "note": "同标签第二练习：(a,10)=1证明a^(100n+1)同余a模1000。讲解模125用φ=100、模8用奇数平方余1，再合并，取n≥0。"
   },
@@ -5681,7 +5681,7 @@
         "end": 136
       }
     ],
-    "guideHeading": "三个课件推论",
+    "guideHeading": "练习：Fermat 小定理的指数推论",
     "status": "explained",
     "note": "另一练习复述正指数加k(p减1)化简，fermat主题给零类与非零类两情形。",
     "guideTopic": "fermat"
@@ -5702,7 +5702,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "三个课件推论",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "2^(37乘73减1)模2701，讲解模37用2^36余1、模73用2^9余1，合并得1。",
     "guideTopic": "fermat"
@@ -5723,7 +5723,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "原页另外两道思考题",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考1：n+1为素数且不整除a、b，则整除a^n减b^n。讲解两项由小定理均余1。",
     "guideTopic": "fermat"
@@ -5744,7 +5744,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "三个课件推论",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考2：任意整数n有42整除n^7减n。讲解分别模2、3、7证明，再因三模互素合并。",
     "guideTopic": "fermat"
@@ -5765,7 +5765,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "原页另外两道思考题",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考3：a^(6m)+a^(6n)同余0模7当且仅当7整除a。讲解补m,n≥1：非零类两项均余1，和余2；给零指数反例说明原范围过宽。",
     "guideTopic": "fermat"
@@ -5786,7 +5786,7 @@
         "end": 140
       }
     ],
-    "guideHeading": "末位与末三位例题",
+    "guideHeading": "攻击 RSA 的两个例子：例12、例13",
     "status": "explained",
     "note": "9991=100平方减3平方=97乘103，讲解实际分解。"
   },
@@ -5848,7 +5848,7 @@
         "end": 146
       }
     ],
-    "guideHeading": "简化剩余之和",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "习题2.6(31)须m>2，phi-props主题将a与m减a配对证明和余0，以m=2反例说明边界。",
     "guideTopic": "phi-props"
@@ -5864,7 +5864,7 @@
         "end": 172
       }
     ],
-    "guideHeading": "课件四个例题完整算式",
+    "guideHeading": "重复平方入门例题（例 1 与例 2）",
     "status": "explained",
     "note": "3^11模7，讲解列四项平方表及11=8+2+1，得余5。"
   },
@@ -5879,7 +5879,7 @@
         "end": 189
       }
     ],
-    "guideHeading": "课件四个例题完整算式",
+    "guideHeading": "重复平方入门例题（例 1 与例 2）",
     "status": "explained",
     "note": "2^1234模789，讲解十一列平方表和逐次乘入，得余481。"
   },
@@ -5894,7 +5894,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "课件四个例题完整算式",
+    "guideHeading": "模幂应用与课件练习（例 3、例 4 与练习）",
     "status": "explained",
     "note": "312^15模667，讲解列312、629、110、94四项，按15二进制选项得225。"
   },
@@ -5909,7 +5909,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "课件四个例题完整算式",
+    "guideHeading": "模幂应用与课件练习（例 3、例 4 与练习）",
     "status": "explained",
     "note": "225^575模667，讲解十项平方表和七个选中指数，得312，与RSA往返对应。"
   },
@@ -5924,7 +5924,7 @@
         "end": 280
       }
     ],
-    "guideHeading": "原页练习核对",
+    "guideHeading": "模幂应用与课件练习（例 3、例 4 与练习）",
     "status": "explained",
     "note": "原练习(1)：312^13模667。讲解选8、4、1三指数余数94、110、312相乘，得468。"
   },
@@ -5939,7 +5939,7 @@
         "end": 280
       }
     ],
-    "guideHeading": "原页练习核对",
+    "guideHeading": "模幂应用与课件练习（例 3、例 4 与练习）",
     "status": "explained",
     "note": "原练习(2)：34^60模51。讲解34平方同余34，因此全部正整数次幂均余34，不需互素。"
   },
@@ -5954,7 +5954,7 @@
         "end": 280
       }
     ],
-    "guideHeading": "原页练习核对",
+    "guideHeading": "模幂应用与课件练习（例 3、例 4 与练习）",
     "status": "explained",
     "note": "原练习(3)：345^89模101。讲解化底数42，列七项平方表，89=64+16+8+1，余34。"
   }
