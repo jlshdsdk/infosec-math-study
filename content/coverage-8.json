@@ -15,7 +15,7 @@
         "end": 12
       }
     ],
-    "guideHeading": "这一章究竟研究什么",
+    "guideHeading": "第八章总览：群、环、域与教材",
     "status": "explained",
     "note": "解释实际群论范围及课件六章/八章/九章编号对应，环和域原页缺失不补造。"
   },
@@ -40,7 +40,7 @@
         "end": 25
       }
     ],
-    "guideHeading": "",
+    "guideHeading": "定义 6.1.1：二元代数运算与代数系统",
     "status": "ocr-artifact",
     "note": "原页只是“定义？”的动画引导占位，尚无正式命题；后续定义6.1.1给出真实定义。"
   },
@@ -65,7 +65,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "二元运算必须对每一对输入都有效",
+    "guideHeading": "定义 6.1.1：二元代数运算与代数系统",
     "status": "explained",
     "note": "明确非空、S×S到S的映射、唯一输出及封闭性，不只解释术语。"
   },
@@ -90,7 +90,7 @@
         "end": 34
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "例1自然数四则逐项判定；以1−2和1/2否定减除封闭性，另说明0作除数。"
   },
@@ -115,7 +115,7 @@
         "end": 37
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "例2整数加减乘封闭，除法用1/2及除数0反例；保留二元运算与群的区别。"
   },
@@ -140,7 +140,7 @@
         "end": 42
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 3：有理数、实数、复数集上的四则运算",
     "status": "explained",
     "note": "例3有理数、实数、复数加减乘均封闭，除法在0处无定义。"
   },
@@ -165,7 +165,7 @@
         "end": 54
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 4 与例 5：非零实数集与 2 的幂构成的集合",
     "status": "explained",
     "note": "例4非零实数加减可得0而失败；乘除仍非零所以成立。"
   },
@@ -190,7 +190,7 @@
         "end": 54
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 4 与例 5：非零实数集与 2 的幂构成的集合",
     "status": "explained",
     "note": "例5是2的自然数次幂，不是偶数；2+4=6否定加法，指数相加证明乘法。"
   },
@@ -215,7 +215,7 @@
         "end": 61
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 6 至例 8：矩阵、幂集与逻辑联结词上的运算",
     "status": "explained",
     "note": "例6按同阶方阵解释加减乘；指出任意尺寸不闭合、XY逆式在奇异Y处无定义。"
   },
@@ -240,7 +240,7 @@
         "end": 61
       }
     ],
-    "guideHeading": "集合、逻辑和一元运算",
+    "guideHeading": "例 6 至例 8：矩阵、幂集与逻辑联结词上的运算",
     "status": "explained",
     "note": "例7在幂集上取交并仍是子集；另有集合差具体例子。"
   },
@@ -265,7 +265,7 @@
         "end": 61
       }
     ],
-    "guideHeading": "开头演示中的集合差与命题运算",
+    "guideHeading": "例 6 至例 8：矩阵、幂集与逻辑联结词上的运算",
     "status": "explained",
     "note": "例8四种二元联结词完整真值表；逻辑否定和矩阵求逆的一元性见“集合、逻辑和一元运算”。"
   },
@@ -280,7 +280,7 @@
         "end": 409
       }
     ],
-    "guideHeading": "从普通同余推广到模子群合同",
+    "guideHeading": "例 6：把元素与子群整体相加",
     "status": "explained",
     "note": "定义6.3.3右模合同a=bh等价b逆a在H；自反对称传递逐项证明。"
   },
@@ -295,7 +295,7 @@
         "end": 458
       }
     ],
-    "guideHeading": "从普通同余推广到模子群合同",
+    "guideHeading": "定义 6.3.4：右陪集",
     "status": "explained",
     "note": "定义6.3.4是aH等价类；沿课件称右陪集，全部陪集枚举步骤见“课件整数例与枚举方法”。"
   },
@@ -310,7 +310,7 @@
         "end": 444
       }
     ],
-    "guideHeading": "陪集例1、例2和模8练习的数值答案",
+    "guideHeading": "例 1：求 5 所在的模（2）右陪集",
     "status": "explained",
     "note": "例1对5+{0,2,4}逐项模6相加，得{1,3,5}。"
   },
@@ -325,7 +325,7 @@
         "end": 456
       }
     ],
-    "guideHeading": "陪集例1、例2和模8练习的数值答案",
+    "guideHeading": "求所有右陪集的方法与例 2",
     "status": "explained",
     "note": "例2所有模生成元2子群的陪集仅{0,2,4}与{1,3,5}；解释重复代表。"
   },
@@ -340,7 +340,7 @@
         "end": 467
       }
     ],
-    "guideHeading": "课件整数例与枚举方法",
+    "guideHeading": "例 3：整数加法群中陪集就是剩余类",
     "status": "explained",
     "note": "例3整数加法群模mZ合同等价普通模m同余，陪集是整个剩余类。"
   },
@@ -355,7 +355,7 @@
         "end": 470
       }
     ],
-    "guideHeading": "例4：复数乘法群的陪集是一族同心圆",
+    "guideHeading": "例 4：复数乘法群的陪集是一族同心圆",
     "status": "explained",
     "note": "例4先证模长1复数组成子群，再双向证合同等价模长相等，陪集为半径|a|的圆；给3+4i数值例。"
   },
@@ -370,7 +370,7 @@
         "end": 483
       }
     ],
-    "guideHeading": "教材习题8.4第(ii)问：把充要条件两边都证完",
+    "guideHeading": "8.3.2 陪集的性质",
     "status": "explained",
     "note": "作业双向证明b逆a在H当且仅当aH=bH，保留课件右陪集称谓。"
   },
@@ -390,7 +390,7 @@
         "end": 178
       }
     ],
-    "guideHeading": "从双行记号得到唯一的循环分块",
+    "guideHeading": "同一课件的首次录制回放（p.435-497）",
     "status": "explained",
     "note": "定理6.2.7用追踪轨道证明可表性；“唯一性究竟忽略什么”解释换起点与不相交轮换调序的边界。"
   },
@@ -415,7 +415,7 @@
         "end": 99
       }
     ],
-    "guideHeading": "例24不只报数：把24个置换实际列完",
+    "guideHeading": "同一课件的首次录制回放（p.435-497）",
     "status": "explained",
     "note": "例24列出全部24置换并按类型计数，不能只用24这个总数作答案。"
   },
@@ -435,7 +435,7 @@
         "end": 185
       }
     ],
-    "guideHeading": "唯一性究竟忽略什么",
+    "guideHeading": "同一课件的首次录制回放（p.435-497）",
     "status": "explained",
     "note": "填空答案是各不相交轮换长度之和等于n；计入所有固定点。"
   },
@@ -455,7 +455,7 @@
         "end": 187
       }
     ],
-    "guideHeading": "唯一性究竟忽略什么",
+    "guideHeading": "同一课件的首次录制回放（p.435-497）",
     "status": "duplicate",
     "note": "同一长度求和填空的“思考”识别标签，与本主题填空题内容相同，已给r1+…+rk=n。"
   },
@@ -475,7 +475,7 @@
         "end": 32
       }
     ],
-    "guideHeading": "轮换记录一条闭合路线",
+    "guideHeading": "定义 6.2.5：轮换",
     "status": "explained",
     "note": "原label“定义625”校正为定义6.2.5；解释循环像、固定点、起点循环移动及逆方向。"
   },
@@ -495,7 +495,7 @@
         "end": 39
       }
     ],
-    "guideHeading": "例19的六个置换和全部小题",
+    "guideHeading": "定理 6.2.6 与例 21：对称群",
     "status": "duplicate",
     "note": "例21复用先前例19同一组六个S3置换；六个轮换表示和群性质均在permutation对应小节给出。",
     "guideTopic": "permutation"
@@ -516,7 +516,7 @@
         "end": 54
       }
     ],
-    "guideHeading": "相交轮换的乘积如何算",
+    "guideHeading": "例 22：把双行记号写成轮换",
     "status": "explained",
     "note": "例22算(134)(346)每个像；循环起点在“轮换记录一条闭合路线”，反向比较在“例22的反向复合与例23的完整输出”。"
   },
@@ -536,7 +536,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "单选题：有两条非平凡循环，就不是一个轮换",
+    "guideHeading": "例 22：把双行记号写成轮换",
     "status": "duplicate",
     "note": "“有多个循环怎么表达”的思考紧接单选题；给出(132)(45)(6)，不是一个轮换。"
   },
@@ -556,7 +556,7 @@
         "end": 46
       }
     ],
-    "guideHeading": "相交轮换的乘积如何算",
+    "guideHeading": "例 22 续：轮换的等价写法与轮换乘积",
     "status": "duplicate",
     "note": "填空题是例22的(134)(346)，六列明确为3,2,1,6,5,4。"
   },
@@ -576,7 +576,7 @@
         "end": 83
       }
     ],
-    "guideHeading": "不相交轮换可以交换",
+    "guideHeading": "定义 6.2.6 与例 23：不相交（不相杂）轮换",
     "status": "explained",
     "note": "定义6.2.6为两个支持集不交；分三类元素证明交换，不泛化到相交轮换。"
   },
@@ -596,7 +596,7 @@
         "end": 83
       }
     ],
-    "guideHeading": "例22的反向复合与例23的完整输出",
+    "guideHeading": "定义 6.2.6 与例 23：不相交（不相杂）轮换",
     "status": "explained",
     "note": "例23(135)(46)双行下行3,2,5,6,1,4，说明相反次序相同。"
   },
@@ -616,7 +616,7 @@
         "end": 425
       }
     ],
-    "guideHeading": "循环群的子群仍能由一个元素生成",
+    "guideHeading": "例 14：证明循环群的子群仍是循环群",
     "status": "explained",
     "note": "例14分别处理单位子群和非平凡子群；最小正指数及带余除法证明见“带余除法是整个证明的关键”。"
   },
@@ -631,7 +631,7 @@
         "end": 330
       }
     ],
-    "guideHeading": "例6的两组平移演示逐项算完",
+    "guideHeading": "例 6：把元素与子群整体相加",
     "status": "explained",
     "note": "11月4日第5份课件第3–10帧（合并第323–330页）：模6加法群两组陪集平移，逐一计算全部六个代表元。",
     "guideTopic": "cosets"
@@ -647,7 +647,7 @@
         "end": 564
       }
     ],
-    "guideHeading": "课件12阶循环群例题完整列举",
+    "guideHeading": "例 7 与例 14：12 阶循环群的全部子群",
     "status": "explained",
     "note": "例7全部六个子群各列生成元和所有元素；区别子群阶与生成指数。"
   },
@@ -662,7 +662,7 @@
         "end": 551
       }
     ],
-    "guideHeading": "循环群的子群仍能由一个元素生成",
+    "guideHeading": "例 14：证明循环群的子群仍是循环群",
     "status": "duplicate",
     "note": "此处例14是12阶例7旁边引用的旧证明，正文细证明见cyclic-subgroup，不是另一道新题。",
     "guideTopic": "cyclic-subgroup"
@@ -678,7 +678,7 @@
         "end": 584
       }
     ],
-    "guideHeading": "存在性和唯一性分别证明",
+    "guideHeading": "例 8：每个因子恰有一个 d 阶子群",
     "status": "explained",
     "note": "例8对每个d整除n给a的n/d次幂生成唯一d阶子群，分别证明存在和唯一，避免OCR丢分母。"
   },
@@ -693,7 +693,7 @@
         "end": 157
       }
     ],
-    "guideHeading": "循环群由一个动作反复产生",
+    "guideHeading": "定义 6.3.2：循环群与生成元",
     "status": "duplicate",
     "note": "原label“定义62”实际为定义6.3.2，原图编号小数点识别丢失；与同主题定义6.3.2内容相同。"
   },
@@ -708,7 +708,7 @@
         "end": 263
       }
     ],
-    "guideHeading": "循环群由一个动作反复产生",
+    "guideHeading": "定义 6.3.2：循环群与生成元",
     "status": "explained",
     "note": "定义6.3.2完整说明存在单一生成元、有限/无限循环群，后文列具体实例反例。"
   },
@@ -738,7 +738,7 @@
         "end": 242
       }
     ],
-    "guideHeading": "从一个元素出发必须收集哪些元素",
+    "guideHeading": "定理 6.3.4：$a$ 的所有幂构成子群",
     "status": "explained",
     "note": "定理6.3.4所有整数幂构成最小子群，非空及ab逆封闭分别证出。"
   },
@@ -758,7 +758,7 @@
         "end": 232
       }
     ],
-    "guideHeading": "加法群里生成的是整数倍",
+    "guideHeading": "例 12：模 6 加法群中各元素的生成子群",
     "status": "explained",
     "note": "例12明确列0到5各自生成的Z6子群，给2和5连续相加的轨迹。"
   },
@@ -778,7 +778,7 @@
         "end": 239
       }
     ],
-    "guideHeading": "加法群里生成的是整数倍",
+    "guideHeading": "练习：模 5 加法群",
     "status": "explained",
     "note": "模5练习0仅生成{0}，1到4都生成全群；2的五个倍数列完，并由素数阶结论统一说明。"
   },
@@ -798,7 +798,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "加法群里生成的是整数倍",
+    "guideHeading": "例 13：包含某个元素的最小子群",
     "status": "explained",
     "note": "例13六问都由已列生成子群回答，逐个元素最小子群，另解释为何单元素集合不够。"
   },
@@ -818,7 +818,7 @@
         "end": 242
       }
     ],
-    "guideHeading": "循环群由一个动作反复产生",
+    "guideHeading": "定义 6.3.2：循环群与生成元",
     "status": "duplicate",
     "note": "定义6.3.2出现在generated末尾为下一知识点的引入，真实定义及实例在cyclic讲解。",
     "guideTopic": "cyclic"
@@ -844,7 +844,7 @@
         "end": 301
       }
     ],
-    "guideHeading": "有限循环群的生成元由互素性决定",
+    "guideHeading": "循环群的生成元",
     "status": "explained",
     "note": "定理6.3.6有限情况用阶公式和Bezout双向证明，计数为phi(n)；无限情况见“无限循环群只有两个生成元”。"
   },
@@ -869,7 +869,7 @@
         "end": 407
       }
     ],
-    "guideHeading": "有限循环群的生成元由互素性决定",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "原label“定理66”应校正6.3.6；与上一条同一生成元定理，保留原label供原页定位。"
   },
@@ -894,7 +894,7 @@
         "end": 233
       }
     ],
-    "guideHeading": "怎样选择证明方法",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "例9正整数m的倍数集含0、加法结合、以−x为逆；更细的差封闭证明见subgroup-tests“例：倍数集合与交集”。",
     "guideTopic": "group-tests"
@@ -920,7 +920,7 @@
         "end": 236
       }
     ],
-    "guideHeading": "例：整数上的平移新运算",
+    "guideHeading": "例 10：在整数集上定义平移运算 $a \\cdot b = a+b-2$",
     "status": "explained",
     "note": "例10 a圈b=a+b−2，展开结合式a+b+c−4，求e=2、逆元4−a，得交换群。"
   },
@@ -945,7 +945,7 @@
         "end": 242
       }
     ],
-    "guideHeading": "例：整数上的平移新运算",
+    "guideHeading": "例 11：在已知群上构造新运算 $a \\circ b = a * u^{-1} * b$",
     "status": "explained",
     "note": "例11一般平移运算au逆b，逐式验新单位u、新逆ua逆u、结合律及两侧方程候选解。"
   },
@@ -970,7 +970,7 @@
         "end": 252
       }
     ],
-    "guideHeading": "例：模整数加法群",
+    "guideHeading": "例 9：证明 $G=\\{km \\mid k \\in \\mathbb Z\\}$ 关于加法是群",
     "status": "explained",
     "note": "例12正整数n，分段式等号归第二支，0与n−a为单位/逆，结合由取模相容，模4表见group-table。"
   },
@@ -995,7 +995,7 @@
         "end": 282
       }
     ],
-    "guideHeading": "例13中模4剩余类的三个算式",
+    "guideHeading": "例 12：模 $n$ 整数加法群 $(Z_n, \\oplus)$",
     "status": "explained",
     "note": "例13先讲代表无关与类集合相加，两边包含；再算0类+1类、1类+2类、2类+3类并证类加法群。"
   },
@@ -1020,7 +1020,7 @@
         "end": 282
       }
     ],
-    "guideHeading": "例：剩余类组成的商集合",
+    "guideHeading": "例 12：模 $n$ 整数加法群 $(Z_n, \\oplus)$",
     "status": "duplicate",
     "note": "该“定义”标签是例13内定义类加法映射的动画步骤，与例13同题，不另生一条概念。"
   },
@@ -1045,7 +1045,7 @@
         "end": 284
       }
     ],
-    "guideHeading": "两条课件定理：括号和次序分别何时可以变",
+    "guideHeading": "同一课件的重复收录说明",
     "status": "explained",
     "note": "定理6.2.4真正内容是任意有限乘积可改变括号，不是第一指数律；已用归纳思路和四因子等式解释。"
   },
@@ -1070,7 +1070,7 @@
         "end": 294
       }
     ],
-    "guideHeading": "课后思考的完整证明：指数含负数时怎么办",
+    "guideHeading": "同一课件的重复收录说明",
     "status": "explained",
     "note": "对两负和一正一负分情况证明第一指数律，再证明第二指数律的负次数，未借普通数幂律偷证。"
   },
@@ -1095,7 +1095,7 @@
         "end": 305
       }
     ],
-    "guideHeading": "两条课件定理：括号和次序分别何时可以变",
+    "guideHeading": "同一课件的重复收录说明",
     "status": "explained",
     "note": "原label“定理625”校正6.2.5；必须Abel条件才能任意调序，以相邻交换解释并给非交换反例。"
   },
@@ -1135,7 +1135,7 @@
         "end": 181
       }
     ],
-    "guideHeading": "群的五个条件",
+    "guideHeading": "定义 6.2.2：群与 Abel 群",
     "status": "duplicate",
     "note": "定义标签跨入群判定页，分别是群五条件与左单位/左逆判定；主定义见group，对应弱化证明见group-tests。",
     "guideTopic": "group"
@@ -1156,7 +1156,7 @@
         "end": 101
       }
     ],
-    "guideHeading": "每行每列为何都是全体元素的排列",
+    "guideHeading": "例 26：群运算表的每行每列都是元素的一个置换",
     "status": "explained",
     "note": "例26以消去律证每行列至多一次，有限性/方程唯一可解证至少一次，明确结合律不能由拉丁方代替。"
   },
@@ -1176,7 +1176,7 @@
         "end": 105
       }
     ],
-    "guideHeading": "例24最后的开放题：系统地找出更多置换群",
+    "guideHeading": "例 24：列出 $S_4$ 的全部 24 个置换",
     "status": "explained",
     "note": "例24原页新增开放问，按阶构造30子群，含Klein四群及三种保持分组的阶8群，不只重复24置换枚举。"
   },
@@ -1216,7 +1216,7 @@
         "end": 211
       }
     ],
-    "guideHeading": "方法一：同侧单位元和同侧逆元",
+    "guideHeading": "附：p.629-673 与 p.182-226 的关系",
     "status": "explained",
     "note": "定义式判定流程中的左单位/左逆方法；另一段消去有限性见“方法三：有限半群加消去律”，条件不漏非空封闭结合。"
   },
@@ -1241,7 +1241,7 @@
         "end": 183
       }
     ],
-    "guideHeading": "方法一：同侧单位元和同侧逆元",
+    "guideHeading": "附：p.629-673 与 p.182-226 的关系",
     "status": "duplicate",
     "note": "定理未识别编号，原题真实是定理6.2.2左单位及左逆充分性；与同主题正式编号条相同。"
   },
@@ -1261,7 +1261,7 @@
         "end": 183
       }
     ],
-    "guideHeading": "方法一：同侧单位元和同侧逆元",
+    "guideHeading": "附：p.629-673 与 p.182-226 的关系",
     "status": "duplicate",
     "note": "原label“定理622”校正6.2.2，和正式定理同内容；已修掉旧稿暗用右单位的循环论证。"
   },
@@ -1276,7 +1276,7 @@
         "end": 183
       }
     ],
-    "guideHeading": "方法一：同侧单位元和同侧逆元",
+    "guideHeading": "定理 6.2.2 与判定方法一：左单位元加左逆元",
     "status": "explained",
     "note": "定理6.2.2先从cb=e、ba=e推出ab=e，再推出ae=a，左右全部由已有条件导出。"
   },
@@ -1316,7 +1316,7 @@
         "end": 121
       }
     ],
-    "guideHeading": "群的五个条件",
+    "guideHeading": "定义 6.2.2：群与 Abel 群",
     "status": "explained",
     "note": "定义6.2.2全部群公理、阶和有限/无限，以及Abel附加交换条件均明确。"
   },
@@ -1341,7 +1341,7 @@
         "end": 115
       }
     ],
-    "guideHeading": "课件典型实例",
+    "guideHeading": "例 4：整数加法群与整数乘法半群",
     "status": "explained",
     "note": "例4整数加法以0、−a为单位逆；乘法因2逆不在Z且0无逆而失败。"
   },
@@ -1366,7 +1366,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "课件典型实例",
+    "guideHeading": "例 5、例 6、例 7：三个常见群",
     "status": "explained",
     "note": "例5乘法{1,−1}为二阶群，单位1，−1自逆；群公理从普通乘法继承。"
   },
@@ -1391,7 +1391,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "课件典型实例",
+    "guideHeading": "例 5、例 6、例 7：三个常见群",
     "status": "explained",
     "note": "例6四个复数单位根群；闭合可按i的幂理解，i逆为−i，四阶循环群细节见cyclic。"
   },
@@ -1416,7 +1416,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "课件典型实例",
+    "guideHeading": "例 5、例 6、例 7：三个常见群",
     "status": "explained",
     "note": "例7同阶非奇异矩阵群GL，乘积逆倒序、单位I、内部逆封闭，给具体不交换矩阵。"
   },
@@ -1441,7 +1441,7 @@
         "end": 119
       }
     ],
-    "guideHeading": "运算表怎样读取",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "例8模5非零群判断在group“模乘法群的元素为何必须筛选”；完整4×4表及逆元读法在group-table本小节。",
     "guideTopic": "group-table"
@@ -1467,7 +1467,7 @@
         "end": 140
       }
     ],
-    "guideHeading": "拓展题算到底：模 15 的完整乘法表与逆元",
+    "guideHeading": "单选题与拓展题：与 $n$ 互素的 $F_n$ 构成交换群",
     "status": "explained",
     "note": "拓展题一般单位群的条件在“模乘法群的元素为何必须筛选”；模15表64格和八元素逆元已全部算出。"
   },
@@ -1492,7 +1492,7 @@
         "end": 151
       }
     ],
-    "guideHeading": "课件练习的常用后果",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "多选题应选结合律、消去律；交换并非必有，幂等仅单位成立，正文明确逐项回答。",
     "guideTopic": "group-props"
@@ -1508,7 +1508,7 @@
         "end": 535
       }
     ],
-    "guideHeading": "对元素阶的两个直接推论",
+    "guideHeading": "两个推论：元素的周期整除群元数，且 $a^n=1$",
     "status": "explained",
     "note": "无编号定理实为有限群n元素时a的n次幂为e；Lagrange本体与指数定义见“定理及其计算来源”。"
   },
@@ -1523,7 +1523,7 @@
         "end": 548
       }
     ],
-    "guideHeading": "课件例：素数阶群必循环",
+    "guideHeading": "例 6：素数阶群必为循环群",
     "status": "explained",
     "note": "例6非单位元阶整除素数p且不等1，所以阶p生成全群，明确每个非单位都为生成元。"
   },
@@ -1548,7 +1548,7 @@
         "end": 69
       }
     ],
-    "guideHeading": "结合、交换、分配说的是不同事情",
+    "guideHeading": "例 9：有理数加法与乘法满足的运算律",
     "status": "explained",
     "note": "例9有理数加乘基本运算律；非零公共因子条件在“消去律为什么需要条件”，不把0约掉。"
   },
@@ -1573,7 +1573,7 @@
         "end": 88
       }
     ],
-    "guideHeading": "结合、交换、分配说的是不同事情",
+    "guideHeading": "例 10：整数、矩阵与幂集上的运算律盘点",
     "status": "explained",
     "note": "例10整数/矩阵/集合三类比较，明确乘法对加法分配与集合交并互分配，减法反例见正文。"
   },
@@ -1598,7 +1598,7 @@
         "end": 98
       }
     ],
-    "guideHeading": "消去律为什么需要条件",
+    "guideHeading": "消去律的定义与例 11 的反例",
     "status": "explained",
     "note": "例11整数0乘法与非零奇异矩阵反例分别给出，解释矩阵须可逆才可左右消去。"
   },
@@ -1613,7 +1613,7 @@
         "end": 509
       }
     ],
-    "guideHeading": "正规性要求两种陪集相同",
+    "guideHeading": "定义 8.2.3：正规子群",
     "status": "explained",
     "note": "原label“定义823”校正定义8.2.3，集合gH=Hg及等价共轭条件，强调不能逐元交换。"
   },
@@ -1628,7 +1628,7 @@
         "end": 491
       }
     ],
-    "guideHeading": "课件要求掌握的正规子群",
+    "guideHeading": "定义 8.2.3：正规子群",
     "status": "explained",
     "note": "例5模6全部正规子群列为{0},{0,3},{0,2,4},Z6，因母群交换。"
   },
@@ -1643,7 +1643,7 @@
         "end": 491
       }
     ],
-    "guideHeading": "课件要求掌握的正规子群",
+    "guideHeading": "例 5：模 6 整数加法群的所有正规子群",
     "status": "explained",
     "note": "思考题kZ正规、任意Abel群子群正规、平凡子群正规三个命题逐项解释，不依赖元素逐一列举。"
   },
@@ -1658,7 +1658,7 @@
         "end": 494
       }
     ],
-    "guideHeading": "课后练习：正规子群的两个陪集相乘仍是陪集",
+    "guideHeading": "正规子群的四条等价刻画",
     "status": "explained",
     "note": "引理6.4.1课后练习真正为AB也是陪集，OCR曾漏A；已证(aN)(bN)=abN及双向元素包含。"
   },
@@ -1673,7 +1673,7 @@
         "end": 624
       }
     ],
-    "guideHeading": "只检查群阶的不同素因数",
+    "guideHeading": "例 11：用素因数判定元素的周期",
     "status": "explained",
     "note": "例11有限n阶群、不同素因数pi、所有a的n/pi次幂不等e的判定；充分必要和反证理由完整，非每群必有生成元。"
   },
@@ -1693,7 +1693,7 @@
         "end": 299
       }
     ],
-    "guideHeading": "模7和模15思考题：逐个算出全部周期",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "课件引用例5模15没有原根；八个元素的幂序列/周期全列完，群阶8但最大元素阶4。",
     "guideTopic": "cyclic"
@@ -1714,7 +1714,7 @@
         "end": 299
       }
     ],
-    "guideHeading": "与第五章原根联系起来",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "定义5.1.1是前课复习：互素元素使幂为1的最小正次数，等phi(m)为原根；本章对应群中阶。",
     "guideTopic": "cyclic"
@@ -1745,7 +1745,7 @@
         "end": 314
       }
     ],
-    "guideHeading": "课后思考的完整证明：指数含负数时怎么办",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "order处课后思考是group-power同一负指数证明的复习，真实证明在该主题，不因这里只提一句而声称已证明。",
     "guideTopic": "group-power"
@@ -1766,7 +1766,7 @@
         "end": 345
       }
     ],
-    "guideHeading": "课件置换与加法例题",
+    "guideHeading": "群中元素的周期",
     "status": "explained",
     "note": "原label“例13.4”其实“例13. 4次对称群”，应为例13；(1234)周期4，平方、立方、四次幂及九次幂均算明。"
   },
@@ -1786,7 +1786,7 @@
         "end": 267
       }
     ],
-    "guideHeading": "循环群由一个动作反复产生",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "order范围中继续复习循环群定义，原label“定义62”校正6.3.2，主要定义和例子见cyclic。",
     "guideTopic": "cyclic"
@@ -1807,7 +1807,7 @@
         "end": 373
       }
     ],
-    "guideHeading": "循环群由一个动作反复产生",
+    "guideHeading": "定义 6.3.2：循环群与生成元",
     "status": "duplicate",
     "note": "order范围内正式编号定义6.3.2仍是cyclic同一概念，不是新定理。",
     "guideTopic": "cyclic"
@@ -1828,7 +1828,7 @@
         "end": 22
       }
     ],
-    "guideHeading": "对换可以拼出任何置换",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "推论6.2.1由不相交轮换各拆r−1个对换得到，说明分解未必唯一，具体八元素练习给四个对换答案。"
   },
@@ -1848,7 +1848,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "奇偶性为什么不会随分解改变",
+    "guideHeading": "定义（奇置换、偶置换、定性数）与例 25",
     "status": "explained",
     "note": "例25在S6计固定点：(134)有4轮换定性2为偶；(135)(46)有3轮换定性3为奇。"
   },
@@ -1868,7 +1868,7 @@
         "end": 93
       }
     ],
-    "guideHeading": "乘法规律与交错群",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "原label“定理628”校正6.2.8；n>1奇偶各n!/2，以固定对换建立双射，n=1排除。"
   },
@@ -1883,7 +1883,7 @@
         "end": 286
       }
     ],
-    "guideHeading": "例24不只报数：把24个置换实际列完",
+    "guideHeading": "例 24：把 $S_4$ 的 24 个置换按轮换类型列全",
     "status": "duplicate",
     "note": "parity处例24是S4全集复习；cycle-decomp完整列表、parity已分偶置换12个与奇置换12个。",
     "guideTopic": "cycle-decomp"
@@ -1904,7 +1904,7 @@
         "end": 4
       }
     ],
-    "guideHeading": "置换是一种可逆的重新编号",
+    "guideHeading": "置换的定义（定义 6.2.4）",
     "status": "explained",
     "note": "原label“定义624”校正6.2.4，定义有限集合双射、双行记号和n!计数。"
   },
@@ -1924,7 +1924,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "例19的六个置换和全部小题",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "例19明确六个置换，全部指定复合、括号两边、逆元下标i=4，六个符号替换密文均给出。"
   },
@@ -1954,7 +1954,7 @@
         "end": 24
       }
     ],
-    "guideHeading": "课件复合约定：从右向左",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "无编号定义真实为复合sigma tau(x)=sigma(tau(x))，双射闭合、结合、恒等、逆见“为什么对称群是群”。"
   },
@@ -1974,7 +1974,7 @@
         "end": 17
       }
     ],
-    "guideHeading": "为什么对称群是群",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "单选“全体置换的复合是否二元”答是：两个双射复合仍双射，且每个输入像唯一。"
   },
@@ -1994,7 +1994,7 @@
         "end": 29
       }
     ],
-    "guideHeading": "课件复合约定：从右向左",
+    "guideHeading": "例 20：四元置换的乘法与不可交换性",
     "status": "explained",
     "note": "例20给sigma=(12)、tau=(13)(24)，两种复合双行下行分别3,4,2,1及4,3,1,2，逐个像解释。"
   },
@@ -2014,7 +2014,7 @@
         "end": 30
       }
     ],
-    "guideHeading": "为什么对称群是群",
+    "guideHeading": "定理 6.2.6 与例 21：对称群",
     "status": "explained",
     "note": "原label“定理626”校正6.2.6；Sn是群、阶n!，S1/S2交换与n≥3反例条件保留。"
   },
@@ -2034,7 +2034,7 @@
         "end": 31
       }
     ],
-    "guideHeading": "例19的六个置换和全部小题",
+    "guideHeading": "定理 6.2.6 与例 21：对称群",
     "status": "duplicate",
     "note": "例21只是把同一组六个S3置换重写并声明为群，例19及对称群证明已实际覆盖。"
   },
@@ -2059,7 +2059,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "半群在群之前加了什么要求",
+    "guideHeading": "定义 6.2.1 与例 1、例 2",
     "status": "explained",
     "note": "定义6.2.1要求非空、运算封闭、结合；区别含幺半群及群，不漏条件。"
   },
@@ -2084,7 +2084,7 @@
         "end": 101
       }
     ],
-    "guideHeading": "课件的投影运算例题",
+    "guideHeading": "定义 6.2.1 与例 1、例 2",
     "status": "explained",
     "note": "半群例1是幂集交并两个半群，现逐项讲非空封闭结合、各单位、为何不是群。"
   },
@@ -2109,7 +2109,7 @@
         "end": 102
       }
     ],
-    "guideHeading": "课件的投影运算例题",
+    "guideHeading": "定义 6.2.1 与例 1、例 2",
     "status": "explained",
     "note": "半群例2投影a圈b=b，展开两边都等c，说明左单位多而无双侧单位的边界。"
   },
@@ -2134,7 +2134,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "课件的投影运算例题",
+    "guideHeading": "例 3：常见数集在四则运算下是否为半群",
     "status": "explained",
     "note": "半群例3各数集加乘均为半群，整数/有理/实减法虽封闭不结合，自然/正整数减法先不封闭，明确分类。"
   },
@@ -2149,7 +2149,7 @@
         "end": 601
       }
     ],
-    "guideHeading": "四元群只有两种结构",
+    "guideHeading": "例 9：确定所有可能的 4 元群",
     "status": "explained",
     "note": "例9分有阶4/无阶4两种，消去确定Klein表并用具体置换证结构存在，说明仅同构意义。"
   },
@@ -2164,7 +2164,7 @@
         "end": 618
       }
     ],
-    "guideHeading": "六元群必有阶3元素",
+    "guideHeading": "例 10：证明 6 元群中一定有周期为 3 的元素",
     "status": "explained",
     "note": "例10分有阶6及反证全部非单位阶2，得到阶4子群违4不整除6；选不同非单位、单位阶1的边界均说明。"
   },
@@ -2184,7 +2184,7 @@
         "end": 184
       }
     ],
-    "guideHeading": "三种子群判别必须保留非空",
+    "guideHeading": "子群H的判定",
     "status": "explained",
     "note": "定义式判别从母群继承结合、以aa逆获得共同单位，正逆封闭加非空；不是独立新定义。"
   },
@@ -2204,7 +2204,7 @@
         "end": 182
       }
     ],
-    "guideHeading": "三种子群判别必须保留非空",
+    "guideHeading": "子群H的判定",
     "status": "explained",
     "note": "原label“定理61”应为定理6.3.1，判别一乘积与逆封闭且非空；细推单位及继承结合。"
   },
@@ -2224,7 +2224,7 @@
         "end": 196
       }
     ],
-    "guideHeading": "三种子群判别必须保留非空",
+    "guideHeading": "子群H的判定",
     "status": "explained",
     "note": "定理6.3.2的ab逆封闭一条件判别，以a=b、a=e还原单位逆乘封闭，明确非空不可省。"
   },
@@ -2244,7 +2244,7 @@
         "end": 204
       }
     ],
-    "guideHeading": "例：倍数集合与交集",
+    "guideHeading": "子群H与大群G的关系",
     "status": "explained",
     "note": "例9整数mZ差封闭证明：km−lm=(k−l)m，并含0，得子群和群；与早前群定义法区分。"
   },
@@ -2264,7 +2264,7 @@
         "end": 213
       }
     ],
-    "guideHeading": "例：倍数集合与交集",
+    "guideHeading": "子群H与大群G的关系",
     "status": "explained",
     "note": "例10子群交集含共同单位，差积ab逆同时属于两者，得交为子群。"
   },
@@ -2284,7 +2284,7 @@
         "end": 222
       }
     ],
-    "guideHeading": "例：集合乘积何时仍是子群",
+    "guideHeading": "子群H与大群G的关系",
     "status": "explained",
     "note": "例11 HK=KH时用ab逆判别证明HK子群；补逆命题，不能直接交换原因子；并集反例也明确。"
   },
@@ -2304,7 +2304,7 @@
         "end": 227
       }
     ],
-    "guideHeading": "三种子群判别必须保留非空",
+    "guideHeading": "子群H与大群G的关系",
     "status": "explained",
     "note": "定理6.3.3有限非空子集只需乘积封闭，借消去有限半群或幂重复证逆存在；无限正整数反例。"
   },
@@ -2324,7 +2324,7 @@
         "end": 115
       }
     ],
-    "guideHeading": "子群继承的是同一种运算",
+    "guideHeading": "定义 6.3.1：子群、真子群与平凡子群",
     "status": "explained",
     "note": "定义6.3.1、真/平凡/非平凡区别，单位逆与母群一致有消去唯一性证明。"
   },
@@ -2344,7 +2344,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "子群例1 mZ加法子群；差封闭细证明见subgroup-tests，m=0也成立。"
   },
@@ -2364,7 +2364,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "子群例2 Z、Q、R在C加法下真子群，单位0与加法逆仍内部；真性见取集合外复数。"
   },
@@ -2384,7 +2384,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "子群例3非零有理数的乘法单位逆仍有理，真包含于非零复数，始终同一乘法。"
   },
@@ -2404,7 +2404,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "子群例4行列式1矩阵以det乘积/逆公式证子群；定义要求n阶非奇异母群，非不同运算。"
   },
@@ -2424,7 +2424,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "子群例5 C星乘法不是C加法的子群，运算不同；并可用1+(-1)=0排除集合加法封闭。"
   },
@@ -2444,7 +2444,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "思考Z3模3加法不是Z6模6加法子群，2+6 2=4不在子集；与Z6中{0,2,4}同构不等于本身是子群。"
   },
@@ -2464,7 +2464,7 @@
         "end": 124
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 6 与填空题：$\\mathbb{Z}_6$ 的全部子群",
     "status": "explained",
     "note": "Z6三空依次4子群、3真子群、2平凡子群，按定义清楚计算。"
   },
@@ -2484,7 +2484,7 @@
         "end": 129
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 6 与填空题：$\\mathbb{Z}_6$ 的全部子群",
     "status": "explained",
     "note": "子群例6列Z6四个子群，{0,1,3,5}以1+1=2反例否定；“生成”与循环子群证明补完整性。"
   },
@@ -2504,7 +2504,7 @@
         "end": 145
       }
     ],
-    "guideHeading": "中心化子与共轭子群",
+    "guideHeading": "例 7：中心化子是子群",
     "status": "explained",
     "note": "子群例7中心化子非空、积封闭、逆封闭逐步推导，逆封闭左右乘的次序已展开。"
   },
@@ -2524,7 +2524,7 @@
         "end": 146
       }
     ],
-    "guideHeading": "中心化子与共轭子群",
+    "guideHeading": "课后练习：共轭子群",
     "status": "explained",
     "note": "课后练习gHg逆含e且xy逆=g(h1h2逆)g逆，内部封闭，明确共轭子群意义。"
   },
@@ -2544,7 +2544,7 @@
         "end": 150
       }
     ],
-    "guideHeading": "矩阵与子半群",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "子群例8实际是半群反例：aE11乘bE11=abE11，内部单位E11不同于母半群In；非子群单位反例。",
     "guideTopic": "semigroup"
@@ -2600,7 +2600,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "整数四则多选：加、减、乘成立；除法有1/2和除零障碍。对应原页35（另一来源482）。"
   },
@@ -2655,7 +2655,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "非零实数四则多选：加、减会产生0，乘、除仍为非零实数；原页44（另一来源491）。"
   },
@@ -2710,7 +2710,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "自然数指数的2的幂多选：乘法封闭，减法可得零，除法可产生1/2，加法2+4可得6；原页51。"
   },
@@ -2765,7 +2765,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "整数指数的2的幂多选：乘和除对应指数和差而封闭，加减不封闭；原页55。"
   },
@@ -2820,7 +2820,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "课件例题逐项判断",
+    "guideHeading": "例 1 与例 2：自然数集与整数集上的四则运算",
     "status": "explained",
     "note": "实矩阵多选：先区分固定尺寸与各种尺寸混合；同阶方阵加减乘封闭，XY逆因Y可能奇异而不对全部方阵定义。原页56的OCR把逆指数识别为−10，按原公式讲解。"
   },
@@ -2840,7 +2840,7 @@
         "end": 481
       }
     ],
-    "guideHeading": "陪集的七项基本性质",
+    "guideHeading": "定义 6.3.4：右陪集",
     "status": "explained",
     "note": "思考一：映射h到ah为双射，逆映射x到a逆乘x，故有限子群与每个陪集元素数相同；原页437—439。"
   },
@@ -2860,7 +2860,7 @@
         "end": 481
       }
     ],
-    "guideHeading": "定理及其计算来源",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考二：有限群由等大的不交陪集分割，得|G|=[G:H]|H|，故子群阶整除群阶；实际讲解归属lagrange。原页480—481。",
     "guideTopic": "lagrange"
@@ -2881,7 +2881,7 @@
         "end": 456
       }
     ],
-    "guideHeading": "陪集例1、例2和模8练习的数值答案",
+    "guideHeading": "例 1：求 5 所在的模（2）右陪集",
     "status": "explained",
     "note": "模6剩余类版练习：〈2〉={0,2,4}，5+〈2〉={1,3,5}，逐项取模；原页442—444。"
   },
@@ -2901,7 +2901,7 @@
         "end": 456
       }
     ],
-    "guideHeading": "陪集例1、例2和模8练习的数值答案",
+    "guideHeading": "例 1：求 5 所在的模（2）右陪集",
     "status": "explained",
     "note": "模8练习：〈4〉={0,4}，5+〈4〉={5,1}，并解释为何4的下一倍回到0；原页456。"
   },
@@ -2921,7 +2921,7 @@
         "end": 45
       }
     ],
-    "guideHeading": "单选题：有两条非平凡循环，就不是一个轮换",
+    "guideHeading": "例 22：把双行记号写成轮换",
     "status": "explained",
     "note": "单轮换判断：双行下排3,1,2,5,4,6分解为(132)(45)(6)，有两个非平凡循环，答案否；原页41—43。"
   },
@@ -2941,7 +2941,7 @@
         "end": 45
       }
     ],
-    "guideHeading": "轮换记录一条闭合路线",
+    "guideHeading": "例 22：把双行记号写成轮换",
     "status": "explained",
     "note": "循环记号相等判断：(341)=(413)=(134)，只更换起点，箭头不变；原页45。"
   },
@@ -2971,7 +2971,7 @@
         "end": 124
       }
     ],
-    "guideHeading": "不相交轮换可以交换",
+    "guideHeading": "问题讨论与示例三：把置换分解为不相杂轮换的乘积",
     "status": "explained",
     "note": "练习一：(5)(46)(2)(13)的双行下排为3,2,1,6,5,4；实际逐点输出已列。"
   },
@@ -3001,7 +3001,7 @@
         "end": 124
       }
     ],
-    "guideHeading": "不相交轮换可以交换",
+    "guideHeading": "问题讨论与示例三：把置换分解为不相杂轮换的乘积",
     "status": "explained",
     "note": "练习二：(4)(26)(153)的双行下排为5,6,1,4,3,2；实际逐点输出已列。"
   },
@@ -3031,7 +3031,7 @@
         "end": 124
       }
     ],
-    "guideHeading": "从双行记号得到唯一的循环分块",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "练习三：a,b,c,d,e,f依次映为c,a,b,d,f,e，从a追踪得(acb)，再得(d)(ef)；实际讲解归属cycle-decomp。",
     "guideTopic": "cycle-decomp"
@@ -3072,7 +3072,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "模乘法群的元素为何必须筛选",
+    "guideHeading": "单选题：素数模 $F_p^*$ 是否构成群",
     "status": "explained",
     "note": "素数模全部非零类构成交换群，已给非空、封闭、结合、单位、贝祖逆元和交换的完整证明；原页120。"
   },
@@ -3112,7 +3112,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "模乘法群的元素为何必须筛选",
+    "guideHeading": "单选题：素数模 $F_p^*$ 是否构成群",
     "status": "explained",
     "note": "合数模全部非零类不构成群：n=uv时两个非零类乘为零，一般反证；另有模6完整反例表。原页133—136。"
   },
@@ -3152,7 +3152,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "模乘法群的元素为何必须筛选",
+    "guideHeading": "单选题：素数模 $F_p^*$ 是否构成群",
     "status": "explained",
     "note": "合数模只取互素类则构成交换群；贝祖给出的逆元也互素，证明覆盖该条件。原页137。"
   },
@@ -3177,7 +3177,7 @@
         "end": 136
       }
     ],
-    "guideHeading": "模乘法群的元素为何必须筛选",
+    "guideHeading": "练习题：证明 $F_p^*$ 是交换群",
     "status": "explained",
     "note": "素数模非零类练习题：逐项检查五个群条件及交换性；素数使全部非零类恰为U(p)。原页122—132。"
   },
@@ -3202,7 +3202,7 @@
         "end": 136
       }
     ],
-    "guideHeading": "模乘法群的元素为何必须筛选",
+    "guideHeading": "练习题：证明 $F_p^*$ 是交换群",
     "status": "explained",
     "note": "合数模全部非零类的追问：n=uv给出封闭性反例，模6的2乘3等于0展示具体失败；原页134—136。"
   },
@@ -3227,7 +3227,7 @@
         "end": 150
       }
     ],
-    "guideHeading": "单位元与逆元的唯一性",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考一：若a是b的逆元，则ab=ba=e，同样两式表明b是a的逆元；实际讲解归属group-props。原页147—148。",
     "guideTopic": "group-props"
@@ -3253,7 +3253,7 @@
         "end": 150
       }
     ],
-    "guideHeading": "消去律的合法做法",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考二：左边同乘左因子逆元、右边同乘右因子逆元，严格由结合律推出群中两侧消去律；实际讲解归属group-props。原页149—150。",
     "guideTopic": "group-props"
@@ -3294,7 +3294,7 @@
         "end": 99
       }
     ],
-    "guideHeading": "结合、交换、分配说的是不同事情",
+    "guideHeading": "结合律、交换律与分配律的定义",
     "status": "explained",
     "note": "无编号定义一：结合律比较三元素括号，交换律比较两元素次序，均明确任意量词。原页70—71。"
   },
@@ -3334,7 +3334,7 @@
         "end": 99
       }
     ],
-    "guideHeading": "结合、交换、分配说的是不同事情",
+    "guideHeading": "结合律、交换律与分配律的定义",
     "status": "explained",
     "note": "无编号定义二：两种运算的左右分配分别写明，特别标明乘法对加法的方向。原页72。"
   },
@@ -3374,7 +3374,7 @@
         "end": 99
       }
     ],
-    "guideHeading": "消去律为什么需要条件",
+    "guideHeading": "结合律、交换律与分配律的定义",
     "status": "explained",
     "note": "无编号定义三：左右消去律都要求从相同侧因子消去，并用零乘法、非零有理数和投影运算检验成立条件。原页89—99。"
   },
@@ -3394,7 +3394,7 @@
         "end": 314
       }
     ],
-    "guideHeading": "模7和模15思考题：逐个算出全部周期",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考一：逐个列U(7)、U(15)幂序列和周期；U(7)由3或5生成，U(15)交换但不存在8阶元素，故不循环。实际讲解归属cyclic；原页192—194。",
     "guideTopic": "cyclic"
@@ -3415,7 +3415,7 @@
         "end": 314
       }
     ],
-    "guideHeading": "逆元和幂的阶",
+    "guideHeading": "元素的周期",
     "status": "explained",
     "note": "思考二：逆元周期不能为2或4，恰与原元素同为3；有限一般情形由相同正幂回单位条件给出，无限阶用反证补全。原页197—207。"
   },
@@ -3435,7 +3435,7 @@
         "end": 314
       }
     ],
-    "guideHeading": "课后思考的完整证明：指数含负数时怎么办",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "思考三：负指数两条幂律及乘积逆元已逐符号情况证明；本页重复早先群幂课后题，实际讲解归属group-power。原页197、208。",
     "guideTopic": "group-power"
@@ -3466,7 +3466,7 @@
         "end": 348
       }
     ],
-    "guideHeading": "元素的周期是最早回到单位元的正次数",
+    "guideHeading": "群中元素的周期",
     "status": "explained",
     "note": "有限周期定理：先列k个互异幂，再用带余除法证明单位幂判据、同幂判据和生成子群大小，允许零和负指数；原页209—233。"
   },
@@ -3496,7 +3496,7 @@
         "end": 348
       }
     ],
-    "guideHeading": "课件置换与加法例题",
+    "guideHeading": "群中元素的周期",
     "status": "explained",
     "note": "加法版定理：明确列0到(k−1)a互异、ma=0当且仅当k整除m、sa=ta当且仅当k整除差，附带余除法和移项证明。原页242。"
   },
@@ -3516,7 +3516,7 @@
         "end": 26
       }
     ],
-    "guideHeading": "对换可以拼出任何置换",
+    "guideHeading": "定义（奇置换、偶置换、定性数）与例 25",
     "status": "explained",
     "note": "无编号定义一：长度为2的轮换称对换，交换两个点而固定其余点；原页189。"
   },
@@ -3536,7 +3536,7 @@
         "end": 26
       }
     ],
-    "guideHeading": "奇偶性为什么不会随分解改变",
+    "guideHeading": "定义（奇置换、偶置换、定性数）与例 25",
     "status": "explained",
     "note": "无编号定义二：计入固定点的不交轮换数k，定性数n−k的奇偶定义奇偶置换，补恒等和单个对换的计算；原页213。"
   },
@@ -3556,7 +3556,7 @@
         "end": 22
       }
     ],
-    "guideHeading": "对换可以拼出任何置换",
+    "guideHeading": "定理 6.2.8 与 n 次交代群",
     "status": "explained",
     "note": "任意轮换可写成对换乘积：给以第一元素为共同端点的公式及作用方向；第二种相邻对换公式另在“同一轮换的第二种对换写法与填空”中逐点解释。"
   },
@@ -3596,7 +3596,7 @@
         "end": 90
       }
     ],
-    "guideHeading": "同一轮换的第二种对换写法与填空",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考一：(12)写为5个、7个对换已实际列式；插入成对相同对换不变，偶数个不可能由奇偶不变性说明。原页205—209。"
   },
@@ -3636,7 +3636,7 @@
         "end": 90
       }
     ],
-    "guideHeading": "奇偶性为什么不会随分解改变",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考二：恒等有n个单元素轮换为偶；一个对换有n−1个轮换为奇；每条长度r的轮换用r−1个对换，合计n−k。原页221—230。"
   },
@@ -3676,7 +3676,7 @@
         "end": 90
       }
     ],
-    "guideHeading": "奇偶性为什么不会随分解改变",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考三：左乘(ab)时两轮换合并或一轮换拆开，已写出两套实际轮换公式及箭头变化，定性数改变正负1，所以翻转奇偶。原页233—246。"
   },
@@ -3716,7 +3716,7 @@
         "end": 90
       }
     ],
-    "guideHeading": "乘法规律与交错群",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考四：把两份对换分解连接证明乘法奇偶规律，2、3、2k、2k+1个奇置换乘积依次偶、奇、偶、奇。原页247—260。"
   },
@@ -3756,7 +3756,7 @@
         "end": 90
       }
     ],
-    "guideHeading": "乘法规律与交错群",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考五：固定对换左乘给出奇偶置换双射，另检验单射和满射，两类各n!/2；明确n=1例外。原页270—277。"
   },
@@ -3846,7 +3846,7 @@
         "end": 26
       }
     ],
-    "guideHeading": "置换是一种可逆的重新编号",
+    "guideHeading": "置换的定义（定义 6.2.4）",
     "status": "explained",
     "note": "填空一：三元素置换数3!=6，解释逐次选像有3、2、1种选择；原页317（另一来源7）。"
   },
@@ -3876,7 +3876,7 @@
         "end": 26
       }
     ],
-    "guideHeading": "课件复合约定：从右向左",
+    "guideHeading": "置换的定义（定义 6.2.4）",
     "status": "duplicate",
     "note": "填空二：例20四点复合，逐点先右后左列出四个输出；与同题例20共用细解，原页336（另一来源26）。"
   },
@@ -3896,7 +3896,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "为什么对称群是群",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "思考一：两个M上的双射复合仍为M上的双射，给定像可依次用两个逆映射找唯一原像，故复合是二元运算；原页327—328。"
   },
@@ -3916,7 +3916,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "例19的六个置换和全部小题",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "思考二：恒等置换左乘σ3、σ4、σ5依次仍得自身，明确给三项；原页329。"
   },
@@ -3936,7 +3936,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "为什么对称群是群",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "思考三：在每个输入x上，两个括号都为σ(τ(ρ(x)))，因此结合；例19具体两个括号中间乘积另已展开。原页331。"
   },
@@ -3956,7 +3956,7 @@
         "end": 23
       }
     ],
-    "guideHeading": "为什么对称群是群",
+    "guideHeading": "例 19：$S_3$ 的六个置换与乘积运算",
     "status": "explained",
     "note": "思考四：双射逐箭头反向得到唯一逆置换，两侧复合均恒等；原页333。"
   },
@@ -3976,7 +3976,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "课件的实例与反例",
+    "guideHeading": "例 1 至例 5：一批子群的正例与反例",
     "status": "explained",
     "note": "六项多选逐项：mZ是子群；普通加法有限集合不封闭；Z/Q/R加法是真子群；非零有理数乘法是真子群；C*乘法与C加法运算不同不能继承；行列式1实矩阵是真子群。已逐项给封闭、逆元或反例及严格包含证据。"
   }

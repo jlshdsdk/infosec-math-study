@@ -119,10 +119,10 @@ test('all 30 historical paragraph anchors retain their lesson and resolve even a
 
 test('historical split boundaries retain their exact semantic paragraph starts',()=>{
   for (const [left,right,prefix] of [
-    ['8-2-heading-1-1','8-2-heading-2-1','### 例：倍数集合与交集\n'],
-    ['8-2-heading-3-1','8-2-heading-4-1','### 逆元和幂的阶\n'],
-    ['8-2-4','8-2-heading-5-1','### 同构：保留运算的重新命名\n'],
-    ['8-3-1','8-3-heading-1-1','$b$ 所在等价类是 $bH=\\{bh:h\\in H\\}$。']
+    ['8-2-heading-1-1','8-2-heading-2-1','### 子群H与大群G的关系\n'],
+    ['8-2-heading-3-1','8-2-heading-4-1','### 群中元素的周期\n'],
+    ['8-2-4','8-2-heading-5-1','### 群的同构：循环群与整数加法群的对应\n'],
+    ['8-3-1','8-3-heading-1-1','### 8.3.2 陪集的性质\n']
   ]) {
     const a=byAnchor.get(left),b=byAnchor.get(right);
     assert.equal(a.lesson,b.lesson); assert.equal(a.until,b.from);

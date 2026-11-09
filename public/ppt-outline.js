@@ -2439,7 +2439,8 @@ window.PPT_OUTLINE = {
                 "lesson": "qr-def",
                 "anchor": "4-1-2",
                 "label": "平方剩余定义与模4、模7的例子",
-                "until": "### 曲线点的例题"
+                "until": "### 例 5：用平方剩余表枚举 $y^2\\equiv x^3+x+1\\pmod 7$ 的点\n",
+                "from": ""
               }
             ],
             "evidence": [
@@ -2493,7 +2494,8 @@ window.PPT_OUTLINE = {
                 "lesson": "qr-def",
                 "anchor": "4-1-curve-points-1",
                 "label": "利用平方剩余表枚举曲线点",
-                "from": "### 曲线点的例题"
+                "from": "### 例 5：用平方剩余表枚举 $y^2\\equiv x^3+x+1\\pmod 7$ 的点\n",
+                "until": ""
               }
             ],
             "evidence": [
@@ -2560,14 +2562,15 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "qr-euler",
-                "until": "非零平方剩余各有两个根 ±x；这两个类不同，因为 p 是奇数。因此模 p 的非零平方剩余与平方非剩余各有 $(p-1)/2$ 个。用 $1^2,\\ldots,((p-1)/2)^2",
+                "until": "### 4.2.1 奇素数模p的平方（非）剩余判别条件\n",
                 "label": "欧拉判别条件及必要方向",
-                "anchor": "4-2-1-1"
+                "anchor": "4-2-1-1",
+                "from": ""
               },
               {
                 "lesson": "qr-euler",
-                "from": "补足“判别为 $1$ 就一定有平方根”的方向：令 $h=(p-1)/2$。已经找到 $h$ 个不同平方剩余，都满足 $z^h-1\\equiv0$；由素数模根界，这个 $h$ 次非零",
-                "until": "模 $19$ 的全部非零平方剩余为 $1,4,5,6,7,9,11,16,17$。用 $1$ 至 $9$ 的平方即可得到，后面的 $10$ 至 $18$ 只是负根对应的重复值。",
+                "from": "### 4.2.1 奇素数模p的平方（非）剩余判别条件\n",
+                "until": "### 4.2.2 奇素数模p的平方（非）剩余的个数\n",
                 "label": "充分方向、乘法规律与判别例题",
                 "anchor": "4-2-1-2"
               }
@@ -2597,16 +2600,17 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "qr-euler",
-                "from": "非零平方剩余各有两个根 ±x；这两个类不同，因为 p 是奇数。因此模 p 的非零平方剩余与平方非剩余各有 $(p-1)/2$ 个。用 $1^2,\\ldots,((p-1)/2)^2",
-                "until": "补足“判别为 $1$ 就一定有平方根”的方向：令 $h=(p-1)/2$。已经找到 $h$ 个不同平方剩余，都满足 $z^h-1\\equiv0$；由素数模根界，这个 $h$ 次非零",
+                "from": "### 4.2.2 奇素数模p的平方（非）剩余的个数\n",
+                "until": "**◆ p.146-147**｜定理 4.2.2 与第一部分证明\n",
                 "label": "平方剩余与非剩余各有多少个",
                 "anchor": "4-2-2-1"
               },
               {
                 "lesson": "qr-euler",
-                "from": "模 $19$ 的全部非零平方剩余为 $1,4,5,6,7,9,11,16,17$。用 $1$ 至 $9$ 的平方即可得到，后面的 $10$ 至 $18$ 只是负根对应的重复值。",
+                "from": "**◆ p.146-147**｜定理 4.2.2 与第一部分证明\n",
                 "label": "剩余列表、计数及练习",
-                "anchor": "4-2-2-2"
+                "anchor": "4-2-2-2",
+                "until": ""
               }
             ],
             "note": "没有找到独立编号的正文标题；计数定理和列表确实在本节原页与现有讲解中，下面直接定位相应段落。",
@@ -2755,13 +2759,15 @@ window.PPT_OUTLINE = {
                 "lesson": "reciprocity",
                 "anchor": "4-4-1",
                 "label": "二次互反律与换位符号",
-                "until": "### 标准计算顺序\n先将分子模分母化简；拆出 −1、2 的幂和平方因子；对剩下的奇素因子逐个使用互反律；换位后再取模，直到落到补充公式。每次变号单独记录，避免最后丢一个负号。"
+                "until": "### 回填引入题：$\\left(\\frac{6}{131}\\right)=-1$\n",
+                "from": ""
               },
               {
                 "lesson": "reciprocity",
                 "anchor": "4-4-reciprocity-theorem-2",
                 "label": "整数部分与格点计数证明",
-                "from": "### 原页互反律证明中的整数部分计数\nGauss 引理的整数部分形式给出"
+                "from": "### 回填引入题：$\\left(\\frac{6}{131}\\right)=-1$\n",
+                "until": "### 例1：判断 $x^2\\equiv77\\pmod{103}$ 是否有解\n"
               }
             ],
             "evidence": [
@@ -2815,21 +2821,22 @@ window.PPT_OUTLINE = {
                 "lesson": "reciprocity",
                 "anchor": "4-4-symbol-calculation-1",
                 "label": "Legendre符号计算与原页练习",
-                "from": "### 标准计算顺序\n先将分子模分母化简；拆出 −1、2 的幂和平方因子；对剩下的奇素因子逐个使用互反律；换位后再取模，直到落到补充公式。每次变号单独记录，避免最后丢一个负号。",
-                "until": "### 原页互反律证明中的整数部分计数\nGauss 引理的整数部分形式给出"
+                "from": "### 例1：判断 $x^2\\equiv77\\pmod{103}$ 是否有解\n",
+                "until": ""
               },
               {
                 "lesson": "reciprocity-app",
                 "anchor": "4-4-2",
                 "label": "由符号判断解数与应用概览",
-                "until": "例如课件研究 $x^2\\equiv-3\\pmod p$（p>3），得到有解的奇素数满足 $p\\equiv1\\pmod6$。对 $x^2\\equiv5\\pmod p$，要另外检查 p=2，不能在一开始只讨论奇素数就把它漏掉。"
+                "until": "### 4.4 符号计算与有解判断\n",
+                "from": ""
               },
               {
                 "lesson": "reciprocity-app",
                 "anchor": "4-4-symbol-calculation-3",
                 "label": "一般二次同余式练习",
-                "from": "### 两个一般二次式练习\n$x^2-3x+5\\equiv0\\pmod{39}$ 同乘 $4$，得 $(2x-3)^2\\equiv-11\\pmod{39}$。模 $13$ 时右侧为 $2$，而 $2$ 是模 $13$ 非剩余，因此无解。模 $3$ 右侧为 $1$ 并不能挽救另一个子模的失败。",
-                "until": "### 从符号推导素数的形状\n对 $p>3$，互反律给出"
+                "from": "### 4.4 符号计算与有解判断\n",
+                "until": "### 4.4 素数形状与证明应用\n"
               }
             ],
             "evidence": [
@@ -2893,14 +2900,15 @@ window.PPT_OUTLINE = {
                 "lesson": "reciprocity-app",
                 "anchor": "4-4-prime-form-applications-1",
                 "label": "平方剩余条件与素数形状概览",
-                "from": "例如课件研究 $x^2\\equiv-3\\pmod p$（p>3），得到有解的奇素数满足 $p\\equiv1\\pmod6$。对 $x^2\\equiv5\\pmod p$，要另外检查 p=2，不能在一开始只讨论奇素数就把它漏掉。",
-                "until": "### 两个一般二次式练习\n$x^2-3x+5\\equiv0\\pmod{39}$ 同乘 $4$，得 $(2x-3)^2\\equiv-11\\pmod{39}$。模 $13$ 时右侧为 $2$，而 $2$ 是模 $13$ 非剩余，因此无解。模 $3$ 右侧为 $1$ 并不能挽救另一个子模的失败。"
+                "from": "### 4.4 素数形状与证明应用\n",
+                "until": "### 4.4 符号计算的收尾练习\n"
               },
               {
                 "lesson": "reciprocity-app",
                 "anchor": "4-4-prime-form-applications-2",
                 "label": "素数同余条件、无穷多证明与整数表示",
-                "from": "### 从符号推导素数的形状\n对 $p>3$，互反律给出"
+                "from": "### 4.4 符号计算的收尾练习\n",
+                "until": ""
               }
             ],
             "evidence": [
@@ -2991,14 +2999,15 @@ window.PPT_OUTLINE = {
                 "lesson": "jacobi",
                 "anchor": "4-5-1",
                 "label": "Jacobi定义与合数模下的有解限制",
-                "until": "### 可高效使用的公式"
+                "until": "### Jacobi符号定义与判断局限\n",
+                "from": ""
               },
               {
                 "lesson": "jacobi",
                 "anchor": "4-5-jacobi-definition-2",
                 "label": "合数模的例题与反例",
-                "from": "### 例一中的模 $85$ 题",
-                "until": "原页 $x^2\\equiv286\\pmod{563}$ 可不先分解分母，用 Jacobi 规则算得 $-1$，立即排除有解。只有想从符号 $1$ 推出有根时，才需要额外确认分母为素数或逐个检查素数幂条件。"
+                "from": "### Jacobi符号定义与判断局限\n",
+                "until": "### 运算性质、补充公式与互反律\n"
               }
             ],
             "evidence": [
@@ -3062,8 +3071,8 @@ window.PPT_OUTLINE = {
                 "lesson": "jacobi",
                 "anchor": "4-5-jacobi-properties-1",
                 "label": "Jacobi运算规则及其证明",
-                "from": "### 可高效使用的公式",
-                "until": "### 例一中的模 $85$ 题"
+                "from": "### 运算性质、补充公式与互反律\n",
+                "until": "### 符号计算与同余式例题\n"
               }
             ],
             "evidence": [
@@ -3117,7 +3126,8 @@ window.PPT_OUTLINE = {
                 "lesson": "jacobi",
                 "anchor": "4-5-jacobi-examples-1",
                 "label": "Jacobi计算、解数判断与模135的全根",
-                "from": "原页 $x^2\\equiv286\\pmod{563}$ 可不先分解分母，用 Jacobi 规则算得 $-1$，立即排除有解。只有想从符号 $1$ 推出有根时，才需要额外确认分母为素数或逐个检查素数幂条件。"
+                "from": "### 符号计算与同余式例题\n",
+                "until": ""
               }
             ],
             "evidence": [
@@ -3360,14 +3370,15 @@ window.PPT_OUTLINE = {
                 "lesson": "sum-squares",
                 "anchor": "4-7-1",
                 "label": "定理4.7.1的可解条件",
-                "until": "### 从模平方根走向整数解\n先求 $r^2\\equiv-1\\pmod p$，于是 $r^2+1=mp$。若 m=1 已得到答案；否则按课件下降法，对当前 x、y 取模 m 的绝对值最小余数 u、v，利用"
+                "until": "### 4.7.1 素数平方和的可解条件\n",
+                "from": ""
               },
               {
                 "lesson": "sum-squares",
                 "anchor": "4-7-sum-squares-condition-2",
                 "label": "必要性的模4证明",
-                "from": "必要性也很简单：奇素数的平方和中一奇一偶，奇数平方模 $4$ 为 $1$，偶数平方模 $4$ 为 $0$，所以 $p\\equiv1\\pmod4$。这就补全了定理的两方向。",
-                "until": "### 课件例一：$53$ 的平方和\n由 $23^2\\equiv-1\\pmod{53}$，取 $(x,y)=(23,1)$，此时 $x^2+y^2=530=10\\cdot53$。模 $10$ 的绝对值最小余数为 $(u,v)=(3,1)$，于是"
+                "from": "### 4.7.1 素数平方和的可解条件\n",
+                "until": "### 4.7.2 下降法及证明\n"
               }
             ],
             "evidence": [
@@ -3401,8 +3412,8 @@ window.PPT_OUTLINE = {
                 "lesson": "sum-squares",
                 "anchor": "4-7-descent-method-1",
                 "label": "从模平方根构造整数平方和",
-                "from": "### 从模平方根走向整数解\n先求 $r^2\\equiv-1\\pmod p$，于是 $r^2+1=mp$。若 m=1 已得到答案；否则按课件下降法，对当前 x、y 取模 m 的绝对值最小余数 u、v，利用",
-                "until": "必要性也很简单：奇素数的平方和中一奇一偶，奇数平方模 $4$ 为 $1$，偶数平方模 $4$ 为 $0$，所以 $p\\equiv1\\pmod4$。这就补全了定理的两方向。"
+                "from": "### 4.7.2 下降法及证明\n",
+                "until": "### 4.7.3 平方和实例与课堂练习\n"
               }
             ],
             "evidence": [
@@ -3456,7 +3467,8 @@ window.PPT_OUTLINE = {
                 "lesson": "sum-squares",
                 "anchor": "4-7-sum-squares-examples-1",
                 "label": "53、13、29、41与797的平方和",
-                "from": "### 课件例一：$53$ 的平方和\n由 $23^2\\equiv-1\\pmod{53}$，取 $(x,y)=(23,1)$，此时 $x^2+y^2=530=10\\cdot53$。模 $10$ 的绝对值最小余数为 $(u,v)=(3,1)$，于是"
+                "from": "### 4.7.3 平方和实例与课堂练习\n",
+                "until": ""
               }
             ],
             "evidence": [
@@ -4002,9 +4014,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "subgroup-tests",
-                "until": "### 例：倍数集合与交集\n对 $x=km,y=lm\\in m\\mathbb Z$，有 $x-y=(k-l)m\\in m\\mathbb Z$，且0在其中，所以 $m\\mathbb ",
+                "until": "### 子群H与大群G的关系\n",
                 "label": "子群的三种判别",
-                "anchor": "8-2-heading-1-1"
+                "anchor": "8-2-heading-1-1",
+                "from": ""
               }
             ],
             "evidence": [
@@ -4035,9 +4048,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "subgroup-tests",
-                "from": "### 例：倍数集合与交集\n对 $x=km,y=lm\\in m\\mathbb Z$，有 $x-y=(k-l)m\\in m\\mathbb Z$，且0在其中，所以 $m\\mathbb ",
+                "from": "### 子群H与大群G的关系\n",
                 "label": "子群交与集合乘积",
-                "anchor": "8-2-heading-2-1"
+                "anchor": "8-2-heading-2-1",
+                "until": ""
               }
             ],
             "evidence": [
@@ -4130,9 +4144,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "order",
-                "until": "### 逆元和幂的阶\n$a^{-1}$ 与 $a$ 同阶，因为 $(a^{-1})^k=e$ 当且仅当 $a^k=e$。所以课件问“若 $a$ 的周期为3，$a^{-1}$ 能否周",
+                "until": "### 群中元素的周期\n",
                 "label": "元素周期及等价判别",
-                "anchor": "8-2-heading-3-1"
+                "anchor": "8-2-heading-3-1",
+                "from": ""
               }
             ],
             "evidence": [
@@ -4163,9 +4178,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "order",
-                "from": "### 逆元和幂的阶\n$a^{-1}$ 与 $a$ 同阶，因为 $(a^{-1})^k=e$ 当且仅当 $a^k=e$。所以课件问“若 $a$ 的周期为3，$a^{-1}$ 能否周",
+                "from": "### 群中元素的周期\n",
                 "label": "逆元、幂与加法群中的周期",
-                "anchor": "8-2-heading-4-1"
+                "anchor": "8-2-heading-4-1",
+                "until": ""
               }
             ],
             "evidence": [
@@ -4196,9 +4212,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "generators",
-                "until": "### 同构：保留运算的重新命名\n两个群同构，指存在双射 $f:G\\to K$，使 $f(xy)=f(x)f(y)$；加法群应按各自运算改写。双射保证元素一一对应，保运算保证乘法关",
+                "until": "### 群的同构：循环群与整数加法群的对应\n",
                 "label": "循环群的生成元",
-                "anchor": "8-2-4"
+                "anchor": "8-2-4",
+                "from": ""
               }
             ],
             "evidence": [
@@ -4229,9 +4246,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "generators",
-                "from": "### 同构：保留运算的重新命名\n两个群同构，指存在双射 $f:G\\to K$，使 $f(xy)=f(x)f(y)$；加法群应按各自运算改写。双射保证元素一一对应，保运算保证乘法关",
+                "from": "### 群的同构：循环群与整数加法群的对应\n",
                 "label": "循环群中的同构实例",
-                "anchor": "8-2-heading-5-1"
+                "anchor": "8-2-heading-5-1",
+                "until": ""
               }
             ],
             "note": "这里是8.2子群材料中的循环群同构实例；不代表8.4整节同态与同构课件已经找到。",
@@ -4326,9 +4344,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "cosets",
-                "until": "$b$ 所在等价类是 $bH=\\{bh:h\\in H\\}$。课件称它为 $H$ 的右陪集；许多其他教材称它为左陪集。本章沿用课件命名，始终以 $bH$ 这个公式为准。相应的另一类集",
+                "until": "### 8.3.2 陪集的性质\n",
                 "label": "模子群合同与陪集的定义",
-                "anchor": "8-3-1"
+                "anchor": "8-3-1",
+                "from": ""
               }
             ],
             "evidence": [
@@ -4359,9 +4378,10 @@ window.PPT_OUTLINE = {
             "parts": [
               {
                 "lesson": "cosets",
-                "from": "$b$ 所在等价类是 $bH=\\{bh:h\\in H\\}$。课件称它为 $H$ 的右陪集；许多其他教材称它为左陪集。本章沿用课件命名，始终以 $bH$ 这个公式为准。相应的另一类集",
+                "from": "### 8.3.2 陪集的性质\n",
                 "label": "陪集的性质与完整课件例题",
-                "anchor": "8-3-heading-1-1"
+                "anchor": "8-3-heading-1-1",
+                "until": ""
               }
             ],
             "evidence": [

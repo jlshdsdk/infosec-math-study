@@ -25,7 +25,7 @@
         "end": 3
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "3.2 节课件原页：章名、目录与当前位置",
     "status": "explained",
     "note": "章节导航与解数约定，无独立数学题。",
     "guideTopic": "3-intro"
@@ -46,7 +46,7 @@
         "end": 3
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "封面：课程出处与标题",
     "status": "explained",
     "note": "章节导航说明判定、求一根、求全根三项目标，无独立题。",
     "guideTopic": "4-intro"
@@ -67,7 +67,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "定理 2.2.5：剩余系的遍历引理",
     "status": "explained",
     "note": "回顾2.2.5的多个模剩余系遍历，指南用CRT一一对应和组合数证明。讲解位于主题“crt-traverse”。",
     "guideTopic": "crt-traverse"
@@ -88,7 +88,7 @@
         "end": 144
       }
     ],
-    "guideHeading": "一步步应用",
+    "guideHeading": "3.2.2 一般形式的中国剩余定理：从完全剩余系到构造公式",
     "status": "explained",
     "note": "思考实际为一般CRT的构造推导，已写总模、部分积、逆元及逐条件验算。",
     "guideTopic": "crt-general"
@@ -109,7 +109,7 @@
         "end": 145
       }
     ],
-    "guideHeading": "一步步应用",
+    "guideHeading": "定理 3.1（中国剩余定理）之（i）及其证明",
     "status": "explained",
     "note": "实际为定理3.2.1(i)，OCR漏小数点；给出一般CRT公式，存在性见构造，唯一性见crt-two。",
     "guideTopic": "crt-general"
@@ -130,7 +130,7 @@
         "end": 148
       }
     ],
-    "guideHeading": "一步步应用",
+    "guideHeading": "定理 3.1（中国剩余定理）之（i）及其证明",
     "status": "duplicate",
     "note": "OCR截断为“定理3”，实际是同一定理计算步骤页，非新增定理。",
     "guideTopic": "crt-general"
@@ -151,7 +151,7 @@
         "end": 151
       }
     ],
-    "guideHeading": "先造只影响一条条件的零件",
+    "guideHeading": "例 3：同一“物不知数”问题的直接构造法",
     "status": "explained",
     "note": "模3、5、7分别余2、3、2，构造70、21、15并得23模105。讲解位于主题“crt-story”。",
     "guideTopic": "crt-story"
@@ -172,7 +172,7 @@
         "end": 155
       }
     ],
-    "guideHeading": "每一轮做什么",
+    "guideHeading": "例 10：模数不互素时的求解",
     "status": "duplicate",
     "note": "同一物不知数例的迭代回顾，先得8模15，再得23模105。讲解位于主题“crt-iterate”。",
     "guideTopic": "crt-iterate"
@@ -193,7 +193,7 @@
         "end": 158
       }
     ],
-    "guideHeading": "韩信点兵与四模例题",
+    "guideHeading": "例 4：韩信点兵并用人数范围定解",
     "status": "explained",
     "note": "韩信战后人数：类104模105，再用1000至1100范围选1049。",
     "guideTopic": "crt-general"
@@ -214,7 +214,7 @@
         "end": 160
       }
     ],
-    "guideHeading": "韩信点兵与四模例题",
+    "guideHeading": "例 5：四个模的一般解",
     "status": "explained",
     "note": "模5、6、7、11任意余数的CRT系数1386、385、330、210及总模2310。",
     "guideTopic": "crt-general"
@@ -245,7 +245,7 @@
         "end": 192
       }
     ],
-    "guideHeading": "韩信点兵与四模例题",
+    "guideHeading": "例 6：韩信点兵之二——直接代入通式",
     "status": "explained",
     "note": "第二点兵题余数1、5、4、10，代入构造式得2111模2310；618段是同题迭代解。",
     "guideTopic": "crt-general"
@@ -266,7 +266,7 @@
         "end": 162
       }
     ],
-    "guideHeading": "韩信点兵与四模例题",
+    "guideHeading": "练习：求满足三个余数条件的最小四位数",
     "status": "explained",
     "note": "最小四位数题依次合并模11、13、17，最后得2421。",
     "guideTopic": "crt-general"
@@ -287,7 +287,7 @@
         "end": 178
       }
     ],
-    "guideHeading": "非互素例与带系数例",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "同页跨节的模4余1、模6余3，检查相容并得9模12。讲解位于主题“crt-iterate”。",
     "guideTopic": "crt-iterate"
@@ -308,7 +308,7 @@
         "end": 217
       }
     ],
-    "guideHeading": "每一轮做什么",
+    "guideHeading": "定理 3.2.1 之 (ii)：解的递归表示",
     "status": "explained",
     "note": "一般CRT迭代关系：设已有x=r+Mt，解新线性条件并更新余数和周期。",
     "guideTopic": "crt-iterate"
@@ -329,7 +329,7 @@
         "end": 224
       }
     ],
-    "guideHeading": "非互素例与带系数例",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "带系数三模组先各解为1模7、3模5、5模9，再合为113模315。",
     "guideTopic": "crt-iterate"
@@ -360,7 +360,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "非互素例与带系数例",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "练习组第一题2x≡1模5、3x≡4模7，先求逆元再合为13模35；同标签另题另列。",
     "guideTopic": "crt-iterate"
@@ -381,7 +381,7 @@
         "end": 227
       }
     ],
-    "guideHeading": "多未知数同模方程组",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "两未知数模7组相减消元得y=5、x=5；同页三未知数练习另列。",
     "guideTopic": "crt-iterate"
@@ -402,7 +402,7 @@
         "end": 237
       }
     ],
-    "guideHeading": "练习与逆元例题的 CRT 过程",
+    "guideHeading": "例 10：模数不互素时的求解",
     "status": "explained",
     "note": "7x≡1模66，分2、3、11并合得19，回代133余1。",
     "guideTopic": "crt-iterate"
@@ -423,7 +423,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "为什么解数相乘",
+    "guideHeading": "定理 3.3.1：合数模同余式的解数等于各子模解数之积",
     "status": "explained",
     "note": "回顾定理3.3.1：互素分模等价及根数乘积；同页23x练习另列。讲解位于主题“root-count”。",
     "guideTopic": "root-count"
@@ -444,7 +444,7 @@
         "end": 248
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "3.2.4 中国剩余定理之应用——算法优化",
     "status": "explained",
     "note": "2的30次幂模77，分别模7、11余1，CRT得1。",
     "guideTopic": "crt-opt"
@@ -465,7 +465,7 @@
         "end": 248
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "3.2.4 中国剩余定理之应用——算法优化",
     "status": "duplicate",
     "note": "同题思考指出Euler只能直接保证60次幂余1，不能直接消去指数30。",
     "guideTopic": "crt-opt"
@@ -496,7 +496,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "模 $77$ 的模幂练习",
     "status": "explained",
     "note": "练习3的62次幂模77由Euler降为平方得9；同标签其他题拆列。",
     "guideTopic": "crt-opt"
@@ -517,7 +517,7 @@
         "end": 267
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "例 12：计算 $312^{1245}\\bmod667$",
     "status": "explained",
     "note": "312的1245次幂模667降指数为13，模23余8、模29余4，合得468。",
     "guideTopic": "crt-opt"
@@ -538,7 +538,7 @@
         "end": 270
       }
     ],
-    "guideHeading": "原页大系数三次式如何对应前面的试根题",
+    "guideHeading": "例 13 与模 $10$ 的二次练习",
     "status": "explained",
     "note": "已逐图确认81x³，系数取模后因式分解，根1、2、5；同页练习拆列。",
     "guideTopic": "crt-opt"
@@ -559,7 +559,7 @@
         "end": 30
       }
     ],
-    "guideHeading": "先造只影响一条条件的零件",
+    "guideHeading": "例 1 的归纳求解：把三个条件逐次化归",
     "status": "explained",
     "note": "物不知数原例：构造和233余23，总模105。",
     "guideTopic": "crt-story"
@@ -580,7 +580,7 @@
         "end": 34
       }
     ],
-    "guideHeading": "练习与逆元例题的 CRT 过程",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "模2、3余1及模7余6，合并得到13模42。讲解位于主题“crt-iterate”。",
     "guideTopic": "crt-iterate"
@@ -601,7 +601,7 @@
         "end": 280
       }
     ],
-    "guideHeading": "一步步应用",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "回顾一般CRT原定理，不是遍历部分的新命题。讲解位于主题“crt-general”。",
     "guideTopic": "crt-general"
@@ -622,7 +622,7 @@
         "end": 296
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "定理 2.2.5：剩余系的遍历引理",
     "status": "duplicate",
     "note": "多个模完全剩余系的独立参数遍历，构造值数量为模的乘积且不重。",
     "guideTopic": "crt-traverse"
@@ -653,7 +653,7 @@
         "end": 306
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "定理 2.2.5：剩余系的遍历引理",
     "status": "explained",
     "note": "定理3.2.4的CRT完全剩余系遍历，含后续同定理动画回顾。",
     "guideTopic": "crt-traverse"
@@ -674,7 +674,7 @@
         "end": 306
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "一一对应与推论 1",
     "status": "explained",
     "note": "推论1是整体类与各模参数唯一对应，由CRT的存在唯一性解释。",
     "guideTopic": "crt-traverse"
@@ -695,7 +695,7 @@
         "end": 313
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "推论 2 与简化剩余系遍历",
     "status": "explained",
     "note": "简化剩余系遍历定理：各局部互素等价整体互素，再用一一对应。",
     "guideTopic": "crt-traverse"
@@ -716,7 +716,7 @@
         "end": 313
       }
     ],
-    "guideHeading": "别把一组参数当成一个参数",
+    "guideHeading": "推论 2 与简化剩余系遍历",
     "status": "explained",
     "note": "推论2：x与总模互素当且仅当各余数与对应子模互素。",
     "guideTopic": "crt-traverse"
@@ -737,7 +737,7 @@
         "end": 313
       }
     ],
-    "guideHeading": "不带逆元的剩余系遍历形式",
+    "guideHeading": "推论 2 与简化剩余系遍历",
     "status": "explained",
     "note": "末页去掉逆元系数的简化剩余系遍历形式：乘可逆系数只重排参数。",
     "guideTopic": "crt-traverse"
@@ -758,7 +758,7 @@
         "end": 100
       }
     ],
-    "guideHeading": "用代入法理解同一件事",
+    "guideHeading": "定理 3.2.2：存在性、唯一性与标准公式",
     "status": "explained",
     "note": "实际为两个模CRT定理3.2，代入解k；唯一性由互素整除乘积证明。",
     "guideTopic": "crt-two"
@@ -779,7 +779,7 @@
         "end": 101
       }
     ],
-    "guideHeading": "用 Bézout 直接拼接",
+    "guideHeading": "定理 3.2.3：贝祖系数形式的中国剩余定理",
     "status": "explained",
     "note": "实际为定理3.3的Bézout版拼接公式，两个投影系数分别作用于一个子模。",
     "guideTopic": "crt-two"
@@ -800,7 +800,7 @@
         "end": 105
       }
     ],
-    "guideHeading": "课件例题：模 $14$ 余 $2$，模 $25$ 余 $3$",
+    "guideHeading": "例 2：标准构造公式的两组计算",
     "status": "explained",
     "note": "例2动画末帧为模14余2、模25余3，求逆并得128模350；首帧不同题另列。",
     "guideTopic": "crt-two"
@@ -816,7 +816,7 @@
         "end": 287
       }
     ],
-    "guideHeading": "次数、系数与解数",
+    "guideHeading": "定义 3.1.1：同余式、次数与整数解",
     "status": "explained",
     "note": "同余式、模意义下次数、整数解与剩余类解的定义均在equation正文与该节说明。",
     "guideTopic": "equation"
@@ -832,7 +832,7 @@
         "end": 288
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "例 1：判断哪些是二次同余式",
     "status": "explained",
     "note": "四道次数判断依次为二次、一次、二次、三次，先约去模意义下零系数。",
     "guideTopic": "equation"
@@ -853,7 +853,7 @@
         "end": 304
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "例 2：从一个整数解到一个剩余类",
     "status": "explained",
     "note": "x²+2x+4模7逐类值4、0、5、5、0、4、3，根1、4。",
     "guideTopic": "equation"
@@ -879,7 +879,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "例 2：从一个整数解到一个剩余类",
     "status": "explained",
     "note": "思考1+7k是否仍为根，由多项式代入相容性解释；再试七类得根1、4；三次式思考另列。",
     "guideTopic": "equation"
@@ -895,7 +895,7 @@
         "end": 294
       }
     ],
-    "guideHeading": "次数、系数与解数",
+    "guideHeading": "例 2：从一个整数解到一个剩余类",
     "status": "explained",
     "note": "回顾多项式代入同余相容性，是根可用一个剩余类表示的理由。",
     "guideTopic": "equation"
@@ -911,7 +911,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "例 3：三次同余式与解数的定义",
     "status": "explained",
     "note": "4x³+3x²+5x+2模7分为4(x−1)(x−2)(x−5)，全根1、2、5。",
     "guideTopic": "equation"
@@ -927,7 +927,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "六个根数小题分别按实际题面拆列；本条为2x≡3模2无解，因为左侧恒偶右侧奇。",
     "guideTopic": "equation"
@@ -948,7 +948,7 @@
         "end": 209
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "定理 4.3.4：Gauss 引理",
     "status": "explained",
     "note": "定理4.3.4的2补充公式，按模8四类给符号，计数证明见后节。",
     "guideTopic": "gauss"
@@ -969,7 +969,7 @@
         "end": 206
       }
     ],
-    "guideHeading": "引理为什么成立",
+    "guideHeading": "定理 4.3.4：Gauss 引理",
     "status": "explained",
     "note": "OCR“定理44”实际Gauss引理4.3.4，绝对余数重排、消去阶乘证明；整数部分形式见后节。",
     "guideTopic": "gauss"
@@ -990,7 +990,7 @@
         "end": 207
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "补充公式第一次使用：思考与例 4",
     "status": "explained",
     "note": "8/131去平方因子为2/131，131余3模8，符号−1。",
     "guideTopic": "gauss"
@@ -1011,7 +1011,7 @@
         "end": 208
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "补充公式第一次使用：思考与例 4",
     "status": "explained",
     "note": "x²≡2模3599，分59和61；模59为非剩余故无解。",
     "guideTopic": "gauss"
@@ -1032,7 +1032,7 @@
         "end": 209
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "推论：2 为模 p 平方剩余的判别法",
     "status": "duplicate",
     "note": "同一2补充公式的模8分类推论，非新题。",
     "guideTopic": "gauss"
@@ -1053,7 +1053,7 @@
         "end": 219
       }
     ],
-    "guideHeading": "例五与回顾例六",
+    "guideHeading": "例 5 与例 6：2 的剩余性与 2 的大幂",
     "status": "explained",
     "note": "p=8k+5时2为非剩余，直接应用模8补充公式。",
     "guideTopic": "gauss"
@@ -1074,7 +1074,7 @@
         "end": 219
       }
     ],
-    "guideHeading": "例五与回顾例六",
+    "guideHeading": "例 5 与例 6：2 的剩余性与 2 的大幂",
     "status": "explained",
     "note": "2的(37·73−1)次幂模37·73，指数2700，分别模37、73余1，CRT得1。",
     "guideTopic": "gauss"
@@ -1095,7 +1095,7 @@
         "end": 219
       }
     ],
-    "guideHeading": "例五与回顾例六",
+    "guideHeading": "例 5 与例 6：2 的剩余性与 2 的大幂",
     "status": "duplicate",
     "note": "“例11”是同页回顾原2.4节例11标签，对应例6同一道大幂题。",
     "guideTopic": "gauss"
@@ -1136,7 +1136,7 @@
         "end": 188
       }
     ],
-    "guideHeading": "把课件的连续提升完整算完",
+    "guideHeading": "连续提升的引例：从模 $3$ 到模 $81$",
     "status": "explained",
     "note": "思考包含x⁴+7x+4的连续提升，根1模3、4模9、22模27及81；其余问题另列。",
     "guideTopic": "hensel"
@@ -1157,7 +1157,7 @@
         "end": 153
       }
     ],
-    "guideHeading": "导式定义与定理页附题",
+    "guideHeading": "从一层提升到一般提升公式",
     "status": "explained",
     "note": "形式导式逐项乘指数降幂，并解释来自二项式增量的一次项，无需微积分。",
     "guideTopic": "hensel"
@@ -1178,7 +1178,7 @@
         "end": 178
       }
     ],
-    "guideHeading": "简单根与其他分支",
+    "guideHeading": "定理 3.3.2 与提升算法",
     "status": "explained",
     "note": "提升定理3.3.2的非零导数条件和唯一提升公式，附题另列。",
     "guideTopic": "hensel"
@@ -1199,7 +1199,7 @@
         "end": 189
       }
     ],
-    "guideHeading": "作业：$x^4+5x+3\\equiv0\\pmod{27}$ 的简单根与重根分支",
+    "guideHeading": "作业：模 $27$ 的分裂与消失",
     "status": "explained",
     "note": "模3两根、模9四根、模27只剩21，分别处理导数为零的分支。",
     "guideTopic": "hensel"
@@ -1215,7 +1215,7 @@
         "end": 177
       }
     ],
-    "guideHeading": "简单根与其他分支",
+    "guideHeading": "定理 3.3.2 与提升算法",
     "status": "duplicate",
     "note": "无编号“定理”是同一定理3.3.2的前提条件强调帧。",
     "guideTopic": "hensel"
@@ -1241,7 +1241,7 @@
         "end": 25
       }
     ],
-    "guideHeading": "与 Legendre 的关键区别",
+    "guideHeading": "Jacobi符号定义与判断局限",
     "status": "explained",
     "note": "Jacobi定义页：按奇素因子重数相乘，0、1、−1判断限制见该节。",
     "guideTopic": "jacobi"
@@ -1267,7 +1267,7 @@
         "end": 25
       }
     ],
-    "guideHeading": "与 Legendre 的关键区别",
+    "guideHeading": "Jacobi符号定义与判断局限",
     "status": "duplicate",
     "note": "编号定义4.5.1与同页“定义”标签重复，正文给出完整乘积定义。",
     "guideTopic": "jacobi"
@@ -1283,7 +1283,7 @@
         "end": 19
       }
     ],
-    "guideHeading": "例一中的模 $85$ 题",
+    "guideHeading": "Jacobi符号定义与判断局限",
     "status": "explained",
     "note": "例1第一题x²≡2模85，模5已非剩余所以无解；其余两题拆列。",
     "guideTopic": "jacobi"
@@ -1299,7 +1299,7 @@
         "end": 56
       }
     ],
-    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "guideHeading": "运算性质、补充公式与互反律",
     "status": "explained",
     "note": "逐图确认4.5.1三性质：分子取模、乘法性、互素平方符号为1，均给定义推导。",
     "guideTopic": "jacobi"
@@ -1315,7 +1315,7 @@
         "end": 92
       }
     ],
-    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "guideHeading": "运算性质、补充公式与互反律",
     "status": "explained",
     "note": "奇数乘积的两个奇偶恒等式，展开uv−1及u²v²−1后模2计算。",
     "guideTopic": "jacobi"
@@ -1331,7 +1331,7 @@
         "end": 94
       }
     ],
-    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "guideHeading": "运算性质、补充公式与互反律",
     "status": "explained",
     "note": "逐图确认4.5.2：分子1、−1、2的三个补充公式，由引理与局部符号相乘证明。",
     "guideTopic": "jacobi"
@@ -1347,7 +1347,7 @@
         "end": 103
       }
     ],
-    "guideHeading": "定理的乘法性、补充公式与互反律证明",
+    "guideHeading": "运算性质、补充公式与互反律",
     "status": "explained",
     "note": "Jacobi互反律，将所有Legendre互反律相乘；明确非互素时两边为0。",
     "guideTopic": "jacobi"
@@ -1363,7 +1363,7 @@
         "end": 121
       }
     ],
-    "guideHeading": "模 $135$ 的四根如何拼回",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "练习31/135=1，模27根2、25及模5根1、4经CRT成四根；47题另列。",
     "guideTopic": "jacobi"
@@ -1379,7 +1379,7 @@
         "end": 120
       }
     ],
-    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "286/563按2·11·13计算为−1，直接排除同余式有解。",
     "guideTopic": "jacobi"
@@ -1410,7 +1410,7 @@
         "end": 204
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "从\"二次同余式有没有解\"到欧拉判别条件",
     "status": "explained",
     "note": "思考有解判定由Legendre符号表示；引例21模43的具体求根已在sqrt-special；8/131另列。",
     "guideTopic": "legendre"
@@ -1431,7 +1431,7 @@
         "end": 142
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "定义 4.3.1：Legendre 符号",
     "status": "explained",
     "note": "定义4.3.1的0、正负1三种值和Euler判别写法在本主题正文，零类单独解释。",
     "guideTopic": "legendre"
@@ -1452,7 +1452,7 @@
         "end": 159
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "例 1：$(2/7)$ 与 $(-1/7)$",
     "status": "explained",
     "note": "例1计算2/7=1、(−1)/7=−1，结合Euler判别；原页并非新算法。",
     "guideTopic": "legendre"
@@ -1473,7 +1473,7 @@
         "end": 159
       }
     ],
-    "guideHeading": "为什么只有正负 1",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "4.3.1是Euler判别的符号写法；正负1两方向证明在qr-euler。讲解位于主题“qr-euler”。",
     "guideTopic": "qr-euler"
@@ -1494,7 +1494,7 @@
         "end": 173
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "定理 4.3.2：$(-1/p)$ 由 $p \\bmod 4$ 决定",
     "status": "explained",
     "note": "4.3.2中1的符号为1、−1的符号按p模4分两类，条件为奇素数。",
     "guideTopic": "legendre"
@@ -1515,7 +1515,7 @@
         "end": 173
       }
     ],
-    "guideHeading": "正负数的平方剩余性",
+    "guideHeading": "定理 4.3.2：$(-1/p)$ 由 $p \\bmod 4$ 决定",
     "status": "duplicate",
     "note": "−1补充公式的模4分类推论，p余1时为剩余、余3时为非剩余。",
     "guideTopic": "legendre"
@@ -1536,7 +1536,7 @@
         "end": 176
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "例 2：判断 $x^2\\equiv-1\\pmod{93}$ 是否有解",
     "status": "explained",
     "note": "负1模93，分3、31且模3已无根，故整体无根。",
     "guideTopic": "legendre"
@@ -1557,7 +1557,7 @@
         "end": 179
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "例 3：判断 $x^2\\equiv-1\\pmod{85}$ 是否有解并求解数",
     "status": "explained",
     "note": "负1模85，模5根2、3和模17根4、13，CRT全根13、38、47、72。",
     "guideTopic": "legendre"
@@ -1578,7 +1578,7 @@
         "end": 203
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "定理 4.3.3 的完整表述",
     "status": "explained",
     "note": "4.3.3包含模p化简、乘法性、非零平方因子不变性，正文列公式与前提。",
     "guideTopic": "legendre"
@@ -1599,7 +1599,7 @@
         "end": 203
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "定理 4.3.3 的完整表述",
     "status": "duplicate",
     "note": "分子同余不改变Legendre符号，是逐余数判定的同一性质。",
     "guideTopic": "legendre"
@@ -1620,7 +1620,7 @@
         "end": 203
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "推论 2：分子乘上不被 $p$ 整除的平方，符号不变",
     "status": "duplicate",
     "note": "乘入与p互素的平方不改符号；零平方因子不能无条件约去。",
     "guideTopic": "legendre"
@@ -1636,7 +1636,7 @@
         "end": 336
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "例 3：从具体方程认识逆元与无解",
     "status": "explained",
     "note": "例3三题4x模5、169x模121、15x模21，分别得4、58、无解。",
     "guideTopic": "linear"
@@ -1657,7 +1657,7 @@
         "end": 392
       }
     ],
-    "guideHeading": "课件的对比例子",
+    "guideHeading": "例 3：从具体方程认识逆元与无解",
     "status": "explained",
     "note": "4x≡9模6因最大公因数2不整除9而无解；10x练习另列。",
     "guideTopic": "linear"
@@ -1673,7 +1673,7 @@
         "end": 351
       }
     ],
-    "guideHeading": "逆元练习与逆元性质",
+    "guideHeading": "定理 3.1.1：右侧为 1 时的判定与唯一性",
     "status": "explained",
     "note": "ax≡1有解当且仅当互素；Bézout证存在，约消证逆元唯一。",
     "guideTopic": "linear"
@@ -1689,7 +1689,7 @@
         "end": 376
       }
     ],
-    "guideHeading": "逆元练习与逆元性质",
+    "guideHeading": "定义 3.1.2：模逆元及其求法",
     "status": "explained",
     "note": "可逆元定义、逆元的逆元、正整数幂的逆元性质均写原公式和理由。",
     "guideTopic": "linear"
@@ -1705,7 +1705,7 @@
         "end": 365
       }
     ],
-    "guideHeading": "逆元练习与逆元性质",
+    "guideHeading": "定义 3.1.2：模逆元及其求法",
     "status": "explained",
     "note": "5模7逆元3、19模41逆元13，给Bézout等式检验。",
     "guideTopic": "linear"
@@ -1721,7 +1721,7 @@
         "end": 384
       }
     ],
-    "guideHeading": "逆元练习与逆元性质",
+    "guideHeading": "定理 3.1.2：简化剩余与可逆元的等价描述",
     "status": "explained",
     "note": "简化剩余等价可逆元：两方向均由ax+my=1及互素推出。",
     "guideTopic": "linear"
@@ -1742,7 +1742,7 @@
         "end": 414
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "定理 3.1.2：简化剩余与可逆元的等价描述",
     "status": "explained",
     "note": "169x≡9得38模121；338x≡18得38、159模242；15x≡2模21无解。",
     "guideTopic": "linear"
@@ -1763,7 +1763,7 @@
         "end": 425
       }
     ],
-    "guideHeading": "从判定到全部解",
+    "guideHeading": "定理 3.1.3：有解判定与全部解公式",
     "status": "explained",
     "note": "一般线性同余充要条件d整除b，约分后唯一类再扩成原模d个不同类。",
     "guideTopic": "linear"
@@ -1779,7 +1779,7 @@
         "end": 433
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "例 5：约分、求逆并展开全部解",
     "status": "explained",
     "note": "57x≡531模123，同除3、求逆13，得原模三根5、46、87。",
     "guideTopic": "linear"
@@ -1795,7 +1795,7 @@
         "end": 438
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "一般步骤与例 6、例 7、例 8",
     "status": "explained",
     "note": "1296x≡1125模1935，同除9用Bézout求80模215，再列九根。",
     "guideTopic": "linear"
@@ -1811,7 +1811,7 @@
         "end": 438
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "一般步骤与例 6、例 7、例 8",
     "status": "explained",
     "note": "37x≡3819模10，化为7x≡9，乘逆元3得7。",
     "guideTopic": "linear"
@@ -1827,7 +1827,7 @@
         "end": 438
       }
     ],
-    "guideHeading": "课件线性算例的关键步骤",
+    "guideHeading": "一般步骤与例 6、例 7、例 8",
     "status": "explained",
     "note": "已知a的100次幂余2、101次幂余69，得2a≡69模73，a余71。",
     "guideTopic": "linear"
@@ -1878,7 +1878,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "素数模非零多项式根界，因子提取后仅可约去非零差；同组反例与推论另列。",
     "guideTopic": "poly-count"
@@ -1899,7 +1899,7 @@
         "end": 237
       }
     ],
-    "guideHeading": "例五的三个三次式逐题求根",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "例5第一题x³−2x²+x−2模7，分为(x−2)(x²+1)，仅根2。",
     "guideTopic": "poly-count"
@@ -1950,7 +1950,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "思考根界两个前提：素数模与最高非零系数；同标签其他命题拆列。",
     "guideTopic": "poly-count"
@@ -1991,7 +1991,7 @@
         "end": 315
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "次数小于p而全部p个类为根则系数全为0；单位根推论另列。",
     "guideTopic": "poly-count"
@@ -2012,7 +2012,7 @@
         "end": 274
       }
     ],
-    "guideHeading": "编号黏连的例六与三道思考",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "OCR“例67”实为“例6 7x³−21模7”，全部系数消失，七类全为根。",
     "guideTopic": "poly-count"
@@ -2033,7 +2033,7 @@
         "end": 278
       }
     ],
-    "guideHeading": "特别注意零解",
+    "guideHeading": "定理 3.4.1：素数模同余式的降次定理",
     "status": "duplicate",
     "note": "回顾3.4.1降次，x^p−x对所有整数为0，降次时保留零类。讲解位于主题“poly-reduce”。",
     "guideTopic": "poly-reduce"
@@ -2064,7 +2064,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "何时达到次数",
+    "guideHeading": "首讲版对照（二）：两个降次例题与定理 3.4.5",
     "status": "explained",
     "note": "首一n次式恰有n个不同根，当且仅当整除x^p−x，两方向均有证明。",
     "guideTopic": "poly-count"
@@ -2085,7 +2085,7 @@
         "end": 302
       }
     ],
-    "guideHeading": "两个容易漏掉的降次小题",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "2x³+5x²+6x+1模7乘逆元4并分为(x−1)(x−2)(x−5)，确有三根。讲解位于主题“poly-reduce”。",
     "guideTopic": "poly-reduce"
@@ -2106,7 +2106,7 @@
         "end": 315
       }
     ],
-    "guideHeading": "何时达到次数",
+    "guideHeading": "首讲版对照（三）：例 7、三道思考与单位根",
     "status": "explained",
     "note": "p=7的二次单位根1、6，三次单位根1、2、4，由d整除p−1得恰好d根。",
     "guideTopic": "poly-count"
@@ -2127,7 +2127,7 @@
         "end": 325
       }
     ],
-    "guideHeading": "模 $7$ 高次例题的答案校正",
+    "guideHeading": "首讲版对照（四）：例 9、例 10 与课后作业",
     "status": "explained",
     "note": "20x^18+2x^15−x^10+4x−3模7，完整七类表均非0，纠正原页错误候选根。",
     "guideTopic": "poly-count"
@@ -2148,7 +2148,7 @@
         "end": 328
       }
     ],
-    "guideHeading": "课件大指数式的逐项化简",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "与前面模5高次式同题，逐项降次、化首一并得0、1、2。讲解位于主题“poly-reduce”。",
     "guideTopic": "poly-reduce"
@@ -2169,7 +2169,7 @@
         "end": 330
       }
     ],
-    "guideHeading": "模 $35$ 课后练习的题面与印刷答案校正",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "两素数模求根后CRT得六根0、1、14、15、21、29，原印九根已纠正。讲解位于主题“poly-reduce”。",
     "guideTopic": "poly-reduce"
@@ -2190,7 +2190,7 @@
         "end": 345
       }
     ],
-    "guideHeading": "末页作业换成模 $7$ 后须重算",
+    "guideHeading": "首讲版对照（四）：例 9、例 10 与课后作业",
     "status": "explained",
     "note": "原图末页改成模7，降到x⁶+2x⁵+2x³+x²+5x，再枚举得0、6。",
     "guideTopic": "poly-count"
@@ -2221,7 +2221,7 @@
         "end": 42
       }
     ],
-    "guideHeading": "课件先证明的是“首一除式”的整数版本",
+    "guideHeading": "授课记录二：引理与基础步复盘",
     "status": "explained",
     "note": "引理3.4.1要求首一整数除式，说明消去最高项为何仍整数；唯一性见长除法例一。",
     "guideTopic": "poly-div"
@@ -2242,7 +2242,7 @@
         "end": 39
       }
     ],
-    "guideHeading": "课件例一：非零余式的长除法",
+    "guideHeading": "授课记录二：例 1 与整除复核",
     "status": "explained",
     "note": "2x⁵+6x³+3x²+9除以x³+4，商2x²+6、余式−5x²−15，两次消项。",
     "guideTopic": "poly-div"
@@ -2263,7 +2263,7 @@
         "end": 42
       }
     ],
-    "guideHeading": "课件先证明的是“首一除式”的整数版本",
+    "guideHeading": "授课记录二：例 1 与整除复核",
     "status": "explained",
     "note": "同被除式除以x²+3，两次消项余0，商2x³+3。",
     "guideTopic": "poly-div"
@@ -2284,7 +2284,7 @@
         "end": 135
       }
     ],
-    "guideHeading": "三道乘积为零的根数填空",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "(x−1)(x−3)模7、4、8根数依次2、2、4，全部余数与零因子解释。",
     "guideTopic": "poly-factor"
@@ -2305,7 +2305,7 @@
         "end": 158
       }
     ],
-    "guideHeading": "从根变成一次因子",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "因子定理：除以x−a的余数f(a)，根对应一次因子；后面的例4另有独立行。",
     "guideTopic": "poly-factor"
@@ -2326,7 +2326,7 @@
         "end": 158
       }
     ],
-    "guideHeading": "课件因式分解与试根练习",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "2x³+7x²+3x模5分为2x(x−2)²，两个不同根0、2。",
     "guideTopic": "poly-factor"
@@ -2357,7 +2357,7 @@
         "end": 212
       }
     ],
-    "guideHeading": "从根变成一次因子",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "已知k个不同根逐个提一次因子，后续x^p−x及x^(p−1)−1的分解见同主题末段。",
     "guideTopic": "poly-factor"
@@ -2378,7 +2378,7 @@
         "end": 174
       }
     ],
-    "guideHeading": "课件因式分解与试根练习",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "四道试根题题面不同，分别拆列；本条x⁴−2x²+x+1模7仅根5，商三次式无根。",
     "guideTopic": "poly-factor"
@@ -2409,7 +2409,7 @@
         "end": 215
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "定理 3.4.4：素数模同余式的根数上界",
     "status": "duplicate",
     "note": "回顾3.4.4根界，与poly-count同一定理，非新命题。讲解位于主题“poly-count”。",
     "guideTopic": "poly-count"
@@ -2430,7 +2430,7 @@
         "end": 190
       }
     ],
-    "guideHeading": "特别注意零解",
+    "guideHeading": "定理 3.4.1：素数模同余式的降次定理",
     "status": "duplicate",
     "note": "回顾3.4.1的Fermat降次，与poly-reduce同一命题。讲解位于主题“poly-reduce”。",
     "guideTopic": "poly-reduce"
@@ -2461,7 +2461,7 @@
         "end": 231
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "定理 3.4.5 的推论与单位根",
     "status": "explained",
     "note": "推论之一：p个根等价函数恒零等价降次余式系数全为0；Wilson逆命题另列。讲解位于主题“poly-count”。",
     "guideTopic": "poly-count"
@@ -2482,7 +2482,7 @@
         "end": 231
       }
     ],
-    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "guideHeading": "第二次授课记录：根数上界、参数例题与 Wilson 定理",
     "status": "explained",
     "note": "3.4.3的一次因子恒等式及取常数项得Wilson，逆命题亦有证明。",
     "guideTopic": "poly-factor"
@@ -2503,7 +2503,7 @@
         "end": 230
       }
     ],
-    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "guideHeading": "第二次授课记录：根数上界、参数例题与 Wilson 定理",
     "status": "duplicate",
     "note": "Wilson逆命题取真素因子，阶乘被整除却同余−1产生矛盾。",
     "guideTopic": "poly-factor"
@@ -2524,7 +2524,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "特别注意零解",
+    "guideHeading": "起点：Fermat 定理与「不能随便用 $x^{p-1}\\equiv 1$」",
     "status": "explained",
     "note": "回顾Euler转Fermat，非零类用p−1周期，零类另查；此处不是新Euler定理。",
     "guideTopic": "poly-reduce"
@@ -2555,7 +2555,7 @@
         "end": 75
       }
     ],
-    "guideHeading": "特别注意零解",
+    "guideHeading": "起点：Fermat 定理与「不能随便用 $x^{p-1}\\equiv 1$」",
     "status": "explained",
     "note": "思考x^p−x全部p根与x^(p−1)−1仅非零p−1根，已有完整类与条件解释。",
     "guideTopic": "poly-reduce"
@@ -2596,7 +2596,7 @@
         "end": 133
       }
     ],
-    "guideHeading": "课件大指数式的逐项化简",
+    "guideHeading": "定理 3.4.1：素数模同余式的降次定理",
     "status": "explained",
     "note": "3.4.1降次定理和5x^11+6x^9+x^7例降为5x⁵+6x³+x；同帧首一要求另有练习行。",
     "guideTopic": "poly-reduce"
@@ -2617,7 +2617,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "课件大指数式的逐项化简",
+    "guideHeading": "例 3：把 $14$ 次同余式降到 $3$ 次",
     "status": "explained",
     "note": "模5高次例按正指数周期4逐项降次到3x³+x²+x，首一后分解并求全根。",
     "guideTopic": "poly-reduce"
@@ -2648,7 +2648,7 @@
         "end": 133
       }
     ],
-    "guideHeading": "两个容易漏掉的降次小题",
+    "guideHeading": "练习：模 $7$ 的降次",
     "status": "explained",
     "note": "练习2x^10+4x^7+2x+8模7降为2x⁴+6x+1；首一练习另列。",
     "guideTopic": "poly-reduce"
@@ -2669,7 +2669,7 @@
         "end": 110
       }
     ],
-    "guideHeading": "五道根数填空逐项解释",
+    "guideHeading": "中途检查：定理 3.4.1 复述与五道填空题",
     "status": "explained",
     "note": "五道函数恒零及Fermat根数填空逐项解释，后续四题版本是删去一题的重复。",
     "guideTopic": "poly-reduce"
@@ -2690,7 +2690,7 @@
         "end": 122
       }
     ],
-    "guideHeading": "根界证明中最容易漏的一步",
+    "guideHeading": "例 8：模 7 的二次与三次单位根",
     "status": "duplicate",
     "note": "p根、函数恒零、余式恒零、余式系数被p整除等价，限制次数小于p。讲解位于主题“poly-count”。",
     "guideTopic": "poly-count"
@@ -2711,7 +2711,7 @@
         "end": 128
       }
     ],
-    "guideHeading": "两个容易漏掉的降次小题",
+    "guideHeading": "首项系数化为 $1$",
     "status": "explained",
     "note": "首项系数2模7逆元4，乘后首一x³−x²+3x−3；继续分解得到三根。",
     "guideTopic": "poly-reduce"
@@ -2727,7 +2727,7 @@
         "end": 63
       }
     ],
-    "guideHeading": "模 7 的完整例子",
+    "guideHeading": "定义 4.1.1：把 $a$ 分成\"能开方\"和\"不能开方\"两类",
     "status": "explained",
     "note": "平方剩余定义含互素条件；逐类平方给模7剩余1、2、4及非剩余3、5、6。",
     "guideTopic": "qr-def"
@@ -2743,7 +2743,7 @@
         "end": 54
       }
     ],
-    "guideHeading": "模 $4$ 的定义例题",
+    "guideHeading": "定义框的补充与例 3：模 $4$ 的两个判定",
     "status": "explained",
     "note": "模4的1为剩余、−1为非剩余；简化剩余1、3平方均为1。",
     "guideTopic": "qr-def"
@@ -2764,7 +2764,7 @@
         "end": 71
       }
     ],
-    "guideHeading": "模 7 的完整例子",
+    "guideHeading": "例 4：模 $7$ 的完整平方表",
     "status": "explained",
     "note": "例4为完整模7平方表；同页曲线引用此表，不是另一个例4。",
     "guideTopic": "qr-def"
@@ -2780,7 +2780,7 @@
         "end": 68
       }
     ],
-    "guideHeading": "模 7 的完整例子",
+    "guideHeading": "练习与思考：从 $29^2\\equiv11\\pmod{83}$ 反推两根",
     "status": "explained",
     "note": "29²≡11模83，所以11为剩余，根29和54；恰两根由根界及两根已找出确定。",
     "guideTopic": "qr-def"
@@ -2796,7 +2796,7 @@
         "end": 68
       }
     ],
-    "guideHeading": "模 7 的完整例子",
+    "guideHeading": "练习与思考：从 $29^2\\equiv11\\pmod{83}$ 反推两根",
     "status": "explained",
     "note": "同题问是否有第三根：二次非零多项式最多两根，因此没有。",
     "guideTopic": "qr-def"
@@ -2812,7 +2812,7 @@
         "end": 72
       }
     ],
-    "guideHeading": "曲线点的例题",
+    "guideHeading": "例 5：用平方剩余表枚举 $y^2\\equiv x^3+x+1\\pmod 7$ 的点",
     "status": "explained",
     "note": "y²=x³+x+1模7右侧全表并列四个仿射点，说明零根与正负根计数。",
     "guideTopic": "qr-def"
@@ -2828,7 +2828,7 @@
         "end": 3
       }
     ],
-    "guideHeading": "例一中的模 $85$ 题",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "此例1是下一节引例的前置重复：2模85在模5非剩余，故无解。讲解位于主题“jacobi”。",
     "guideTopic": "jacobi"
@@ -2859,7 +2859,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "为什么只有正负 1",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "Euler判别推导中的平方为1、正负1分支、根数与有解方向；小模表另列。",
     "guideTopic": "qr-euler"
@@ -2880,7 +2880,7 @@
         "end": 120
       }
     ],
-    "guideHeading": "为什么只有正负 1",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "Euler判别完整两方向，非剩余值只能−1，根数为0或2且有互素前提。",
     "guideTopic": "qr-euler"
@@ -2896,7 +2896,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "乘法规律",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "四个判定：2模7、3模11为剩余，3模41非剩余，8模41剩余，均算判别幂。",
     "guideTopic": "qr-euler"
@@ -2912,7 +2912,7 @@
         "end": 119
       }
     ],
-    "guideHeading": "乘法规律",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "两个剩余积、两个非剩余积、混合积分别为剩余、剩余、非剩余，由符号相乘证明。",
     "guideTopic": "qr-euler"
@@ -2928,7 +2928,7 @@
         "end": 120
       }
     ],
-    "guideHeading": "乘法规律",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "duplicate",
     "note": "与例2同一三条乘法规律的定理化表述。",
     "guideTopic": "qr-euler"
@@ -2944,7 +2944,7 @@
         "end": 148
       }
     ],
-    "guideHeading": "为什么只有正负 1",
+    "guideHeading": "4.2.2 奇素数模p的平方（非）剩余的个数",
     "status": "explained",
     "note": "模p剩余与非剩余各(p−1)/2个，正负配对并证明前半平方互异。",
     "guideTopic": "qr-euler"
@@ -2960,7 +2960,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "乘法规律",
+    "guideHeading": "4.2.2 奇素数模p的平方（非）剩余的个数",
     "status": "explained",
     "note": "模19剩余列表1、4、5、6、7、9、11、16、17，由1至9平方得到。",
     "guideTopic": "qr-euler"
@@ -2976,7 +2976,7 @@
         "end": 150
       }
     ],
-    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "guideHeading": "4.2.2 奇素数模p的平方（非）剩余的个数",
     "status": "explained",
     "note": "模23和31的全部平方剩余，列半个简化剩余系平方序列再排序。",
     "guideTopic": "qr-euler"
@@ -2992,7 +2992,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "guideHeading": "4.2.2 奇素数模p的平方（非）剩余的个数",
     "status": "explained",
     "note": "−1为剩余推出p余1模4，非剩余推出余3，Euler判别给证明。",
     "guideTopic": "qr-euler"
@@ -3013,7 +3013,7 @@
         "end": 41
       }
     ],
-    "guideHeading": "开章例题：模 $180$ 的一般二次式",
+    "guideHeading": "例 1：模 $180$ 的二次同余式，先拆模再动手",
     "status": "explained",
     "note": "7x²+3x+5模180分模，模2已无解；并算原页模9配方及局部根7、8。",
     "guideTopic": "quadratic"
@@ -3034,7 +3034,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "三个课件例题算到底",
+    "guideHeading": "一般形式与素数幂归约",
     "status": "explained",
     "note": "首项系数不可逆的三题按实际题面拆列；本条6x²+15x+9模81先约3，回原模列六根。",
     "guideTopic": "quadratic"
@@ -3050,7 +3050,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "配方例题：$4x^2-11x-3\\equiv0\\pmod{13}$",
+    "guideHeading": "例 2：把三项二次同余式化成二项",
     "status": "explained",
     "note": "判别式169为0模13，配方解线性式得唯一根3，解释重根。",
     "guideTopic": "quadratic"
@@ -3081,7 +3081,7 @@
         "end": 340
       }
     ],
-    "guideHeading": "两个一般二次式练习",
+    "guideHeading": "4.4 素数形状与证明应用",
     "status": "explained",
     "note": "同标签第二题5x²−7x+11模23，判别式13的两平方根±6，线性反解得22、7。",
     "guideTopic": "reciprocity-app"
@@ -3102,7 +3102,7 @@
         "end": 289
       }
     ],
-    "guideHeading": "两个“无穷多”证明补全",
+    "guideHeading": "4.4 素数形状与证明应用",
     "status": "explained",
     "note": "构造(2P)²+1，新素因子有−1平方根所以余1模4且不在原表。",
     "guideTopic": "reciprocity-app"
@@ -3123,7 +3123,7 @@
         "end": 288
       }
     ],
-    "guideHeading": "运算性质",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "OCR“43.2”即4.3.2，是无穷多证明中回顾−1补充公式。讲解位于主题“legendre”。",
     "guideTopic": "legendre"
@@ -3144,7 +3144,7 @@
         "end": 288
       }
     ],
-    "guideHeading": "正负数的平方剩余性",
+    "guideHeading": "推论 1：同余的分子给出同一个符号",
     "status": "duplicate",
     "note": "同一−1补充公式的推论回顾，不另增加数学题。讲解位于主题“legendre”。",
     "guideTopic": "legendre"
@@ -3165,7 +3165,7 @@
         "end": 292
       }
     ],
-    "guideHeading": "两个“无穷多”证明补全",
+    "guideHeading": "4.4 素数形状与证明应用",
     "status": "explained",
     "note": "8k−1形素数无穷多，构造8P²−1，利用2的符号及模8积筛出新余7素因子。",
     "guideTopic": "reciprocity-app"
@@ -3186,7 +3186,7 @@
         "end": 308
       }
     ],
-    "guideHeading": "以正数 $3$ 为二次剩余的全部奇素数",
+    "guideHeading": "4.4 素数形状与证明应用",
     "status": "explained",
     "note": "正3的符号按p模12四类算出，答案1、11；区分−3。",
     "guideTopic": "reciprocity-app"
@@ -3207,7 +3207,7 @@
         "end": 331
       }
     ],
-    "guideHeading": "非剩余怎样排除整数平方差表示",
+    "guideHeading": "4.4 符号计算的收尾练习",
     "status": "explained",
     "note": "若(d/p)=−1，p不能为x²−dy²，先证y可逆再化为d的平方根矛盾。",
     "guideTopic": "reciprocity-app"
@@ -3228,7 +3228,7 @@
         "end": 341
       }
     ],
-    "guideHeading": "标准计算顺序",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "3766/5987按2、7、269三个因子算为−1，详细因子换位在该节末尾。讲解位于主题“reciprocity”。",
     "guideTopic": "reciprocity"
@@ -3249,7 +3249,7 @@
         "end": 263
       }
     ],
-    "guideHeading": "原页互反律证明中的整数部分计数",
+    "guideHeading": "定理 4.4.1：二次互反律",
     "status": "explained",
     "note": "二次互反律公式与格点计数证明，互异奇素数及换位变号条件明确。",
     "guideTopic": "reciprocity"
@@ -3270,7 +3270,7 @@
         "end": 267
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "6/17拆成2/17与3/17，用补充公式及互反律得−1。讲解位于主题“gauss”。",
     "guideTopic": "gauss"
@@ -3291,7 +3291,7 @@
         "end": 269
       }
     ],
-    "guideHeading": "标准计算顺序",
+    "guideHeading": "例1：判断 $x^2\\equiv77\\pmod{103}$ 是否有解",
     "status": "explained",
     "note": "77/103拆成7、11，互反换位分别为1与−1，总−1，无解。",
     "guideTopic": "reciprocity"
@@ -3312,7 +3312,7 @@
         "end": 265
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "补充公式第一次使用：思考与例 4",
     "status": "duplicate",
     "note": "思考8/131按平方因子化为2/131，结果−1，与gauss中同题重复。讲解位于主题“gauss”。",
     "guideTopic": "gauss"
@@ -3333,7 +3333,7 @@
         "end": 8
       }
     ],
-    "guideHeading": "课件四次式模 $35$ 的六个根",
+    "guideHeading": "例 1：四次同余式模 $35$ 的六个解",
     "status": "explained",
     "note": "x⁴+2x³+8x+9模35，模5两根、模7三根，CRT列六组合及全根。",
     "guideTopic": "root-count"
@@ -3354,7 +3354,7 @@
         "end": 29
       }
     ],
-    "guideHeading": "为什么解数相乘",
+    "guideHeading": "定理 3.3.1：合数模同余式的解数等于各子模解数之积",
     "status": "explained",
     "note": "互素分模各选一根与总体根一一对应，故总根数乘积，任一无根则整体无根。",
     "guideTopic": "root-count"
@@ -3375,7 +3375,7 @@
         "end": 37
       }
     ],
-    "guideHeading": "合并模 $18$、$108$ 的课件练习",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "x⁴+7x+4模18，模2根0、1与模9根4，合并得4、13。讲解位于主题“hensel”。",
     "guideTopic": "hensel"
@@ -3396,7 +3396,7 @@
         "end": 40
       }
     ],
-    "guideHeading": "合并模 $18$、$108$ 的课件练习",
+    "guideHeading": "算法流程与两类思考题",
     "status": "explained",
     "note": "同多项式模108，模4根0、1、模27根22，合并得49、76。讲解位于主题“hensel”。",
     "guideTopic": "hensel"
@@ -3417,7 +3417,7 @@
         "end": 420
       }
     ],
-    "guideHeading": "全部解数",
+    "guideHeading": "定理：合数模的平方根归结为素数幂模",
     "status": "explained",
     "note": "与右侧互素时，各奇素数幂两根、2幂分三支，乘积给合数模完整根数。",
     "guideTopic": "sqrt-composite"
@@ -3438,7 +3438,7 @@
         "end": 422
       }
     ],
-    "guideHeading": "课后作业：$x^2\\equiv1\\pmod{108}$",
+    "guideHeading": "作业：$x^{2}\\equiv 1\\pmod{108}$",
     "status": "explained",
     "note": "分4和27，各两根，四组合得1、53、55、107。",
     "guideTopic": "sqrt-composite"
@@ -3459,7 +3459,7 @@
         "end": 64
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例5：$x^2\\equiv 7\\pmod{29}$——指数正好可对半，开一次就到底",
     "status": "explained",
     "note": "7模29，迭代检测并得±23，即6、23。",
     "guideTopic": "sqrt-general"
@@ -3480,7 +3480,7 @@
         "end": 84
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例6：$x^2\\equiv 10\\pmod{13}$——检测出 $-1$ 时，用非剩余把符号掰回来",
     "status": "explained",
     "note": "10模13，n=2的完整迭代表，得7、6。",
     "guideTopic": "sqrt-general"
@@ -3531,7 +3531,7 @@
         "end": 262
       }
     ],
-    "guideHeading": "跟着课件算模 17",
+    "guideHeading": "例7：$x^2\\equiv 8\\pmod{17}$——三级阶梯，两个修正因子逐个补",
     "status": "explained",
     "note": "8模17的同题多次动画与算法推导，检测量和更新得两根5、12。",
     "guideTopic": "sqrt-general"
@@ -3552,7 +3552,7 @@
         "end": 123
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例8：$x^2\\equiv 2\\pmod{17}$——中途顺风，只补一个因子",
     "status": "explained",
     "note": "2模17取n=3迭代三轮，得6、11。",
     "guideTopic": "sqrt-general"
@@ -3593,7 +3593,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例8：$x^2\\equiv 2\\pmod{17}$——中途顺风，只补一个因子",
     "status": "explained",
     "note": "练习13模17的三轮迭代表得8、9；103模1601另列。",
     "guideTopic": "sqrt-general"
@@ -3619,7 +3619,7 @@
         "end": 251
       }
     ],
-    "guideHeading": "每次检测为什么必为正负 $1$",
+    "guideHeading": "定理 4.6.3：把\"看符号\"写成公式",
     "status": "explained",
     "note": "OCR“定理4”实为4.6.3，完整迭代式及检测量符号不变式证明。",
     "guideTopic": "sqrt-general"
@@ -3640,7 +3640,7 @@
         "end": 278
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例 9：$x^{2}\\equiv 8\\pmod{41}$ 的两种解法",
     "status": "explained",
     "note": "8模41，t=3、s=5，迭代两轮得34、7。",
     "guideTopic": "sqrt-general"
@@ -3666,7 +3666,7 @@
         "end": 285
       }
     ],
-    "guideHeading": "迭代后问题：$b=n^s$ 是哪一阶单位根",
+    "guideHeading": "问题：$b=n^{s}$ 究竟是几次单位根",
     "status": "explained",
     "note": "4.6.3同定理回顾附问题：b的2^(t−1)次幂为−1，阶恰为2^t，非前者单位根。",
     "guideTopic": "sqrt-general"
@@ -3687,7 +3687,7 @@
         "end": 294
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例 10：$p=8k+5$ 时 $x^{2}\\equiv -1\\pmod p$ 的直接公式",
     "status": "explained",
     "note": "p=8k+5且a为非剩余，构造−1平方根±a^((p−1)/4)，解释题中a的作用。",
     "guideTopic": "sqrt-general"
@@ -3708,7 +3708,7 @@
         "end": 307
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例 11 方法一：代入法逐层提升",
     "status": "explained",
     "note": "6模25从模5根1、4分别提升为16、9，完整线性条件。",
     "guideTopic": "sqrt-odd-power"
@@ -3729,7 +3729,7 @@
         "end": 303
       }
     ],
-    "guideHeading": "简单根与其他分支",
+    "guideHeading": "定理 3.3.2 与提升算法",
     "status": "duplicate",
     "note": "回顾3.3.2用于6模25，实质是同一个导数可逆提升定理。讲解位于主题“hensel”。",
     "guideTopic": "hensel"
@@ -3750,7 +3750,7 @@
         "end": 308
       }
     ],
-    "guideHeading": "课件练习：模 $125$ 求 $24$ 的平方根",
+    "guideHeading": "练习：求解模 125 下 24 的平方根",
     "status": "explained",
     "note": "24模125，从模5根2提升到7模25再到32模125，另根93。",
     "guideTopic": "sqrt-odd-power"
@@ -3771,7 +3771,7 @@
         "end": 318
       }
     ],
-    "guideHeading": "不互素时",
+    "guideHeading": "定理 4.6.4：奇素数幂模的平方根",
     "status": "explained",
     "note": "奇素数幂互素右侧：模p平方剩余当且仅当高幂有两根，由简单根唯一提升。",
     "guideTopic": "sqrt-odd-power"
@@ -3792,7 +3792,7 @@
         "end": 320
       }
     ],
-    "guideHeading": "课件思考题：不互素时的完整分类",
+    "guideHeading": "定理 4.6.4：奇素数幂模的平方根",
     "status": "explained",
     "note": "右侧p进次数奇数无解、偶数降模、零右侧根数公式，含9模27六根例。",
     "guideTopic": "sqrt-odd-power"
@@ -3813,7 +3813,7 @@
         "end": 320
       }
     ],
-    "guideHeading": "不互素时",
+    "guideHeading": "推论与思考题二：解数公式与模 2 的幂的平方根",
     "status": "explained",
     "note": "1+Legendre根数式补充互素前提，零右侧模9三根反例说明原页条件遗漏。",
     "guideTopic": "sqrt-odd-power"
@@ -3834,7 +3834,7 @@
         "end": 13
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例1：解 $x^2\\equiv21\\pmod{43}$",
     "status": "explained",
     "note": "21模43，幂公式21^11得35，另一根8。",
     "guideTopic": "sqrt-special"
@@ -3855,7 +3855,7 @@
         "end": 20
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例2：解 $x^2\\equiv2\\pmod7$",
     "status": "explained",
     "note": "2模7，2²得4，另一根3。",
     "guideTopic": "sqrt-special"
@@ -3871,7 +3871,7 @@
         "end": 383
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "一般推导与定理 4.6.1",
     "status": "duplicate",
     "note": "OCR“定理4”实4.6.1，p余3模4且a非零剩余，±a^((p+1)/4)，给平方证明。",
     "guideTopic": "sqrt-special"
@@ -3892,7 +3892,7 @@
         "end": 46
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例3：解 $x^2\\equiv19\\pmod{31}$ 与练习 $x^2\\equiv2\\pmod{311}$",
     "status": "explained",
     "note": "19模31，两根9、22；同页2模311练习另列。",
     "guideTopic": "sqrt-special"
@@ -3918,7 +3918,7 @@
         "end": 46
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例3：解 $x^2\\equiv19\\pmod{31}$ 与练习 $x^2\\equiv2\\pmod{311}$",
     "status": "explained",
     "note": "一组练习为2模311，2^78得245，另一根66；另一来源3模11另列。",
     "guideTopic": "sqrt-special"
@@ -3939,7 +3939,7 @@
         "end": 49
       }
     ],
-    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "guideHeading": "例4 与定理 4.6.2：模 pq 的平方根",
     "status": "explained",
     "note": "两个不同4k+3形素数，分别幂公式求根，四种符号用Bézout系数合并。",
     "guideTopic": "sqrt-special"
@@ -3960,7 +3960,7 @@
         "end": 50
       }
     ],
-    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "guideHeading": "例4 与定理 4.6.2：模 pq 的平方根",
     "status": "duplicate",
     "note": "4.6.2与例4同一构造，证明四种符号给四个互异根。",
     "guideTopic": "sqrt-special"
@@ -3976,7 +3976,7 @@
         "end": 41
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "一般推导与定理 4.6.1",
     "status": "duplicate",
     "note": "与OCR“定理4”同为4.6.1，平方幂公式及两个非零根。",
     "guideTopic": "sqrt-special"
@@ -4017,7 +4017,7 @@
         "end": 395
       }
     ],
-    "guideHeading": "充分性与四根怎样逐层保持",
+    "guideHeading": "一、从模 2 到模 8：先把小模数的规律摸清",
     "status": "explained",
     "note": "奇右侧模2、4、8三分支，及更高2幂四根必要充分条件与逐层证明。",
     "guideTopic": "sqrt-two"
@@ -4038,7 +4038,7 @@
         "end": 364
       }
     ],
-    "guideHeading": "充分性与四根怎样逐层保持",
+    "guideHeading": "二、例 12：用提升定理为什么走不通",
     "status": "explained",
     "note": "17模32根7、9、23、25，说明旧根的两候选与失去/保留分支。",
     "guideTopic": "sqrt-two"
@@ -4059,7 +4059,7 @@
         "end": 337
       }
     ],
-    "guideHeading": "为什么出现模 8",
+    "guideHeading": "二、例 12：用提升定理为什么走不通",
     "status": "duplicate",
     "note": "3.3.2为被划出前提条件的回顾：2x不可逆，所以奇素数简单提升公式不能直接套。",
     "guideTopic": "sqrt-two"
@@ -4085,7 +4085,7 @@
         "end": 405
       }
     ],
-    "guideHeading": "充分性与四根怎样逐层保持",
+    "guideHeading": "二、例 12：用提升定理为什么走不通",
     "status": "explained",
     "note": "17模64从模32保留9、23，各生两个，得9、23、41、55；同标签1600题另列。",
     "guideTopic": "sqrt-two"
@@ -4101,7 +4101,7 @@
         "end": 739
       }
     ],
-    "guideHeading": "充分性与四根怎样逐层保持",
+    "guideHeading": "三、一般情形：定理 4.6.5 与逐层提升的证明",
     "status": "explained",
     "note": "OCR“定理4”实4.6.5，奇右侧模4两根、高2幂四根，必要性及充分性完整证明。",
     "guideTopic": "sqrt-two"
@@ -4117,7 +4117,7 @@
         "end": 397
       }
     ],
-    "guideHeading": "充分性与四根怎样逐层保持",
+    "guideHeading": "三、一般情形：定理 4.6.5 与逐层提升的证明",
     "status": "duplicate",
     "note": "4.6.5是上一来源“定理4”的同一定理，非新题。",
     "guideTopic": "sqrt-two"
@@ -4143,7 +4143,7 @@
         "end": 445
       }
     ],
-    "guideHeading": "下降法完整证明：分母为何约得尽，倍数为何真的变小",
+    "guideHeading": "课件其余页码说明：原页重播、原版课件与下一章开篇",
     "status": "explained",
     "note": "素数为两正平方和当且仅当2或余1模4，下降法给充分性，奇偶模4给必要性。",
     "guideTopic": "sum-squares"
@@ -4159,7 +4159,7 @@
         "end": 434
       }
     ],
-    "guideHeading": "课件例一：$53$ 的平方和",
+    "guideHeading": "4.7.3 平方和实例与课堂练习",
     "status": "explained",
     "note": "23²+1=10·53，取余3、1一次下降得7、−2，53=7²+2²。",
     "guideTopic": "sum-squares"
@@ -4175,7 +4175,7 @@
         "end": 440
       }
     ],
-    "guideHeading": "三个课堂练习",
+    "guideHeading": "4.7.3 平方和实例与课堂练习",
     "status": "explained",
     "note": "同标签第一练习13=3²+2²，从5、1及倍数2一次下降得到3、−2。",
     "guideTopic": "sum-squares"
@@ -4191,7 +4191,7 @@
         "end": 442
       }
     ],
-    "guideHeading": "课件例二：$797$ 需要两次下降",
+    "guideHeading": "4.7.3 平方和实例与课堂练习",
     "status": "explained",
     "note": "从215、1及倍数58，经−63、−4及倍数5，再到−26、11及倍数1。",
     "guideTopic": "sum-squares"
@@ -4222,7 +4222,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "同页逆元练习：$23x\\equiv1\\pmod{14}$",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "同一“练习”标签的另一题23x≡1模14，化系数9并用9·11=99求唯一根11。",
     "guideTopic": "crt-iterate"
@@ -4243,7 +4243,7 @@
         "end": 227
       }
     ],
-    "guideHeading": "多未知数同模方程组",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "同一例9范围附三未知数练习：4x−3y+7z≡5、5x+y−3z≡2、x−4y−z≡1模17；消元得x=6、y=16、z=9。",
     "guideTopic": "crt-iterate"
@@ -4274,7 +4274,7 @@
         "end": 241
       }
     ],
-    "guideHeading": "多未知数同模方程组",
+    "guideHeading": "例 8：带系数的同余式组",
     "status": "explained",
     "note": "同一“练习”区间所含模17三元题，代入x=1+4y+z，逐步消元求出6、16、9。",
     "guideTopic": "crt-iterate"
@@ -4305,7 +4305,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "模 $77$ 的模幂练习",
     "status": "explained",
     "note": "同标签另一题312的1245次幂模77，底数降为4，用2的30次幂余1得最终余1。",
     "guideTopic": "crt-opt"
@@ -4336,7 +4336,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "模 $77$ 的模幂练习",
     "status": "explained",
     "note": "同标签的3x²+11x−20模105题，局部根数1·2·2=4，CRT全根13、55、58、100。",
     "guideTopic": "crt-opt"
@@ -4357,7 +4357,7 @@
         "end": 270
       }
     ],
-    "guideHeading": "模 $10$ 的二次练习也先分解模",
+    "guideHeading": "例 13 与模 $10$ 的二次练习",
     "status": "explained",
     "note": "例13动画附练习5x²+6x+49模10，模2和模5均要求x余1，故唯一根1。",
     "guideTopic": "crt-opt"
@@ -4378,7 +4378,7 @@
         "end": 270
       }
     ],
-    "guideHeading": "课件数值计算",
+    "guideHeading": "例 13 与模 $10$ 的二次练习",
     "status": "duplicate",
     "note": "同页附3x²+11x−20模105练习，与“练习”索引中同题重复，详细局部根及全根已列。",
     "guideTopic": "crt-opt"
@@ -4399,7 +4399,7 @@
         "end": 105
       }
     ],
-    "guideHeading": "模 $4$ 余 $2$、模 $5$ 余 $1$ 的课堂例题",
+    "guideHeading": "例 2：标准构造公式的两组计算",
     "status": "explained",
     "note": "已读首帧541为模4余2、模5余1，与末帧544模14和25题不同；首帧题已独立给代入过程，得6模20。",
     "guideTopic": "crt-two"
@@ -4425,7 +4425,7 @@
         "end": 312
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "例 2：从一个整数解到一个剩余类",
     "status": "explained",
     "note": "“思考”另一个区间为4x³+3x²+5x+2模7还有哪些根，因式分解给全根1、2、5。",
     "guideTopic": "equation"
@@ -4441,7 +4441,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "根数练习第二题x²+x+4模5，在0至4中仅2满足，故一个根；与首题无解不同。",
     "guideTopic": "equation"
@@ -4457,7 +4457,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "根数练习第三题x⁴−1模5，Fermat保证四个非零类成立，零类不成立，根数4。",
     "guideTopic": "equation"
@@ -4473,7 +4473,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "根数练习第四题x⁵−x模5，对全部五类成立，故五根。",
     "guideTopic": "equation"
@@ -4489,7 +4489,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "根数练习第五题x^(p−1)−1模素数p，全部非零类成立，零类不成立，故p−1根。",
     "guideTopic": "equation"
@@ -4505,7 +4505,7 @@
         "end": 326
       }
     ],
-    "guideHeading": "把“几个解”实际数出来",
+    "guideHeading": "练习（1）—（4）：在小模数下逐类检验",
     "status": "explained",
     "note": "根数练习第六题x^p−x模素数p，由Fermat的全整数版本，全部p类为根。",
     "guideTopic": "equation"
@@ -4546,7 +4546,7 @@
         "end": 188
       }
     ],
-    "guideHeading": "把课件的连续提升完整算完",
+    "guideHeading": "连续提升的引例：从模 $3$ 到模 $81$",
     "status": "explained",
     "note": "同标签另问提升公式分子能否用初始根替代当前根：不能，需保证f(r)被旧模整除，指南以f(4)/9与f(1)/9对比。",
     "guideTopic": "hensel"
@@ -4587,7 +4587,7 @@
         "end": 188
       }
     ],
-    "guideHeading": "导数为零时的两个反例",
+    "guideHeading": "连续提升的引例：从模 $3$ 到模 $81$",
     "status": "explained",
     "note": "同标签另问导数不可逆时是否必有高幂根；给x²及x²−p两个反例，分别全部提升和无提升。",
     "guideTopic": "hensel"
@@ -4608,7 +4608,7 @@
         "end": 178
       }
     ],
-    "guideHeading": "导式定义与定理页附题",
+    "guideHeading": "定理 3.3.2 与提升算法",
     "status": "explained",
     "note": "定理3.3.2页186附题31x⁴+57x³+96x+191模25，先模5根1、2，再分别提升，全部根1、22。",
     "guideTopic": "hensel"
@@ -4624,7 +4624,7 @@
         "end": 19
       }
     ],
-    "guideHeading": "课件三组反例与计算",
+    "guideHeading": "Jacobi符号定义与判断局限",
     "status": "explained",
     "note": "例1第二题x²≡2模119，分7、17均为剩余，CRT四根11、45、74、108。",
     "guideTopic": "jacobi"
@@ -4640,7 +4640,7 @@
         "end": 19
       }
     ],
-    "guideHeading": "课件三组反例与计算",
+    "guideHeading": "Jacobi符号定义与判断局限",
     "status": "explained",
     "note": "例1第三题x²≡3模119，模7和17均非剩余，Jacobi为1仍无解，与前两题分开。",
     "guideTopic": "jacobi"
@@ -4656,7 +4656,7 @@
         "end": 110
       }
     ],
-    "guideHeading": "同页三道 Jacobi 计算练习",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同标签另一练习47/135的符号为1，但模3右侧为2已无根，故原式无解；不能因符号1判定有解。",
     "guideTopic": "jacobi"
@@ -4672,7 +4672,7 @@
         "end": 121
       }
     ],
-    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同一Jacobi单元后续题3878/3989，先化−111并拆3、37，算得−1，故无解。",
     "guideTopic": "jacobi"
@@ -4688,7 +4688,7 @@
         "end": 121
       }
     ],
-    "guideHeading": "三道只写符号结果的题，补上拆分过程",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同一Jacobi单元后续题1305/1459，拆3²·5·29算得1；先确认1459为素数才可推出两根。",
     "guideTopic": "jacobi"
@@ -4719,7 +4719,7 @@
         "end": 204
       }
     ],
-    "guideHeading": "2 的补充公式",
+    "guideHeading": "补充公式第一次使用：思考与例 4",
     "status": "explained",
     "note": "同标签末页237思考8/131，去平方因子化为2/131并用131余3模8得−1。讲解位于主题“gauss”。",
     "guideTopic": "gauss"
@@ -4740,7 +4740,7 @@
         "end": 392
       }
     ],
-    "guideHeading": "剩余类转换的课堂小题",
+    "guideHeading": "例 3：从具体方程认识逆元与无解",
     "status": "explained",
     "note": "“思考”另一页392为10x≡10模6，经约模3得1，再还原模6两类1、4。",
     "guideTopic": "linear"
@@ -4761,7 +4761,7 @@
         "end": 237
       }
     ],
-    "guideHeading": "例五的三个三次式逐题求根",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "例5第二题x³−3x−2模7=(x−2)(x+1)²，两个不同根2、6，重根只计一次。",
     "guideTopic": "poly-count"
@@ -4782,7 +4782,7 @@
         "end": 237
       }
     ],
-    "guideHeading": "例五的三个三次式逐题求根",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "例5第三题x³−7x²+14x−8模107=(x−1)(x−2)(x−4)，三个不同根1、2、4。",
     "guideTopic": "poly-count"
@@ -4833,7 +4833,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "编号黏连的例六与三道思考",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "同“思考”标签第一道(x−2)(x−3)(x−5)+7x^100模7，7倍项消失，三根2、3、5。",
     "guideTopic": "poly-count"
@@ -4884,7 +4884,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "编号黏连的例六与三道思考",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "同“思考”标签第二道4(x−2)(x−3)(x−5)+7x^100模7，4可逆且7倍项消失，同样三根。",
     "guideTopic": "poly-count"
@@ -4935,7 +4935,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "编号黏连的例六与三道思考",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "同“思考”标签第三道附x^17+21x^15−x^11+x^7−x，逐项降次抵消，仍三根2、3、5。",
     "guideTopic": "poly-count"
@@ -4986,7 +4986,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "何时达到次数",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "末页回顾k^b−1在b整除a时整除k^a−1，是几何级数因式分解；本节用它证明单位根推论。",
     "guideTopic": "poly-count"
@@ -5027,7 +5027,7 @@
         "end": 315
       }
     ],
-    "guideHeading": "何时达到次数",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "“推论”另一段为d整除p−1时x^d−1恰有d根；利用几何级数整除再用3.4.5。",
     "guideTopic": "poly-count"
@@ -5078,7 +5078,7 @@
         "end": 344
       }
     ],
-    "guideHeading": "模 $7$ 高次例题的答案校正",
+    "guideHeading": "首讲版对照（一）：定理与例 5、例 6",
     "status": "explained",
     "note": "定理回顾页512附合数模反例：x⁶=1模9的六根为1、2、4、5、7、8，但一次因子乘积非所印系数恒等式，已展开勘误。",
     "guideTopic": "poly-count"
@@ -5099,7 +5099,7 @@
         "end": 174
       }
     ],
-    "guideHeading": "课件因式分解与试根练习",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "四道试根练习第二题x⁴+x+4模11，分解(x−2)²(x−3)(x−4)，不同根2、3、4。",
     "guideTopic": "poly-factor"
@@ -5120,7 +5120,7 @@
         "end": 174
       }
     ],
-    "guideHeading": "课件因式分解与试根练习",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "四道试根练习第三题x²−3模13，分解(x−4)(x+4)，全根4、9。",
     "guideTopic": "poly-factor"
@@ -5141,7 +5141,7 @@
         "end": 174
       }
     ],
-    "guideHeading": "课件因式分解与试根练习",
+    "guideHeading": "第二次授课记录：因子引理与例题复核",
     "status": "explained",
     "note": "四道试根练习第四题x²−2模13，完整非零平方表不含2，故无根。",
     "guideTopic": "poly-factor"
@@ -5172,7 +5172,7 @@
         "end": 231
       }
     ],
-    "guideHeading": "从一次因子式回看 Wilson 定理",
+    "guideHeading": "第二次授课记录：根数上界、参数例题与 Wilson 定理",
     "status": "explained",
     "note": "同“推论”标签另一页427为Wilson充要条件，真素因子论证给出逆向，非前一恒零推论。",
     "guideTopic": "poly-factor"
@@ -5203,7 +5203,7 @@
         "end": 133
       }
     ],
-    "guideHeading": "课件大指数式的逐项化简",
+    "guideHeading": "练习：模 $7$ 的降次",
     "status": "explained",
     "note": "同标签另一练习49x⁵+25x³−6x²+3x−10模3，降为2x−1再乘逆元2化为首一x+1，根2。",
     "guideTopic": "poly-reduce"
@@ -5234,7 +5234,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "同“思考”标签另一段要求模3、5、7、11的平方剩余与非剩余，已给全部四组列表。",
     "guideTopic": "qr-euler"
@@ -5265,7 +5265,7 @@
         "end": 154
       }
     ],
-    "guideHeading": "小模思考与模 $23$、$31$ 的课后列表",
+    "guideHeading": "4.2.1 奇素数模p的平方（非）剩余判别条件",
     "status": "explained",
     "note": "同“思考”末问−1为非剩余时p模4为何，Euler判别得p余3；正向为余1。",
     "guideTopic": "qr-euler"
@@ -5286,7 +5286,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "三个课件例题算到底",
+    "guideHeading": "一般形式与素数幂归约",
     "status": "explained",
     "note": "课后思考第二题6x²+15x+5模81，模3即2≡0不可能，故无解。",
     "guideTopic": "quadratic"
@@ -5307,7 +5307,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "三个课件例题算到底",
+    "guideHeading": "一般形式与素数幂归约",
     "status": "explained",
     "note": "课后思考第三题6x²+7x+5模81，模3简单根1，逐层提升1、10、64，最终唯一根64。",
     "guideTopic": "quadratic"
@@ -5328,7 +5328,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "课件思考题：不互素时的完整分类",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "另一页47问配方后右侧与素数幂不互素怎么办，完整p因子次数分类及零右侧处理在sqrt-odd-power。讲解位于主题“sqrt-odd-power”。",
     "guideTopic": "sqrt-odd-power"
@@ -5359,7 +5359,7 @@
         "end": 340
       }
     ],
-    "guideHeading": "两个一般二次式练习",
+    "guideHeading": "4.4 素数形状与证明应用",
     "status": "explained",
     "note": "本标签第一题x²−3x+5模39，配方为(2x−3)²≡−11，模13为2非剩余故无根。",
     "guideTopic": "reciprocity-app"
@@ -5390,7 +5390,7 @@
         "end": 340
       }
     ],
-    "guideHeading": "标准计算顺序",
+    "guideHeading": "练习：计算 $\\left(\\frac{6}{17}\\right)$",
     "status": "explained",
     "note": "同标签另一页的163/257符号题，互反换位至3/11，完整计算为−1。讲解位于主题“reciprocity”。",
     "guideTopic": "reciprocity"
@@ -5421,7 +5421,7 @@
         "end": 340
       }
     ],
-    "guideHeading": "标准计算顺序",
+    "guideHeading": "练习：计算 $\\left(\\frac{6}{17}\\right)$",
     "status": "explained",
     "note": "同标签另一页的1215/4523符号题，拆3⁵·5，两个局部符号1、−1，结果−1。讲解位于主题“reciprocity”。",
     "guideTopic": "reciprocity"
@@ -5462,7 +5462,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "其余课件算例的完整迭代表",
+    "guideHeading": "例8：$x^2\\equiv 2\\pmod{17}$——中途顺风，只补一个因子",
     "status": "explained",
     "note": "同标签另一练习103模1601，t=6，五轮从595经1153、612到386，全部根386、1215。",
     "guideTopic": "sqrt-general"
@@ -5488,7 +5488,7 @@
         "end": 46
       }
     ],
-    "guideHeading": "模 $11$ 的课堂练习与定理 4.6.2 的显式构造",
+    "guideHeading": "例3：解 $x^2\\equiv19\\pmod{31}$ 与练习 $x^2\\equiv2\\pmod{311}$",
     "status": "explained",
     "note": "不同来源同标签实际另一题3模11，先判别再由3³求5，负根6；与2模311分开。",
     "guideTopic": "sqrt-special"
@@ -5514,7 +5514,7 @@
         "end": 405
       }
     ],
-    "guideHeading": "课件综合题：$x^2\\equiv81\\pmod{1600}$",
+    "guideHeading": "练习：模 $43904$ 的两个平方根式",
     "status": "explained",
     "note": "同“练习”标签另一段81模1600，模25两根与模64四根逐组CRT，得到八根。讲解位于主题“sqrt-composite”。",
     "guideTopic": "sqrt-composite"
@@ -5530,7 +5530,7 @@
         "end": 440
       }
     ],
-    "guideHeading": "三个课堂练习",
+    "guideHeading": "4.7.3 平方和实例与课堂练习",
     "status": "explained",
     "note": "同标签第二练习29=5²+2²，从12、1及倍数5一次下降得到5、−2。",
     "guideTopic": "sum-squares"
@@ -5546,7 +5546,7 @@
         "end": 440
       }
     ],
-    "guideHeading": "三个课堂练习",
+    "guideHeading": "4.7.3 平方和实例与课堂练习",
     "status": "explained",
     "note": "同标签第三练习41=5²+4²，从9、1及倍数2一次下降得到5、−4。",
     "guideTopic": "sum-squares"
@@ -5562,7 +5562,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "同页三道 Jacobi 计算练习",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同页第二道计算题246/625；625=5⁴、246模5为1，故Jacobi符号为1，互素两根可唯一提升。",
     "guideTopic": "jacobi"
@@ -5578,7 +5578,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "同页三道 Jacobi 计算练习",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同页第三道计算题521/825；825=3·5²·11，三处符号−1、1、1，乘积−1。",
     "guideTopic": "jacobi"
@@ -5594,7 +5594,7 @@
         "end": 116
       }
     ],
-    "guideHeading": "课件三组反例与计算",
+    "guideHeading": "符号计算与同余式例题",
     "status": "explained",
     "note": "同标签另一练习2/63=1；因63=3²·7掩盖局部负号，模3无根，整体无根。",
     "guideTopic": "jacobi"
