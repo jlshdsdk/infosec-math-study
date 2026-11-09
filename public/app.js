@@ -7,7 +7,7 @@
   const num = value => Number(value || 0).toLocaleString('zh-CN');
   const STORAGE_KEY = 'math-self-study.v1';
   const SCHEMA = 'math-self-study';
-  const DATA_VERSION = 'ppt-20261109b';
+  const DATA_VERSION = 'ppt-20261109c';
   let catalog, lessons = [], lessonMap = new Map(), currentLesson = null;
   let routeToken = 0, activeTab = 'guide', viewer = null, storageOK = true, currentOutlineNode = null, currentFocus = null;
   let searchData, searchPromise, searchWorker, searchWorkerReady = false, searchWorkerFailed = false, searchSequence = 0, searchMatches = [], searchPage = 0;
