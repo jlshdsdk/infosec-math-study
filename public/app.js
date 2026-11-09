@@ -7,7 +7,7 @@
   const num = value => Number(value || 0).toLocaleString('zh-CN');
   const STORAGE_KEY = 'math-self-study.v1';
   const SCHEMA = 'math-self-study';
-  const DATA_VERSION = 'ppt-20261109d';
+  const DATA_VERSION = 'ppt-20261109e';
   let catalog, lessons = [], lessonMap = new Map(), currentLesson = null;
   let routeToken = 0, activeTab = 'guide', viewer = null, storageOK = true, currentOutlineNode = null, currentFocus = null;
   let searchData, searchPromise, searchWorker, searchWorkerReady = false, searchWorkerFailed = false, searchSequence = 0, searchMatches = [], searchPage = 0;
@@ -473,9 +473,28 @@
     }catch(error){if(document.contains(result)){result.className='practice-result error';result.textContent=error.message||'暂时无法计算，请检查输入后重试。';}}
     finally{if(document.contains(button))button.disabled=false;}
   }
+  function staticRedirect(parts,params){
+    // MPA: reading pages are pre-rendered static HTML; the SPA stays for the
+    // interactive tools (library, practice, notebook) and slide readers.
+    const kind=parts[0];
+    if(!kind)return './';
+    if(kind==='chapter')return `chapter/${encodeURIComponent(parts[1]||'')}.html`;
+    if(kind==='topic'||kind==='section')return `topic/${encodeURIComponent(parts[1]||'')}.html`;
+    if(kind==='lesson'){
+      const tab=params.get('tab');
+      if(tab==='pages'||tab==='items'||params.has('source'))return null;
+      const extra=[];
+      if(params.get('focus'))extra.push(`focus=${encodeURIComponent(params.get('focus'))}`);
+      if(params.get('heading'))extra.push(`heading=${encodeURIComponent(params.get('heading'))}`);
+      return `read/${encodeURIComponent(parts[1]||'')}.html${extra.length?`?${extra.join('&')}`:''}`;
+    }
+    return null;
+  }
   async function route() {
     if(!catalog)return;
     const {parts,params}=routeInfo(),token=++routeToken;
+    const redirectTo=staticRedirect(parts,params);
+    if(redirectTo){try{location.replace(redirectTo);}catch{$('#main').innerHTML=errorHTML('页面跳转失败，请从目录重新进入。');}return;}
     clearTimeout(noteTimer);disposeSlideReader();clearTimeout(slideSaveTimer);save();closeMenu();
     currentLesson=null;currentOutlineNode=null;currentFocus=null;viewer=null;itemFilter='全部';itemPage=0;
     document.title='信息安全数学基础 · 自学手册';

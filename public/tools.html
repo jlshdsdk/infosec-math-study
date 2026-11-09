@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f4f3">
+<meta name="robots" content="noindex">
+<title>学习工具 · 信息安全数学基础</title>
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="styles.css?v=ppt-20261109e">
+<link rel="stylesheet" href="notes-theme.css?v=ppt-20261109e">
+<link rel="stylesheet" href="slide-reader.css?v=ppt-20261109e">
+<script defer src="vendor/marked.umd.js"></script>
+<script defer src="vendor/katex/katex.min.js"></script>
+<script defer src="course-map.js?v=ppt-20261109e"></script>
+<script defer src="ppt-outline.js?v=ppt-20261109e"></script>
+<script defer src="slide-reader.js?v=ppt-20261109e"></script>
+<script defer src="app.js?v=ppt-20261109e"></script>
+</head>
+<body class="notes-theme">
+<a class="skip-link" href="#main">跳到正文</a>
+<header class="notes-topbar">
+<button class="notes-mobile-toggle" data-action="menu" aria-label="打开课程目录" aria-expanded="false" aria-controls="sidebar">☰</button>
+<a class="notes-brand" href="./">信息安全数学基础</a>
+<button class="notes-global-search" data-action="search" aria-label="搜索知识点和课件">搜索知识点、定理、例题… <kbd>/</kbd></button>
+<div class="notes-top-actions"><button class="icon-button" data-action="font" title="调整正文字号" aria-label="调整正文字号">A<span class="small-a">A</span></button><button class="icon-button" data-action="theme" title="切换明暗主题" aria-label="切换明暗主题">◐</button><button class="notes-backup" data-action="data">备份进度</button></div>
+</header>
+<div id="app" class="notes-shell">
+<aside id="sidebar" class="notes-sidebar" aria-label="课程目录">
+<div class="notes-sidebar-header"><strong>目录</strong><a href="./" aria-label="查看全部章节">全部章节</a></div>
+<nav id="course-nav" class="notes-tree" aria-label="三级课程目录"><p class="muted loading-text">正在整理目录…</p></nav>
+<nav class="notes-quick-links" aria-label="学习工具"><a href="#/notebook" data-nav="notebook">笔记与收藏</a><a href="#/practice" data-nav="practice">计算练习</a><a href="#/library" data-nav="library">已收录原页</a><a href="coverage.html?v=ppt-20261109e">课件对照</a></nav>
+<div class="notes-sidebar-bottom"><div id="sidebar-progress"></div><button class="text-button" data-action="data">导出 / 导入进度</button></div>
+</aside>
+<button id="sidebar-scrim" class="sidebar-scrim" data-action="close-menu" aria-label="关闭课程目录" hidden></button>
+<div class="notes-workspace">
+<div id="storage-warning" class="storage-warning" role="status" hidden></div>
+<main id="main" class="notes-reader" tabindex="-1"><div class="initial-loading" role="status"><span class="loading-orbit" aria-hidden="true"></span><h1>正在打开学习工具</h1><p>准备目录与课件，请稍候。</p></div></main>
+</div>
+</div>
+<dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="dialog-top"><h2 id="search-title">搜索手册</h2><button class="icon-button" data-action="close-dialog" aria-label="关闭搜索">×</button></div><div class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="试试「欧几里得」「逆元」「Lagrange」" autocomplete="off" aria-label="搜索关键词"><kbd>Esc</kbd></div><p class="search-help">检索知识点与课件原页文字；公式和识别不清的内容请对照原图。</p><div id="search-results" class="search-results" aria-live="polite"><div class="empty-state compact"><p>从一个概念开始寻找。</p></div></div></dialog>
+<dialog id="data-dialog" class="data-dialog" aria-labelledby="data-title"><div class="dialog-top"><h2 id="data-title">把学习进度带走</h2><button class="icon-button" data-action="close-dialog" aria-label="关闭备份窗口">×</button></div><p>完成记录、收藏和笔记保存在当前浏览器。换设备或清理浏览器前，请导出一份备份。</p><div class="transfer-step"><span class="step-number">01</span><div><h3>导出到文件</h3><p>下载 JSON 备份，再传到另一台设备。</p><button class="button primary" data-action="export">导出学习进度 <span aria-hidden="true">↓</span></button></div></div><div class="transfer-step"><span class="step-number">02</span><div><h3>在新设备导入</h3><p>打开同一个网址，选择备份。完成记录和收藏取并集，同一笔记保留较新的版本。</p><label class="button secondary file-button">选择备份文件 <input id="import-file" type="file" accept=".json,application/json"></label><small>仅支持本手册导出的 JSON 文件，最大 8 MB。</small></div></div><p class="notice">设备之间不会自动同步。建议在一次学习结束后重新导出备份。</p><div id="import-status" role="status" class="import-status"></div></dialog>
+<dialog id="image-dialog" class="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">课件原页</h2><div><button class="button secondary small" data-action="image-zoom">切换放大</button><button class="icon-button" data-action="close-dialog" aria-label="关闭原图">×</button></div></div><div class="image-stage"><img id="large-image" alt="课件原页放大图"></div><p class="image-hint">可滚动查看原图；按 Esc 返回。</p></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

@@ -115,8 +115,12 @@ test('所有目录证据与正文原页均指向已收录的本地原图，11月
 });
 
 test('页面在旧课件路线之外加载正式目录，并保留旧存储和旧lesson路由',()=>{
-  const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),app=fs.readFileSync(path.join(root,'app.js'),'utf8');
+  const html=fs.readFileSync(path.join(root,'tools.html'),'utf8'),app=fs.readFileSync(path.join(root,'app.js'),'utf8');
+  const home=fs.readFileSync(path.join(root,'index.html'),'utf8');
   assert.ok(html.indexOf('ppt-outline.js')<html.indexOf('src="app.js'));
+  // MPA home is pre-rendered: it runs the light page.js runtime only.
+  assert.match(home,/page\.js/);
+  assert.ok(!home.includes('src="app.js'));
   assert.match(app,/const STORAGE_KEY = 'math-self-study\.v1'/);
   assert.match(app,/if\(parts\[0\]==='lesson'\)/);
   assert.match(app,/parts\[0\]==='topic'\|\|parts\[0\]==='section'/);

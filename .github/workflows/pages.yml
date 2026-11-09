@@ -29,6 +29,7 @@ jobs:
           npm ci --ignore-scripts --no-audit --no-fund
           python3 tools/build_coverage.py --check
           python3 tools/build_inline_slides.py --check
+          node tools/build_pages.mjs --check
           npm test
       - name: Upload complete website
         uses: actions/upload-pages-artifact@v3
