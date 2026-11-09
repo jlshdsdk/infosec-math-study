@@ -34,7 +34,7 @@
   }
   async function start() {
     try {
-      const responses=await Promise.all(['data/catalog.json','data/coverage-audit.json'].map(url=>fetch(url)));
+      const responses=await Promise.all(['data/catalog.json','data/coverage-audit.json'].map(url=>fetch(`${url}?v=notes2`)));
       if(responses.some(r=>!r.ok))throw new Error('对应清单暂时未能载入，请刷新后重试。');
       const [c,data]=await Promise.all(responses.map(r=>r.json()));catalog=c;
       rows=data.records.map(r=>({...r,search:[r.type,r.label,r.topicTitle,r.guideHeading,r.note,...r.sources.map(s=>catalog.sources.find(x=>x.id===s.source)?.title||s.source)].join(' ').toLocaleLowerCase()}));

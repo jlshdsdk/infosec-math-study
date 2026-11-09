@@ -1,17 +1,19 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f7f6f0">
+  <script>try { if (JSON.parse(localStorage.getItem('math-self-study.v1') || 'null')?.settings?.theme === 'dark') document.documentElement.dataset.theme = 'dark'; } catch { /* Keep the default theme. */ }</script>
   <title>课件与讲解对照 · 信息安全数学基础</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=notes2">
   <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="notes-theme.css?v=notes2">
   <link rel="stylesheet" href="coverage.css">
   <script defer src="vendor/katex/katex.min.js"></script>
-  <script defer src="coverage.js"></script>
+  <script defer src="coverage.js?v=notes2"></script>
 </head>
-<body class="coverage-page">
+<body class="coverage-page notes-theme">
   <a class="skip-link" href="#audit-results">跳到对应清单</a>
   <header class="audit-header"><a href="index.html#/">← 返回自学手册</a><span>课件 / 讲解 / 来源</span></header>
   <main class="audit-main">

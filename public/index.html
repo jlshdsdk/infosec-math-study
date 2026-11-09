@@ -3,41 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f6f0">
+  <meta name="theme-color" content="#f8f4f3">
   <meta name="description" content="信息安全数学基础自学手册：依照课件组织的分章导读、完整原页、学习笔记与本地进度。">
   <title>信息安全数学基础 · 自学手册</title>
   <link rel="stylesheet" href="vendor/katex/katex.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=notes2">
+  <link rel="stylesheet" href="notes-theme.css?v=notes2">
+  <link rel="stylesheet" href="slide-reader.css?v=notes2">
   <script defer src="vendor/marked.umd.js"></script>
   <script defer src="vendor/katex/katex.min.js"></script>
-  <script defer src="app.js"></script>
+  <script defer src="course-map.js?v=notes2"></script>
+  <script defer src="slide-reader.js?v=notes2"></script>
+  <script defer src="app.js?v=notes2"></script>
 </head>
-<body>
+<body class="notes-theme">
   <a class="skip-link" href="#main">跳到正文</a>
-  <div id="app" class="app-shell">
-    <aside id="sidebar" class="sidebar" aria-label="课程目录">
-      <a class="brand" href="#/" aria-label="信息安全数学基础首页"><span class="brand-mark" aria-hidden="true">∑</span><span>信息安全数学基础<small>一份可以慢慢读的自学手册</small></span></a>
-      <button class="sidebar-search" data-action="search"><span>搜索知识点、定理、原页…</span><kbd>/</kbd></button>
-      <nav class="primary-nav" aria-label="学习工具">
-        <a href="#/" data-nav="home"><span aria-hidden="true">⌂</span>学习总览</a>
-        <a href="#/library" data-nav="library"><span aria-hidden="true">▤</span>完整原页库</a>
-        <a href="#/notebook" data-nav="notebook"><span aria-hidden="true">▧</span>我的笔记与收藏</a>
-        <a href="#/practice" data-nav="practice"><span aria-hidden="true">±</span>计算练习</a>
-        <a href="coverage.html"><span aria-hidden="true">≡</span>课件与讲解对照</a>
-      </nav>
-      <div class="toc-label"><span>课程目录</span><span>章 / 节 / 知识点</span></div>
-      <nav id="course-nav" class="course-nav" aria-label="三级课程目录"><p class="muted loading-text">正在整理目录…</p></nav>
-      <div class="sidebar-bottom"><div id="sidebar-progress"></div><button class="text-button" data-action="data">进度备份与迁移 <span aria-hidden="true">↗</span></button><p>进度保存在此浏览器，无需账号。</p></div>
+  <header class="notes-topbar">
+    <button class="notes-mobile-toggle" data-action="menu" aria-label="打开课程目录" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <a class="notes-brand" href="#/">信息安全数学基础</a>
+    <button class="notes-global-search" data-action="search" aria-label="搜索知识点和课件">搜索知识点、定理、例题… <kbd>/</kbd></button>
+    <div class="notes-top-actions"><button class="icon-button" data-action="font" title="调整正文字号" aria-label="调整正文字号">A<span class="small-a">A</span></button><button class="icon-button" data-action="theme" title="切换明暗主题" aria-label="切换明暗主题">◐</button><button class="notes-backup" data-action="data">备份进度</button></div>
+  </header>
+  <div id="app" class="notes-shell">
+    <aside id="sidebar" class="notes-sidebar" aria-label="课程目录">
+      <div class="notes-sidebar-header"><strong>目录</strong><a href="#/" aria-label="查看全部章节">全部章节</a></div>
+      <nav id="course-nav" class="notes-tree" aria-label="三级课程目录"><p class="muted loading-text">正在整理目录…</p></nav>
+      <nav class="notes-quick-links" aria-label="学习工具"><a href="#/notebook" data-nav="notebook">笔记与收藏</a><a href="#/practice" data-nav="practice">计算练习</a><a href="#/library" data-nav="library">全部课件</a><a href="coverage.html?v=notes2">课件对照</a></nav>
+      <div class="notes-sidebar-bottom"><div id="sidebar-progress"></div><button class="text-button" data-action="data">导出 / 导入进度</button></div>
     </aside>
     <button id="sidebar-scrim" class="sidebar-scrim" data-action="close-menu" aria-label="关闭课程目录" hidden></button>
-    <div class="workspace">
-      <header class="topbar">
-        <div class="topbar-start"><button class="icon-button menu-toggle" data-action="menu" aria-label="打开课程目录" aria-expanded="false" aria-controls="sidebar">☰</button><span class="topbar-title">SELF-STUDY / 数学基础</span><span class="edition">课件随读版</span></div>
-        <div class="topbar-actions"><button class="icon-button" data-action="font" title="调整正文字号" aria-label="调整正文字号">A<span class="small-a">A</span></button><button class="icon-button" data-action="theme" title="切换明暗主题" aria-label="切换明暗主题">◐</button><button class="icon-button mobile-search" data-action="search" aria-label="搜索">⌕</button><button class="backup-button" data-action="data">备份进度 <span aria-hidden="true">↗</span></button></div>
-      </header>
+    <div class="notes-workspace">
       <div id="storage-warning" class="storage-warning" role="status" hidden></div>
-      <main id="main" tabindex="-1"><div class="initial-loading" role="status"><span class="loading-orbit" aria-hidden="true"></span><h1>正在打开自学手册</h1><p>准备目录与学习内容，请稍候。</p></div></main>
-      <footer class="site-footer"><span>信息安全数学基础 · 自学手册</span><span>按自己的节奏，把每一步弄明白。</span></footer>
+      <main id="main" class="notes-reader" tabindex="-1"><div class="initial-loading" role="status"><span class="loading-orbit" aria-hidden="true"></span><h1>正在打开学习笔记</h1><p>准备目录与课件，请稍候。</p></div></main>
     </div>
   </div>
   <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="dialog-top"><h2 id="search-title">搜索手册</h2><button class="icon-button" data-action="close-dialog" aria-label="关闭搜索">×</button></div><div class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="试试「欧几里得」「逆元」「Lagrange」" autocomplete="off" aria-label="搜索关键词"><kbd>Esc</kbd></div><p class="search-help">检索知识点与课件原页文字；公式和识别不清的内容请对照原图。</p><div id="search-results" class="search-results" aria-live="polite"><div class="empty-state compact"><p>从一个概念开始寻找。</p></div></div></dialog>
