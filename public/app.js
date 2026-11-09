@@ -7,12 +7,14 @@
   const num = value => Number(value || 0).toLocaleString('zh-CN');
   const STORAGE_KEY = 'math-self-study.v1';
   const SCHEMA = 'math-self-study';
-  const DATA_VERSION = 'notes2';
+  const DATA_VERSION = 'ppt-20261109';
   let catalog, lessons = [], lessonMap = new Map(), currentLesson = null;
-  let routeToken = 0, activeTab = 'guide', viewer = null, storageOK = true;
+  let routeToken = 0, activeTab = 'guide', viewer = null, storageOK = true, currentOutlineNode = null, currentFocus = null;
   let searchData, searchPromise, searchWorker, searchWorkerReady = false, searchWorkerFailed = false, searchSequence = 0, searchMatches = [], searchPage = 0;
   let itemFilter = '全部', itemPage = 0, toastTimer, noteTimer, slideReader = null, slideSaveTimer = null, inlineIndexPromise;
-  const paths = window.COURSE_PATHS || {}, starters = window.LESSON_STARTERS || {};
+  const paths = window.COURSE_PATHS || {}, starters = window.LESSON_STARTERS || {}, outline = window.PPT_OUTLINE || {};
+  const outlineNodes = Object.values(outline).flatMap(chapter => chapter.sections.flatMap(section => [section, ...section.topics]));
+  const outlineMap = new Map(outlineNodes.map(node => [node.key, node]));
   const lessonCache = new Map(), sourceCache = new Map();
   const compactScreen = window.matchMedia('(max-width: 760px)');
   let state = {completed:[], bookmarks:[], notes:{}, lastPages:{}, lastLesson:null, settings:{theme:'light',font:'normal'}};
@@ -107,27 +109,44 @@
   function updateProgress() {
     const done = state.completed.length, total = lessons.length, percentage = total ? Math.round(done/total*100) : 0;
     $('#sidebar-progress').innerHTML = `<div class="mini-progress-label"><span>我的学习进度</span><span>${done} / ${total}</span></div><div class="progress-track" role="progressbar" aria-label="总学习进度" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="${done}"><div class="progress-fill" style="width:${percentage}%"></div></div>`;
-    $$('.lesson-nav').forEach(a => a.classList.toggle('completed', state.completed.includes(a.dataset.lesson)));
+    $$('.lesson-nav[data-topic]').forEach(a => a.classList.toggle('completed', nodeComplete(outlineMap.get(a.dataset.topic))));
+  }
+  const outlineURL = node => `#/${node.key===node.section?'section':'topic'}/${encodeURIComponent(node.key)}`;
+  const outlineLabel = node => `${node.number||node.sourceLabel||''}${node.sourceLabel&&/^[一二三四五六七八九十]+$/.test(node.sourceLabel)?'、':' '}${node.title}`.trim();
+  function nodesForLesson(id) { return outlineNodes.filter(node=>node.parts.some(part=>part.lesson===id)); }
+  function nodeForLesson(lesson) {
+    const selected=outlineMap.get(currentOutlineNode);
+    return selected?.parts.some(part=>part.lesson===lesson?.id)?selected:nodesForLesson(lesson?.id)[0];
   }
   function unitFor(lesson) {
+    const node=nodeForLesson(lesson);
+    if(node)return {id:node.section,title:outlineLabel(outlineMap.get(node.section)),description:node.note||''};
     return (paths[String(lesson?.chapter)]?.units || []).find(unit=>unit.topics.includes(lesson?.id));
+  }
+  function nodeLessonIDs(node) {
+    return [...new Set([...node.parts,...(node.topics||[]).flatMap(topic=>topic.parts)].map(part=>part.lesson))];
+  }
+  function nodeComplete(node) { if(node.readingStatus==='toc_only')return false;const ids=nodeLessonIDs(node);return ids.length>0&&ids.every(id=>state.completed.includes(id)); }
+  function partURL(node,part) {
+    const params=new URLSearchParams({outline:node.key});if(part.from)params.set('focus',part.anchor);
+    return `${lessonURL(part.lesson)}?${params}`;
   }
   function renderSidebar() {
     $('#course-nav').innerHTML = catalog.chapters.map(chapter => {
-      const course=paths[String(chapter.id)];
-      const units=course?.units || chapter.sections.map(section=>({id:section.id,title:section.title,topics:section.lessons.map(l=>l.id)}));
-      return `<details class="chapter-nav" data-chapter="${esc(chapter.id)}"><summary><span class="tree-icon" aria-hidden="true">📁</span><a href="#/chapter/${esc(chapter.id)}">第${esc(chapter.number)}章 ${esc(course?.title||chapter.title)}</a></summary>${units.map(unit=>`<details class="section-nav" data-section="${esc(unit.id)}"><summary><span class="tree-icon" aria-hidden="true">📁</span>${esc(unit.title)}</summary>${unit.topics.map(id=>{const lesson=lessonMap.get(id);return lesson?`<a class="lesson-nav" data-lesson="${esc(id)}" href="${lessonURL(id)}"><span aria-hidden="true">📄</span> <span class="tree-section">${esc(lesson.section)}</span> ${esc(lesson.title)}</a>`:'';}).join('')}</details>`).join('')}</details>`;
+      const course=outline[String(chapter.id)];
+      return `<details class="chapter-nav" data-chapter="${esc(chapter.id)}"><summary><span class="tree-icon" aria-hidden="true">📁</span><a href="#/chapter/${esc(chapter.id)}">第${esc(chapter.number)}章 ${esc(course.title)}</a></summary><a class="chapter-intro-link" data-lesson="${esc(course.intro)}" href="${lessonURL(course.intro)}">本章导学与课件说明</a>${course.sections.map(section=>`<details class="section-nav" data-section="${esc(section.key)}"><summary><span class="tree-icon" aria-hidden="true">📁</span><a href="${outlineURL(section)}">${esc(outlineLabel(section))}${section.coverage==='chapter_home_only'?'<small class="missing-material">（未找到正文）</small>':''}</a></summary>${section.topics.map(topic=>`<a class="lesson-nav" data-topic="${esc(topic.key)}" href="${outlineURL(topic)}"><span aria-hidden="true">📄</span> ${esc(outlineLabel(topic))}${topic.readingLabel?`<small class="missing-material"><br>${esc(topic.readingLabel)}</small>`:''}</a>`).join('')}${section.parts.length||!section.topics.length?`<a class="section-content-link" href="${outlineURL(section)}">${esc(section.sectionReadingLabel||(section.coverage==='chapter_home_only'?'查看资料情况与章首页':'阅读本节正文与原页'))} →</a>`:''}</details>`).join('')}</details>`;
     }).join('');
     updateProgress();
   }
-  function updateNav(type, lesson, chapterID) {
+  function updateNav(type, lesson, chapterID, node = null) {
     $$('[data-nav]').forEach(a => {const active=a.dataset.nav===type;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-    $$('.lesson-nav').forEach(a => {const active=lesson&&a.dataset.lesson===lesson.id;a.classList.toggle('active',!!active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-    const id=lesson?.chapter||chapterID;
+    const selected=node||(lesson&&nodeForLesson(lesson));
+    $$('.lesson-nav').forEach(a => {const active=selected&&a.dataset.topic===selected.key;a.classList.toggle('active',!!active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+    $$('.chapter-intro-link').forEach(a=>{const active=lesson&&a.dataset.lesson===lesson.id;a.classList.toggle('active',!!active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+    const id=lesson?.chapter||node?.chapter||chapterID;
     if(id){
       const chapter=$$('[data-chapter]').find(n=>n.dataset.chapter===String(id));if(chapter)chapter.open=true;
-      const unit=lesson&&unitFor(lesson);
-      const section=unit&&$$('[data-section]').find(n=>n.dataset.section===unit.id);if(section)section.open=true;
+      const section=selected&&$$('[data-section]').find(n=>n.dataset.section===selected.section);if(section)section.open=true;
     }
   }
   function chapterProgress(chapter) {
@@ -135,15 +154,79 @@
   }
   function renderHome() {
     const next=lessonMap.get(state.lastLesson)||lessons.find(l=>!state.completed.includes(l.id))||lessons[0];
-    $('#main').innerHTML=`<div class="notes-paper notes-home"><div class="notes-reader-toolbar"><h1 class="notes-reader-title">信息安全数学基础 · 学习笔记</h1><a class="notes-resume" href="${lessonURL(next.id)}">${state.lastLesson?'继续上次学习':'从第一课开始'} →</a></div><div class="notes-home-body"><p class="notes-welcome">按照课件的顺序，从基本定义开始，一步步学会看定理、做例题。左侧目录可以直接进入任何知识点。</p><h2>课程学习路线</h2><div class="home-chapters">${catalog.chapters.map(chapter=>{const course=paths[String(chapter.id)],progress=chapterProgress(chapter);return `<a class="home-chapter" href="#/chapter/${esc(chapter.id)}"><span class="home-chapter-number">${String(chapter.number).padStart(2,'0')}</span><span><strong>第${chapter.number}章 ${esc(course?.title||chapter.title)}</strong><small>${esc(course?.question||chapter.description)}</small></span><span class="home-chapter-progress">${progress.done}/${progress.total} →</span></a>`;}).join('')}</div><p class="notes-scope">现有资料包括第 1、2、3、4、8 章。第 8 章主要为群论；未找到独立的第 5—7 章及完整环、域课件。</p></div></div>`;
+    $('#main').innerHTML=`<div class="notes-paper notes-home"><div class="notes-reader-toolbar"><h1 class="notes-reader-title">信息安全数学基础 · 学习笔记</h1><a class="notes-resume" href="${lessonURL(next.id)}">${state.lastLesson?'继续上次学习':'从第一课开始'} →</a></div><div class="notes-home-body"><p class="notes-welcome">按照课件原目录，从基本定义开始，一步步学会看定理、做例题。左侧依次列出章、小节和课件原有知识点。</p><h2>课程目录</h2><div class="home-chapters">${catalog.chapters.map(chapter=>{const course=outline[String(chapter.id)],progress=chapterProgress(chapter);return `<a class="home-chapter" href="#/chapter/${esc(chapter.id)}"><span class="home-chapter-number">${String(chapter.number).padStart(2,'0')}</span><span><strong>第${chapter.number}章 ${esc(course.title)}</strong><small>${esc(paths[String(chapter.id)]?.question||chapter.description)}</small></span><span class="home-chapter-progress">${progress.done}/${progress.total} →</span></a>`;}).join('')}</div><p class="notes-scope">目前本地已核对 ${catalog.stats.sources} 个来源组、${num(catalog.stats.pages)} 帧，涉及第 1、2、3、4、8 章；来源组可能合并多份 PPT，不能据此认定课程资料已收齐。11月4日两份分别320/305帧。9月9日第二份的雨课堂列表显示107帧，前56帧有图片并已保存，第57—107页未返回图片，内容暂不能确认，其他课堂未找到该课件的重复版本，后续取得材料后再补充；1.2.2正文尚未确认，不能据此推断无图页的内容。8.4、8.5未找到正文，第5—7章未找到独立课件。</p></div></div>`;
     updateNav('home');
   }
+  function outlineCard(node) {
+    return `<a class="course-lesson ${nodeComplete(node)?'is-complete':''}" href="${outlineURL(node)}"><span>${node.readingStatus==='toc_only'?'目录':node.readingStatus==='related_reading'?'↗':nodeComplete(node)?'✓':'○'}</span><span>${esc(outlineLabel(node))}${node.readingLabel?`<small class="missing-material"> · ${esc(node.readingLabel)}</small>`:''}</span><span>→</span></a>`;
+  }
   function renderChapter(id) {
-    const chapter=catalog.chapters.find(c=>String(c.id)===String(id)),course=paths[String(id)];
+    const chapter=catalog.chapters.find(c=>String(c.id)===String(id)),course=outline[String(id)],learning=paths[String(id)];
     if(!chapter||!course){$('#main').innerHTML=errorHTML('没有找到这个章节，请从目录重新选择。');return;}
     const progress=chapterProgress(chapter);
-    $('#main').innerHTML=`<div class="notes-paper course-overview"><div class="notes-reader-toolbar"><h1 class="notes-reader-title">第${chapter.number}章 ${esc(course.title)}</h1><span class="course-progress">已学 ${progress.done} / ${progress.total}</span></div><div class="course-overview-body"><p class="course-kicker">这一章要解决什么</p><h2>${esc(course.question)}</h2><p>${esc(course.bridge)}</p>${course.prerequisites?.length?`<div class="course-prerequisites"><strong>学习前可以先回顾</strong><div>${course.prerequisites.map(p=>`<a href="${lessonURL(p.id)}">${esc(p.label)} ↗</a>`).join('')}</div></div>`:''}<a class="button primary course-start" href="${lessonURL(course.start)}">从本章开始 →</a><h2 class="course-route-title">按这个顺序学</h2>${course.units.map((unit,index)=>`<section class="course-unit"><div class="course-unit-head"><span>${String(index+1).padStart(2,'0')}</span><div><h3>${esc(unit.title)}</h3><p>${esc(unit.description)}</p></div></div><div class="course-unit-lessons">${unit.topics.map(topic=>{const lesson=lessonMap.get(topic);return `<a class="course-lesson" href="${lessonURL(topic)}"><span>${state.completed.includes(topic)?'✓':'○'}</span><span class="course-source-section">${esc(lesson?.section||'')}</span>${esc(lesson?.title||topic)}<span>→</span></a>`;}).join('')}</div></section>`).join('')}</div></div>`;
+    $('#main').innerHTML=`<div class="notes-paper course-overview"><div class="notes-reader-toolbar"><h1 class="notes-reader-title">第${chapter.number}章 ${esc(course.title)}</h1><span class="course-progress">已学 ${progress.done} / ${progress.total} 篇讲解</span></div><div class="course-overview-body"><p>${esc(learning?.bridge||chapter.description)}</p><div class="chapter-introduction"><a class="button secondary" href="${lessonURL(course.intro)}">本章导学与课件说明 →</a><a class="text-button" href="#/library?source=${esc(course.home.source)}&page=${course.home.page}">查看课件章首页 ↗</a></div>${(course.sourceParts||[]).map(materialHTML).join('')}<h2 class="course-route-title">课件原目录</h2>${course.sections.map(section=>`<section class="course-unit"><div class="course-unit-head"><div><h3><a href="${outlineURL(section)}">${esc(outlineLabel(section))} →</a></h3>${section.coverage==='chapter_home_only'?'<p class="missing-material">现有资料未找到对应正文课件与独立讲解。</p>':section.material?`<p>${esc(section.material.title)} · 合并来源第 ${section.material.start}—${section.material.end} 页</p>`:''}</div></div><div class="course-unit-lessons">${section.parts.length?`<a class="section-reading-link" href="${outlineURL(section)}">${esc(section.sectionReadingLabel||(section.topics.length?'阅读本节引入、例题与补充讲解':'阅读本节讲解与全部原页'))} →</a>`:''}${section.topics.map(outlineCard).join('')}${section.coverage==='chapter_home_only'?`<a class="section-reading-link" href="${outlineURL(section)}">查看资料情况与章首页 →</a>`:''}</div></section>`).join('')}</div></div>`;
     updateNav(null,null,id);
+  }
+  function partBounds(lesson,part) {
+    const start=part.from?lesson.guide.indexOf(part.from):0;
+    const end=part.until?lesson.guide.indexOf(part.until,start+1):lesson.guide.length;
+    if(start<0||end<=start)throw new Error('这段讲解的定位需要更新，请使用完整文章入口阅读。');
+    return {start,end,text:lesson.guide.slice(start,end).trim()};
+  }
+  function guideWithOutlineAnchors(lesson) {
+    const insertions=new Map();
+    for(const node of nodesForLesson(lesson.id))for(const part of node.parts.filter(p=>p.lesson===lesson.id&&p.from)){
+      const index=lesson.guide.indexOf(part.from);if(index<0)continue;
+      insertions.set(index,(insertions.get(index)||'')+`<span class="ppt-fragment-anchor" id="ppt-${esc(part.anchor)}"></span>\n\n`);
+    }
+    let text=lesson.guide;
+    for(const [index,html]of [...insertions].sort((a,b)=>b[0]-a[0]))text=text.slice(0,index)+html+text.slice(index);
+    return text;
+  }
+  function outlineNavigation(node) {
+    const order=outlineNodes.filter(item=>item.key===item.section?(!item.topics.length||item.parts.length):true);
+    const index=order.findIndex(item=>item.key===node.key),previous=order[index-1],next=order[index+1];
+    return `<nav class="lesson-navigation" aria-label="课件目录相邻内容">${previous?`<a href="${outlineURL(previous)}"><small>← 上一项</small><span>${esc(outlineLabel(previous))}</span></a>`:'<span></span>'}${next?`<a href="${outlineURL(next)}"><small>下一项 →</small><span>${esc(outlineLabel(next))}</span></a>`:`<a href="#/chapter/${esc(node.chapter)}">返回本章目录 →</a>`}</nav>`;
+  }
+  function partPageURL(node,part,lesson) {
+    const source=node.sources.find(source=>(lesson.refs||[]).some(ref=>ref.source===source.source&&ref.start<=source.page&&source.page<=ref.end));
+    const first=lesson.refs?.[0];
+    return source?pageURL(part.lesson,source.source,source.page):first?pageURL(part.lesson,first.source,first.start):`${lessonURL(part.lesson)}?tab=pages`;
+  }
+  function sourceTitleAt(id,page) {
+    const source=catalog.sources.find(item=>item.id===id);
+    const segment=(source?.segments||Object.values(outline).flatMap(chapter=>chapter.sourceParts||[])).find(item=>(!item.source||item.source===id)&&item.start<=page&&page<=item.end);
+    return segment?`${segment.title}（合并来源第 ${page} 页 / 本份第 ${page-segment.start+1} 页）`:source?.title||'课件原页';
+  }
+  function materialHTML(material) {
+    return material?`<p class="ppt-source-material"><strong>${esc(material.title)}</strong> · 合并来源第 ${material.start}—${material.end} 页 <a href="#/library?source=${esc(material.source)}&page=${material.start}">从本份封面打开 →</a></p>`:'';
+  }
+  function originalFigure(source) {
+    if(!source?.asset)return '';
+    const title=sourceTitleAt(source.source,source.page),alt=`${title}，第 ${source.page} 页课件原图`;
+    return `<figure class="inline-slide ppt-original"><button type="button" class="inline-slide-image" data-action="inline-image" data-image="slides/${esc(source.asset)}.webp" data-alt="${esc(alt)}" aria-label="放大${esc(alt)}"><img src="slides/${esc(source.asset)}.webp" alt="${esc(alt)}" width="1280" height="960" loading="lazy" decoding="async"></button><figcaption><span>${esc(title)}${source.source==='chapter8-4'?'':` · 第 ${source.page} 页`}</span><a href="#/library?source=${esc(source.source)}&page=${source.page}">查看前后已收录原页 →</a></figcaption></figure>`;
+  }
+  async function renderOutlineNode(key,params,token) {
+    const node=outlineMap.get(key);
+    if(!node){$('#main').innerHTML=errorHTML('没有找到这个课件目录项，请从目录重新选择。');updateNav();return;}
+    currentOutlineNode=node.key;updateNav(null,null,node.chapter,node);
+    const chapter=outline[node.chapter],section=outlineMap.get(node.section);
+    document.title=`${outlineLabel(node)} · 信息安全数学基础`;
+    $('#main').innerHTML='<div class="initial-loading" role="status"><p>正在打开课件知识点…</p></div>';
+    const results=await Promise.allSettled(node.parts.map(part=>getLesson(part.lesson)));
+    const inline=await getInlineIndex();if(token!==routeToken)return;
+    const missing=node.coverage==='chapter_home_only';
+    $('#main').innerHTML=`<div class="notes-paper ppt-topic"><div class="notes-reader-toolbar"><div><p class="notes-breadcrumb"><a href="#/chapter/${esc(node.chapter)}">第${esc(node.chapter)}章 ${esc(chapter.title)}</a>${node.key!==node.section?` / <a href="${outlineURL(section)}">${esc(outlineLabel(section))}</a>`:''}</p><h1 class="notes-reader-title">${esc(outlineLabel(node))}</h1></div></div><div class="notes-article-wrap ppt-topic-body">${materialHTML(node.material)}${node.readingLabel?`<p class="notice">${esc(node.readingLabel)}</p>`:''}${node.relatedTopics?.length?`<nav class="ppt-child-topics" aria-label="相关讲解入口">${node.relatedTopics.map(topic=>`<a class="course-lesson" href="${outlineURL(outlineMap.get(topic.key))}">${esc(topic.label)} →</a>`).join('')}</nav>`:''}${node.note?`<p class="notice ${missing?'missing-material':''}">${esc(node.note)}</p>`:''}${!node.number?'<p class="ppt-source-label">保留课件原有标题与标记；此项没有独立的 8.x.x 数字编号。</p>':''}${missing?'<h2>未找到本节正文资料</h2><p>目前仅找到章首页上的目录条目。下方保留章首页，供核对课程原结构。</p>':''}${node.topics?.length?`<nav class="ppt-child-topics" aria-label="本节课件知识点">${node.topics.map(outlineCard).join('')}</nav>`:''}${node.parts.length?`<p class="ppt-reading-note">下面按本目录项展示相关讲解。每篇都保留完整文章、收藏、笔记和已收录课件原页入口；完成状态仍按原有讲解记录。</p>${node.parts.map((part,index)=>{const result=results[index],lesson=result.status==='fulfilled'?result.value:lessonMap.get(part.lesson);let text='';try{if(result.status==='fulfilled')text=partBounds(lesson,part).text;}catch(error){text='';}return `<section class="ppt-reading-part" id="part-${esc(part.anchor)}"><div class="ppt-part-toolbar"><h2>${esc(part.label||lesson.title)}</h2><span>${state.completed.includes(part.lesson)?'✓ 已完成':'待学习'}</span></div><div class="ppt-part-links"><a href="${partURL(node,part)}">${part.from||part.until?'在完整文章中定位本段':'阅读全文、收藏与记笔记'} →</a><a href="${partPageURL(node,part,lesson)}">本篇已收录课件原页 →</a></div>${text?`<article class="prose ppt-fragment" data-part-index="${index}">${markdownHTML(text)}</article>`:`<p class="notice">这段讲解暂时未能打开，请使用完整文章入口重试。</p>`}</section>`;}).join('')}`:!missing&&!node.topics?.length&&!node.relatedTopics?.length?'<p class="notice">现有资料尚未找到可独立对应本标题的讲解，请先核对下方课件原页。</p>':''}${originalFigure(node.sources[0])}${node.sources.length>1?`<details class="ppt-other-sources"><summary>其他来源与重复课件中的同一标题</summary>${node.sources.slice(1).map(source=>`<a href="#/library?source=${esc(source.source)}&page=${source.page}">${esc(catalog.sources.find(item=>item.id===source.source)?.title||source.source)} · 第 ${source.page} 页 ↗</a>`).join('')}</details>`:''}${outlineNavigation(node)}</div></div>`;
+    // Keep original figures attached to the selected heading rather than to every copy of a broad article.
+    node.parts.forEach((part,index)=>{
+      if(results[index].status!=='fulfilled'||!inline)return;
+      const lesson=results[index].value,article=$(`[data-part-index="${index}"]`);if(!article)return;
+      let bounds;try{bounds=partBounds(lesson,part);}catch{return;}
+      const originalHeadings=[...lesson.guide.matchAll(/^#{2,3} .*$/gm)];
+      const selected=originalHeadings.map((heading,originalIndex)=>({position:heading.index,originalIndex})).filter(item=>item.position>=bounds.start&&item.position<bounds.end);
+      const images=(inline[lesson.id]||[]).filter(item=>Number.isInteger(item.headingIndex)?selected.some(heading=>heading.originalIndex===item.headingIndex):bounds.start===0).map(item=>({...item,headingIndex:Number.isInteger(item.headingIndex)?selected.findIndex(heading=>heading.originalIndex===item.headingIndex):null}));
+      insertInlineSlides(lesson,{[lesson.id]:images},article);
+    });
   }
   function sanitizeHTML(html) {
     const template = document.createElement('template'); template.innerHTML = html;
@@ -176,11 +259,14 @@
   }
   function renderLessonShell(lesson, params = new URLSearchParams()) {
     const chapter=catalog.chapters.find(c=>String(c.id)===String(lesson.chapter));
-    const unit=unitFor(lesson);
-    $('#main').innerHTML=`<div class="notes-paper"><div class="notes-reader-toolbar"><div><p class="notes-breadcrumb"><a href="#/chapter/${esc(lesson.chapter)}">第${esc(chapter?.number||lesson.chapter)}章</a> / ${esc(unit?.title||lesson.section)}</p><h1 class="notes-reader-title">${esc(lesson.title)}</h1></div><div class="lesson-actions"><button class="button secondary bookmark-button ${state.bookmarks.includes(lesson.id)?'is-active':''}" data-action="bookmark" aria-pressed="${state.bookmarks.includes(lesson.id)}">${state.bookmarks.includes(lesson.id)?'★ 已收藏':'☆ 收藏'}</button><button class="button primary complete-button ${state.completed.includes(lesson.id)?'is-active':''}" data-action="complete" aria-pressed="${state.completed.includes(lesson.id)}">${state.completed.includes(lesson.id)?'✓ 已完成':'标记为完成'}</button></div></div><div class="notes-article-wrap"><div class="lesson-tabs" role="tablist" aria-label="学习内容"><button role="tab" id="tab-guide" data-tab="guide" aria-controls="lesson-panel">图文讲解</button><button role="tab" id="tab-pages" data-tab="pages" aria-controls="lesson-panel">全部课件原页</button><button role="tab" id="tab-items" data-tab="items" aria-controls="lesson-panel">原页索引</button></div><section id="lesson-panel" role="tabpanel" tabindex="0"></section><details class="notes-box"><summary>我的笔记 <span id="note-save-status">${state.notes[lesson.id]?.text?'已保存在此浏览器':'保存在此浏览器'}</span></summary><textarea id="lesson-note" maxlength="20000" placeholder="写下自己对这个知识点的理解……" aria-label="本知识点的学习笔记">${esc(state.notes[lesson.id]?.text||'')}</textarea><p class="note-foot">输入后自动保存 · 换设备前可导出备份</p></details>${lessonNavigation(lesson.id)}</div></div>`;
+    const unit=unitFor(lesson),node=nodeForLesson(lesson);
+    const breadcrumb=node?`<a href="${outlineURL(outlineMap.get(node.section))}">${esc(outlineLabel(outlineMap.get(node.section)))}</a>${node.key!==node.section?` / <a href="${outlineURL(node)}">${esc(outlineLabel(node))}</a>`:''}`:esc(lesson.id.endsWith('-intro')?'本章导学':unit?.title||lesson.section);
+    $('#main').innerHTML=`<div class="notes-paper"><div class="notes-reader-toolbar"><div><p class="notes-breadcrumb"><a href="#/chapter/${esc(lesson.chapter)}">第${esc(chapter?.number||lesson.chapter)}章</a> / ${breadcrumb}</p><h1 class="notes-reader-title">${esc(lesson.title)}</h1></div><div class="lesson-actions"><button class="button secondary bookmark-button ${state.bookmarks.includes(lesson.id)?'is-active':''}" data-action="bookmark" aria-pressed="${state.bookmarks.includes(lesson.id)}">${state.bookmarks.includes(lesson.id)?'★ 已收藏':'☆ 收藏'}</button><button class="button primary complete-button ${state.completed.includes(lesson.id)?'is-active':''}" data-action="complete" aria-pressed="${state.completed.includes(lesson.id)}">${state.completed.includes(lesson.id)?'✓ 已完成':'标记为完成'}</button></div></div><div class="notes-article-wrap"><div class="lesson-tabs" role="tablist" aria-label="学习内容"><button role="tab" id="tab-guide" data-tab="guide" aria-controls="lesson-panel">图文讲解</button><button role="tab" id="tab-pages" data-tab="pages" aria-controls="lesson-panel">已收录课件原页</button><button role="tab" id="tab-items" data-tab="items" aria-controls="lesson-panel">原页索引</button></div><section id="lesson-panel" role="tabpanel" tabindex="0"></section><details class="notes-box"><summary>我的笔记 <span id="note-save-status">${state.notes[lesson.id]?.text?'已保存在此浏览器':'保存在此浏览器'}</span></summary><textarea id="lesson-note" maxlength="20000" placeholder="写下自己对这个知识点的理解……" aria-label="本知识点的学习笔记">${esc(state.notes[lesson.id]?.text||'')}</textarea><p class="note-foot">输入后自动保存 · 换设备前可导出备份</p></details>${lessonNavigation(lesson.id)}</div></div>`;
     updateNav(null,lesson);bindNote(lesson.id);setTab(activeTab,params);
   }
   function lessonNavigation(id) {
+    const node=nodeForLesson(lessonMap.get(id));
+    if(node)return `<p class="ppt-return-link"><a href="${outlineURL(node)}">返回 ${esc(outlineLabel(node))} →</a></p>${outlineNavigation(node)}`;
     const index=lessons.findIndex(l=>l.id===id),previous=lessons[index-1],next=lessons[index+1];
     return `<nav class="lesson-navigation" aria-label="相邻知识点">${previous?`<a href="${lessonURL(previous.id)}"><small>← 上一个知识点</small><span>${esc(previous.title)}</span></a>`:'<span></span>'}${next?`<a href="${lessonURL(next.id)}"><small>下一个知识点 →</small><span>${esc(next.title)}</span></a>`:`<a href="#/"><small>回到总览 →</small><span>回顾你的学习进度</span></a>`}</nav>`;
   }
@@ -201,7 +287,12 @@
     if (!currentLesson || !$('#lesson-panel')) return;
     disposeSlideReader();
     activeTab=['guide','items','pages'].includes(tab)?tab:'guide';viewer=null;
-    try{history.replaceState(null,'',`${lessonURL(currentLesson.id)}${activeTab==='guide'?'':`?tab=${activeTab}`}`);}catch{/* Reading remains available. */}
+    const tabParams=new URLSearchParams();
+    if(activeTab!=='guide')tabParams.set('tab',activeTab);
+    if(currentOutlineNode)tabParams.set('outline',currentOutlineNode);
+    if(activeTab==='guide'&&currentFocus)tabParams.set('focus',currentFocus);
+    if(activeTab==='guide'&&params.has('heading'))tabParams.set('heading',params.get('heading'));
+    try{history.replaceState(null,'',`${lessonURL(currentLesson.id)}${tabParams.size?'?'+tabParams:''}`);}catch{/* Reading remains available. */}
     $$('[data-tab]').forEach(button=>{const active=button.dataset.tab===activeTab;button.classList.toggle('active',active);button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
     $('#lesson-panel').setAttribute('aria-labelledby',`tab-${activeTab}`);
     if(activeTab==='guide')renderGuide();else if(activeTab==='items')renderItems();else renderLessonPages(params);
@@ -215,15 +306,15 @@
     if(!inlineIndexPromise)inlineIndexPromise=fetchJSON('data/inline-slides.json').catch(()=>{inlineIndexPromise=null;return null;});
     return inlineIndexPromise;
   }
-  function insertInlineSlides(lesson,inlineData) {
-    const article=$('#guide-content');if(!article)return;
+  function insertInlineSlides(lesson,inlineData,article=$('#guide-content')) {
+    if(!article)return;
     const headings=$$('h2,h3',article);
     for(const item of inlineData?.[lesson.id]||[]){
-      const source=catalog.sources.find(s=>s.id===item.source),title=source?.title||'课件原页';
+      const title=sourceTitleAt(item.source,item.page);
       const figure=document.createElement('figure');figure.className='inline-slide';
       const imageURL=`slides/${encodeURIComponent(item.asset)}.webp`,alt=`${title}，第 ${item.page} 页课件原图`;
       const link=pageURL(item.originTopic,item.source,item.page);
-      figure.innerHTML=`<button type="button" class="inline-slide-image" data-action="inline-image" data-image="${esc(imageURL)}" data-alt="${esc(alt)}" aria-label="放大${esc(alt)}"><img src="${esc(imageURL)}" alt="${esc(alt)}" width="1280" height="960" loading="lazy" decoding="async"></button><figcaption><span>课件原图 · ${esc(title)} · 第 ${Number(item.page)} 页</span><a href="${link}">查看前后完整课件 →</a></figcaption>`;
+      figure.innerHTML=`<button type="button" class="inline-slide-image" data-action="inline-image" data-image="${esc(imageURL)}" data-alt="${esc(alt)}" aria-label="放大${esc(alt)}"><img src="${esc(imageURL)}" alt="${esc(alt)}" width="1280" height="960" loading="lazy" decoding="async"></button><figcaption><span>课件原图 · ${esc(title)} · 第 ${Number(item.page)} 页</span><a href="${link}">查看前后已收录原页 →</a></figcaption>`;
       const heading=Number.isInteger(item.headingIndex)?headings[item.headingIndex]:null;
       if(heading){let next=heading.nextElementSibling;while(next&&!/^H[23]$/.test(next.tagName))next=next.nextElementSibling;article.insertBefore(figure,next);}
       else {const first=headings[0]||null;article.insertBefore(figure,first);}
@@ -231,7 +322,7 @@
   }
   function renderGuide() {
     const lesson=currentLesson;
-    $('#lesson-panel').innerHTML=`${starterHTML(lesson)}<details class="notes-outline"><summary>本篇内容</summary><nav id="guide-outline" aria-label="本篇内容"></nav></details>${window.__inlineSlides===null?'<p class="notice">正文原图暂时没有加载成功，可打开“全部课件原页”，或稍后刷新重试。</p>':''}<article class="prose" id="guide-content">${markdownHTML(lesson.guide)}</article><details class="slide-book" id="slide-book"><summary>查看本节全部课件原页 <span>${num(lesson.pages)} 页 · 含动画步骤</span></summary><div id="inline-slide-reader"></div></details>`;
+    $('#lesson-panel').innerHTML=`${starterHTML(lesson)}<details class="notes-outline"><summary>本篇内容</summary><nav id="guide-outline" aria-label="本篇内容"></nav></details>${window.__inlineSlides===null?'<p class="notice">正文原图暂时没有加载成功，可打开“已收录课件原页”，或稍后刷新重试。</p>':''}<article class="prose" id="guide-content">${markdownHTML(guideWithOutlineAnchors(lesson))}</article><details class="slide-book" id="slide-book"><summary>查看本节已收录课件原页 <span>${num(lesson.pages)} 页 · 含动画步骤</span></summary><div id="inline-slide-reader"></div></details>`;
     const headings=$$('h2,h3',$('#guide-content'));
     $('#guide-outline').innerHTML=headings.map((heading,index)=>{
       heading.id=`guide-heading-${index}`;
@@ -263,21 +354,21 @@
         state.lastPages[lesson.id]={source:info.source,page:info.page};
         clearTimeout(slideSaveTimer);slideSaveTimer=setTimeout(save,400);
         const current=routeInfo();
-        if(mountedToken===routeToken&&activeTab==='pages'&&current.parts[0]==='lesson'&&current.parts[1]===lesson.id){try{history.replaceState(null,'',pageURL(lesson.id,info.source,info.page));}catch{/* The image remains readable. */}}
+        if(mountedToken===routeToken&&activeTab==='pages'&&current.parts[0]==='lesson'&&current.parts[1]===lesson.id){try{history.replaceState(null,'',pageURL(lesson.id,info.source,info.page)+(currentOutlineNode?`&outline=${encodeURIComponent(currentOutlineNode)}`:''));}catch{/* The image remains readable. */}}
       },
       onZoom:openSlideImage
     });
   }
   function renderLessonPages(params) {
     const lesson=currentLesson;
-    $('#lesson-panel').innerHTML=`<p class="viewer-intro">保留本知识点所有来源的课件原页，包括动画的每一步。选择课件或输入实际页码，可以连续查看。</p><div id="inline-slide-reader"></div>`;
+    $('#lesson-panel').innerHTML=`<p class="viewer-intro">这里展示当前已收录、与本知识点关联的课件原页及动画帧。选择来源或输入页码，可以连续查看；已收录范围不代表雨课堂资料已经齐备。</p><div id="inline-slide-reader"></div>`;
     mountLessonSlides(lesson,params);
   }
   async function renderLibrary(params,token) {
     updateNav('library');
     const selected=catalog.sources.find(s=>s.id===params.get('source'))||catalog.sources.find(s=>(s.chapters||[]).includes('1'))||catalog.sources[0];
     const pseudo={id:'all-slides',refs:catalog.sources.map(s=>({source:s.id,start:1,end:s.pages}))};
-    $('#main').innerHTML=`<div class="notes-paper"><div class="notes-reader-toolbar"><div><p class="notes-breadcrumb">课程资料</p><h1 class="notes-reader-title">完整课件原页</h1></div></div><div class="notes-article-wrap"><p class="viewer-intro">${catalog.stats.sources} 份课件、${num(catalog.stats.pages)} 页原始帧均在这里。按来源选择课件，也可以输入页码。</p><div id="inline-slide-reader"></div><p class="notice" id="library-lesson-link"></p></div></div>`;
+    $('#main').innerHTML=`<div class="notes-paper"><div class="notes-reader-toolbar"><div><p class="notes-breadcrumb">课程资料</p><h1 class="notes-reader-title">已收录课件原页</h1></div></div><div class="notes-article-wrap"><p class="viewer-intro">目前本地已核对 ${catalog.stats.sources} 个来源组、${num(catalog.stats.pages)} 帧。来源组可能合并多份 PPT；这里只展示已保存范围。按来源选择课件，也可以输入页码。</p><p class="viewer-intro">11月4日的第4份320帧、第5份305帧已分别列出，本地合并来源共625页。9月9日第二份的雨课堂列表显示107帧，前56帧有图片并已保存，第57—107页未返回图片，暂不能确认内容，其他课堂未找到该课件的重复版本，后续取得材料后再补充；1.2.2正文尚未确认，不能把这些无图页认定为该节内容。8.4、8.5未找到对应正文。</p><div id="inline-slide-reader"></div><p class="notice" id="library-lesson-link"></p></div></div>`;
     if(!window.mountSlideReader){$('#inline-slide-reader').innerHTML=errorHTML('课件阅读器暂时无法打开。');return;}
     slideReader=window.mountSlideReader({mount:$('#inline-slide-reader'),lesson:pseudo,catalog,getSource,
       initial:{source:selected.id,page:Number(params.get('page'))||1},onZoom:openSlideImage,
@@ -354,24 +445,35 @@
     if(!catalog)return;
     const {parts,params}=routeInfo(),token=++routeToken;
     clearTimeout(noteTimer);disposeSlideReader();clearTimeout(slideSaveTimer);save();closeMenu();
-    currentLesson=null;viewer=null;itemFilter='全部';itemPage=0;
+    currentLesson=null;currentOutlineNode=null;currentFocus=null;viewer=null;itemFilter='全部';itemPage=0;
     document.title='信息安全数学基础 · 自学手册';
     if(parts[0]==='lesson'){
       let id;try{id=decodeURIComponent(parts[1]||'');}catch{id='';}
       if(!validID(id)){updateNav();$('#main').innerHTML='<div class="empty-state"><h1>没有找到这个知识点</h1><p>请从课程目录重新选择，或返回学习总览。</p><a class="button primary" href="#/">返回总览</a></div>';return;}
+      const requestedNode=outlineMap.get(params.get('outline'));
+      currentOutlineNode=requestedNode?.parts.some(part=>part.lesson===id)?requestedNode.key:null;
+      const focus=params.get('focus');
+      currentFocus=nodesForLesson(id).some(node=>node.parts.some(part=>part.lesson===id&&part.anchor===focus))?focus:null;
       activeTab=['guide','items','pages'].includes(params.get('tab'))?params.get('tab'):'guide';
       $('#main').innerHTML='<div class="initial-loading" role="status"><span class="loading-orbit" aria-hidden="true"></span><p>正在打开知识点…</p></div>';updateNav(null,lessonMap.get(id));
       try{const [lesson,inlineSlides]=await Promise.all([getLesson(id),getInlineIndex()]);if(token!==routeToken)return;window.__inlineSlides=inlineSlides;currentLesson=lesson;state.lastLesson=id;save();document.title=`${lesson.title} · 信息安全数学基础`;renderLessonShell(lesson,params);}
       catch(error){if(token===routeToken)$('#main').innerHTML=errorHTML(error.message);}
+    }else if(parts[0]==='topic'||parts[0]==='section'){
+      let key;try{key=decodeURIComponent(parts[1]||'');}catch{key='';}
+      await renderOutlineNode(key,params,token);
     }else if(parts[0]==='chapter'){renderChapter(parts[1]);document.title=`章节导读 · 信息安全数学基础`;}
-    else if(parts[0]==='library'){await renderLibrary(params,token);if(token===routeToken)document.title='完整原页库 · 信息安全数学基础';}
+    else if(parts[0]==='library'){await renderLibrary(params,token);if(token===routeToken)document.title='已收录原页库 · 信息安全数学基础';}
     else if(parts[0]==='notebook'){renderNotebook();document.title='我的笔记与收藏 · 信息安全数学基础';}
     else if(parts[0]==='practice'){renderPractice(params);document.title='计算练习 · 信息安全数学基础';}
     else renderHome();
     if(token===routeToken){
+      // Web fonts can change earlier paragraph heights after a deep-link scroll.
+      if(parts[0]==='lesson'&&activeTab==='guide'&&(currentFocus||params.has('heading'))&&document.fonts)await document.fonts.ready;
+      if(token!==routeToken)return;
       window.scrollTo({top:0,behavior:'instant'});$('#main').focus({preventScroll:true});
       const heading=params.get('heading');
-      if(parts[0]==='lesson'&&activeTab==='guide'&&heading!==null&&/^\d{1,3}$/.test(heading))$('#guide-heading-'+Number(heading))?.scrollIntoView({block:'start',behavior:'instant'});
+      if(parts[0]==='lesson'&&activeTab==='guide'&&currentFocus)document.getElementById('ppt-'+currentFocus)?.scrollIntoView({block:'start',behavior:'instant'});
+      else if(parts[0]==='lesson'&&activeTab==='guide'&&heading!==null&&/^\d{1,3}$/.test(heading))$('#guide-heading-'+Number(heading))?.scrollIntoView({block:'start',behavior:'instant'});
     }
   }
   function showSearchTitles(query,withRetry=false) {
@@ -457,7 +559,7 @@
     const mount=$('#search-results');mount.dataset.total=String(total);mount.dataset.terms=JSON.stringify(terms);
     const pageSize=20,pageCount=Math.ceil(searchMatches.length/pageSize);
     const guideCount=searchMatches.filter(row=>row.type==='知识点').length,shownOriginals=searchMatches.length-guideCount;
-    const countDescription=`共找到 ${num(total)} 条匹配：${guideCount} 篇知识点导读、${num(total-guideCount)} 页课件帧。按导读标题、导读正文、原页的顺序展示。${total>searchMatches.length?`当前包含全部 ${guideCount} 篇匹配导读及前 ${shownOriginals} 页原页；更多原页请增加关键词缩小范围，或进入完整原页库逐帧浏览。`:''}`;
+    const countDescription=`共找到 ${num(total)} 条匹配：${guideCount} 篇知识点导读、${num(total-guideCount)} 页课件帧。按导读标题、导读正文、原页的顺序展示。${total>searchMatches.length?`当前包含全部 ${guideCount} 篇匹配导读及前 ${shownOriginals} 页原页；更多原页请增加关键词缩小范围，或进入已收录原页库逐帧浏览。`:''}`;
     mount.innerHTML=`<p class="search-count">${esc(countDescription)}</p>${searchMatches.slice(searchPage*pageSize,(searchPage+1)*pageSize).map(row=>{
       const url=row.source&&row.page?(validID(row.lesson)?pageURL(row.lesson,row.source,row.page):`#/library?source=${encodeURIComponent(row.source)}&page=${row.page}`):lessonURL(row.lesson);
       return `<a class="search-result" href="${url}" data-action="search-result"><h3>${highlight(row.title||lessonMap.get(row.lesson)?.title||'课件原页',terms)}</h3><p>${searchPreview(row,terms)}</p><small>${esc(row.matchKind||row.type||'课件原页')}${row.page?` · 实际第 ${row.page} 页`:''} · ${esc(lessonMap.get(row.lesson)?.title||'查看来源课件')} ↗</small></a>`;
@@ -486,7 +588,7 @@
       const rawCount=[...(payload.data.completed||[]),...(payload.data.bookmarks||[])].filter(id=>!validID(id)).length;
       status.textContent=`已合并 ${imported.completed.length} 条完成记录、${imported.bookmarks.length} 条收藏，更新 ${notesMerged} 条笔记。重复记录已去重。${rawCount?'不属于当前目录的记录已忽略。':''}${saved?'已保存在此浏览器。':'浏览器未能保存，请立即重新导出合并后的备份。'}`;
       // Refresh the background view without closing the import report.
-      const info=routeInfo();if(info.parts[0]==='notebook')renderNotebook();else if(!info.parts.length)renderHome();else if(currentLesson){renderLessonShell(currentLesson);}
+      const info=routeInfo();if(info.parts[0]==='notebook')renderNotebook();else if(!info.parts.length)renderHome();else if(currentLesson){renderLessonShell(currentLesson);}else if(info.parts[0]==='topic'||info.parts[0]==='section'){await renderOutlineNode(info.parts[1],info.params,routeToken);}
     }catch(error){status.className='import-status error';status.textContent=error.message;}
     finally{$('#import-file').value='';}
   }
@@ -544,6 +646,7 @@
   async function init() {
     try {
       catalog=await fetchJSON('data/catalog.json');
+      if(!Object.keys(outline).length)throw new Error('课件原目录暂未加载，请刷新页面重试。');
       if(!Array.isArray(catalog.chapters)||!catalog.chapters.length||!Array.isArray(catalog.sources))throw new Error('课程目录格式有误，请联系网站维护者。');
       lessons=catalog.chapters.flatMap(chapter=>chapter.sections.flatMap(section=>section.lessons.map(lesson=>({...lesson,chapter:String(chapter.id),section:section.id}))));lessonMap=new Map(lessons.map(lesson=>[lesson.id,lesson]));
       loadState();renderSidebar();await route();

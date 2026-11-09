@@ -28,7 +28,8 @@ function checkPrerequisites(prerequisites,before,label){
   }
 }
 
-test('课程路线仅包含现有五章，91篇内容含导学恰好各出现一次',()=>{
+// 本文件只检查内部学习路径；网站正式层级由 ppt-outline.test.cjs 验证。
+test('内部学习路径仅包含现有五章，91篇内容含导学恰好各出现一次',()=>{
   assert.deepEqual(Object.keys(paths),chapters.map(chapter=>String(chapter.id)));
   const all=[];
   const unitIDs=new Set();
@@ -73,7 +74,7 @@ test('阅读路线保留课件课程先后，所有先修均存在且在当前�
   }
 });
 
-test('第八章以五个连续阅读单元展开实际群论，不增加环、域或缺失章节',()=>{
+test('第八章内部学习路径保留五个阅读组，独立于课件正式小节',()=>{
   const units=paths['8'].units;
   assert.equal(units.length,5);
   assert.deepEqual(units.map(unit=>[unit.topics[0],unit.topics.at(-1)]),[

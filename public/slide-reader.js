@@ -3,6 +3,8 @@
 /* Standalone original-slide reader. Include slide-reader.css alongside this file.
  * mountSlideReader({mount, lesson, catalog, getSource, initial, onPageChange, onZoom})
  * callbacks receive {url, alt, source, page, title, index, total}; index is zero-based.
+ * source/page always retain their original (merged) identity. Segmented sources also
+ * expose localPage, segmentTotal and mergedPage for display without changing deep links.
  * onPageChange runs after a successful image commit, coalesced for 250ms and
  * flushed on destroy. Persistence belongs to the caller; this module never uses storage.
  * show(source, page) resolves to true after display, false for invalid/stale/failed requests.
@@ -41,13 +43,33 @@
     const caption = $('.slide-reader-caption-text'), zoom = $('.slide-reader-zoom');
     const range = $('input[type="range"]'), count = $('.slide-reader-count');
     const sourceIds = [...new Set(frames.map(frame => frame.source))];
-    const titles = new Map((catalog?.sources || []).map(source => [source.id, source.title]));
-    const sourceRanges = new Map(sourceIds.map(id => {
-      const pages = frames.filter(frame => frame.source === id).map(frame => frame.page);
-      return [id, {min:Math.min(...pages), max:Math.max(...pages)}];
-    }));
+    const metadata = new Map((catalog?.sources || []).map(source => [source.id, source]));
+    const titles = new Map([...metadata].map(([id, source]) => [id, source.title]));
+    const sourceOptions = new Map(), frameOptions = new Map();
     for (const id of sourceIds) {
-      const option = document.createElement('option'); option.value = id; option.textContent = titles.get(id) || id; sourceSelect.append(option);
+      const sourceFrames = frames.filter(frame => frame.source === id);
+      const meta = metadata.get(id), sourceTitle = titles.get(id) || id;
+      const segments = Array.isArray(meta?.segments) ? meta.segments.filter(segment =>
+        Number.isInteger(segment.start) && Number.isInteger(segment.end) && segment.start >= 1 && segment.end >= segment.start && typeof segment.title === 'string') : [];
+      const assigned = new Set();
+      function addOption(key, selectedFrames, segment) {
+        if (!selectedFrames.length) return;
+        const offset = segment ? segment.start - 1 : 0;
+        const pages = selectedFrames.map(frame => frame.page - offset);
+        const title = segment ? `${sourceTitle.match(/\d{1,2}月\d{1,2}日/)?.[0] || sourceTitle} · ${segment.title}` : sourceTitle;
+        const entry = {source:id, title, offset, min:Math.min(...pages), max:Math.max(...pages), first:positions.get(`${id}:${selectedFrames[0].page}`), segment};
+        sourceOptions.set(key, entry);
+        for (const frame of selectedFrames) { assigned.add(frame.page); frameOptions.set(`${id}:${frame.page}`, key); }
+        const option = document.createElement('option'); option.value = key; option.textContent = title; sourceSelect.append(option);
+      }
+      segments.forEach((segment, index) => addOption(JSON.stringify([id, index]), sourceFrames.filter(frame => !assigned.has(frame.page) && frame.page >= segment.start && frame.page <= segment.end), segment));
+      // Keep any uncovered pages navigable if a source's segment metadata is partial.
+      addOption(id, sourceFrames.filter(frame => !assigned.has(frame.page)), null);
+    }
+    function presentation(frame) {
+      const key = frameOptions.get(`${frame.source}:${frame.page}`);
+      const entry = sourceOptions.get(key);
+      return {key, entry, localPage:frame.page - entry.offset, segmentTotal:entry.segment ? entry.segment.end - entry.segment.start + 1 : null};
     }
 
     let destroyed = false, version = 0, targetIndex = 0, displayed = null;
@@ -82,14 +104,18 @@
       const {source, pages} = await sourceData(frame.source);
       const page = pages.get(frame.page);
       if (!page || typeof page.asset !== 'string' || !page.asset) throw new Error('该原页未在课件清单中找到。');
-      const title = source.title || titles.get(frame.source) || frame.source;
-      return {url:`slides/${encodeURIComponent(page.asset)}.webp`, alt:`${title}，实际第 ${frame.page} 页课件原图`, source:frame.source, page:frame.page, title, index, total:frames.length};
+      const view = presentation(frame);
+      const title = view.entry.segment ? view.entry.title : source.title || titles.get(frame.source) || frame.source;
+      const alt = view.entry.segment ? `${title}，实际第 ${view.localPage} 页课件原图（合并第 ${frame.page} 页）` : `${title}，实际第 ${frame.page} 页课件原图`;
+      return {url:`slides/${encodeURIComponent(page.asset)}.webp`, alt, source:frame.source, page:frame.page, title, index, total:frames.length,
+        ...(view.entry.segment ? {localPage:view.localPage, segmentTotal:view.segmentTotal, mergedPage:frame.page} : {})};
     }
     function updateControls() {
-      const frame = frames[targetIndex], limits = sourceRanges.get(frame.source);
-      sourceSelect.value = frame.source; pageInput.value = String(frame.page);
+      const frame = frames[targetIndex], view = presentation(frame), limits = view.entry;
+      sourceSelect.value = view.key; pageInput.value = String(view.localPage);
       pageInput.min = String(limits.min); pageInput.max = String(limits.max);
-      $('.slide-reader-page-limit').textContent = `/ ${limits.max}`;
+      const partial = limits.segment && (limits.min !== 1 || limits.max !== view.segmentTotal);
+      $('.slide-reader-page-limit').textContent = limits.segment ? `/ ${view.segmentTotal}${partial ? `（本知识点 ${limits.min}–${limits.max} 页）` : ''} · 合并第 ${frame.page} 页` : `/ ${limits.max}`;
       previous.disabled = targetIndex === 0; next.disabled = targetIndex === frames.length - 1;
       range.value = String(targetIndex); range.setAttribute('aria-valuetext', `第 ${targetIndex + 1} 帧，共 ${frames.length} 帧`);
       count.textContent = `本知识点全部原页 · ${targetIndex + 1} / ${frames.length} 帧`;
@@ -118,6 +144,7 @@
     }
     function loadImage(info) {
       const image = new Image(); image.alt = info.alt;
+      if (info.localPage !== undefined) image.title = info.alt;
       image.decoding = 'async'; image.fetchPriority = 'high'; image.loading = 'eager';
       image.width = 1200; image.height = 900;
       activeImage = image;
@@ -144,12 +171,16 @@
       const token = ++version;
       activeCancel?.(); stopPrefetch(); targetIndex = index; updateControls();
       stage.setAttribute('aria-busy', 'true'); root.classList.remove('slide-reader-has-error'); retry.hidden = true;
-      status.textContent = `正在读取第 ${frames[index].page} 页${displayed ? '，当前原图保持显示。' : '…'}`;
+      const view = presentation(frames[index]);
+      const loadingPage = view.entry.segment ? `实际第 ${view.localPage} 页（合并第 ${frames[index].page} 页）` : `第 ${frames[index].page} 页`;
+      status.textContent = `正在读取${loadingPage}${displayed ? '，当前原图保持显示。' : '…'}`;
       try {
         const info = await describe(index); if (!valid(token)) return false;
         // A duplicate asset is still a distinct original frame and must update its page.
         if (displayed?.url === info.url && picture.querySelector('img')) {
           picture.querySelector('img').alt = info.alt;
+          if (info.localPage !== undefined) picture.querySelector('img').title = info.alt;
+          else picture.querySelector('img').removeAttribute('title');
         } else {
           const image = await loadImage(info); if (!valid(token)) return false;
           picture.replaceChildren(image);
@@ -157,8 +188,8 @@
         displayed = info;
         picture.disabled = false; zoom.disabled = false;
         picture.setAttribute('aria-label', `放大${info.alt}`);
-        caption.textContent = `${info.title} · 实际第 ${info.page} 页`;
-        stage.setAttribute('aria-busy', 'false'); status.textContent = `已显示第 ${info.page} 页。`;
+        caption.textContent = info.localPage !== undefined ? `${info.title} · 实际第 ${info.localPage} 页 / ${info.segmentTotal} 页（合并第 ${info.page} 页）` : `${info.title} · 实际第 ${info.page} 页`;
+        stage.setAttribute('aria-busy', 'false'); status.textContent = info.localPage !== undefined ? `已显示实际第 ${info.localPage} 页（合并第 ${info.page} 页）。` : `已显示第 ${info.page} 页。`;
         queuePosition(info); prefetchNeighbors(token, index);
         return true;
       } catch (error) {
@@ -186,6 +217,7 @@
         dialog.setAttribute('aria-label', displayed.alt);
         const close = document.createElement('button'); close.type = 'button'; close.textContent = '关闭原图';
         const image = document.createElement('img'); image.src = displayed.url; image.alt = displayed.alt;
+        if (displayed.localPage !== undefined) image.title = displayed.alt;
         const scroll = document.createElement('div'); scroll.className = 'slide-reader-dialog-scroll'; scroll.append(image);
         dialog.append(close, scroll); root.append(dialog);
         close.addEventListener('click', () => dialog.close());
@@ -196,9 +228,19 @@
 
     listen(previous, 'click', () => open(targetIndex - 1));
     listen(next, 'click', () => open(targetIndex + 1));
-    listen(sourceSelect, 'change', () => { const index = frames.findIndex(frame => frame.source === sourceSelect.value); if (index >= 0) open(index); });
-    listen(pageInput, 'change', () => show(sourceSelect.value, pageInput.value));
-    listen(pageInput, 'keydown', event => { if (event.key === 'Enter') { event.preventDefault(); show(sourceSelect.value, pageInput.value); } });
+    listen(sourceSelect, 'change', () => { const entry = sourceOptions.get(sourceSelect.value); if (entry) open(entry.first); });
+    function showLocalPage() {
+      const entry = sourceOptions.get(sourceSelect.value);
+      const page = Number(pageInput.value);
+      if (entry && entry.segment && (!Number.isInteger(page) || page < entry.min || page > entry.max)) {
+        status.textContent = '这个页码不在当前知识点范围内，请选择对应来源中的有效页码。';
+        updateControls(); return Promise.resolve(false);
+      }
+      if (entry) return show(entry.source, page + entry.offset);
+      return Promise.resolve(false);
+    }
+    listen(pageInput, 'change', showLocalPage);
+    listen(pageInput, 'keydown', event => { if (event.key === 'Enter') { event.preventDefault(); showLocalPage(); } });
     listen(range, 'change', () => open(Number(range.value)));
     listen(retry, 'click', () => open(targetIndex));
     listen(picture, 'click', openZoom); listen(zoom, 'click', openZoom);

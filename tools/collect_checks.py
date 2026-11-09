@@ -7,9 +7,10 @@ inv=json.loads((ROOT/'.work/inventory.json').read_text(encoding='utf-8'))
 catalog=json.loads((ROOT/'public/data/catalog.json').read_text(encoding='utf-8'))
 out=[]
 out.append('# 发布核对记录\n')
-out.append('完整性核对：17份课件，9024个来源页，7923张唯一原图，91个主题。')
+out.append('本地范围核对：17个来源组，9024个已保存帧，7923张唯一原图，91个主题；来源组可能合并多份PPT。')
+out.append('雨课堂9月9日第二份课件列有107帧，其中第57–107帧未返回图片；1.2.2正文尚未确认。此核对不能证明全部课件已收齐。')
 out.append('每个来源页均映射到唯一主题；每个主题均提供连续原页区间，可逐帧浏览。')
-out.append('原图资源均已完成解码和尺寸校验。第三章第3节使用完整PDF重渲染。\n')
+out.append('已保存原图资源均已完成解码和尺寸校验。第三章第3节使用现有PDF重渲染。\n')
 out.append('|章节|主题|原页（按实际标题重新归类）|')
 out.append('|---|---:|---:|')
 for c in catalog['chapters']:

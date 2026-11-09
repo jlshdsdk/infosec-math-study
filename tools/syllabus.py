@@ -42,5 +42,5 @@ RANGES = {
 'lesson-35159940':[(1,'8-intro'),(13,'binary'),(62,'laws'),(100,'semigroup'),(107,'group'),(152,'group-props'),(182,'group-tests'),(227,'group-examples'),(284,'group-power'),(311,'permutation'),(342,'cycles'),(435,'cycle-decomp')],
 'lesson-35239721':[(1,'permutation'),(32,'cycles'),(125,'cycle-decomp'),(189,'parity'),(287,'group-table')],
 'lesson-35387870':[(1,'parity'),(94,'cycle-decomp'),(100,'group-table'),(108,'subgroup'),(151,'subgroup-tests'),(228,'generated'),(243,'cyclic'),(264,'order'),(374,'generators'),(408,'cyclic-subgroup')],
-'chapter8-4':[(1,'subgroup'),(45,'subgroup-tests'),(122,'generated'),(137,'cyclic'),(158,'order'),(268,'generators'),(302,'cyclic-subgroup'),(331,'cosets'),(484,'normal'),(510,'lagrange'),(549,'cyclic-subgroups'),(585,'small-groups'),(619,'order-criterion')]
+'chapter8-4':[(1,'subgroup'),(45,'subgroup-tests'),(122,'generated'),(137,'cyclic'),(158,'order'),(243,'generators'),(302,'cyclic-subgroup'),(321,'cosets'),(484,'normal'),(510,'lagrange'),(549,'cyclic-subgroups'),(585,'small-groups'),(619,'order-criterion')]
 }

@@ -6,7 +6,7 @@ self.onmessage = async event => {
   const message=event.data||{};
   if(message.type==='init'){
     try{
-      const response=await fetch('data/search.json?v=notes2');
+      const response=await fetch('data/search.json?v=ppt-20261109');
       if(!response.ok)throw new Error(`学习资料暂未能打开（${response.status}）`);
       const data=await response.json();
       if(!Array.isArray(data))throw new Error('搜索索引格式有误');

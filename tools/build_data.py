@@ -1,4 +1,4 @@
-"""Build a fully local, auditable static corpus from the 17 downloaded PDFs."""
+"""Build an auditable static corpus from the 17 locally saved source groups."""
 import argparse,collections,hashlib,json,re,shutil,sys
 from pathlib import Path
 from syllabus import CHAPTERS,SECTIONS,TOPICS,RANGES
@@ -48,10 +48,19 @@ def build(draft=False):
     total=0
     for source in inv['sources']:
         sid=source['id'];pages=source['pages'];boundaries=RANGES[sid]
+        # The 11/4 classroom used two different decks. Historical download
+        # combined their slide frames, so preserve stable global pages and IDs
+        # while exposing the real source deck boundaries to readers.
+        if sid=='chapter8-4':
+            source={**source,'title':'11月4日授课','segments':[
+                {'title':'第八章-4-原版','start':1,'end':320},
+                {'title':'第八章-5-原版','start':321,'end':625},
+            ]}
         assert boundaries[0][0]==1
         assert all(a[0]<b[0] for a,b in zip(boundaries,boundaries[1:]))
         assert boundaries[-1][0]<=len(pages)
         src={'id':sid,'title':source['title'],'pages':[]}
+        if source.get('segments'):src['segments']=source['segments']
         for b,(start,lessonid) in enumerate(boundaries):
             end=boundaries[b+1][0]-1 if b+1<len(boundaries) else len(pages)
             lesson=lessons[lessonid]
@@ -85,7 +94,9 @@ def build(draft=False):
         for page in src['pages']:
             if not (PUBLIC/'slides'/(page['asset']+'.webp')).exists():raise ValueError(f'Missing image {page["asset"]}')
         dump(PUBLIC/'data/sources'/f'{sid}.json',src)
-        sources.append({'id':sid,'title':source['title'],'pages':len(pages),'chapters':sorted({p['lesson'] and lessons[p['lesson']]['chapter'] for p in src['pages']},key=int)})
+        source_info={'id':sid,'title':source['title'],'pages':len(pages),'chapters':sorted({p['lesson'] and lessons[p['lesson']]['chapter'] for p in src['pages']},key=int)}
+        if source.get('segments'):source_info['segments']=source['segments']
+        sources.append(source_info)
         total+=len(pages)
     assert total==9024
     assert sum(l['pages'] for l in lessons.values())==total
@@ -105,10 +116,10 @@ def build(draft=False):
             members=[{k:l[k] for k in ['id','title','section','chapter','pages','minutes','excerpt']} for l in lessons.values() if l['section']==section]
             sections.append({'id':section,'title':stitle,'lessons':members})
         chapters.append({'id':str(number),'number':number,'title':title,'description':description,'sections':sections})
-    catalog={'version':1,'title':'信息安全数学基础','description':'按课件逐章学习，从第一步理解数学。','stats':{'sources':17,'pages':total,'assets':len(inv['assets']),'topics':len(lessons),'items':sum(len(l['items']) for l in lessons.values())},'chapters':chapters,'sources':sources,'gaps':['现有资料未找到独立标注第五、六、七章的课件。','第八章文件标题含“环、域”，现有页面实际主要覆盖群；未补造环、域的课程内容。'],'draft':bool(missing)}
+    catalog={'version':1,'title':'信息安全数学基础','description':'按课件逐章学习，从第一步理解数学。','stats':{'sources':17,'pages':total,'assets':len(inv['assets']),'topics':len(lessons),'items':sum(len(l['items']) for l in lessons.values())},'chapters':chapters,'sources':sources,'gaps':['9月9日第二份课件在雨课堂列有107帧，其中第57–107帧未返回图片；1.2.2计算复杂性的正文暂未确认。','现有资料未找到独立标注第五、六、七章的课件。','第八章8.4群的同态与同构、8.5环与域仅找到章首页目录，尚未找到对应正文。'],'draft':bool(missing)}
     dump(PUBLIC/'data/catalog.json',catalog)
     dump(PUBLIC/'data/search.json',search)
-    dump(PUBLIC/'data/coverage.json',{'stats':catalog['stats'],'ranges':evidence,'sources':sources,'notes':['所有9024个来源页均有且只有一个学习主题归属。','完全相同的图片文件按内容哈希复用；动画步骤仍保留其来源页码。','原页索引和搜索文字由OCR辅助生成，原始数学内容以图像为准。','第三章第3节采用此前导出的190页PDF重新渲染，字体和动画显示可能与雨课堂网页不同。']})
+    dump(PUBLIC/'data/coverage.json',{'stats':catalog['stats'],'ranges':evidence,'sources':sources,'notes':['本地已收录的9024帧均有且只有一个学习主题归属；这不能证明雨课堂课件已全部收齐。','9月9日第二份课件列有107帧，雨课堂第57–107帧未返回图片。','完全相同的图片文件按内容哈希复用；动画步骤仍保留其来源页码。','原页索引和搜索文字由OCR辅助生成，原始数学内容以图像为准。','第三章第3节采用此前导出的190页PDF重新渲染，字体和动画显示可能与雨课堂网页不同。']})
     (PUBLIC/'.nojekyll').touch()
     vendor=PUBLIC/'vendor';vendor.mkdir(exist_ok=True)
     kd=ROOT/'node_modules/katex/dist'

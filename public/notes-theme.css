@@ -645,3 +645,40 @@ body.notes-theme .notes-reader > .viewer { margin-bottom: 28px; }
 }
 
 body.notes-theme .tree-section, body.notes-theme .course-source-section { color: var(--muted); font-size: .9em; font-variant-numeric: tabular-nums; }
+
+/* 正式课件目录及按原标题组织的讲解页。 */
+body.notes-theme .chapter-intro-link { display: block; margin: 1px 0 8px 27px; color: var(--muted); font-size: 11px; line-height: 1.8; padding: 3px 6px; }
+body.notes-theme .chapter-intro-link.active { color: var(--accent); background: var(--accent-soft); border-radius: 5px; }
+body.notes-theme .section-content-link { display: block; color: var(--muted); font-size: 11px; padding: 5px 10px 7px 21px; line-height: 1.8; }
+body.notes-theme .missing-material { color: var(--muted); font-weight: 400; }
+body.notes-theme .section-nav small.missing-material { display: block; font-size: 10px; }
+body.notes-theme .chapter-introduction { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 22px; margin: 23px 0 30px; }
+body.notes-theme .section-reading-link { display: block; color: var(--accent); font-size: 12px; line-height: 1.9; margin: 8px 0 13px; }
+body.notes-theme .ppt-topic-body { padding-bottom: 35px; }
+body.notes-theme .ppt-topic-body > :is(p,h2,nav,figure,details,.ppt-reading-part) { width: min(100% - 70px, 820px); margin-left: auto; margin-right: auto; }
+body.notes-theme .ppt-topic-body > h2 { font: 700 21px/1.8 var(--serif); margin-top: 30px; }
+body.notes-theme .ppt-topic-body > p { line-height: 1.9; }
+body.notes-theme .ppt-reading-note, body.notes-theme .ppt-source-label { color: var(--muted); font-size: 12px; margin-top: 20px; }
+body.notes-theme .ppt-child-topics { margin-top: 15px; margin-bottom: 25px; padding: 12px 0; border-bottom: 1px solid var(--border); }
+body.notes-theme .ppt-child-topics .course-lesson > span:last-child { margin-left: auto; }
+body.notes-theme .ppt-reading-part { padding: 24px 0; border-bottom: 1px solid var(--border); }
+body.notes-theme .ppt-part-toolbar { display: flex; align-items: baseline; justify-content: space-between; gap: 15px; }
+body.notes-theme .ppt-part-toolbar h2 { font: 700 20px/1.7 var(--serif); margin-bottom: 8px; }
+body.notes-theme .ppt-part-toolbar > span { flex: 0 0 auto; color: var(--muted); font-size: 11px; }
+body.notes-theme .ppt-part-links { display: flex; gap: 8px 22px; flex-wrap: wrap; margin-bottom: 22px; color: var(--accent); font-size: 12px; line-height: 1.8; }
+body.notes-theme .ppt-other-sources { margin-top: 24px; color: var(--muted); font-size: 12px; }
+body.notes-theme .ppt-other-sources summary { cursor: pointer; margin-bottom: 12px; }
+body.notes-theme .ppt-other-sources a { display: block; line-height: 2; }
+body.notes-theme .ppt-original { margin-top: 30px; }
+html:has(body.notes-theme) { scroll-padding-top: 0; }
+body.notes-theme .ppt-fragment-anchor { display: block; scroll-margin-top: calc(var(--notes-topbar-height) + 25px); }
+body.notes-theme .ppt-return-link { color: var(--accent); margin-top: 26px; font-size: 13px; }
+@media (max-width: 760px) {
+  body.notes-theme .ppt-topic-body > :is(p,h2,nav,figure,details,.ppt-reading-part) { width: calc(100% - 36px); }
+  body.notes-theme .ppt-part-toolbar h2 { font-size: 18px; }
+  body.notes-theme .ppt-part-toolbar { flex-wrap: wrap; gap: 3px; margin-bottom: 9px; }
+  body.notes-theme .ppt-reading-part { padding: 20px 0; }
+}
+
+body.notes-theme .ppt-source-material { color: var(--muted); font-size: 12px; line-height: 1.9; padding: 12px 15px; border-left: 2px solid var(--border); background: var(--accent-soft); }
+body.notes-theme .ppt-source-material a { color: var(--accent); display: inline-block; margin-left: 8px; }

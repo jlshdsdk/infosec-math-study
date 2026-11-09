@@ -621,7 +621,7 @@
     "note": "例14分别处理单位子群和非平凡子群；最小正指数及带余除法证明见“带余除法是整个证明的关键”。"
   },
   {
-    "topic": "cyclic-subgroup",
+    "topic": "cosets",
     "type": "例题",
     "label": "例 6",
     "sources": [
@@ -631,9 +631,10 @@
         "end": 330
       }
     ],
-    "guideHeading": "用整数例子读懂抽象证明",
-    "status": "duplicate",
-    "note": "该处例6是Z6子群复习动画，subgroup例6已列全部四个子群，此处说明含2与同时含3的后果。"
+    "guideHeading": "例6的两组平移演示逐项算完",
+    "status": "explained",
+    "note": "11月4日第5份课件第3–10帧（合并第323–330页）：模6加法群两组陪集平移，逐一计算全部六个代表元。",
+    "guideTopic": "cosets"
   },
   {
     "topic": "cyclic-subgroups",
@@ -1770,7 +1771,7 @@
     "note": "原label“例13.4”其实“例13. 4次对称群”，应为例13；(1234)周期4，平方、立方、四次幂及九次幂均算明。"
   },
   {
-    "topic": "order",
+    "topic": "generators",
     "type": "定义",
     "label": "定义 62",
     "sources": [
