@@ -20,7 +20,7 @@
         "end": 2
       }
     ],
-    "guideHeading": "如何使用原页",
+    "guideHeading": "课程与教材",
     "status": "explained",
     "note": "课程导学与多个课件的开头导航合并记录；讲解说明学习次序、逐页动画和缺章范围，并非独立数学命题。"
   },
@@ -35,7 +35,7 @@
         "end": 291
       }
     ],
-    "guideHeading": "反复除、倒着读",
+    "guideHeading": "存在性证明：逐位提取余数",
     "status": "explained",
     "note": "原练习将13转二进制；连续除2得余数1、0、1、1，倒读1101并回代13。"
   },
@@ -50,7 +50,7 @@
         "end": 318
       }
     ],
-    "guideHeading": "反复除、倒着读",
+    "guideHeading": "唯一性与定理 1.2.1",
     "status": "explained",
     "note": "正整数在底数b>1下有唯一数码展开；讲解分别证明算法终止和逐位比较余数的唯一性。"
   },
@@ -65,7 +65,7 @@
         "end": 21
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "整除的定义（定义 1.1.1）",
     "status": "explained",
     "note": "原定义b整除a等价于存在整数q使a=qb；本主题开头说明非零除数和额外0整除0约定，小节用定义证明基本性质。"
   },
@@ -80,7 +80,7 @@
         "end": 20
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "整除的定义（定义 1.1.1）",
     "status": "explained",
     "note": "原单选问0是否整除0；按课件特别约定选能够整除，讲解明确区分此约定与普通除法。"
   },
@@ -95,7 +95,7 @@
         "end": 25
       }
     ],
-    "guideHeading": "跟着课件的例题算",
+    "guideHeading": "因数的枚举与基本注记",
     "status": "explained",
     "note": "50的所有整数因数是六个正因数及其相反数；讲解逐个列出并解释配对。"
   },
@@ -110,7 +110,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "例 2 与例 3：符号与传递",
     "status": "explained",
     "note": "改变被除数或除数符号不改变整除；讲解以a=qb构造负的整数系数。"
   },
@@ -125,7 +125,7 @@
         "end": 47
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "例 2 与例 3：符号与传递",
     "status": "explained",
     "note": "传递性例3要求由c整除b、b整除a推出c整除a；讲解将两个整数倍相乘。"
   },
@@ -140,7 +140,7 @@
         "end": 50
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "定理 1.1.1：整除的传递性",
     "status": "duplicate",
     "note": "定理1.1.1重述例3的传递性，与同一证明对应。"
   },
@@ -155,7 +155,7 @@
         "end": 50
       }
     ],
-    "guideHeading": "原页数值与多项线性组合",
+    "guideHeading": "定理 1.1.1：整除的传递性",
     "status": "explained",
     "note": "13整除39、39整除78的数值应用；讲解写出13整除78。"
   },
@@ -170,7 +170,7 @@
         "end": 52
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "例 5 与定理 1.1.2：加减保持整除",
     "status": "explained",
     "note": "同一整数整除a、b便整除a加减b；写a=uc,b=vc后合并系数。"
   },
@@ -185,7 +185,7 @@
         "end": 55
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "例 5 与定理 1.1.2：加减保持整除",
     "status": "duplicate",
     "note": "定理1.1.2重述例5的整除加减性质。"
   },
@@ -200,7 +200,7 @@
         "end": 55
       }
     ],
-    "guideHeading": "原页数值与多项线性组合",
+    "guideHeading": "例 5 与定理 1.1.2：加减保持整除",
     "status": "explained",
     "note": "13整除39加减78；讲解算出117=9乘13及负39=负3乘13。"
   },
@@ -215,7 +215,7 @@
         "end": 64
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "定理 1.1.3：线性组合保持整除",
     "status": "explained",
     "note": "任意整数系数s、t的线性组合仍被公因数整除；讲解保留整数与负系数条件。"
   },
@@ -230,7 +230,7 @@
         "end": 63
       }
     ],
-    "guideHeading": "原页数值与多项线性组合",
+    "guideHeading": "定理 1.1.3：线性组合保持整除",
     "status": "explained",
     "note": "原例7的三种线性组合分别为312、897、117，讲解逐项除以13核对。"
   },
@@ -245,7 +245,7 @@
         "end": 64
       }
     ],
-    "guideHeading": "原页数值与多项线性组合",
+    "guideHeading": "定理 1.1.3：线性组合保持整除",
     "status": "explained",
     "note": "多项整数线性组合的整除推广，讲解写a_i=dv_i后整体提出d。"
   },
@@ -260,7 +260,7 @@
         "end": 69
       }
     ],
-    "guideHeading": "跟着课件的例题算",
+    "guideHeading": "例 8：线性组合为 1 的含义",
     "status": "explained",
     "note": "若c同时整除a、b且sa+tb=1，则c整除1，故c为正负1；讲解给出完整理由。"
   },
@@ -275,7 +275,7 @@
         "end": 70
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "定理 1.1.5 与例 9：互相整除与大小关系",
     "status": "explained",
     "note": "非零整数互相整除只能得绝对值相等；讲解以整数乘数乘积为1证明并给负数反例。"
   },
@@ -290,7 +290,7 @@
         "end": 74
       }
     ],
-    "guideHeading": "性质为什么成立",
+    "guideHeading": "定理 1.1.5 与例 9：互相整除与大小关系",
     "status": "explained",
     "note": "原例9三空为小于等于、等于、等于；讲解解释非零整数与正整数条件为何分别必要。"
   },
@@ -305,7 +305,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.1.9：欧几里得除法与存在性证明",
     "status": "explained",
     "note": "带余除法存在唯一0≤r<b的商余数；本主题以向下取整构造存在性，小节以两余数差证明唯一性。"
   },
@@ -320,7 +320,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.3 与例 10：负数也要满足余数范围",
     "status": "explained",
     "note": "整数部分即向下取整，原例含正小数、整数和负小数；讲解给出1.2、9、负11、负2.01的实际取整。"
   },
@@ -335,7 +335,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.3 与例 10：负数也要满足余数范围",
     "status": "ocr-artifact",
     "note": "原标签例1013把例10和后面的数13粘连；实际内容为整数部分定义与数值取整，讲解逐个给出结果。"
   },
@@ -350,7 +350,7 @@
         "end": 101
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.3 与例 10：负数也要满足余数范围",
     "status": "explained",
     "note": "填空求带余除法商余数，含36除5、36除6、负36除5；讲解实际写出7余1、6余0、负8余4。"
   },
@@ -365,7 +365,7 @@
         "end": 106
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.3 与例 10：负数也要满足余数范围",
     "status": "explained",
     "note": "最小非负余数可写r=a-b乘floor(a/b)；讲解由向下取整不等式构造并说明存在性。"
   },
@@ -380,7 +380,7 @@
         "end": 114
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.4：整数部分记号",
     "status": "explained",
     "note": "最小非负余数和不完全商的命名；讲解说明0≤r<b及余数零等价于整除。"
   },
@@ -395,7 +395,7 @@
         "end": 114
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "定义 1.1.4：整数部分记号",
     "status": "explained",
     "note": "36除5与36除6的带余等式，讲解逐一写出并核查区间。"
   },
@@ -410,7 +410,7 @@
         "end": 121
       }
     ],
-    "guideHeading": "负数也要满足余数范围",
+    "guideHeading": "例 12：用 $[a/b]$ 算三组商与余数",
     "status": "explained",
     "note": "负36除5应取商负8余4；讲解说明负数取商不能只去小数。"
   },
@@ -425,7 +425,7 @@
         "end": 163
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.1.10（欧几里得除法的一般形式）与例 13",
     "status": "explained",
     "note": "任意整数起点c的一般余数定理，讲解给q=floor((a-c)/b)、r=a-bq，并以14除4的多个c实际核验。"
   },
@@ -440,7 +440,7 @@
         "end": 126
       }
     ],
-    "guideHeading": "例 13：固定除数，移动余数区间",
+    "guideHeading": "定理 1.1.10（欧几里得除法的一般形式）与例 13",
     "status": "explained",
     "note": "10除5，c依次为0、2、负6时，商余数为(2,0)、(1,5)、(3,负5)；已按原图补齐。"
   },
@@ -455,7 +455,7 @@
         "end": 167
       }
     ],
-    "guideHeading": "绝对值最小余数",
+    "guideHeading": "定义：五种常用余数小结",
     "status": "explained",
     "note": "未编号定义包含四种常用余数及绝对值最小余数；讲解给奇偶除数的区间，并在后节填完15除4、15除5。"
   },
@@ -470,7 +470,7 @@
         "end": 200
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "素数与合数的定义",
     "status": "explained",
     "note": "原整数定义排除0和正负1；主题开头说明正负素数与合数约定，小节据此解释素因数判定。"
   },
@@ -485,7 +485,7 @@
         "end": 200
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "素数与合数的定义",
     "status": "explained",
     "note": "例14列2、3、5、7、11为素数，4、6、8、9、10、12为合数；讲解逐个给出后六数的非平凡分解。"
   },
@@ -500,7 +500,7 @@
         "end": 213
       }
     ],
-    "guideHeading": "只试到平方根",
+    "guideHeading": "素数与合数的定义",
     "status": "explained",
     "note": "思考的第一题：大于1的最小正因数必为素数；讲解反证其若合数会有更小因数。"
   },
@@ -515,7 +515,7 @@
         "end": 238
       }
     ],
-    "guideHeading": "筛法与素数无穷性",
+    "guideHeading": "思考题与素数无穷性",
     "status": "explained",
     "note": "思考的另一题：1000以内和百万以内素数个数，讲解分别给168与78498，说明由有限筛法计数。"
   },
@@ -530,7 +530,7 @@
         "end": 213
       }
     ],
-    "guideHeading": "只试到平方根",
+    "guideHeading": "合数的素因数：定理 1.1.6",
     "status": "explained",
     "note": "大于1的整数存在素因数；讲解从最小的大于1正因数证明，避免把1当所求最小因数。"
   },
@@ -545,7 +545,7 @@
         "end": 213
       }
     ],
-    "guideHeading": "只试到平方根",
+    "guideHeading": "只试到平方根的素数判别法",
     "status": "explained",
     "note": "正合数必有不超过平方根的素因数，讲解取较小因子再取其素因数。"
   },
@@ -560,7 +560,7 @@
         "end": 216
       }
     ],
-    "guideHeading": "只试到平方根",
+    "guideHeading": "只试到平方根的素数判别法",
     "status": "explained",
     "note": "113的素性检验只需试2、3、5、7，均不整除，故为素数。"
   },
@@ -575,7 +575,7 @@
         "end": 216
       }
     ],
-    "guideHeading": "只试到平方根",
+    "guideHeading": "只试到平方根的素数判别法",
     "status": "explained",
     "note": "119=7乘17，为合数；讲解与113的检验作具体对照。"
   },
@@ -595,7 +595,7 @@
         "end": 224
       }
     ],
-    "guideHeading": "筛法与素数无穷性",
+    "guideHeading": "Eratosthenes 筛法：例 17",
     "status": "explained",
     "note": "原例17的100以内筛法动画与重述合并；讲解列出25个素数并解释筛至平方根即可。"
   },
@@ -610,7 +610,7 @@
         "end": 238
       }
     ],
-    "guideHeading": "筛法与素数无穷性",
+    "guideHeading": "思考题与素数无穷性",
     "status": "explained",
     "note": "素数无穷性，构造所有假定素数乘积加1；讲解说明只需新素因数，不要求构造数本身素。"
   },
@@ -625,7 +625,7 @@
         "end": 248
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "例 18：奇素数的 $4m\\pm1$ 与 $6m\\pm1$ 形式",
     "status": "explained",
     "note": "奇素数形如4k正负1，大于3素数形如6k正负1；主题开头从余数分类给出必要条件，提醒不能反推素性。"
   },
@@ -640,7 +640,7 @@
         "end": 248
       }
     ],
-    "guideHeading": "例 19、例 20 与合数拆分",
+    "guideHeading": "例 19 与例 20：代数恒等式下的素数",
     "status": "ocr-artifact",
     "note": "原标签例192实际为例19，题面是2的n次方加1与减1，n>2；按奇偶指数模3证明至少一项为合数。"
   },
@@ -655,7 +655,7 @@
         "end": 248
       }
     ],
-    "guideHeading": "例 19、例 20 与合数拆分",
+    "guideHeading": "例 19 与例 20：代数恒等式下的素数",
     "status": "explained",
     "note": "任意奇整数p为两整数平方差，讲解构造((p+1)/2)平方减((p-1)/2)平方。"
   },
@@ -670,7 +670,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "例 19、例 20 与合数拆分",
+    "guideHeading": "例 19 与例 20：代数恒等式下的素数",
     "status": "explained",
     "note": "大于11自然数拆成两个合数，讲解对偶数用4加x减4、奇数用9加x减9。"
   },
@@ -685,7 +685,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同标签思考1(1)：33整除6^(2n)+3^(n+2)+3^n。讲解提3^n并模11，补n≥1；n=0为11不能被33整除。"
   },
@@ -700,7 +700,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同标签思考1(2)：133整除11^(n+2)+12^(2n+1)。讲解用144同余11，将两项合成133乘11^n，取n≥0。"
   },
@@ -715,7 +715,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同标签思考1(3)：7整除3333^4444+4444^3333。讲解将底数化为1、负1，奇偶幂相加为零类。"
   },
@@ -730,7 +730,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同页练习1(1)：168整除13^(2n)减1。讲解由13平方=169同余1得出，取n≥0。"
   },
@@ -745,7 +745,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同页练习1(2)：2整除n(n+1)(3^(2n+1)+1)。讲解指出连续两个整数乘积恒偶，取n≥0避免负指数。"
   },
@@ -760,7 +760,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "幂的整除思考题，逐题展开",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同页练习1(3)：9整除(3n+1)7^n减1。讲解二项展开得7^n同余1+6n，再乘出9n+18n平方，取n≥0。"
   },
@@ -775,7 +775,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "课件思考题的做法",
+    "guideHeading": "幂的整除思考题与练习",
     "status": "explained",
     "note": "同页练习2：素数p>3且2p+1也素，则4p+1合数。讲解排除p模3余1，再得4p+1被3整除且大于3。"
   },
@@ -790,7 +790,7 @@
         "end": 261
       }
     ],
-    "guideHeading": "作业：形如 4k+3 的素数无穷多",
+    "guideHeading": "作业：形如 $4k+3$ 的素数有无穷多个",
     "status": "explained",
     "note": "习题1.8(13)要求4k+3型素数无穷；讲解构造4乘素数列表乘积减1，并证明必含列表外3模4素因数。"
   },
@@ -815,7 +815,7 @@
         "end": 8
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定义 1.3.1：公因数、最大公因数与互素",
     "status": "explained",
     "note": "最大公因数、互素定义，主题开头说明不全为零和不定义(0,0)；小节用公因数集合解释运算。"
   },
@@ -840,7 +840,7 @@
         "end": 33
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "例 1 与例 2：基本计算与交换律",
     "status": "explained",
     "note": "原三个例值(12,22)=2、(负10,30)=10、(28,负35,14)=7，讲解开头逐个列出。"
   },
@@ -865,7 +865,7 @@
         "end": 33
       }
     ],
-    "guideHeading": "对称与符号变化",
+    "guideHeading": "例 1 与例 2：基本计算与交换律",
     "status": "explained",
     "note": "交换a、b不改变公因数集合，故最大公因数对称。"
   },
@@ -890,7 +890,7 @@
         "end": 33
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 3：素数与不整除它的整数互素",
     "status": "explained",
     "note": "素数p不整除a便与a互素，讲解依据p只有1与p两个正因数。"
   },
@@ -915,7 +915,7 @@
         "end": 43
       }
     ],
-    "guideHeading": "对称与符号变化",
+    "guideHeading": "定理 1.3.1：取绝对值不改变最大公因数",
     "status": "explained",
     "note": "对各整数取绝对值不变公因数及最大公因数；讲解从整除相反数等价解释。"
   },
@@ -940,7 +940,7 @@
         "end": 53
       }
     ],
-    "guideHeading": "对称与符号变化",
+    "guideHeading": "例 4 与定理 1.3.2：符号法则与含零情形",
     "status": "explained",
     "note": "原图例4为(a,b)=(-a,b)=(a,-b)=(绝对值a,绝对值b)，讲解已按图补齐。"
   },
@@ -965,7 +965,7 @@
         "end": 53
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 4 与定理 1.3.2：符号法则与含零情形",
     "status": "explained",
     "note": "b正时(0,b)=b，主题开头推广为b非零时(0,b)=绝对值b。"
   },
@@ -990,7 +990,7 @@
         "end": 53
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 4 与定理 1.3.2：符号法则与含零情形",
     "status": "explained",
     "note": "原例(0,21)=21、(负15,0)=15，讲解实际列出，负b的思考统一由绝对值公式回答。"
   },
@@ -1015,7 +1015,7 @@
         "end": 81
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "例 4 与定理 1.3.2：符号法则与含零情形",
     "status": "explained",
     "note": "同标签第一问b为负整数时(0,b)等于多少：讲解(0,b)=绝对值b=负b，保持最大公因数为正。"
   },
@@ -1040,7 +1040,7 @@
         "end": 81
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 4 与定理 1.3.2：符号法则与含零情形",
     "status": "explained",
     "note": "同标签后续思考a=qb+c时两组公因数为何相同，以及能否换成(a,c)；讲解给双向整除，并用15=6乘2+3反驳错误替换。"
   },
@@ -1065,7 +1065,7 @@
         "end": 71
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 6 与例 7：正向对照与反向对照",
     "status": "explained",
     "note": "15=2乘6+3时两组公因数均为正负1、正负3；另一式15=6乘2+3中(15,2)=1却(15,3)=3。"
   },
@@ -1085,7 +1085,7 @@
         "end": 75
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 6 与例 7：正向对照与反向对照",
     "status": "ocr-artifact",
     "note": "例615是例6与数字15粘连，内容是15、6与6、3的公因数比较，讲解已具体列出。"
   },
@@ -1110,7 +1110,7 @@
         "end": 75
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "例 6 与例 7：正向对照与反向对照",
     "status": "ocr-artifact",
     "note": "例715是例7与数字15粘连，内容是15、2与2、3及15、3的公因数对照，讲解给反例结论。"
   },
@@ -1135,7 +1135,7 @@
         "end": 91
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "定理 1.3.3：$(a,b)=(b,c)$",
     "status": "explained",
     "note": "a=qb+c则(a,b)=(b,c)，讲解证明公因数集合双向包含，且指出不应换为(a,c)。"
   },
@@ -1160,7 +1160,7 @@
         "end": 91
       }
     ],
-    "guideHeading": "课件例题逐步算",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "原例8用1859、1573的三步辗转相除得143；对应欧几里得主题同名数值例。",
     "guideTopic": "euclid"
@@ -1186,7 +1186,7 @@
         "end": 130
       }
     ],
-    "guideHeading": "课件例题逐步算",
+    "guideHeading": "定理 1.3.4 及其使用",
     "status": "explained",
     "note": "辗转相除法定理，主题说明余数递减与最后非零余数，小节提供四组实际链条。"
   },
@@ -1211,7 +1211,7 @@
         "end": 130
       }
     ],
-    "guideHeading": "课件例题逐步算",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "例9重复1859、1573的求最大公因数演示，讲解完整写出三行得143。"
   },
@@ -1236,7 +1236,7 @@
         "end": 133
       }
     ],
-    "guideHeading": "课件例题逐步算",
+    "guideHeading": "例 10：两种余数、同一个答案",
     "status": "explained",
     "note": "169、121的普通与绝对值最小余数算法，讲解列48、25、23、2、1及121=3乘48减23。"
   },
@@ -1261,7 +1261,7 @@
         "end": 136
       }
     ],
-    "guideHeading": "长例题不能跳过的除法链",
+    "guideHeading": "例 11：一条十四行的除法链",
     "status": "explained",
     "note": "46480、39423的完整14行除法链，讲解逐行展开，最后最大公因数1。"
   },
@@ -1286,7 +1286,7 @@
         "end": 137
       }
     ],
-    "guideHeading": "课件例题逐步算",
+    "guideHeading": "例 12：负余数收尾的典型",
     "status": "explained",
     "note": "68、30采用负余数，30=4乘8减2，最大公因数取2而非负2。"
   },
@@ -1311,7 +1311,7 @@
         "end": 145
       }
     ],
-    "guideHeading": "从余数回代",
+    "guideHeading": "从辗转相除到新问题：例 8 的第一问",
     "status": "explained",
     "note": "1859、1573例题回代143=负5乘1859加6乘1573，讲解实际给出两次代入。"
   },
@@ -1336,7 +1336,7 @@
         "end": 156
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "广义欧几里得除法：存在性的证明思路",
     "status": "explained",
     "note": "Bézout存在性与整数线性组合，主题定义等式，小节说明回代及线性组合的最小正值。"
   },
@@ -1361,7 +1361,7 @@
         "end": 220
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "三、定理 1.3.7 与它的计算表格",
     "status": "explained",
     "note": "扩展欧几里得递推的s、t与余数同递推；主题开头给初值，小节以169、121各行系数保持等式验证。"
   },
@@ -1386,7 +1386,7 @@
         "end": 235
       }
     ],
-    "guideHeading": "把系数表实际填满",
+    "guideHeading": "四、例 12：求 $s$、$t$ 使 $sa+tb=(a,b)$",
     "status": "explained",
     "note": "169、121系数表最终58乘169减81乘121=1，讲解列全7行并说明负系数与非唯一性。"
   },
@@ -1411,7 +1411,7 @@
         "end": 266
       }
     ],
-    "guideHeading": "从余数回代",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "复习Bézout定理，对应bezout主题的存在性、回代和最小正线性组合。",
     "guideTopic": "bezout"
@@ -1437,7 +1437,7 @@
         "end": 237
       }
     ],
-    "guideHeading": "两道单选分别用了什么",
+    "guideHeading": "五、定理 1.3.5 与“逆命题成立吗”",
     "status": "explained",
     "note": "已核原图：sa+tb=e只能保证(a,b)整除e，第一道单选选B；讲解给6、10与22的反例说明不能保证相等。"
   },
@@ -1462,7 +1462,7 @@
         "end": 260
       }
     ],
-    "guideHeading": "两道单选分别用了什么",
+    "guideHeading": "七、单选与思考 (4)：公因数 $e$ 能走多远",
     "status": "explained",
     "note": "已核原图：e为a、b公因数时必有e整除(a,b)，第二道单选选A；讲解以e整除Bézout等式的两项证明。"
   },
@@ -1487,7 +1487,7 @@
         "end": 266
       }
     ],
-    "guideHeading": "从余数回代",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "Bézout逆命题不成立，讲解以2乘6加10=22但最大公因数2反驳，并说明加公因数条件后的正确结论。",
     "guideTopic": "bezout"
@@ -1513,7 +1513,7 @@
         "end": 252
       }
     ],
-    "guideHeading": "从余数回代",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "最大公因数是正整数线性组合的最小正值，讲解说明所有组合构成d的整数倍集合。",
     "guideTopic": "bezout"
@@ -1539,7 +1539,7 @@
         "end": 258
       }
     ],
-    "guideHeading": "从余数回代",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "互素当且仅当存在整数s、t使sa+tb=1，讲解给必要方向与公因数整除1的充分方向。",
     "guideTopic": "bezout"
@@ -1565,7 +1565,7 @@
         "end": 276
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "定理 1.3.9：最大公因数的整除刻画",
     "status": "duplicate",
     "note": "定理1.3.9在本主题末尾预告下一主题，实际是最大公因数整除刻画；对应gcd-props开头及证明。",
     "guideTopic": "gcd-props"
@@ -1591,7 +1591,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.3.9：最大公因数的整除刻画",
     "status": "explained",
     "note": "最大公因数的整除刻画：自身整除两数，任何公因数整除它；主题开头给等价描述，小节用Bézout落实。"
   },
@@ -1616,7 +1616,7 @@
         "end": 278
       }
     ],
-    "guideHeading": "原页练习与四个填空",
+    "guideHeading": "定理 1.3.9：最大公因数的整除刻画",
     "status": "explained",
     "note": "奇d同时整除a加b、a减b，则整除最大公因数；讲解相加减得2a、2b，再互素约去2。"
   },
@@ -1641,7 +1641,7 @@
         "end": 279
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.3.9：最大公因数的整除刻画",
     "status": "duplicate",
     "note": "最大公因数为最小正整数线性组合，在主题开头与bezout主题已解释。"
   },
@@ -1666,7 +1666,7 @@
         "end": 280
       }
     ],
-    "guideHeading": "原页练习与四个填空",
+    "guideHeading": "填空题：四条变换公式速测",
     "status": "explained",
     "note": "原图四空依次是、是、1、是；讲解分别写出缩放、约公因数、归一化互素与互素因子消去的理由。"
   },
@@ -1691,7 +1691,7 @@
         "end": 292
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "从 Bézout 等式出发证 $(ma,mb)=m(a,b)$",
     "status": "duplicate",
     "note": "Bézout定理在此用于同时缩放最大公因数，讲解实际构造缩放后的线性组合。"
   },
@@ -1716,7 +1716,7 @@
         "end": 292
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "从 Bézout 等式出发证 $(ma,mb)=m(a,b)$",
     "status": "explained",
     "note": "思考第一组以Bézout推导(ma,mb)=m(a,b)，讲解写a=du,b=dv及其线性组合。"
   },
@@ -1741,7 +1741,7 @@
         "end": 328
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "正文开头",
     "status": "explained",
     "note": "思考第二组要求由a、b互素且均整除D推出ab整除D；对应lcm主题将D=bq再约去b的证明。",
     "guideTopic": "lcm"
@@ -1767,7 +1767,7 @@
         "end": 304
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "定理 1.3.10：最大公因数的两条转换公式",
     "status": "explained",
     "note": "同乘正整数、同除非零公因数与归一化互素三条转换；讲解保留绝对值并给构造证明。"
   },
@@ -1792,7 +1792,7 @@
         "end": 305
       }
     ],
-    "guideHeading": "常用变换及条件",
+    "guideHeading": "例 15：提取公因数求最大公因数",
     "status": "explained",
     "note": "11乘200306与23乘200306最大公因数为200306，讲解提公共因数并用11、23互素。"
   },
@@ -1817,7 +1817,7 @@
         "end": 328
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "定理 1.3.11：消去互素因子",
     "status": "explained",
     "note": "(a,c)=1时(ab,c)=(b,c)，讲解用sa+tc=1乘b证明公因数集合相同。"
   },
@@ -1842,7 +1842,7 @@
         "end": 325
       }
     ],
-    "guideHeading": "常用变换及条件",
+    "guideHeading": "例 16 与定理 1.3.12：互素因子的连乘",
     "status": "explained",
     "note": "两个数均与c互素则其积与c互素，讲解由互素因子消去公式得到。"
   },
@@ -1867,7 +1867,7 @@
         "end": 325
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "例 16 与定理 1.3.12：互素因子的连乘",
     "status": "explained",
     "note": "若各a_i均与c互素，其积亦然，讲解说明逐个加入互素因子的归纳步骤。"
   },
@@ -1892,7 +1892,7 @@
         "end": 328
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.4：互素正整数的整除性质",
     "status": "duplicate",
     "note": "定理1.4.4在此作为跨节引用，实际是互素两因数均整除D则乘积整除D；lcm主题给完整证明。",
     "guideTopic": "lcm"
@@ -1918,7 +1918,7 @@
         "end": 342
       }
     ],
-    "guideHeading": "可逆整数变换",
+    "guideHeading": "定理 1.3.13：可逆整数变换下的不变性",
     "status": "explained",
     "note": "行列式为正负1的整数线性变换保持最大公因数，讲解写出逆变换并强调反解系数仍是整数。"
   },
@@ -1943,7 +1943,7 @@
         "end": 351
       }
     ],
-    "guideHeading": "多元 Bézout 与等价描述",
+    "guideHeading": "例 17：计算 $(120, 150, 210, 35)$",
     "status": "explained",
     "note": "120、150、210、35逐步最大公因数为5，主题列出30、30、5，小节给实际组合5=120减150加35。"
   },
@@ -1968,7 +1968,7 @@
         "end": 352
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.3.14：逐对递推及多元 Bézout 等式",
     "status": "explained",
     "note": "原定理1.3.14是多元最大公因数的迭代算法，讲解开头给嵌套gcd式，并用120、150、210、35实际算30、30、5。"
   },
@@ -1993,7 +1993,7 @@
         "end": 353
       }
     ],
-    "guideHeading": "多元 Bézout 与等价描述",
+    "guideHeading": "定理 1.3.15 与推论：最大公因数的等价描述",
     "status": "explained",
     "note": "原定理1.3.15是多元最大公因数的整除等价刻画：d整除每项、每个公因数均整除d；讲解给明确描述并用多元Bézout落实。"
   },
@@ -2018,7 +2018,7 @@
         "end": 353
       }
     ],
-    "guideHeading": "多元 Bézout 与等价描述",
+    "guideHeading": "定理 1.3.15 与推论：最大公因数的等价描述",
     "status": "explained",
     "note": "多元整除刻画与最小正线性组合结论，讲解将两元描述推广至全部a_i。"
   },
@@ -2043,7 +2043,7 @@
         "end": 367
       }
     ],
-    "guideHeading": "为什么底数大于 2 时不同",
+    "guideHeading": "同一课件的另一录制版本（p.672-686）",
     "status": "explained",
     "note": "2的指数带余除法转为2^a减1对2^b减1的余数；主题开头给k一般底数的同余和余数区间证明。"
   },
@@ -2068,7 +2068,7 @@
         "end": 367
       }
     ],
-    "guideHeading": "为什么底数大于 2 时不同",
+    "guideHeading": "同一课件的另一录制版本（p.672-686）",
     "status": "explained",
     "note": "底数推广与互素条件的思考：一般底数k的最大公因数是k^(a,b)减1，指数互素时为k减1，k>2时不互素。"
   },
@@ -2093,7 +2093,7 @@
         "end": 367
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "同一课件的另一录制版本（p.672-686）",
     "status": "explained",
     "note": "原引理1.3.2是gcd(2^a减1,2^b减1)=2^gcd(a,b)减1；讲解从指数辗转相除推导，且推广到整数底数k>1。"
   },
@@ -2118,7 +2118,7 @@
         "end": 367
       }
     ],
-    "guideHeading": "为什么底数大于 2 时不同",
+    "guideHeading": "同一课件的另一录制版本（p.672-686）",
     "status": "explained",
     "note": "原定理1.3.16是两个2的幂减1互素当且仅当指数互素，讲解由最大公因数公式等于1解释；小节另说明底数k>2不能照搬。"
   },
@@ -2143,7 +2143,7 @@
         "end": 367
       }
     ],
-    "guideHeading": "从最大公因数读出整除条件",
+    "guideHeading": "同一课件的另一录制版本（p.672-686）",
     "status": "explained",
     "note": "2^b减1整除2^a减1等价于b整除a；讲解给双向证明，并推广到任意整数底数k>1。"
   },
@@ -2158,7 +2158,7 @@
         "end": 393
       }
     ],
-    "guideHeading": "用 Bézout 证明",
+    "guideHeading": "1.4.1 整除的进一步性质",
     "status": "explained",
     "note": "整除乘积能否约去因子的思考，讲解说明必须互素，再用Bézout等式乘另一因子证明。"
   },
@@ -2173,7 +2173,7 @@
         "end": 383
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "定理 1.3.11：消去互素因子",
     "status": "duplicate",
     "note": "复习1.3.11的互素因子消去公式，对应gcd-props同名证明。",
     "guideTopic": "gcd-props"
@@ -2194,7 +2194,7 @@
         "end": 393
       }
     ],
-    "guideHeading": "用 Bézout 证明",
+    "guideHeading": "1.4.1 整除的进一步性质",
     "status": "explained",
     "note": "若c整除ab且(a,c)=1则c整除b，讲解实际构造b=sab+tbc。"
   },
@@ -2209,7 +2209,7 @@
         "end": 383
       }
     ],
-    "guideHeading": "例 1 的直接核对",
+    "guideHeading": "1.4.1 整除的进一步性质",
     "status": "explained",
     "note": "17整除5乘102且与5互素，因此整除102；讲解也用102=6乘17回算。"
   },
@@ -2224,7 +2224,7 @@
         "end": 397
       }
     ],
-    "guideHeading": "用 Bézout 证明",
+    "guideHeading": "素数整除积（定理 1.4.2 与定理 1.4.3）",
     "status": "explained",
     "note": "素数整除积必整除一因子；讲解以不整除首因子便互素，应用一般消去。"
   },
@@ -2239,7 +2239,7 @@
         "end": 397
       }
     ],
-    "guideHeading": "课件例题与反例意识",
+    "guideHeading": "素数整除积（定理 1.4.2 与定理 1.4.3）",
     "status": "ocr-artifact",
     "note": "原标签例217实际为例2，17整除29乘51且不整除29，所以整除51；讲解区分素数条件。"
   },
@@ -2254,7 +2254,7 @@
         "end": 397
       }
     ],
-    "guideHeading": "用 Bézout 证明",
+    "guideHeading": "素数整除积（定理 1.4.2 与定理 1.4.3）",
     "status": "explained",
     "note": "素数整除多个数之积则整除至少一项，讲解说明反复使用两因子结论。"
   },
@@ -2269,7 +2269,7 @@
         "end": 397
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "例 16 与定理 1.3.12：互素因子的连乘",
     "status": "duplicate",
     "note": "复习1.3.12的多个互素因子乘积仍互素，gcd-props主题给逐项归纳理由。",
     "guideTopic": "gcd-props"
@@ -2285,7 +2285,7 @@
         "end": 402
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "最小公倍数的定义（定义 1.4.1）",
     "status": "explained",
     "note": "公倍数与最小正公倍数定义，主题开头说明所有公倍数被最小公倍数整除，小节给构造证明。"
   },
@@ -2300,7 +2300,7 @@
         "end": 400
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "最小公倍数的定义（定义 1.4.1）",
     "status": "explained",
     "note": "8、12的最小公倍数24，讲解列零、正负24等公倍数，突出最小正值。"
   },
@@ -2315,7 +2315,7 @@
         "end": 403
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "课前的两个练习",
     "status": "explained",
     "note": "三空为绝对值ab、是、是；讲解非零整数通式与两种缩放公式。"
   },
@@ -2330,7 +2330,7 @@
         "end": 404
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "课前的两个练习",
     "status": "explained",
     "note": "a、b互素正整数的四项选择均真；讲解逐项证明消去、公倍数、最小公倍数与同乘m的两个式子。"
   },
@@ -2355,7 +2355,7 @@
         "end": 444
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.4：互素正整数的整除性质",
     "status": "explained",
     "note": "互素两数共同整除D则积整除D，且最小公倍数为积；讲解写D=bq再约因子。"
   },
@@ -2370,7 +2370,7 @@
         "end": 424
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "定理 1.4.4：互素正整数的整除性质",
     "status": "ocr-artifact",
     "note": "标签例412是例4与数字12粘连，实际[12,35]=420；讲解按互素乘积计算。"
   },
@@ -2385,7 +2385,7 @@
         "end": 424
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "定理 1.4.4：互素正整数的整除性质",
     "status": "explained",
     "note": "不同素数p、q的最小公倍数为pq，讲解明确不同才互素。"
   },
@@ -2400,7 +2400,7 @@
         "end": 426
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "推论 1：整体放大 m 倍的情形",
     "status": "explained",
     "note": "同标签第一题a、b互素，同乘正整数m后共同整除D，推出mab整除D与[ma,mb]=mab；讲解用D/m和互素消去证明。"
   },
@@ -2415,7 +2415,7 @@
         "end": 446
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.5：一般正整数的最小公倍数",
     "status": "explained",
     "note": "同标签第二题一般最小公倍数定理在a、b互素时如何表达；讲解把(a,b)=1代入，得[a,b]=ab且ab整除任意共同倍数。"
   },
@@ -2430,7 +2430,7 @@
         "end": 456
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "缩放规则的正式版",
     "status": "explained",
     "note": "同标签第三题正整数k同时整除a、b，求[a/k,b/k]；讲解由缩放反向得到[a,b]/k，不要求约后互素。"
   },
@@ -2445,7 +2445,7 @@
         "end": 437
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "推论 1：整体放大 m 倍的情形",
     "status": "duplicate",
     "note": "推论1复述同乘m后的公倍数与最小公倍数公式，讲解用D/m解释。"
   },
@@ -2460,7 +2460,7 @@
         "end": 437
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.5：一般正整数的最小公倍数",
     "status": "duplicate",
     "note": "1.3.10作为推导[a,b]=ab/(a,b)时的归一化互素引用，讲解令a=du,b=dv落实。"
   },
@@ -2475,7 +2475,7 @@
         "end": 447
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.5：一般正整数的最小公倍数",
     "status": "explained",
     "note": "一般最小公倍数整除任何公倍数，且等于正整数积除最大公因数；讲解给归一化证明。"
   },
@@ -2490,7 +2490,7 @@
         "end": 448
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "定理 1.4.5：一般正整数的最小公倍数",
     "status": "explained",
     "note": "最小公倍数的整除等价刻画，讲解说明其为公倍数且整除任一公倍数。"
   },
@@ -2505,7 +2505,7 @@
         "end": 456
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "缩放规则的正式版",
     "status": "explained",
     "note": "例6若[a,b]=D则[ad,bd]=Dd，讲解给同乘正整数缩放公式。"
   },
@@ -2520,7 +2520,7 @@
         "end": 460
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "多个整数的最小公倍数（定理 1.4.6 与例 7）",
     "status": "explained",
     "note": "多元最小公倍数可迭代，讲解解释每步取前面数的共同倍数，四数例实际算600、4200、4200。"
   },
@@ -2535,7 +2535,7 @@
         "end": 459
       }
     ],
-    "guideHeading": "原页数值、符号与选择题",
+    "guideHeading": "多个整数的最小公倍数（定理 1.4.6 与例 7）",
     "status": "explained",
     "note": "120、150、210、35的最小公倍数4200，讲解逐步求最大公因数再求最小公倍数。"
   },
@@ -2550,7 +2550,7 @@
         "end": 479
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "预备判断题：$n\\mid xy$ 时最大公因数必然非平凡",
     "status": "explained",
     "note": "选择题考查非平凡平方同余分解的条件；讲解说明须排除a与正负b同余，才能保证最大公因数非1非n。"
   },
@@ -2565,7 +2565,7 @@
         "end": 489
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "定理 1.5.1（整数分解定理）及其证明",
     "status": "explained",
     "note": "整数分解定理，从n整除(a-b)(a+b)及两个排除条件，讲解分别反证最大公因数为1或n。"
   },
@@ -2580,7 +2580,7 @@
         "end": 492
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "例 1：用平方同余分解 $37909$",
     "status": "explained",
     "note": "37909与16355、11例题，讲解实际求得两最大公因数227和167并还原乘积。"
   },
@@ -2595,7 +2595,7 @@
         "end": 493
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "例 2：同一分解的另一种平方同余",
     "status": "explained",
     "note": "第二例底数5344184与150，讲解先取余36774、37074再求相同两个因数，给平方差倍数核对。"
   },
@@ -2610,7 +2610,7 @@
         "end": 522
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "1.6.1 算术基本定理",
     "status": "explained",
     "note": "算术基本定理：素因数乘积分解存在且忽略次序唯一，讲解分别由继续拆因子和素数整除积证明。"
   },
@@ -2625,7 +2625,7 @@
         "end": 522
       }
     ],
-    "guideHeading": "存在与唯一分开理解",
+    "guideHeading": "1.6.1 算术基本定理",
     "status": "explained",
     "note": "369的素数乘积分解为3乘3乘41，讲解合并同素因子得到3平方乘41。"
   },
@@ -2640,7 +2640,7 @@
         "end": 525
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "1.6.1 算术基本定理",
     "status": "explained",
     "note": "标准分解按素数从小到大、指数正整数，讲解说明补零指数用于比较而非标准非零项。"
   },
@@ -2655,7 +2655,7 @@
         "end": 525
       }
     ],
-    "guideHeading": "存在与唯一分开理解",
+    "guideHeading": "1.6.1 算术基本定理",
     "status": "duplicate",
     "note": "例2将369的分解写成标准幂式，与例1同一数字不同记法。"
   },
@@ -2670,7 +2670,7 @@
         "end": 535
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.6.3：整除的指数刻画",
     "status": "explained",
     "note": "标准分解下d整除n等价于各素因数指数在0至对应指数之间，主题开头给完整等价式，小节演示最小最大指数。"
   },
@@ -2685,7 +2685,7 @@
         "end": 535
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.6.3：整除的指数刻画",
     "status": "explained",
     "note": "思考求因数个数，主题开头解释每个指数独立选择，得各指数加1的乘积。"
   },
@@ -2700,7 +2700,7 @@
         "end": 544
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "例 3：因数个数公式",
     "status": "duplicate",
     "note": "例3以一般标准分解证明正因数计数公式，与前一思考同一内容。"
   },
@@ -2715,7 +2715,7 @@
         "end": 557
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.6.4：最大公因数与最小公倍数的指数公式",
     "status": "explained",
     "note": "最大公因数取各指数最小值、最小公倍数取最大值，讲解给四数逐素数分解。"
   },
@@ -2730,7 +2730,7 @@
         "end": 556
       }
     ],
-    "guideHeading": "与最大公因数的关系",
+    "guideHeading": "推论 1：整体放大 m 倍的情形",
     "status": "duplicate",
     "note": "推论(a,b)[a,b]=ab，对应lcm主题归一化证明，也由本主题最小加最大指数等于指数和得出。",
     "guideTopic": "lcm"
@@ -2746,7 +2746,7 @@
         "end": 558
       }
     ],
-    "guideHeading": "正文开头",
+    "guideHeading": "定理 1.6.5：多个整数的情形",
     "status": "explained",
     "note": "多元最大公因数、最小公倍数仍取各指数的最小、最大，讲解明确推广。"
   },
@@ -2761,7 +2761,7 @@
         "end": 559
       }
     ],
-    "guideHeading": "课件例题",
+    "guideHeading": "例 4：四个整数的最大公因数与最小公倍数",
     "status": "explained",
     "note": "120、150、210、35的标准分解，讲解实际得最大公因数5、最小公倍数4200。"
   },
@@ -2776,7 +2776,7 @@
         "end": 564
       }
     ],
-    "guideHeading": "定理 1.6.6：怎样构造，不只知道存在",
+    "guideHeading": "定理 1.6.6：最小公倍数的互素分解",
     "status": "explained",
     "note": "构造分别整除a、b且互素、乘积为最小公倍数的a'、b'；讲解按每个素数较高幂分配，并说明相等时只放一侧。"
   },
@@ -2791,7 +2791,7 @@
         "end": 563
       }
     ],
-    "guideHeading": "例 6 与例 8：构造和素数幂计数",
+    "guideHeading": "定理 1.6.6：最小公倍数的互素分解",
     "status": "explained",
     "note": "a=4,b=6可取a'=4,b'=3；讲解验证整除、互素与乘积12三个条件。"
   },
@@ -2806,7 +2806,7 @@
         "end": 564
       }
     ],
-    "guideHeading": "定理 1.6.6：怎样构造，不只知道存在",
+    "guideHeading": "定理 1.6.6：最小公倍数的互素分解",
     "status": "explained",
     "note": "a=1210,b=363的两组构造(10,363)、(1210,3)，讲解核对共同乘积3630并指出重复放11平方的错误。"
   },
@@ -2821,7 +2821,7 @@
         "end": 581
       }
     ],
-    "guideHeading": "例 6 与例 8：构造和素数幂计数",
+    "guideHeading": "例 8：素数幂不整除组合数",
     "status": "explained",
     "note": "已核原图：p^α恰好整除n时，p^α不能整除组合数C(n,p)。讲解计算其p指数恰为α减1，区别于OCR遗漏的不整除符号。"
   },
@@ -2836,7 +2836,7 @@
         "end": 586
       }
     ],
-    "guideHeading": "素数计数函数",
+    "guideHeading": "素数分布、计数函数与素数定理",
     "status": "explained",
     "note": "原Chebyshev不等式常数为ln2/3与6ln2，x≥2；讲解给实际界、常数近似及粗界含义。"
   },
@@ -2851,7 +2851,7 @@
         "end": 586
       }
     ],
-    "guideHeading": "素数计数函数",
+    "guideHeading": "素数分布、计数函数与素数定理",
     "status": "explained",
     "note": "素数定理π(x)/(x/lnx)趋于1，讲解说明相对渐近而非每点等式。"
   },
@@ -2866,7 +2866,7 @@
         "end": 589
       }
     ],
-    "guideHeading": "作业与阶乘原例逐步计算",
+    "guideHeading": "素数分布、计数函数与素数定理",
     "status": "explained",
     "note": "习题1.8(32)求1613、3589的Bézout系数，讲解列除法链并得s=负1226,t=551，乘回为1。"
   },
@@ -2881,7 +2881,7 @@
         "end": 592
       }
     ],
-    "guideHeading": "阶乘中素因数的指数",
+    "guideHeading": "阶乘素因数指数与本章练习",
     "status": "explained",
     "note": "阶乘素数幂指数公式，讲解逐层数p、p平方倍数，避免漏计重复因子。"
   },
@@ -2896,7 +2896,7 @@
         "end": 592
       }
     ],
-    "guideHeading": "阶乘中素因数的指数",
+    "guideHeading": "阶乘素因数指数与本章练习",
     "status": "explained",
     "note": "n!的标准分解指数由各p的floor求和得到，讲解解释计算到p幂大于n停止。"
   },
@@ -2911,7 +2911,7 @@
         "end": 593
       }
     ],
-    "guideHeading": "作业与阶乘原例逐步计算",
+    "guideHeading": "阶乘素因数指数与本章练习",
     "status": "explained",
     "note": "1000!末尾零为200+40+8+1=249，讲解以2、5配对证明。原同页5^α恰好整除1000!练习亦给α=249。"
   },
@@ -2926,7 +2926,7 @@
         "end": 593
       }
     ],
-    "guideHeading": "作业与阶乘原例逐步计算",
+    "guideHeading": "阶乘素因数指数与本章练习",
     "status": "explained",
     "note": "原例1同页另有未独立标注练习：5^α恰好整除1000!，求α。讲解计算200+40+8+1=249并解释恰好整除符号；保留原索引例1标签作为该页入口。"
   },
@@ -2941,7 +2941,7 @@
         "end": 593
       }
     ],
-    "guideHeading": "作业与阶乘原例逐步计算",
+    "guideHeading": "阶乘素因数指数与本章练习",
     "status": "explained",
     "note": "30!标准分解完整列出2指数26、3指数14、5指数7等全部十个素数因子。"
   },
@@ -4588,7 +4588,7 @@
         "end": 162
       }
     ],
-    "guideHeading": "最关键的变换",
+    "guideHeading": "定理 1.3.3：$(a,b)=(b,c)$",
     "status": "duplicate",
     "note": "复习1.3.3支持同余代表互素性不变，gcd主题给公因数双向证明，并反驳(a,b)=(a,c)的错误替换。",
     "guideTopic": "gcd"
@@ -4730,7 +4730,7 @@
         "end": 182
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "例 16 与定理 1.3.12：互素因子的连乘",
     "status": "duplicate",
     "note": "例16复习两个与c互素因子的积仍互素，gcd-props主题用互素因子消去说明。",
     "guideTopic": "gcd-props"
@@ -4746,7 +4746,7 @@
         "end": 182
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "定理 1.3.11：消去互素因子",
     "status": "duplicate",
     "note": "复习1.3.11的(ab,c)=(b,c)，gcd-props主题写Bézout乘b的双向公因数证明。",
     "guideTopic": "gcd-props"
@@ -4762,7 +4762,7 @@
         "end": 182
       }
     ],
-    "guideHeading": "两条转换性质的证明补全",
+    "guideHeading": "例 16 与定理 1.3.12：互素因子的连乘",
     "status": "duplicate",
     "note": "复习1.3.12多个互素因子的积，gcd-props主题说明逐个加入的归纳步骤。",
     "guideTopic": "gcd-props"
@@ -5806,7 +5806,7 @@
         "end": 145
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "正文开头",
     "status": "duplicate",
     "note": "37909的16355平方同余11平方分解，factor主题求两最大公因数227、167。",
     "guideTopic": "factor"
@@ -5827,7 +5827,7 @@
         "end": 144
       }
     ],
-    "guideHeading": "为什么要排除正负同余",
+    "guideHeading": "定理 1.5.1（整数分解定理）及其证明",
     "status": "duplicate",
     "note": "此处复习1.5.1整数分解定理，factor主题说明排除正负同余后给非平凡因数。",
     "guideTopic": "factor"

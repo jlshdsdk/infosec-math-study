@@ -68,6 +68,20 @@ OVERRIDES = {
     'qr-euler': {
         3: '**◆ p.146-147**｜定理 4.2.2 与第一部分证明',
     },
+    'prime': {
+        1: '### Eratosthenes 筛法：例 17',
+        2: '### 只试到平方根的素数判别法',
+        3: '### 思考题与素数无穷性',
+    },
+    'lcm': {
+        1: '### 课前的两个练习',
+        2: '### 定理 1.4.4：互素正整数的整除性质',
+        3: '### 缩放规则的正式版',
+        4: '### 多个整数的最小公倍数（定理 1.4.6 与例 7）',
+    },
+    'factor': {
+        1: '### 例 1：用平方同余分解 $37909$',
+    },
     'reciprocity-app': {
         3: '### 4.4 符号计算的收尾练习',
     },
@@ -110,10 +124,17 @@ def main(check=False):
             if marker and not marker.endswith('\n'):
                 marker += '\n'
             markers.append(marker)
+        # Outline topic order may differ from deck order (e.g. prime): chain
+        # the until markers by each marker's POSITION in the lesson text.
+        seq = sorted((i for i in range(1, len(markers)) if markers[i]),
+                     key=lambda i: md.index(markers[i]))
+        until_of = {}
+        for pos, i in enumerate(seq):
+            until_of[i] = markers[seq[pos + 1]] if pos + 1 < len(seq) else ''
         for i, e in enumerate(entries):
             new_from = markers[i] if i > 0 else (e['part'].get('from') or '')
-            # the rebuilt lesson's last part always runs to the end of text
-            new_until = markers[i + 1] if i + 1 < len(markers) else ''
+            # the rebuilt lesson's last part in text order runs to the end
+            new_until = until_of.get(i, markers[seq[0]] if seq else '')
             if new_from is None or new_until is None:
                 problems.append(f"{lesson}: 第{i + 1}段缺少主题起始标题（topic={e['topic'].get('number') or e['topic'].get('key')}）")
                 continue
